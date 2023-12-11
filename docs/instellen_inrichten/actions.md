@@ -36,11 +36,13 @@ OpenWave kan bij de aanroep van een action binnen die action-definitie de volgen
 - {id} kan alleen worden gebruikt bij een action die wordt uitgevoerd vanuit een lijstscherm (bijv. dubbelklikken op regel). De substring {id} wordt vervangen met de regel-id uit de lijst waar de gebruiker op dat moment op staat, die - meestal- de primary key bevat van de tabel waarop de lijst is gebaseerd.
 - Toepassing: Zie het record in standaardapi-tabel met code _beheer_queries_.
 
-> [!WARNING] > **Let op:** wordt niet door alle methodes ondersteund: zie hieronder
+> [!WARNING] **Let op:**
+> Wordt niet door alle methodes ondersteund: zie hieronder
 
 - {kolomnaam_uit_onderliggendeview/tabel}. Werkt hetzelfde als {id} bij een action die wordt uitgevoerd vanuit een lijstscherm, bijv. {dnkeyopslag} waarbij deze string zal worden vervangen door de waarde van de kolom dnkeyopslag van de betreffende rij.
 
-> [!WARNING] > **Let op:** wordt niet door alle methodes ondersteund: zie hieronder.
+> [!WARNING] **Let op:**
+> Wordt niet door alle methodes ondersteund: zie hieronder.
 
 ## Welke OpenWave methodes kunnen worden gebruikt?
 
