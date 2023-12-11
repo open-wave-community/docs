@@ -361,7 +361,8 @@ Hierin worden de credentials en omzetting van adressen/paden geregeld.
 
 ..
 
-   [!WARNING] > **Let op:** Per 1.28 is jCifs deprecated. Vanaf versie
+.. warning::
+    **Let op:** Per 1.28 is jCifs deprecated. Vanaf versie
    1.29 is het niet langer mogelijk om voor jCifs te kiezen.
 
 -  **server en fallbackserver** worden alleen gebruikt bij jCifs of
@@ -401,7 +402,8 @@ Documentroot*
 
 ..
 
-   [!WARNING] > **Let op:** bij Local op windows dubbele slashes!!!
+.. warning::
+    **Let op:** bij Local op windows dubbele slashes!!!
 
 De ini-file kan worden uitgelezen met de methode *getAboutInfo* met
 parameters:

@@ -81,7 +81,8 @@ de volgende substrings tegenkomen:
 
 ..
 
-   [!WARNING] **Let op:** wordt niet door alle methodes ondersteund: zie
+.. warning::
+     wordt niet door alle methodes ondersteund: zie
    hieronder
 
 -  {kolomnaam_uit_onderliggendeview/tabel}. Werkt hetzelfde als {id} bij
@@ -91,7 +92,8 @@ de volgende substrings tegenkomen:
 
 ..
 
-   [!WARNING] **Let op:** wordt niet door alle methodes ondersteund: zie
+.. warning::
+     wordt niet door alle methodes ondersteund: zie
    hieronder.
 
 Welke OpenWave methodes kunnen worden gebruikt?
@@ -133,7 +135,8 @@ openTabPage
 
 ..
 
-   [!WARNING] **Let op:** Indien openTabPage vanuit een tegelaction
+.. warning::
+     Indien openTabPage vanuit een tegelaction
    wordt aangeroepen kunnen de parameters niet via een query aanroep
    worden gesubstitueerd. Dat moet in dat geval iets ingewikkelder via
    een flexaction: bijvoorbeeld de action op de tegel is
@@ -281,7 +284,8 @@ getFlexBalloon
 
 ..
 
-   [!WARNING] **Let op:** de tag refresh bij de knop moet de waarde
+.. warning::
+     de tag refresh bij de knop moet de waarde
    false hebben (of leeg zijn)
 
 -  aanroep: getFlexBalloon(param1, param2):

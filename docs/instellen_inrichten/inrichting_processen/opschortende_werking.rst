@@ -149,7 +149,8 @@ Dit is natuurlijk een keuze:
 
 ..
 
-   [!IMPORTANT] **Belangrijk**
+.. warning::
+    **Belangrijk:**
 
    -  Er kan maar één bepaalde processtap wordt aangewezen als de stap
       met de betekenis *Indiening van de gevraagde aanvullende

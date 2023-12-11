@@ -25,7 +25,8 @@ beheerportalen (naast het Operationsportaal en Service centrum):
 
 ..
 
-   [!WARNING] **Let op:**
+.. warning::
+    
 
    -  De portaal- en tegeldefinities van de nieuwe portalen
       beheerportaal- NIEUW, Zaakbeheer en Inrichtingenbeheer zijn net

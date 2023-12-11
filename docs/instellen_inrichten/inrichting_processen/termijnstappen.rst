@@ -79,7 +79,8 @@ De naam zoals die voor de gebruiker zichtbaar is.
 termijnstappen hier, maar ook in het termijnbewakingsscherm bij een zaak
 zichtbaar zijn.
 
-   [!WARNING] **Let op:** volgnummers mogen niet groter zijn dan 999.
+.. warning::
+     volgnummers mogen niet groter zijn dan 999.
 
 Bij de definitie van een processtap wordt altijd verwezen naar een
 volgende stap die bij hetzelfde proces hoort met een termijn. Dat
@@ -191,7 +192,8 @@ De opschortende werking van X dagen wordt:
 
 ..
 
-   [!WARNING] **Let op:** deze functionaliteit wordt alleen ondersteund
+.. warning::
+     deze functionaliteit wordt alleen ondersteund
    bij Omgevingsvergunningen, Overige vergunningen, Bouw/sloop
    vergunningen en Milieuvergunningen.
 
@@ -797,7 +799,8 @@ tbcodeaardbesluit is zoverre deze gekoppeld zijn aan een
 omgevingzaaktype zaaktype (regulier/uitgebreid). De bijbehorende
 tbcodeaardbesluit.dnkey van de omschrijving is de dropdownwaarde.
 
-   [!WARNING] **Let op:** Het is raadzaam wanneer de keuze gekoppeld is
+.. warning::
+     Het is raadzaam wanneer de keuze gekoppeld is
    aan het automatisch vullen van de afhandeldatum of aan een
    kolomkopkoppeling de gebruiker duidelijk te maken dat de keuze nog
    gemaakt moet worden, juist wanneer ook een default is ingebracht,

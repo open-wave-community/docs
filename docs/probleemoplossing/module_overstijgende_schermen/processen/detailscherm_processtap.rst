@@ -93,7 +93,8 @@ processtap niet handmatig door de inlogger kunnen worden aangepast. Het
 vullen geschiedt dan bijvoorbeeld door de uitvoering van een action of
 het vullen van een extra invoerkolom (zie hieronder).
 
-   [!WARNING] > **Let op:** indien de inlogger geautoriseerd is om
+.. warning::
+    **Let op:** indien de inlogger geautoriseerd is om
    processtappen te verwijderen OF het proces overrule
    afhandeldatum-recht heeft, dan kan hij/zij WEL de afgehandeld datum
    muteren (tenzij bovenliggende zaak is geblokkeerd).

@@ -151,7 +151,8 @@ Bij de registratie worden de substrings %dmszaakcode% en %dmsdoccode%
 door OpenWave vervangen door hun echte waarde bij het betreffende
 document.
 
-   [!NOTE] De ExterneDocLink
+.. note::
+     De ExterneDocLink
    ``https://corsa-as1-a/Corsa/web/index.html#search/q=%dmsdoccode%``
    zal bij registratie van een document met documentidentifier
    Rommeldam20230918113151515 opgeslagen worden in de kolom dvurl als

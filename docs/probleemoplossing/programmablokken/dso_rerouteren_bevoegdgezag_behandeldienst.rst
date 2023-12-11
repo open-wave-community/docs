@@ -114,5 +114,6 @@ element wordt verzonden indien:
 
 ..
 
-   [!INFO] Kijk voor meer informatie over de DSO op de `DSO
+.. note::
+    **Info:**Kijk voor meer informatie over de DSO op de `DSO
    verzamelpagina </docs/functionaliteiten/dso.md>`__

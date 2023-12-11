@@ -151,7 +151,8 @@ De kolommen van de tabel tbsysstandardtable
 
 ..
 
-   [!WARNING] **Let op:** de conventie in OpenWave voor lijsten is
+.. warning::
+     de conventie in OpenWave voor lijsten is
    MDLC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt
    naar de betreffende schermkaart in tbscreencolumns genavigeerd.
    Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
@@ -163,7 +164,8 @@ De kolommen van de tabel tbsysstandardtable
 
 ..
 
-   [!WARNING] **Let op:** de conventie in OpenWave voor detailschermen
+.. warning::
+     de conventie in OpenWave voor detailschermen
    is MDDC_getXXXXXXXXDetail.xml. Met de knop achter deze kolomnaam
    wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd.
    Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
@@ -175,7 +177,8 @@ De kolommen van de tabel tbsysstandardtable
 
 ..
 
-   [!WARNING] **Let op:** de conventie in OpenWave voor filterschermen
+.. warning::
+     de conventie in OpenWave voor filterschermen
    is MDFC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt
    naar de betreffende schermkaart in tbscreencolumns genavigeerd.
    Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.

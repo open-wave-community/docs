@@ -18,7 +18,8 @@ De Editschuif rechtsboven op de detailpagina's kan zijn:
 Default: bij het ontbreken van bovenstaande instelling is de schuif
 zichtbaar met status *uit*.
 
-   [!WARNING] **LET OP**: na het wijzigen van deze instelling moet u
+.. warning::
+    **Let op:** na het wijzigen van deze instelling moet u
    opnieuw inloggen om resultaat te zien.
 
 Per (detail)scherm kan van bovenstaande algemene editschuif-instelling

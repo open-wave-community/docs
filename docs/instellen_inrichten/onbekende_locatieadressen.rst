@@ -83,7 +83,8 @@ percelen*, dan zal in koptekst3 van het zaak/inrichtingportaal niet meer
 het lokatieadres uit tbperceeladressen komen te staan maar de opgegeven
 projectlocatieomschrijving (de kolom tbzaakkadperc.dvstraatnaam).
 
-   [!WARNING] **Let op**: Indien er in het beheer bij de
+.. warning::
+    **Let op:** Indien er in het beheer bij de
    portaaldefinitie eigen gedefinieerde kopteksten zijn dan zal de eigen
    gedefinieerde query van koptekst 3 leidend zijn.
 
@@ -116,7 +117,8 @@ y, project voorbeeld'. Deze komt immers niet voor bij een
 projectlocatie/kadastraal perceel onder een zaak die zich afspeelt op
 hetzelfde locatieadres.
 
-   [!WARNING] **Let op!** Wellicht ten overvloede: er kunnen dus
+.. warning::
+    **Let op:** Wellicht ten overvloede: er kunnen dus
    meerdere projectlocaties zijn per zaak/inrichting maar alleen van de
    hoofdprojectlocatie zal de projectlocatieomschrijving in het
    zaakportaal (of inrichtingportaal) in de koptekst te zien zijn.

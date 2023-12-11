@@ -5,7 +5,8 @@ Hieronder de instellingen uit de
 (tbinitialisatie) van de *Sectie: Wase-publicatielijst* gerangschikt op
 item.
 
-   [!WARNING] **Let op:** er zijn meer instellingen van de *Sectie:
+.. warning::
+     er zijn meer instellingen van de *Sectie:
    Wase-publicatielijst* die gebruikt worden door de (deprecated)
    publicatielijst van Rem: een aparte installatie die aangevraagde en
    afgehandelde zaken publiceert op een kaart met doorverwijzing naar

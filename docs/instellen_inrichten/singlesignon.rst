@@ -14,7 +14,8 @@ ook plaats vinden op een externe SSO server. Dit betekent dat een
 gebruiker bekend moet zijn in OpenWave en op de SSO server. In OpenWave
 moeten deze aan elkaar worden gekoppeld.
 
-   [!WARNING] **Let op:** Tenzij anders aangegeven dan gaat het bij
+.. warning::
+     Tenzij anders aangegeven dan gaat het bij
    configuratie items om items uit *Sectie: SingleSignOn*
 
 (Technische) Opmerkingen vooraf
@@ -58,7 +59,8 @@ dient men de volgende stappen te ondernemen:
 
 ..
 
-   [!WARNING] **Let op**: Om Single Sign-On te kunnen testen moet er een
+.. warning::
+    **Let op:** Om Single Sign-On te kunnen testen moet er een
    gebruiker zijn gekoppeld vanuit OpenWave met de SSO server en vice
    versa moet er een gebruiker zijn gekoppeld op de SSO server met
    OpenWave. Voor deze laatste stap dient u contact op te nemen met uw
@@ -143,7 +145,8 @@ Een voorbeeld van een volledig opgebouwde endpoint URL zoals die in de
 adresbalk is te zien:
 https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0?client_id=1111111-2222-3333-4444-55555555&amp;response_type=code&amp;scope=openid_profile&amp;state=123456789&amp;redirect_uri=https://www.open-wave.nl
 
-   [!WARNING] > **Let op:** Aangeraden wordt om
+.. warning::
+    **Let op:** Aangeraden wordt om
    met\ `jsonlint.com <https://jsonlint.com/.md>`__ te controleren of de
    configuratie JSON valide is. Wanneer de JSON niet valide is dan wordt
    de knop: "Inloggen met Single Sign On" onzichtbaar en kan niet worden
@@ -154,7 +157,8 @@ https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0?client_id=1111111-2222-
    dubbele aanhalingstekens. De waarden van state en nonce zijn in dit
    geval een boolean (true/false) en behoeven geen aanhalingstekens.
 
-   **Let op:** In de Authorisatie endpoint URL staat veelal aangegeven
+.. warning::
+     In de Authorisatie endpoint URL staat veelal aangegeven
    met welke versie van een endpoint men te maken heeft. Een server
    biedt veelal v1.0 en v2.0 endpoints aan. Echter gaat het bij ADFS
    2016 en 2019 servers evenwel vaak om een v1.0 implementatie van
@@ -168,7 +172,8 @@ een versie 2.0 implementatie betreft. Een voorbeeld van een endpoint URL
 met versienummering:
 https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0
 
-   [!WARNING] **Let op:** Indien er een nonce wordt meegestuurd dan
+.. warning::
+     Indien er een nonce wordt meegestuurd dan
    dient de volgende instelling te bestaan: *Sectie: PreInlog, Item:
    TussenMapSSO* met in kolom *Tekst* de waarde van de tussenmap
    (/tmp/openwave/sso/).
@@ -221,7 +226,8 @@ Een voorbeeld van de configuratie JSON wordt daarmee als volgt:
 
 ..
 
-   [!WARNING] > **Let op:** Aangeraden wordt om
+.. warning::
+    **Let op:** Aangeraden wordt om
    met\ `jsonlint.com <https://jsonlint.com/.md>`__ te controleren of de
    configuratie JSON valide is. Wanneer de JSON niet valide is dan wordt
    de knop: "Inloggen met Single Sign On" onzichtbaar en kan niet worden
@@ -254,7 +260,8 @@ serverconfiguratie. \| **Server** \| **SSO serverversie** \| **Waarde**
 2019 \| 1.0 (soms 2.0) \| unique_name of UserPrincipalName (1.0) / oid
 (2.0) \| \| Azure Active Directory \| 2.0 \| oid \|
 
-   [!WARNING] > **Let op:** De SSO gebruikersnaam is
+.. warning::
+    **Let op:** De SSO gebruikersnaam is
    hoofdlettergevoelig. In het geval van een oid is dit een string met
    cijfers en letters.
 
@@ -326,7 +333,8 @@ Indien men na het lezen van het bovenstaande nog steeds problemen
 ervaart dient men contact op te nemen met de eigen ICT-afdeling voor het
 controleren van het wachtwoord en de gebruikersnaam.
 
-   [!WARNING] > **Let op:** Indien men eenmaal succesvol is ingelogd in
+.. warning::
+    **Let op:** Indien men eenmaal succesvol is ingelogd in
    OpenWave via Single Sign-On dan hoeft men niet meer opnieuw
    inloggegevens in te vullen. Dit geldt voor zowel het sluiten van alle
    OpenWave instanties (tabbladen) als de browser. Dit is van toepassing

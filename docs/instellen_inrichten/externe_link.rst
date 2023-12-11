@@ -76,6 +76,7 @@ de instelling moet dan iets dergelijks zijn als:
 
 ``file://///URANUS/Organisatie/Wave/%zaakjaar%/%zaaknr%``
 
-   [!WARNING] **Let op:** na file volgen de 5 slashes. Zie ook
+.. warning::
+     na file volgen de 5 slashes. Zie ook
    toepassing via kolom hyperlink
    (`Hyperlink </docs/instellen_inrichten/hyperlink.md>`__).

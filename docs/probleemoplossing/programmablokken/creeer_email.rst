@@ -19,7 +19,8 @@ gekozen en er kunnen meerdere CC-contacten gekozen worden. Uiteraard
 afhankelijk van het aantal aanwezige contactpersonen met gevuld
 mailadres bij de zaak/inrichting.
 
-   [!WARNING] **LET OP:** Uiteraard moet er wel vanuit OpenWave gemaild
+.. warning::
+     Uiteraard moet er wel vanuit OpenWave gemaild
    kunnen worden. Hiervoor bestaan standaard mailinstellingen. Indien er
    al gemaild wordt naar de BAG en/of adviesinstanties, dan zijn deze
    instellingen al goed ingeregeld. Zie ook `sectie
@@ -41,7 +42,8 @@ adviesinstantie:
 De lijst met te kiezen contactpersonen krijgt dan een extra kolom
 *Adviesinstantie* waarin de naam van de instantie zichtbaar is.
 
-   [!WARNING] **LET OP:** Indien de adviesinstantie als contactpersoon
+.. warning::
+   Indien de adviesinstantie als contactpersoon
    kan worden gekozen dient men hier bij de sjabloondefinitie rekening
    mee gehouden te worden. Gegevens over het contact in de body van de
    mail zullen moeten gehaald worden uit adviezen (en niet uit
@@ -246,7 +248,8 @@ afhankelijk van het aangevinkt zijn van de volgende instellingen:
 
 ..
 
-   [!WARNING] > **Let op:** indien een document wordt gecreëerd bij een
+.. warning::
+    **Let op:** indien een document wordt gecreëerd bij een
    zaak die geen extern zaak/DMS nummer heeft, dan worden bovenstaande
    metadata niet gevraagd (en het document wordt ook niet aan het DMS
    aangeboden).
@@ -310,6 +313,7 @@ wijzen. Indien de kolom *bijlagen toevoegen* bij dat sjabloon is
 aangevinkt, zal de verzender kunnen kiezen uit één of meer
 niet-vervallen geregistreerde documenten bij die zaak.
 
-   [!WARNING] > **Let op:** overleg met de juiste personen in uw
+.. warning::
+    **Let op:** overleg met de juiste personen in uw
    organisatie of het versturen van documenten per email toegestaan is
    alvorens u bijlagen in de email in de sjabloon toestaat.
