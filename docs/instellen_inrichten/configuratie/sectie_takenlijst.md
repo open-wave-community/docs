@@ -4,7 +4,7 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item                  | Kolom  | Omschrijving                                                                                                                                                                                                                                             |
+| Item                  | Kolom  | Omschrijving |
 | --------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DagenTerug            | Getal1 | De ingevulde waarde slaat op het datumbereik van de wizard achter de tegels _Mijn Takenlijst_ en _Takenlijst_ op het openingsscherm. De ingevulde waarde slaat op het aantal dagen terug gerekend vanaf de systeemdatum. Deze staat default op 365.      |
 | DagenVooruit          | Getal1 | De ingevulde waarde slaat op het datumbereik van de wizard achter de tegels _Mijn Takenlijst_ en _Takenlijst_ op het openingsscherm. De ingevulde waarde slaat op het aantal dagen vooruit gerekend vanaf de systeemdatum.                               |
