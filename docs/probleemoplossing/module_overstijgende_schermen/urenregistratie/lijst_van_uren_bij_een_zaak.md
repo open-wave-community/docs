@@ -12,24 +12,24 @@ Vanuit een deelzaak (inspectie, advies, bezwaar/beroep) alleen de uren bij die d
 
 Het scherm geeft een foutmelding, indien:
 
-* er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
-* de inlogger geen kijkrechten heeft op de uren bij betreffende hoofdzaak of deelzaak.
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- de inlogger geen kijkrechten heeft op de uren bij betreffende hoofdzaak of deelzaak.
 
 ## Triggers
 
-* dubbel klikken op een regel opent het detailscherm van een [urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/detailscherm_urenregistratie.md). Altijd enabled.
+- dubbel klikken op een regel opent het detailscherm van een [urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/detailscherm_urenregistratie.md). Altijd enabled.
 
 ### Triggers linksonder
 
-* Insertknop:
-  * Zichtbaar indien:
-    * de inlogger insert-rechten heeft op uren bij betreffende hoofdzaak (dus bij adviezen, inspecties bezwaarberoep wordt naar de urenrechten van de hoofdzaak gekeken)
-    * OF de inlogger heeft op zijn medewerkerskaart het recht *mag uren van anderen muteren* (tbmedewerkers.dlmagurenmuteren) aangevinkt staan
-    * EN - indien de inlogger lid is van een compartiment - dan dient de combinatie zaaktype en gemeente gedefinieerd te zijn bij dat compartiment (en dus als de inlogger geen lid is van een compartiment dan mag de combinatie zaaktype/gemeente in geen enkel compartiment voorkomen).
-  * Enabled indien de hoofdzaak niet is geblokkeerd.
-* Deleteknop:
-  * Zichtbaar indien:
-    * de inlogger delete-rechten heeft op uren bij betreffende hoofdzaak (dus bij adviezen, inspecties bezwaarberoep wordt naar de urenrechten van de hoofdzaak gekeken)
-    * OF de inlogger heeft op zijn medewerkerskaart het recht *mag uren van anderen muteren* (tbmedewerkers.dlmagurenmuteren) aangevinkt staan
-    * EN - indien de inlogger lid is van een compartiment - dan dient de combinatie zaaktype en gemeente gedefinieerd te zijn bij dat compartiment (en dus als de inlogger geen lid is van een compartiment dan mag de combinatie zaaktype/gemeente in geen enkel compartiment voorkomen).
-  * Enabled indien de hoofdzaak niet is geblokkeerd.
+- Insertknop:
+  - Zichtbaar indien:
+    - de inlogger insert-rechten heeft op uren bij betreffende hoofdzaak (dus bij adviezen, inspecties bezwaarberoep wordt naar de urenrechten van de hoofdzaak gekeken)
+    - OF de inlogger heeft op zijn medewerkerskaart het recht _mag uren van anderen muteren_ (tbmedewerkers.dlmagurenmuteren) aangevinkt staan
+    - en - indien de inlogger lid is van een compartiment - dan dient de combinatie zaaktype en gemeente gedefinieerd te zijn bij dat compartiment (en dus als de inlogger geen lid is van een compartiment dan mag de combinatie zaaktype/gemeente in geen enkel compartiment voorkomen).
+  - Enabled indien de hoofdzaak niet is geblokkeerd.
+- Deleteknop:
+  - Zichtbaar indien:
+    - de inlogger delete-rechten heeft op uren bij betreffende hoofdzaak (dus bij adviezen, inspecties bezwaarberoep wordt naar de urenrechten van de hoofdzaak gekeken)
+    - OF de inlogger heeft op zijn medewerkerskaart het recht _mag uren van anderen muteren_ (tbmedewerkers.dlmagurenmuteren) aangevinkt staan
+    - en - indien de inlogger lid is van een compartiment - dan dient de combinatie zaaktype en gemeente gedefinieerd te zijn bij dat compartiment (en dus als de inlogger geen lid is van een compartiment dan mag de combinatie zaaktype/gemeente in geen enkel compartiment voorkomen).
+  - Enabled indien de hoofdzaak niet is geblokkeerd.

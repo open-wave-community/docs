@@ -2,18 +2,18 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm *Wettelijke basis*.
+De tegel is een trigger voor het lijstscherm _Wettelijke basis_.
 
-* De tegel is alleen zichtbaar voor inlogger wanneer:
-  * deze aan hem/haar is toegekend
-  * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
-* Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-* Portaal: *Zaakbeheer*
-* Kolom: *Handhaving- en Toezicht*
-* Kopregel: *Wetten/Overtredingen*
-* Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbhandhwetbasis)*
+- Portaal: _Zaakbeheer_
+- Kolom: _Handhaving- en Toezicht_
+- Kopregel: _Wetten/Overtredingen_
+- Actie: _getFlexList(SysStandardList,nil,nil,G,beheer_tbhandhwetbasis)_

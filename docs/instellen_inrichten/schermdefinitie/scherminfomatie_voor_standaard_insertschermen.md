@@ -1,10 +1,10 @@
 # Scherminformatie voor standaard insert- en kopieer
 
-Bij de definitie van een [standaardlijst](/docs/instellen_inrichten/standardlist_standarddetail.md) (beheertegel *Tabellen Standaardapi*) kan bij de definitie van een insert-of kopieerknop een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de opmaak van een insertscherm voor de betreffende tabel.
+Bij de definitie van een [standaardlijst](/docs/instellen_inrichten/standardlist_standarddetail.md) (beheertegel _Tabellen Standaardapi_) kan bij de definitie van een insert-of kopieerknop een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de opmaak van een insertscherm voor de betreffende tabel.
 
-Die verwijzing staat bij de insertknopdefinitie als tweede parameter indien de action bij die insertknop is gedefinieerd als *startWizard* en de eerste parameter de waarde *insertSysStandardRow* heeft.
+Die verwijzing staat bij de insertknopdefinitie als tweede parameter indien de action bij die insertknop is gedefinieerd als _startWizard_ en de eerste parameter de waarde _insertSysStandardRow_ heeft.
 
-Die verwijzing staat bij de kopieerknopdefinitie als tweede parameter indien de action bij die kopieerknop is gedefinieerd als *startWizard* en de eerste parameter de waarde *kopieerSysStandardRow* heeft.
+Die verwijzing staat bij de kopieerknopdefinitie als tweede parameter indien de action bij die kopieerknop is gedefinieerd als _startWizard_ en de eerste parameter de waarde _kopieerSysStandardRow_ heeft.
 
 De kaart met de insert- of kopieerscherminformatie in tbscreencolumns heeft een naam (dvscreenfilename) met prefix 'MDWC_insert" en die eindigt op '.xml', waarbij het tussenliggende gedeelte bij voorkeur wordt gevuld met de tabelnaam waarop de insert gaat plaatsvinden. Het kopieer- en insertscherm mogen dezelfde zijn, maar hoeft niet!!
 
@@ -19,22 +19,22 @@ Bij een kopieeractie is die derde parameter de dnkey van de kaart die gekopieerd
 
 De kolommen van de tabel waarop de insert plaatsvindt waarvoor geldt dat zij in de databasedefinitie:
 
-* als verplicht zijn gemarkeerd (not null)
-* maar geen defaultwaarde hebben
-* en geen foreign key zijn
+- als verplicht zijn gemarkeerd (not null)
+- maar geen defaultwaarde hebben
+- en geen foreign key zijn
 
-die kolommen __moeten__ in de xml-string worden opgenomen (de niet verplichte kolommen mogen natuurlijk ook).
+die kolommen **moeten** in de xml-string worden opgenomen (de niet verplichte kolommen mogen natuurlijk ook).
 
 Voor een kopieeractie geldt dit niet (alle not null kolommen hebben een waarde op de te kopiëren kaart).
 
 De opmaak van het insert- en kopieerscherm (de xml) is hetzelfde als die van een detailscherm, waarbij:
 
-* echter geen blokken bestaan
-* op elke regel slechts één kolom kan voorkomen
-* de variabele %keyparent%  desgewenst gebruikt kan worden in `<filter>`
-* de variabele '%tagid(xxx)%' desgewenst gebruikt kan worden in `<filter>`. LET OP de apostrofjes: deze horen erbij. Deze variabele wordt vervangen door een eerder gekozen waarde in de tagnaam xxx (meestal dus een veldnaam)
-* onderaan een extra tag <default_value> kan worden toegevoegd
-* de tagnaam per definitie verwijst naar een veldnaam van de tabel waarop de insert wordt toegepast (dus NIET die van de view) __tenzij__ de tagnaam begint met de tekst 'tag'. In dat geval interpreteert OpenWave deze tag als: deze tagnaam hoef niet aan de database te worden doorgegeven, is geen database-veldnaam.
+- echter geen blokken bestaan
+- op elke regel slechts één kolom kan voorkomen
+- de variabele %keyparent% desgewenst gebruikt kan worden in `<filter>`
+- de variabele '%tagid(xxx)%' desgewenst gebruikt kan worden in `<filter>`. LET OP de apostrofjes: deze horen erbij. Deze variabele wordt vervangen door een eerder gekozen waarde in de tagnaam xxx (meestal dus een veldnaam)
+- onderaan een extra tag <default_value> kan worden toegevoegd
+- de tagnaam per definitie verwijst naar een veldnaam van de tabel waarop de insert wordt toegepast (dus NIET die van de view) **tenzij** de tagnaam begint met de tekst 'tag'. In dat geval interpreteert OpenWave deze tag als: deze tagnaam hoef niet aan de database te worden doorgegeven, is geen database-veldnaam.
 
 Voorbeeld:
 
@@ -75,7 +75,7 @@ Voorbeeld:
             <showhint>true</showhint>
             <wavetype>keuzelijst</wavetype>
             <source>generalwithoutemptyline</source>
-            <filter>select a.dnkey id,  a.dvproductcode | | ' - '  | | coalesce(a.dvproductoms,'')  omschrijving from vwfrmkopproductenzaaktypes a  where (a.ddvervallen is null or a.ddvervallen >= fn_vandaag(0)) 
+            <filter>select a.dnkey id,  a.dvproductcode | | ' - '  | | coalesce(a.dvproductoms,'')  omschrijving from vwfrmkopproductenzaaktypes a  where (a.ddvervallen is null or a.ddvervallen >= fn_vandaag(0))
                 and a.dvmoduleletter = '%tagid(tag)%' order by a.dvproductcode </filter>
             <nullable>false</nullable>
             <icoon/>
@@ -90,7 +90,7 @@ Voorbeeld:
             <showhint>true</showhint>
             <wavetype>keuzelijst</wavetype>
             <source>generalwithemptyline</source>
-            <filter>select a.dnkey id,  a.dvsubproductcode | | ' - '  | | coalesce(a.dvsubproductoms,'')  omschrijving from tbsubproducten a  where (a.ddvervallen is null or a.ddvervallen >= fn_vandaag(0)) 
+            <filter>select a.dnkey id,  a.dvsubproductcode | | ' - '  | | coalesce(a.dvsubproductoms,'')  omschrijving from tbsubproducten a  where (a.ddvervallen is null or a.ddvervallen >= fn_vandaag(0))
                 and a.dnkey in (select b.dnkeysubproducten from tbsubproductdef b where b.dnkeyproductdef in (select c.dnkeyproductdef from tbproducten c  where c.dnkey = '%tagid(dnkeyproducten)%')) order by a.dvsubproductcode </filter>
             <nullable>true</nullable>
             <icoon/>

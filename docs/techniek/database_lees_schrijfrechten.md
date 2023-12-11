@@ -4,7 +4,7 @@ Dit is een overzicht van de technische randvoorwaarde van een lees- en schrijfac
 
 ## Doel/gebruik van de generieke databaseaccounts
 
-Er is voor iedere OpenWave omgeving (zowel acceptatie als productie) een generiek leesaccount (wavereader001) en generiek schrijfaccount (wavewriter001) aanwezig op de database. De rechten voor deze wavereader001 en wavewriter001 zijn voor alle omgevingen gelijk en worden door REM onderhouden en bijgewerkt bij iedere grote OpenWave release (update van de database). Het leesaccount en/of schrijfaccount wordt pas geactiveerd nadat de daarvoor benodigde contracten akkoord zijn. Voor het schrijfaccount gelden nog extra voorwaarden. Zie kopje *Schrijfaccount (wavewriter001)*.
+Er is voor iedere OpenWave omgeving (zowel acceptatie als productie) een generiek leesaccount (wavereader001) en generiek schrijfaccount (wavewriter001) aanwezig op de database. De rechten voor deze wavereader001 en wavewriter001 zijn voor alle omgevingen gelijk en worden door REM onderhouden en bijgewerkt bij iedere grote OpenWave release (update van de database). Het leesaccount en/of schrijfaccount wordt pas geactiveerd nadat de daarvoor benodigde contracten akkoord zijn. Voor het schrijfaccount gelden nog extra voorwaarden. Zie kopje _Schrijfaccount (wavewriter001)_.
 
 **N.b. Het daadwerkelijk gebruiken van deze accounts is dus verbonden aan voorwaarden!**
 
@@ -16,7 +16,7 @@ Het leesaccount (de zogenaamde wavewreader001) wordt alleen geactiveerd voor de 
 
 **LET OP:** in principe mag men (bijna) alle databasevelden opvragen met de select statements maar er gelden uitzonderingen. Denk aan wachtwoorden die in OpenWave staan opgeslagen: velden waarin deze ongecrypt liggen opgeslagen mogen niet benaderd worden door het leesaccount.
 
-Welke select statements niet mogen worden uitgevoerd zijn gelijk voor zowel het lees- als schrijfaccount en staan beschreven bij kopje *Select statements* op deze pagina.
+Welke select statements niet mogen worden uitgevoerd zijn gelijk voor zowel het lees- als schrijfaccount en staan beschreven bij kopje _Select statements_ op deze pagina.
 
 ## Schrijfaccount (wavewriter001)
 
@@ -24,7 +24,7 @@ Het schrijfaccount (de zogenaamde wavewriter001) wordt alleen geactiveerd voor d
 
 ### Select statements
 
-In principe mag op alle tabellen en views van OpenWave data gelezen worden via select statements. Echter geldt hierop de uitzondering dat men geen ongecrypte wachtwoorden mag inzien. Voor de tabellen die zulke informatie bevatten (voor views komt dit nu nog niet voor) geldt dat ze wel te bevragen zijn met een select statement maar niet met een select *. Men zal dan de select moeten specificeren door ieder veld van interesse in de select op te nemen m.u.v. de niet toegestane velden.
+In principe mag op alle tabellen en views van OpenWave data gelezen worden via select statements. Echter geldt hierop de uitzondering dat men geen ongecrypte wachtwoorden mag inzien. Voor de tabellen die zulke informatie bevatten (voor views komt dit nu nog niet voor) geldt dat ze wel te bevragen zijn met een select statement maar niet met een select \*. Men zal dan de select moeten specificeren door ieder veld van interesse in de select op te nemen m.u.v. de niet toegestane velden.
 
 #### Concrete voorbeelden welke selects NIET mogen
 
@@ -37,7 +37,7 @@ select * from tbmedewerkers;
  select * from tbexportcontainer;
 ```
 
-Indien men voor deze tabellen toch de data wil zien kan men of select * op de views doen, of dus select op aparte velden van de tabel doen. Uitzondering: tbinitialisatie is niet te bevragen. In deze tabel staan alle configuratie instellingen en wachtwoorden en is niet toegankelijk voor het schrijfaccount.
+Indien men voor deze tabellen toch de data wil zien kan men of select \* op de views doen, of dus select op aparte velden van de tabel doen. Uitzondering: tbinitialisatie is niet te bevragen. In deze tabel staan alle configuratie instellingen en wachtwoorden en is niet toegankelijk voor het schrijfaccount.
 
 #### Voorbeelden hoe dan toch de data uit deze tabellen te bekijken
 
@@ -73,7 +73,7 @@ select setval('tbomgvergunning_dnkey_seq'::regclass,(select coalesce(max(dnkey)+
 
 ### Delete statements
 
-Ook voor delete statements geldt dat ze kunnen worden uitgevoerd op alle tabellen (m.u.v. tbinitialisatie en tbaudit). Ook hier kan men tegen constraints aanlopen. Bijvoorbeeld als het te verwijderen record 1 of meer velden heeft die verwijzen naar een record in een andere tabel EN waarvoor geldt dat deze geen delete cascade heeft. In dat geval dient men eerst de verwijzingen in de andere tabellen te updaten (of ook te verwijderen) alvorens het delete statement uitgevoerd kan worden.
+Ook voor delete statements geldt dat ze kunnen worden uitgevoerd op alle tabellen (m.u.v. tbinitialisatie en tbaudit). Ook hier kan men tegen constraints aanlopen. Bijvoorbeeld als het te verwijderen record 1 of meer velden heeft die verwijzen naar een record in een andere tabel en waarvoor geldt dat deze geen delete cascade heeft. In dat geval dient men eerst de verwijzingen in de andere tabellen te updaten (of ook te verwijderen) alvorens het delete statement uitgevoerd kan worden.
 
 ### Create/ alter en drop statements
 
@@ -86,4 +86,3 @@ Het is wel mogelijk, MITS zo afgesproken in separaat contract (toekomstplannen),
 Het schrijfaccount heeft geen rechten om een eigen nieuwe rol aan te maken of om zichzelf meer rechten toe te kennen. Wat wel mag is het bekijken en zetten van sequences: dit om bijvoorbeeld de nieuwe primary key value van een tabel goed te zetten. De sequences kunnen niet verwijderd worden en men kan geen nieuwe sequences aanmaken. Het is ook niet mogelijk om constraints/triggers aan te passen van de door REM uitgeleverde tabellen. Verder is gewaarborgd dat na de verstrijken van de toegezegde periode men niet meer kan inloggen met het schrijfaccount. Er dient dan bij REM een nieuwe login te worden aangevraagd.
 
 **Mocht het zo zijn dat men scripts wilt draaien waarvoor het schrijfaccount niet bevoegd is**, dan dient voor deze acties een aparte aanvraag te worden gedaan via support. In deze gevallen wordt vaak op afspraak een moment gepland dat de scripts of door Rem zelf uitgevoerd zullen worden op de database, of dat men tijdelijk toegang krijgt tot een zogenaamde superuser.
-

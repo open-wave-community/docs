@@ -2,11 +2,11 @@
 
 De Editschuif rechtsboven op de detailpagina's kan zijn:
 
-* Onzichtbaar indien de instelling *Sectie: OWB* en *Item: Editschuif* is uitgevinkt. De onzichtbare status van de schuif is dan *aan* mits de inlogger wijzigrechten heeft op de pagina.
-* Zichtbaar met status *uit* indien de instelling *Sectie: OWB* en *Item: Editschuif* is aangevinkt en *Getal1* = 1. Indien de inlogger geen wijzigrechten heeft op de pagina, dan is het element zelf wel zichtbaar, maar de beweegbare schuif niet.
-* Zichtbaar met status *aan* indien de instelling *Sectie: OWB* en *Item: Editschuif* is aangevinkt en *Getal1* = 2. Indien de inlogger geen wijzigrechten heeft op de pagina, dan is het element zelf wel zichtbaar, maar de beweegbare schuif niet.
+- Onzichtbaar indien de instelling _Sectie: OWB_ en _Item: Editschuif_ is uitgevinkt. De onzichtbare status van de schuif is dan _aan_ mits de inlogger wijzigrechten heeft op de pagina.
+- Zichtbaar met status _uit_ indien de instelling _Sectie: OWB_ en _Item: Editschuif_ is aangevinkt en _Getal1_ = 1. Indien de inlogger geen wijzigrechten heeft op de pagina, dan is het element zelf wel zichtbaar, maar de beweegbare schuif niet.
+- Zichtbaar met status _aan_ indien de instelling _Sectie: OWB_ en _Item: Editschuif_ is aangevinkt en _Getal1_ = 2. Indien de inlogger geen wijzigrechten heeft op de pagina, dan is het element zelf wel zichtbaar, maar de beweegbare schuif niet.
 
-Default: bij het ontbreken van bovenstaande instelling is de schuif zichtbaar met status *uit*.
+Default: bij het ontbreken van bovenstaande instelling is de schuif zichtbaar met status _uit_.
 
 **LET OP**: na het wijzigen van deze instelling moet u opnieuw inloggen om resultaat te zien.
 

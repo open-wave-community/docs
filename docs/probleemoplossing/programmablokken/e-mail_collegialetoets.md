@@ -4,12 +4,12 @@ Bij een geregistreerd document waar een collegiale toetsing op staat, kan vanuit
 
 ## Noodzakelijke instellingen
 
-* De instelling *Sectie: Documenten* en *Item:CtMail* moet aangevinkt staan
-* EN de bovenliggende hoofdzaak (dus bijvoorbeeld de omgevingszaak waar het document onder hangt) mag niet geblokkeerd zijn
-* EN de **email van de collegiale toetser** bij de medewerkerstabel moet gevuld zijn met een valide emailadres (de ontvanger van de email)
-* EN de **email van de inlogger** bij de medewerkerstabel moet gevuld zijn met een valide emailadres
-* EN de **webmailinstellingen** moeten kloppen: zie bij Instellen/Inrichten [Email](/docs/instellen_inrichten/email.md)
-* EN bij de **Emailsjablonen** moet er voor de gewenste module een sjabloon bestaan waarbij de eigenschap *Is sjabloon voor standaardmail naar collegiale toetser?* aangevinkt staat en *Benaderbaar vanuit tabel* de waarde *tbcorrespcollegtoets* heeft. **Let op**: er kan per module maar 1 sjabloon zijn met eigenschap *Is sjabloon voor standaardmail naar collegiale toetser*!
-* EN het veld ***Toetser gemaild*** (ddmailverstuurd) is leeg. Dit veld wordt gevuld wanneer de mail verstuurd wordt, wat betekent dat de mail maar eenmalig verstuurd kan worden.
+- De instelling _Sectie: Documenten_ en _Item:CtMail_ moet aangevinkt staan
+- en de bovenliggende hoofdzaak (dus bijvoorbeeld de omgevingszaak waar het document onder hangt) mag niet geblokkeerd zijn
+- en de **email van de collegiale toetser** bij de medewerkerstabel moet gevuld zijn met een valide emailadres (de ontvanger van de email)
+- en de **email van de inlogger** bij de medewerkerstabel moet gevuld zijn met een valide emailadres
+- en de **webmailinstellingen** moeten kloppen: zie bij Instellen/Inrichten [Email](/docs/instellen_inrichten/email.md)
+- en bij de **Emailsjablonen** moet er voor de gewenste module een sjabloon bestaan waarbij de eigenschap _Is sjabloon voor standaardmail naar collegiale toetser?_ aangevinkt staat en _Benaderbaar vanuit tabel_ de waarde _tbcorrespcollegtoets_ heeft. **Let op**: er kan per module maar 1 sjabloon zijn met eigenschap _Is sjabloon voor standaardmail naar collegiale toetser_!
+- en het veld **_Toetser gemaild_** (ddmailverstuurd) is leeg. Dit veld wordt gevuld wanneer de mail verstuurd wordt, wat betekent dat de mail maar eenmalig verstuurd kan worden.
 
-> [!NOTE] **Goed om te weten**: er zal bij opstellen van de mail niet gekeken worden naar of er input parameters bij het sjabloon staan opgegeven, eveneens wordt er niet gekeken naar eigenschappen als  *Bijlagen toevoegen*, *Documentnaam* etc. De mail wordt niet opgeslagen namelijk.
+> [!NOTE] **Goed om te weten**: er zal bij opstellen van de mail niet gekeken worden naar of er input parameters bij het sjabloon staan opgegeven, eveneens wordt er niet gekeken naar eigenschappen als _Bijlagen toevoegen_, _Documentnaam_ etc. De mail wordt niet opgeslagen namelijk.

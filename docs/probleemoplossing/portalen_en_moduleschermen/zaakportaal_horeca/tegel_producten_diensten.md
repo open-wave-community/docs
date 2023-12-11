@@ -4,33 +4,34 @@
 
 De tegel is een trigger voor het lijstscherm van Producten/Diensten bij een Horecazaak (zie: [Producten Klanten en Werkpakketten](/docs/instellen_inrichten/producten_klanten_werkpakketten.md)).
 
-  * De tegel is alleen zichtbaar voor inlogger wanneer: 
-    * deze aan hem/haar is toegekend 
-    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert. In dit geval betekent dat dat de instelling *Sectie: Product/Dienst Item: Horeca*  aangevinkt moet zijn en dat getal1 de waarde 1 heeft. (zie hieronder bij SQL-conditie).
-  * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert. In dit geval betekent dat dat de instelling _Sectie: Product/Dienst Item: Horeca_ aangevinkt moet zijn en dat getal1 de waarde 1 heeft. (zie hieronder bij SQL-conditie).
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Probleem
 
 Het dynamische opschrift op tegels is niet zichtbaar:
 
-  * indien foutieve queryverwijzing (codering *horeca_producten/diensten*) 
-  * indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
-  * indien inlogger geen recht heeft om query uit te voeren. 
+- indien foutieve queryverwijzing (codering _horeca_producten/diensten_)
+- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-  * Portaal: *horecadetail*
-  * Kolom: *Overig*
-  * Kopregel: *Producten/diensten*
-  * Dynamisch tegelopschrift: *getTileContent(horeca_producten/diensten,{id})*
-  * Actie: *getFlexList(SysStandardList,tbhorecavergunningen,{id},nil,horeca_producten/diensten)*
-  * SQL: 
+- Portaal: _horecadetail_
+- Kolom: _Overig_
+- Kopregel: _Producten/diensten_
+- Dynamisch tegelopschrift: _getTileContent(horeca_producten/diensten,{id})_
+- Actie: _getFlexList(SysStandardList,tbhorecavergunningen,{id},nil,horeca_producten/diensten)_
+- SQL:
+
 ```sql
-select case when d1logic = 'T' and dfnumber1 = 1 then 1 else 0 end 
-  from tbinitialisatie 
-  where upper(dvsectie) = 'PRODUCT/DIENST' 
+select case when d1logic = 'T' and dfnumber1 = 1 then 1 else 0 end
+  from tbinitialisatie
+  where upper(dvsectie) = 'PRODUCT/DIENST'
   and UPPER(dvitem) = 'HORECA'
 ```
 
@@ -42,8 +43,7 @@ De kolom product is vrijelijk te kiezen uit de gedefinieerde producten bij het b
 
 Echter wanneer
 
-  * de combinatie klant/werkpakket voorkomt in de beheertabel *Combinaties product/klant/werkpakket* (tbprodwkpklant) 
-  * EN de kolom *Info* van de instelling *Sectie: Product/Dienst Item: Horeca* heeft de waarde 'ODR' 
+- de combinatie klant/werkpakket voorkomt in de beheertabel _Combinaties product/klant/werkpakket_ (tbprodwkpklant)
+- en de kolom _Info_ van de instelling _Sectie: Product/Dienst Item: Horeca_ heeft de waarde 'ODR'
 
 kan bij het nieuw opvoeren van een zaakproduct alleen gekozen worden uit de deze rijen van tbprodwkpklant.
-

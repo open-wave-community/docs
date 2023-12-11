@@ -6,16 +6,16 @@ De tegel is een trigger voor de weergave van de tabel met mislukte OLO/DSO-Bijla
 
 Zie ook de tegelbeschrijving op het portaal operations: [Verwerken Mislukte OLO/DSO bijlages](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_overig/verwerken_mislukte_olo.dso_-_bijlages.md) om de lijst op te schonen en nog een poging tot verwerking te doen.
 
-* De tegel is alleen zichtbaar voor inlogger wanneer:
-  * deze aan hem/haar is toegekend
-  * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
-* Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-* Portaal: *Servicecentrum*
-* Kolom: *Notificaties/
-* Kopregel: *Mislukte OLO/DSO;bijlages*
-* Actie: *getFlexList(StandardList,nil,nil,vwfrmbadextupload;dnkey,nil,nil,nil,nil,deleteStandardRow)*
+- Portaal: _Servicecentrum_
+- Kolom: \*Notificaties/
+- Kopregel: _Mislukte OLO/DSO;bijlages_
+- Actie: _getFlexList(StandardList,nil,nil,vwfrmbadextupload;dnkey,nil,nil,nil,nil,deleteStandardRow)_

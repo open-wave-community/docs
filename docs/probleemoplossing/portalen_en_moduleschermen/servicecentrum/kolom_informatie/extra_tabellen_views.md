@@ -8,16 +8,16 @@ Bij de meeste OpenWave omgevingen zal deze lijst (nog) niet gevuld zijn!
 
 Alleen indien door REM/Functioneel beheer uitzonderingstabellen/views zijn aangemaakt, zal de lijst records bevatten.
 
-* De tegel is alleen zichtbaar voor inlogger wanneer:
-  * deze aan hem/haar is toegekend
-  * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
-* Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-* Portaal: *Servicecentrum*
-* Kolom: *Informatie*
-* Kopregel: *Extra tabellen en views*
-* Actie: *getFlexList(SysStandardList,nil,nil,,servicecentrum_vwadmextraobjects)*
+- Portaal: _Servicecentrum_
+- Kolom: _Informatie_
+- Kopregel: _Extra tabellen en views_
+- Actie: _getFlexList(SysStandardList,nil,nil,,servicecentrum_vwadmextraobjects)_

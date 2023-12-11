@@ -8,21 +8,21 @@ Met de ingang [Technische specificaties](/docs/techniek/index.md) kan de organis
 
 ## Applicatiebeheer
 
-De ingang [Applicatiebeheer](/docs/index.md)  is de ingang voor functioneel beheerders en voor de OpenWave supportafdeling van REM zelf. Het onderdeel applicatiebeheer is dus niet gericht op eindgebruikers. De belangrijkste functie is dat alle instellingen die het gedrag van OpenWave kunnen beïnvloeden, gevonden kunnen worden, waarbij voor de meeste instellingen er diverse toegangswegen zijn.
+De ingang [Applicatiebeheer](/docs/index.md) is de ingang voor functioneel beheerders en voor de OpenWave supportafdeling van REM zelf. Het onderdeel applicatiebeheer is dus niet gericht op eindgebruikers. De belangrijkste functie is dat alle instellingen die het gedrag van OpenWave kunnen beïnvloeden, gevonden kunnen worden, waarbij voor de meeste instellingen er diverse toegangswegen zijn.
 
 ## Begrippen met betrekking tot userinterface
 
 ### Vormgeving
 
-Het kleurthema van OpenWave is instelbaar en kijkt naar de waarde van kolom *Tekst* van configuratie instelling *Sectie: PreInlog, Item: ApplicationColor* voor het bepalen van de kleuren van de OpenWave omgeving. Default is de kleur blauw (kolom *Tekst* heeft waarde blue). Andere opties zijn groen, rood, paars of oranje.
-Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (*Sectie: PreInlog, Item: ApplicationLegacy* is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](/docs/instellen_inrichten/configuratie/sectie_prelog.md).
+Het kleurthema van OpenWave is instelbaar en kijkt naar de waarde van kolom _Tekst_ van configuratie instelling _Sectie: PreInlog, Item: ApplicationColor_ voor het bepalen van de kleuren van de OpenWave omgeving. Default is de kleur blauw (kolom _Tekst_ heeft waarde blue). Andere opties zijn groen, rood, paars of oranje.
+Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (_Sectie: PreInlog, Item: ApplicationLegacy_ is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](/docs/instellen_inrichten/configuratie/sectie_prelog.md).
 
 ### Portaal
 
-Via diverse portalen geeft OpenWave toegang tot lijst- en detailschermen met data. Een portaalscherm is een tegeltableau. Achter een tegel bevindt zich in de meeste gevallen een lijst van gegevens bijvoorbeeld *alle openstaande omgevingszaken* of *mijn uit te voeren collegiale toetsen*. Door middel van het toekennen van rechten en/of het toekennen van tegels aan medewerkers kan voor elke gebruiker een bepaald portaal er anders uitzien.
+Via diverse portalen geeft OpenWave toegang tot lijst- en detailschermen met data. Een portaalscherm is een tegeltableau. Achter een tegel bevindt zich in de meeste gevallen een lijst van gegevens bijvoorbeeld _alle openstaande omgevingszaken_ of _mijn uit te voeren collegiale toetsen_. Door middel van het toekennen van rechten en/of het toekennen van tegels aan medewerkers kan voor elke gebruiker een bepaald portaal er anders uitzien.
 
 Het belangrijkste portaal is het openingsportaal. Na het inloggen wordt altijd dit portaal geopend. Daarnaast zijn er zaakportalen. Deze zaakportalen geven toegang tot de gegevens van één zaak. De beheerportalen, het operationsportaal en portaal Service centrum zijn portalen waar alleen een functioneel beheerder recht op heeft. De beheerportalen geven toegang tot onder meer het vullen van coderingstabellen, maken van rapportages, maken van documentsjablonen, maken van schermen en filters en logschermen.
-Het operationsportaal geeft toegang tot import- en export operaties van gegevens zoals *inlezen BAG-extract* of *maken van vernietigingslijsten* of *inlezen, exporteren van rapportages en processen*. In het Service centrum kan men bepaalde loggings ophalen, sessie- en versie informatie inzien.
+Het operationsportaal geeft toegang tot import- en export operaties van gegevens zoals _inlezen BAG-extract_ of _maken van vernietigingslijsten_ of _inlezen, exporteren van rapportages en processen_. In het Service centrum kan men bepaalde loggings ophalen, sessie- en versie informatie inzien.
 
 ### Sidebar
 
@@ -43,38 +43,38 @@ De gegevens in een detailscherm zijn ingedeeld in blokken. Mutaties vinden per e
 
 ### Wizard
 
-Achter een tegel of met een knop kan een zogenaamde wizard worden gestart. Deze wizards bestaan uit één of meer achtereenvolgende schermen binnen een wizardvenster waarmee in de meeste gevallen een ingewikkelde invoerroutine wordt ondersteund. Bovenaan elk scherm staat een titel; onderaan elk scherm de knoppen *annuleren, volgend/vorig scherm of uitvoeren*. Er zijn wizards voor het aanmaken van nieuwe kaarten, voor het kiezen en uitvoeren van een rapport, voor het maken van een document, het berekenen van leges en zo verder. In de regel zijn deze wizards vast geprogrammeerd en dus niet aanpasbaar.
+Achter een tegel of met een knop kan een zogenaamde wizard worden gestart. Deze wizards bestaan uit één of meer achtereenvolgende schermen binnen een wizardvenster waarmee in de meeste gevallen een ingewikkelde invoerroutine wordt ondersteund. Bovenaan elk scherm staat een titel; onderaan elk scherm de knoppen _annuleren, volgend/vorig scherm of uitvoeren_. Er zijn wizards voor het aanmaken van nieuwe kaarten, voor het kiezen en uitvoeren van een rapport, voor het maken van een document, het berekenen van leges en zo verder. In de regel zijn deze wizards vast geprogrammeerd en dus niet aanpasbaar.
 
 ## Indeling applicatiebeheer
 
 De Dokuwiki-handleiding onder deze ingang applicatiebeheer is als volgt ingedeeld:
 
-* [Functionaliteiten](/docs/functionaliteiten.md)
-* [Instellen/inrichting](/docs/instellen_inrichten.md)
-* [Probleemoplossing](/docs/probleemoplossing.md)
-  * [portalen en moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen.md)
-  * [module overstijgende schermen](/docs/probleemoplossing/module_overstijgende_schermen.md)
-  * [programmablokken](/docs/probleemoplossing/programmablokken.md)
+- [Functionaliteiten](/docs/functionaliteiten.md)
+- [Instellen/inrichting](/docs/instellen_inrichten.md)
+- [Probleemoplossing](/docs/probleemoplossing.md)
+  - [portalen en moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen.md)
+  - [module overstijgende schermen](/docs/probleemoplossing/module_overstijgende_schermen.md)
+  - [programmablokken](/docs/probleemoplossing/programmablokken.md)
 
 ### Functionaliteiten
 
-Onder dit lemma worden diverse verwijzingen naar andere lemma's gegroepeerd onder logische zoektermen. Zo kan de zoekterm *email* op heel veel plekken in de handleiding voorkomen. Er zijn algemene email-instellingen, er zijn email-instellingen die met de post- en verzendstroom van doen hebben, er zijn email-instellingen die met adviezen te maken hebben en zo verder. Deze functionaliteiten-ingang bestaat uit doorverwijspagina's op grond van goede beschrijvingen.
+Onder dit lemma worden diverse verwijzingen naar andere lemma's gegroepeerd onder logische zoektermen. Zo kan de zoekterm _email_ op heel veel plekken in de handleiding voorkomen. Er zijn algemene email-instellingen, er zijn email-instellingen die met de post- en verzendstroom van doen hebben, er zijn email-instellingen die met adviezen te maken hebben en zo verder. Deze functionaliteiten-ingang bestaat uit doorverwijspagina's op grond van goede beschrijvingen.
 
 ### Instellingen/Inrichting
 
 Onder dit lemma worden instellingen gegroepeerd onder diverse benamingen en van verschillende orde:
 
-* de bepalende beheerportaal-tabellen zoals de portaaldefinitie-tabellen, medewerkerstabel, compartimententabel, zaaktypetabellen, adressoorten
-* Configuratie-Instellingen. Naar deze tabel wordt in handleiding veelvuldig verwezen bijv. *Indien Getal1 van de instelling Sectie: X en Item: Y de waarde 1 heeft dan….*
-* Voor applicatiebouwers: Hoe schermen, knoppen, actions, query's en relaties te definiëren
-* het maken van sjablonen voor documenten en rapportages
-* het maken van processen en processtappen, checklijsten
+- de bepalende beheerportaal-tabellen zoals de portaaldefinitie-tabellen, medewerkerstabel, compartimententabel, zaaktypetabellen, adressoorten
+- Configuratie-Instellingen. Naar deze tabel wordt in handleiding veelvuldig verwezen bijv. _Indien Getal1 van de instelling Sectie: X en Item: Y de waarde 1 heeft dan…._
+- Voor applicatiebouwers: Hoe schermen, knoppen, actions, query's en relaties te definiëren
+- het maken van sjablonen voor documenten en rapportages
+- het maken van processen en processtappen, checklijsten
 
 ### Portalen en moduleschermen
 
-Onder deze ingang worden alle portalen en tegels opgesomd die in de officiële OpenWave releases zijn uitgeleverd. Elke tegel is te reconstrueren op grond van de geboden informatie. Bij een aantal tegels uit het openingsportaal is een onderliggende lemma *lijstscherm* gemaakt. Dit gaat over de bijzonderheden van lijst die getoond wordt achter de betreffende tegel (welke view, welke instellingen van belang zijn, betekenis icoontjes).
+Onder deze ingang worden alle portalen en tegels opgesomd die in de officiële OpenWave releases zijn uitgeleverd. Elke tegel is te reconstrueren op grond van de geboden informatie. Bij een aantal tegels uit het openingsportaal is een onderliggende lemma _lijstscherm_ gemaakt. Dit gaat over de bijzonderheden van lijst die getoond wordt achter de betreffende tegel (welke view, welke instellingen van belang zijn, betekenis icoontjes).
 
-Voor de zaakportalen (zoals omgeving en handhavingen) is een onderliggend lemma *detailscherm* toegevoegd. Dit gaat over de bijzonderheden van het detailscherm van een zaak: instellingen die bepalen welke blokken en kolommen wel of niet zichtbaar zijn, berekeningswijzen, muteerrechten en de zichtbaarheid en actief zijn van triggers (knoppen) op het scherm.
+Voor de zaakportalen (zoals omgeving en handhavingen) is een onderliggend lemma _detailscherm_ toegevoegd. Dit gaat over de bijzonderheden van het detailscherm van een zaak: instellingen die bepalen welke blokken en kolommen wel of niet zichtbaar zijn, berekeningswijzen, muteerrechten en de zichtbaarheid en actief zijn van triggers (knoppen) op het scherm.
 
 #### Module-Overstijgende schermen
 
@@ -105,14 +105,14 @@ De zaken die in de hoofdtabellen van de genoemde modules geregistreerd zijn noem
 
 ![](/img/openwave/hoofdzaken.png){ width=800 class="media" loading="lazy" }
 
-* De module omgevingszaken heeft als hoofdtabel tbomgvergunning. Deze tabel was gericht op zaken die via de OLO binnenkomen (WABO), maar is geëvolueerd naar een tabel waarin ook onder meer toezichtzaken en klachten en APV zaken kunnen worden geregistreerd.
-* De module handhavingszaken heeft als hoofdtabel tbhandhavingen. Deze tabel is gericht op zaken die te maken hebben met bestuursdwang.
-* De module APV/Overige zaken heeft als hoofdtabel tbovvergunningen. Deze tabel is gericht op APV-zaken.
-* De module Horecazaken heeft als hoofdtabel tbhorecavergunningen. Deze tabel is gericht op een bijzonder soort APV-zaken: namelijk horeca. Een horecazaak dient altijd verbonden ter zijn aan een inrichting.
-* De module InfoAanvragen heeft als hoofdtabel tbinfoaanvragen.
-* De module Milieu/Gebruik heeft als hoofdtabel tbmilvergunningenn. Deze tabel is gericht op (pre Wabo) milieuvergunnings- en gebruiksvergunningzaken. Een milieu/gebruik zaak dient altijd verbonden ter zijn aan een inrichting.
-* De module Bouw/Sloop heeft als hoofdtabel tbbouwvergunningenn. Deze tabel is gericht op (pre Wabo) bouw- en sloopvergunningzaken.
-* De module Inrichtingen heeft als hoofdtabel tbmilinrichtingen. Deze tabel is voor het vastleggen van inrichtingendossiers. Voor zaakgericht werken blijft het containerbegrip inrichtingen een lastige. Ook omdat dat bericht met de nieuwe omgevingswet is gesneuveld. OpenWave blijft vooralsnog de module inrichtingen gebruiken. Daaraan kunnen zaken uit de andere hoofdtabellen worden gerelateerd en kunnen externe veiligheidscontouren worden gekoppeld naast vee/stallen, afvalstromen enzovoorts.
+- De module omgevingszaken heeft als hoofdtabel tbomgvergunning. Deze tabel was gericht op zaken die via de OLO binnenkomen (WABO), maar is geëvolueerd naar een tabel waarin ook onder meer toezichtzaken en klachten en APV zaken kunnen worden geregistreerd.
+- De module handhavingszaken heeft als hoofdtabel tbhandhavingen. Deze tabel is gericht op zaken die te maken hebben met bestuursdwang.
+- De module APV/Overige zaken heeft als hoofdtabel tbovvergunningen. Deze tabel is gericht op APV-zaken.
+- De module Horecazaken heeft als hoofdtabel tbhorecavergunningen. Deze tabel is gericht op een bijzonder soort APV-zaken: namelijk horeca. Een horecazaak dient altijd verbonden ter zijn aan een inrichting.
+- De module InfoAanvragen heeft als hoofdtabel tbinfoaanvragen.
+- De module Milieu/Gebruik heeft als hoofdtabel tbmilvergunningenn. Deze tabel is gericht op (pre Wabo) milieuvergunnings- en gebruiksvergunningzaken. Een milieu/gebruik zaak dient altijd verbonden ter zijn aan een inrichting.
+- De module Bouw/Sloop heeft als hoofdtabel tbbouwvergunningenn. Deze tabel is gericht op (pre Wabo) bouw- en sloopvergunningzaken.
+- De module Inrichtingen heeft als hoofdtabel tbmilinrichtingen. Deze tabel is voor het vastleggen van inrichtingendossiers. Voor zaakgericht werken blijft het containerbegrip inrichtingen een lastige. Ook omdat dat bericht met de nieuwe omgevingswet is gesneuveld. OpenWave blijft vooralsnog de module inrichtingen gebruiken. Daaraan kunnen zaken uit de andere hoofdtabellen worden gerelateerd en kunnen externe veiligheidscontouren worden gekoppeld naast vee/stallen, afvalstromen enzovoorts.
 
 Vanuit het openingsportaal wordt met evenzovele tegels als ingestelde modules toegang verkregen tot lijsten van hoofdaken. Vanuit een zakenlijst kan de gebruiker doorklikken naar een zaakportaal. Een zaakportaal geeft ook door middel van tegels, toegang tot dochtertabellen bij een zaak.
 
@@ -128,9 +128,9 @@ Een aantal van deze tabellen wordt gedeeld door meerdere hoofdzaken. Zij delen i
 
 Een aantal dochtertabellen dat module-overstijgende schermen heeft, wordt in deze handleiding als deelzaak gekarakteriseerd. Dat zijn de deelzaken:
 
-* Toezicht/inspecties met de tabel tbinspecties
-* de Adviezen met de tabel tbadviezen
-* de Bezwaar/beroepzaken met de tabel tbbezwaarberoep
+- Toezicht/inspecties met de tabel tbinspecties
+- de Adviezen met de tabel tbadviezen
+- de Bezwaar/beroepzaken met de tabel tbbezwaarberoep
 
 Deze tabellen zijn namelijk voorzien van een kolom waarin de zaak-identifier van een extern zaak/DMS kan worden opgenomen. Alle hoofdzaken hebben deze kolom vanzelf. Gevolg is dat deze deelzaken met de StUF zaak/DMS koppeling ook als zaak in een extern zaak/DMS kunnen worden opgenomen: en wel als deelzaak van de bijbehorende hoofdzaak. Nogmaals, dit hoeft dus niet. Met name de inspecties en bezwaarberoepzaken kunnen ook als hoofdzaak worden opgenomen (in tbomgvergunning). Grote voordeel om bijvoorbeeld inspecties als dochtertabel te implementeren (al of niet gebruikmakend van Stuf zaak/DMS) is dat deze dan direct via het zaakportaal van de hoofdzaak te benaderen zijn.
 
@@ -138,7 +138,7 @@ Deze tabellen zijn namelijk voorzien van een kolom waarin de zaak-identifier van
 
 ### Compartimentsrechten
 
-Een compartiment is gedefinieerd als een combinatie van een of meer bevoegde gezagen die binnen een OpenWave-implementatie een bepaalde set van zaaktypes afhandelen voor die gezagen. Een gebruiker is al of niet lid van een compartiment. Het begrip *host* slaat op de organisatie waarbinnen het compartiment gedefinieerd is. De functionele beheerder van de host is degene die alle instellingen voor het compartiment doet.
+Een compartiment is gedefinieerd als een combinatie van een of meer bevoegde gezagen die binnen een OpenWave-implementatie een bepaalde set van zaaktypes afhandelen voor die gezagen. Een gebruiker is al of niet lid van een compartiment. Het begrip _host_ slaat op de organisatie waarbinnen het compartiment gedefinieerd is. De functionele beheerder van de host is degene die alle instellingen voor het compartiment doet.
 
 Als een medewerker lid is van een compartiment kan deze alleen zaken beheren die vallen onder dat compartiment. Bij de compartimentsdefinitie zijn tal van instellingen die dus alleen gelden voor zaken die spelen onder dat compartiment. Zo kan een compartiment documenten op een andere plek opslaan dan de host, andere sjablonen gebruiken, andere processen definiëren.
 

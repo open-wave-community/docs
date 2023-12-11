@@ -2,18 +2,18 @@
 
 ## Trigger
 
-De tegel is een trigger voor een lijst met mogelijke *Rechtsvormen*.
+De tegel is een trigger voor een lijst met mogelijke _Rechtsvormen_.
 
-* De tegel is alleen zichtbaar voor inlogger wanneer:
-  * deze aan hem/haar is toegekend
-  * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
-* Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-* Portaal: *Inrichtingenbeheer*
-* Kolom: *Milieu- en Horecazaken*
-* Kopregel: *Rechtsvorm*
-* Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_rechtsvorm)*
+- Portaal: _Inrichtingenbeheer_
+- Kolom: _Milieu- en Horecazaken_
+- Kopregel: _Rechtsvorm_
+- Actie: _getFlexList(SysStandardList,nil,nil,G,beheer_rechtsvorm)_

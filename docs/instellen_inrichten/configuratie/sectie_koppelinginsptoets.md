@@ -1,21 +1,21 @@
 # Sectie KoppelingInspToets
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de *Sectie: KoppelingInsptoets* gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: KoppelingInsptoets_ gerangschikt op item.
 
 ## Items Configuratietabel
 
-| Item | Kolom | Omschrijving |
-|---|---|---|
-| charset| Tekst| Charset in de transport header van de REST-berichten. Default UTF-8|
-| DMSzaakcodeverplicht | Aanvinkvakje |Indien aangevinkt dan moet de kolom *externe zaakcode* (dvintzaakcode) op de inspectiekaart gevuld zijn voordat een nieuwe checklist aangemaakt kan worden vanuit die inspectiekaart. |
-| DocMapIncDocroot_B_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Bouw/Sloop moet deze instelling bestaan en de kolom *Tekst* gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-| DocMapIncDocroot_C_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Horeca moet deze instelling bestaan en de kolom *Tekst* gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-| DocMapIncDocroot_O_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module APV/Overig moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-| DocMapIncDocroot_H_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module handhaving moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-| DocMapIncDocroot_V_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder een inrichting moet deze instelling bestaan en de kolom *Tekst* gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-| DocMapIncDocroot_W_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module omgeving moet deze instelling bestaan en de kolom *Tekst* gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van *Aanmaakmappen* kan hier worden gebruikt. |
-|DoctypeReport.pdf| Tekst | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom *Tekst* worden gevuld met een valide documenttype (als tekst, dus geen keyverwijzing). |
-| DossierOpLocatieEnOrganisatie | Getal1 |geeft aan op welke manier checklijsten aan een dossier worden gekoppeld:
+| Item                          | Kolom        | Omschrijving                                                                                                                                                                                                                                                                   |
+| ----------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| charset                       | Tekst        | Charset in de transport header van de REST-berichten. Default UTF-8                                                                                                                                                                                                            |
+| DMSzaakcodeverplicht          | Aanvinkvakje | Indien aangevinkt dan moet de kolom _externe zaakcode_ (dvintzaakcode) op de inspectiekaart gevuld zijn voordat een nieuwe checklist aangemaakt kan worden vanuit die inspectiekaart.                                                                                          |
+| DocMapIncDocroot_B_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Bouw/Sloop moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_C_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Horeca moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt.     |
+| DocMapIncDocroot_O_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module APV/Overig moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt.  |
+| DocMapIncDocroot_H_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module handhaving moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt.  |
+| DocMapIncDocroot_V_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder een inrichting moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt.    |
+| DocMapIncDocroot_W_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module omgeving moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt.   |
+| DoctypeReport.pdf             | Tekst        | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom _Tekst_ worden gevuld met een valide documenttype (als tekst, dus geen keyverwijzing).                                                                                                                  |
+| DossierOpLocatieEnOrganisatie | Getal1       | geeft aan op welke manier checklijsten aan een dossier worden gekoppeld:                                                                                                                                                                                                       |
 
 1: dan alle inspecties/omgevingszaken op locatie-dossier (tbperceeladressen)
 
@@ -23,33 +23,33 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 3: Alle inspecties/omgevingszaken die te relateren zijn aan een inrichting op Organisatie-dossier, de rest op locatie-dossier. |
 | Dossier_type_id | Tekst |Het type dat OpenWave moet gebruiken voor het creëren van dossiers: bijvoorbeeld 202. |
-| DownloadPdf | Aanvinkvakje |Indien aangevinkt dan wordt de schermknop *uploadReport* zichtbaar achter het DC-dossier, mits dossiernummer is gevuld en (compartiments-)rechten ok en ofwel *Getal1* heeft waarde 0, dan wel *Getal1* heeft waarde 1, maar datum *report is geüpload* is nog leeg. |
-| | Getal1 | Indien waarde 0, dan kan het report uit DC meerderere malen worden geüpload. Indien waarde 1 dan kan het rapport eenmalig worden geüpload (het programma controleert of de datum *report is geüpload* nog leeg is). |
-| Endpoint_PDF | Tekst | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom *Tekst* worden gevuld met de URL van het up te loaden report.pdf, waarbij het vraagtekentje door OpenWave – on the fly - vervangen zal worden door de betreffende digitale dossiercode bijvoorbeeld: `[https://staging.digitalechecklisten.nl/checklists/?/report.pdf](https://staging.digitalechecklisten.nl/checklists/?/report.pdf.md)`. |
-| Methode | Getal2 |De naam waaronder de checklijst wordt aangemaakt is afhankelijk van de waarde van *Getal2*. Indien *Getal2* = 1 dan:
+| DownloadPdf | Aanvinkvakje |Indien aangevinkt dan wordt de schermknop _uploadReport_ zichtbaar achter het DC-dossier, mits dossiernummer is gevuld en (compartiments-)rechten ok en ofwel _Getal1_ heeft waarde 0, dan wel _Getal1_ heeft waarde 1, maar datum _report is geüpload_ is nog leeg. |
+| | Getal1 | Indien waarde 0, dan kan het report uit DC meerderere malen worden geüpload. Indien waarde 1 dan kan het rapport eenmalig worden geüpload (het programma controleert of de datum _report is geüpload_ nog leeg is). |
+| Endpoint_PDF | Tekst | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom _Tekst_ worden gevuld met de URL van het up te loaden report.pdf, waarbij het vraagtekentje door OpenWave – on the fly - vervangen zal worden door de betreffende digitale dossiercode bijvoorbeeld: `[https://staging.digitalechecklisten.nl/checklists/?/report.pdf](https://staging.digitalechecklisten.nl/checklists/?/report.pdf.md)`. |
+| Methode | Getal2 |De naam waaronder de checklijst wordt aangemaakt is afhankelijk van de waarde van _Getal2_. Indien _Getal2_ = 1 dan:
 
-* Bij inrichtingen: de inrichtingsnaam gevolgd door de startdatum van het inspectietraject + de insp.aanleidingscode.+ een unieke OpenWave-key van het inspectietraject
+- Bij inrichtingen: de inrichtingsnaam gevolgd door de startdatum van het inspectietraject + de insp.aanleidingscode.+ een unieke OpenWave-key van het inspectietraject
 
-* Bij zaken (al of niet gekoppeld aan een inrichting) De wave(hoofd)zaakcode + de soortzaak gevolgd door de startdatum van het inspectietraject + de insp.aanleidingscode.+ een unieke openwave-key van het inspectietraject
+- Bij zaken (al of niet gekoppeld aan een inrichting) De wave(hoofd)zaakcode + de soortzaak gevolgd door de startdatum van het inspectietraject + de insp.aanleidingscode.+ een unieke openwave-key van het inspectietraject
 
-Indien *Getal2* = 2 (defaultwaarde) dan:
+Indien _Getal2_ = 2 (defaultwaarde) dan:
 
-* Bij inrichtingen: de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
+- Bij inrichtingen: de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
 
-* Bij zaken (al of niet gekoppeld aan een inrichting): De aanvraagnaam (of bouwwerk) + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien *Getal2* = 3 dan in alle situaties de aanleiding van de inspectiekaart + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien *Getal2* = 4 dan
+- Bij zaken (al of niet gekoppeld aan een inrichting): De aanvraagnaam (of bouwwerk) + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien _Getal2_ = 3 dan in alle situaties de aanleiding van de inspectiekaart + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien _Getal2_ = 4 dan
 
-* Bij inrichtingen: de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
+- Bij inrichtingen: de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
 
-* Bij zaken gekoppeld aan een inrichting: De (hoofd)zaakcode + inrichtingsnaam + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres.
+- Bij zaken gekoppeld aan een inrichting: De (hoofd)zaakcode + inrichtingsnaam + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres.
 
-* Bij zaken niet gekoppeld aan een inrichting: De (hoofd)zaakcode + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien *Getal2* = 5 dan:
+- Bij zaken niet gekoppeld aan een inrichting: De (hoofd)zaakcode + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. Indien _Getal2_ = 5 dan:
 
-* Bij inrichtingen: de wavezaakcode van het inspectietraject + de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
+- Bij inrichtingen: de wavezaakcode van het inspectietraject + de inrichtingsnaam gevolgd door straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres
 
-* Bij zaken (al of niet gekoppeld aan gekoppeld aan een inrichting): de wavezaakcode van het inspectietraject + De aanvraagnaam (of bouwwerk) + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. |
-| | Tekst |Moet gevuld zijn met de tekst *DigitaleChecklisten* en aangevinkt om koppeling met DigitaleChecklisten te activeren (en ook om op de medewerkerslijst de wizardknop met functie verspreiden inlog DC te zien). |
-| | Aanvinkvakje |Moet aangevinkt zijn waarbij kolom *Tekst* gevuld is met de tekst *DigitaleChecklisten* om koppeling met DigitaleChecklisten te activeren. |
-| Navigeeradres | Tekst |De kolom *Tekst* moet gevuld zijn met een hyperlink waarbij het vraagteken ' ?' aan het eind van de *Tekst* dynamisch door het programma vervangen wordt door de waarde van de DigChecklist ID op het detailscherm van de inspectiekaart of omgevingskaart.
+- Bij zaken (al of niet gekoppeld aan gekoppeld aan een inrichting): de wavezaakcode van het inspectietraject + De aanvraagnaam (of bouwwerk) + straatnaam en huisnummer en woonplaats van het bijbehorende locatie-adres. |
+  | | Tekst |Moet gevuld zijn met de tekst _DigitaleChecklisten_ en aangevinkt om koppeling met DigitaleChecklisten te activeren (en ook om op de medewerkerslijst de wizardknop met functie verspreiden inlog DC te zien). |
+  | | Aanvinkvakje |Moet aangevinkt zijn waarbij kolom _Tekst_ gevuld is met de tekst _DigitaleChecklisten_ om koppeling met DigitaleChecklisten te activeren. |
+  | Navigeeradres | Tekst |De kolom _Tekst_ moet gevuld zijn met een hyperlink waarbij het vraagteken ' ?' aan het eind van de _Tekst_ dynamisch door het programma vervangen wordt door de waarde van de DigChecklist ID op het detailscherm van de inspectiekaart of omgevingskaart.
 
 Dus: `[https://digitalechecklisten.nl/app/#/checklists/](https://digitalechecklisten.nl/app/#/checklists/.md)?` zal bijvoorbeeld vervangen worden door `[https://digitalechecklisten.nl/app/#/checklists/1.132](https://digitalechecklisten.nl/app/#/checklists/1.132.md)`. |
 | Ontvangstadres_answers | Tekst |Het endpoint voor het opvragen van checklists `[https://digitalechecklisten.nl/api/v1/checklists/?/answers](https://digitalechecklisten.nl/api/v1/checklists/?/answers.md)`. Op de plaats van het vraagteken zal het programma dynamisch de juiste checklist-id invoeren uit de inspectiedetailkaart of de omgevingsdetailkaart. |
@@ -60,4 +60,4 @@ Dus: `[https://digitalechecklisten.nl/app/#/checklists/](https://digitalecheckli
 | SynchroniseerOnrechtm | Aanvinkvakje |Indien aangevinkt kunnen (als aan een rits van andere voorwaarden is voldaan: Zie bij lemma digitale checklisten) afgekeurde items worden gesynchroniseerd met de issues (tbontrechtmatigheden). |
 | | Getal1 | Indien de waarde 1 (en aangevinkt) wordt het synchroniseren automatisch gedaan bij het verversen van het inspectietrajectdetailscherm, dus ook bij openen, tenzij het traject is geblokkeerd. |
 |UitgaandWin1252| Aanvinkvakje| Indien aangevinkt worden de uitgaande REST (POST en GET) berichten eerst ontdaan van alle karakters groter dan ascii- 127|
-|VertrouwelijkheidReport.pdf| Tekst | Voor het uploaden van een report.dbf uit Dig checklisten moet de kolom *Tekst* worden gevuld met een valide vertrouwelijkheidsduiding (als tekst, dus geen keyverwijzing). |
+|VertrouwelijkheidReport.pdf| Tekst | Voor het uploaden van een report.dbf uit Dig checklisten moet de kolom _Tekst_ worden gevuld met een valide vertrouwelijkheidsduiding (als tekst, dus geen keyverwijzing). |

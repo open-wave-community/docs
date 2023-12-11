@@ -7,5 +7,5 @@ Voor het exporteren/factureren van geschreven uren zie:
 
 ## Gerelateerde Pagina's
 
-* [Detailscherm Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/detailscherm_urenregistratie.md)
-* [Lijst Uren bij een Zaak](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/lijst_van_uren_bij_een_zaak.md)
+- [Detailscherm Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/detailscherm_urenregistratie.md)
+- [Lijst Uren bij een Zaak](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/lijst_van_uren_bij_een_zaak.md)

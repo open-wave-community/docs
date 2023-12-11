@@ -1,12 +1,12 @@
 # REST Flexfuncties
 
-Portal beheerportaal-Nieuw. Tegel *Rest Flexfuncties*.
+Portal beheerportaal-Nieuw. Tegel _Rest Flexfuncties_.
 
-Screenidentifiers (beheertegel *Schermkolomdefinitie standaardapi*)
+Screenidentifiers (beheertegel _Schermkolomdefinitie standaardapi_)
 
-* MDLC_getRestflexfunctiesList.xml
-* MDDC_getRestflexfunctiesDetail.xml
-* MDWC_insertTbRestflexfuncties.xml
+- MDLC_getRestflexfunctiesList.xml
+- MDDC_getRestflexfunctiesDetail.xml
+- MDWC_insertTbRestflexfuncties.xml
 
 Tabel: tbrestflexfuncties.
 
@@ -20,12 +20,12 @@ Bijvoorbeeld:
 
 REST-rommeldam.open-wave.nl/TrackNTraceOmgBasis/12345
 
-Hierbij is *TrackNTraceOmgBasis* de gevraagde REST-functienaam en *12345* is het eerste en enige argument.
+Hierbij is _TrackNTraceOmgBasis_ de gevraagde REST-functienaam en _12345_ is het eerste en enige argument.
 De OpenWave REST-service moet apart geïnstalleerd worden naast de OpenWave-applicatie.
 
 ### REST-service -> API translateRestCall
 
-De tabel tbrestflexfuncties wordt geraadpleegd door de OpenWave API: *translateRestCall*.
+De tabel tbrestflexfuncties wordt geraadpleegd door de OpenWave API: _translateRestCall_.
 
 Deze API wordt door de OpenWave-REST service aangeroepen met de REST-functienaam (paramcode) en een of meer argumenten (paramparameters). Deze functienaam en argumenten komen uit de aanroep waarmee de OpenWave REST service door een derde partij wordt benaderd, zoals in bovenstaand aanroepvoorbeeld.
 
@@ -50,21 +50,21 @@ Voor de buitenwereld is het wachtwoord dat de REST - service gebruikt NIET zicht
 
 De API translateRestCall wordt door OpenWave REST-service aangeroepen met de volgende parameters:
 
-* paramsessie (deze wordt verkregen door de aanroep van getauthenticatie (door de REST-service) op basis van afgesproken naam en wachtwoord)
-* paramretourformaat (XML)
-* paramcode. Dit is de REST-functienaam. De waarde van deze parameter wordt opgezocht in de tabel tbrestflexfuncties in de kolom dvcode
-* paramparameters. Dit is een string van een of meer argumenten. De substrings {arg1}, {arg2} {argn} die voorkomen in de kolom dvaanroep van de gevonden kaart in tbrestflexfuncties worden vervangen met de waarde van de argumenten ({arg1} met het eerste, {arg2} met de tweede enz.).
+- paramsessie (deze wordt verkregen door de aanroep van getauthenticatie (door de REST-service) op basis van afgesproken naam en wachtwoord)
+- paramretourformaat (XML)
+- paramcode. Dit is de REST-functienaam. De waarde van deze parameter wordt opgezocht in de tabel tbrestflexfuncties in de kolom dvcode
+- paramparameters. Dit is een string van een of meer argumenten. De substrings {arg1}, {arg2} {argn} die voorkomen in de kolom dvaanroep van de gevonden kaart in tbrestflexfuncties worden vervangen met de waarde van de argumenten ({arg1} met het eerste, {arg2} met de tweede enz.).
 
 Het kan zijn dat een of meer argumenten gecrypt zijn doorgegeven. In dat geval moet in de kolom dvaanroep van tbrestflexfuncties het betreffende argument worden genoteerd als {strdecrypt(argn)}.
-Een voorbeeld is het gecrypt uitgeven van een identifier van de omgevingszaak in een ontvangstbevestiging wanneer in het sjabloon de tekst *<%strEncrypt(:dnkey)%>* wordt opgenomen. Deze gecrypte key dient als basis voor de aanroep van de track and trace in onderstaand voorbeeld.
+Een voorbeeld is het gecrypt uitgeven van een identifier van de omgevingszaak in een ontvangstbevestiging wanneer in het sjabloon de tekst _<%strEncrypt(:dnkey)%>_ wordt opgenomen. Deze gecrypte key dient als basis voor de aanroep van de track and trace in onderstaand voorbeeld.
 
 ## Uitgewerkt voorbeeld Track and Trace
 
 Een aanvrager kan via een ontvangstbevestiging een track and trace link krijgen. Deze link zal uit drie delen bestaan:
 
-* De URL van de derde partij. Bijvoorbeeld: REST-rommeldam.open-wave.nl/
-* Als het om een omgevingsvergunning gaat, de code: TrackNTraceOmgBasis/ (zie onder)
-* De geëncrypte key van de gevraagde omgevingszaak (zie [Documentsjablonen en Sjabloongroepen](/docs/instellen_inrichten/documentsjablonen.md) onder kopje Tonen gecrypte versie van een kolomwaarde).
+- De URL van de derde partij. Bijvoorbeeld: REST-rommeldam.open-wave.nl/
+- Als het om een omgevingsvergunning gaat, de code: TrackNTraceOmgBasis/ (zie onder)
+- De geëncrypte key van de gevraagde omgevingszaak (zie [Documentsjablonen en Sjabloongroepen](/docs/instellen_inrichten/documentsjablonen.md) onder kopje Tonen gecrypte versie van een kolomwaarde).
 
 Dit maakt dat de link die bijgeleverd wordt in de brief naar de aanvrager er als volgt uit zal zien:
 REST-rommeldam.open-wave.nl/TrackNTraceOmgBasis/02_RT125678J
@@ -75,9 +75,9 @@ Deze derde partij moet informatie halen uit de OpenWave database en wel: informa
 
 Zij roept daartoe DRIE maal de OpenWave REST-service aan:
 
-* REST-rommeldam.open-wave.nl/TrackNTraceOmgBasis/02_RT125678J waarbij *02_RT125678J* het eerste argument is en staat voor de geëncrypte dnkey van de gevraagde omgevingszaak  
-* REST-rommeldam.open-wave.nl/TrackNTrace_AdviezenOmg/02_RT125678J
-* REST-rommeldam.open-wave.nl/TrackNTrace_ProcesstappenOmg/02_RT125678J
+- REST-rommeldam.open-wave.nl/TrackNTraceOmgBasis/02_RT125678J waarbij _02_RT125678J_ het eerste argument is en staat voor de geëncrypte dnkey van de gevraagde omgevingszaak
+- REST-rommeldam.open-wave.nl/TrackNTrace_AdviezenOmg/02_RT125678J
+- REST-rommeldam.open-wave.nl/TrackNTrace_ProcesstappenOmg/02_RT125678J
 
 In de JSON-resultaat set van de eerste detail-aanroep is de plek opgenomen waar de twee lijsten op de webpagina geplaatst moeten worden (zie verderop).
 
@@ -85,67 +85,67 @@ Bij de installatie van de REST-service is afgesproken onder welke naam en wachtw
 
 De applicatiebeheerder van OpenWave moet nu het volgende doen:
 
-* een robotmedewerker aanmaken met een afgesproken naam en wachtwoord en deze net voldoende functionele rechten geven om de gevraagde informatie te lezen. De robot in dit voorbeeld zal daartoe deel uit moeten maken van een rechtengroep (bijv. Robots) die de module kijkrechten heeft op Omgevingszaken en daarbinnen de vinkjes *zichtbaar* bij *Adviezen* en *Proces checklijst*.
+- een robotmedewerker aanmaken met een afgesproken naam en wachtwoord en deze net voldoende functionele rechten geven om de gevraagde informatie te lezen. De robot in dit voorbeeld zal daartoe deel uit moeten maken van een rechtengroep (bijv. Robots) die de module kijkrechten heeft op Omgevingszaken en daarbinnen de vinkjes _zichtbaar_ bij _Adviezen_ en _Proces checklijst_.
 
 Verder moet deze robotmedewerker in de medewerkerstabel:
 
-* een interne medewerker zijn;
-* EN toegang moet hebben tot de browserversie
-* EN *Voor deze medewerker is geen 2-factor authentication nodig* is aangevinkt;
-* EN *Het password van deze medewerker verloopt nooit* is aangevinkt;
-* EN *Deze medewerker hoeft geen loginverklaring af te vinken* is aangevinkt.
+- een interne medewerker zijn;
+- en toegang moet hebben tot de browserversie
+- en _Voor deze medewerker is geen 2-factor authentication nodig_ is aangevinkt;
+- en _Het password van deze medewerker verloopt nooit_ is aangevinkt;
+- en _Deze medewerker hoeft geen loginverklaring af te vinken_ is aangevinkt.
 
 Vervolgens moet de applicatiebeheerder:
 
-* in de tabel tbrestflexfuncties drie kaarten aanmaken met de gevraagde REST-functies (de namen van die functies zijn vrij voor de applicatiebeheerder in zoverre dat zij overeen moeten komen met de REST aanroepen van de derde partij)
-* een kaart met dvcode = *TrackNTraceOmgBasis* waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: *getFlexDetail(SysStandardDetail,{strdecrypt(arg1)},TrackNTrace_BasisOmg)*
-* een kaart met dvcode = *TrackNTrace_AdviezenOmg* waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: *getFlexList(SysStandardList,,{arg1},,TrackNTrace_AdviezenOmg)*
-* een kaart met dvcode = *TrackNTrace_ProcesstappenOmg* waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: *getFlexList(SysStandardList,,{arg1},,TrackNTrace_ProcesstappenOmg)*.
+- in de tabel tbrestflexfuncties drie kaarten aanmaken met de gevraagde REST-functies (de namen van die functies zijn vrij voor de applicatiebeheerder in zoverre dat zij overeen moeten komen met de REST aanroepen van de derde partij)
+- een kaart met dvcode = _TrackNTraceOmgBasis_ waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: _getFlexDetail(SysStandardDetail,{strdecrypt(arg1)},TrackNTrace_BasisOmg)_
+- een kaart met dvcode = _TrackNTrace_AdviezenOmg_ waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: _getFlexList(SysStandardList,,{arg1},,TrackNTrace_AdviezenOmg)_
+- een kaart met dvcode = _TrackNTrace_ProcesstappenOmg_ waarbij de waarde van kolom dvaanroep bijvoorbeeld kan zijn: _getFlexList(SysStandardList,,{arg1},,TrackNTrace_ProcesstappenOmg)_.
 
-In bovenstaand voorbeeld wordt met getflexdetail(sysstandardetail,n,TrackNTrace_BasisOmg) verwezen naar een kaart in de tabel tbsysstandardtable (beheertegel: *Tabellen Standaardapi*) met dvcode = *TrackNTrace_BasisOmg*. Aldaar is geregeld welke data van welke tabel/view en scherm moeten worden opgehaald.
-En zo wordt ook verwezen naar een kaart in tbsysstandardtable met dvcode = *TrackNTrace_AdviezenOmg*.
-En zo wordt ook verwezen naar een kaart in tbsysstandardtable met dvcode = *TrackNTrace_ProcesstappenOmg*.
+In bovenstaand voorbeeld wordt met getflexdetail(sysstandardetail,n,TrackNTrace_BasisOmg) verwezen naar een kaart in de tabel tbsysstandardtable (beheertegel: _Tabellen Standaardapi_) met dvcode = _TrackNTrace_BasisOmg_. Aldaar is geregeld welke data van welke tabel/view en scherm moeten worden opgehaald.
+en zo wordt ook verwezen naar een kaart in tbsysstandardtable met dvcode = _TrackNTrace_AdviezenOmg_.
+en zo wordt ook verwezen naar een kaart in tbsysstandardtable met dvcode = _TrackNTrace_ProcesstappenOmg_.
 
-De applicatiebeheerder gaat in sysstandardtable zelf bepalen welke track en trace data worden opgehaald. En de applicatiebeheerder gaat ook de schermlayout definiëren waarin deze track and trace kunnen worden getoond.
+De applicatiebeheerder gaat in sysstandardtable zelf bepalen welke track en trace data worden opgehaald. en de applicatiebeheerder gaat ook de schermlayout definiëren waarin deze track and trace kunnen worden getoond.
 
 ### De sysstandardtable kaart voor de detailgegevens van de omgevingszaak
 
 De applicatiebeheerder maakt een kaart met:
 
-* **Code**:TrackNTrace_BasisOmg
-* **Hoofdtabel of viewnaam**: vwfrmomgvergunningen
-* **Kolomnaam van de primary key**: dnkeyomgvergunning
-* **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbomgvergunning
-* **Schermidentifier voor detail**: MDDC_getTrackNTrace_OmgDetail.xml
-* **Tbqueries.dvcode voor kijkrechten**: omgeving_trackntrace
+- **Code**:TrackNTrace_BasisOmg
+- **Hoofdtabel of viewnaam**: vwfrmomgvergunningen
+- **Kolomnaam van de primary key**: dnkeyomgvergunning
+- **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbomgvergunning
+- **Schermidentifier voor detail**: MDDC_getTrackNTrace_OmgDetail.xml
+- **Tbqueries.dvcode voor kijkrechten**: omgeving_trackntrace
 
 De overige kolommen van deze kaart kunnen leeg blijven.
 
 De API getflexdetail zal de data van de kaart ophalen uit vwfrmomgvergunningen where dnkeyomgvergunning = strdecrypt(arg1)} (dus in ons voorbeeld strdecrypt(02_RT125678J)).
 
-Daartoe wordt eerst een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = *omgeving_trackntrace* te evalueren. Die moet dus bestaan. Het SQL-statement:
+Daartoe wordt eerst een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = _omgeving_trackntrace_ te evalueren. Die moet dus bestaan. Het SQL-statement:
 
 ```sql
-select case when a.dlaomgvsb = 'T' and b.dlcomgadvvsb = 'T' and b.dlcomgprovsb = 'T' 
-         then 'true' else 'false' end 
-         from tbomgrechten b inner join tbrechten a 
-         on (a.dnkey = b.dnkeyrechten) 
-         where b.dnkeyrechten = 
+select case when a.dlaomgvsb = 'T' and b.dlcomgadvvsb = 'T' and b.dlcomgprovsb = 'T'
+         then 'true' else 'false' end
+         from tbomgrechten b inner join tbrechten a
+         on (a.dnkey = b.dnkeyrechten)
+         where b.dnkeyrechten =
         (select dnkeyrechten from tbmedewerkers where trim(dvcode) = trim(:keyaccount))
 ```
 
 De (robot)loginnaam die de REST-service gebruikt moet dus zowel het kijkrecht op omgevingszaken hebben, als het kijkrecht op adviezen bij een omgevingszaak als het kijkrecht op processtappen bij een omgevingszaak.
 
-Met de schermidentifier voor detail wordt verwezen naar een kaart in tbscreencolumns (beheertegel *Schermkolomdefinitie
-tabellen standaard-api*) met xml-filename = *MDDC_getTrackNTrace_OmgDetail.xml*. Als die kaart niet bestaat moet deze aangemaakt worden met:
+Met de schermidentifier voor detail wordt verwezen naar een kaart in tbscreencolumns (beheertegel _Schermkolomdefinitie
+tabellen standaard-api_) met xml-filename = _MDDC_getTrackNTrace_OmgDetail.xml_. Als die kaart niet bestaat moet deze aangemaakt worden met:
 
-* klasse: sysStandard
-* API: getSysStandardDetail
-* view/tabel: vwfrmomgvergunningen
-* identifier scherm: xml-filename : MDDC_getTrackNTrace_OmgDetail.xml
-* kopegel1: select dvobjadres | | dvobjplaats from vwfrmomgvergunningen where dnkeyomgvergunning = {id}
+- klasse: sysStandard
+- API: getSysStandardDetail
+- view/tabel: vwfrmomgvergunningen
+- identifier scherm: xml-filename : MDDC_getTrackNTrace_OmgDetail.xml
+- kopegel1: select dvobjadres | | dvobjplaats from vwfrmomgvergunningen where dnkeyomgvergunning = {id}
 
-In de kolom *Kolominformatie Toggle F11* moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmomgvergunningen.
+In de kolom _Kolominformatie Toggle F11_ moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmomgvergunningen.
 
 Een zeer karig voorbeeld:
 
@@ -280,7 +280,7 @@ Een zeer karig voorbeeld:
   </document>
 ```
 
-Met de blokken label *Adviezen* en *Proces* wordt aangegeven op welke plek in het detailscherm de lijsten moeten worden ingevoegd. Dit is dus van belang voor de derde party die de gegevens van drie REST-aanroepen moet renderen naar een webpagina.
+Met de blokken label _Adviezen_ en _Proces_ wordt aangegeven op welke plek in het detailscherm de lijsten moeten worden ingevoegd. Dit is dus van belang voor de derde party die de gegevens van drie REST-aanroepen moet renderen naar een webpagina.
 
 De API getflexdetail maakt een xml met data en metadata op basis van de bovenstaande schermlayout en de gegevens van de gewenste kaart van vwfrmomgvergunningen. De REST-service stuurt deze informatie naar de derde partij die vervolgens de twee vervolgaanroepen doet naar de REST-service.
 
@@ -290,33 +290,33 @@ De REST-functies aanroepen voor de twee lijsten hebben een parameter die hier in
 
 De applicatiebeheerder maakt een kaart met:
 
-* **Code**: TrackNTrace_AdviezenOmg
-* **Hoofdtabel of viewnaam**: vwfrmadviezen
-* **Kolomnaam van de primary key**: dnadvkey
-* **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbadviezen
-* **Kolomnaam foreign key uit deze achterliggende tabel**: dnkeyomgvergunningen
-* **Kolomnaam foreign key (uit hoofdtabel/view)**: dnkeyomgvergunningen
-* **Parenttabelnaam**: tbomgvergunning
-* **Schermidentifier voor detail**: MDLC_getTrackNTrace_AdviezenOmgList.xml
-* **Tbqueries.dvcode voor lijst**: omgeving_trackntrace
-* **where clausule bij lijst**: ddvervallen is null
+- **Code**: TrackNTrace_AdviezenOmg
+- **Hoofdtabel of viewnaam**: vwfrmadviezen
+- **Kolomnaam van de primary key**: dnadvkey
+- **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbadviezen
+- **Kolomnaam foreign key uit deze achterliggende tabel**: dnkeyomgvergunningen
+- **Kolomnaam foreign key (uit hoofdtabel/view)**: dnkeyomgvergunningen
+- **Parenttabelnaam**: tbomgvergunning
+- **Schermidentifier voor detail**: MDLC_getTrackNTrace_AdviezenOmgList.xml
+- **Tbqueries.dvcode voor lijst**: omgeving_trackntrace
+- **where clausule bij lijst**: ddvervallen is null
 
 De overige kolommen van deze kaart kunnen leeg blijven.
 
 De API getflexlist zal de data van de advieskaarten ophalen uit vwfrmadviezen where dnkeyomgvergunningen = {arg1} (dus in ons voorbeeld bijv. 2345 (de %keypointer%)). Hierbij worden alleen de kaarten met ddvervallen is null meegenomen.
 
-Allereerst wordt een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = *omgeving_trackntrace* te evalueren. Die moet dus bestaan (zie hierboven).
+Allereerst wordt een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = _omgeving_trackntrace_ te evalueren. Die moet dus bestaan (zie hierboven).
 
-Met de schermidentifier voor lijst wordt verwezen naar een kaart in tbscreencolumns (beheertegel *Schermkolomdefinitie
-tabellen standaard-api*) met xml-filename = *MDLC_getTrackNTrace_AdviezenOmgList.xml*. Als die kaart niet bestaat moet deze aangemaakt worden met:
+Met de schermidentifier voor lijst wordt verwezen naar een kaart in tbscreencolumns (beheertegel _Schermkolomdefinitie
+tabellen standaard-api_) met xml-filename = _MDLC_getTrackNTrace_AdviezenOmgList.xml_. Als die kaart niet bestaat moet deze aangemaakt worden met:
 
-* klasse: sysStandard
-* API: getSysStandardList
-* view/tabel: vwfrmadviezen
-* identifier scherm: xml-filename: MDLC_getTrackNTrace_AdviezenOmgList.xml
-* default sortering: ddadvaanvraag, ddadvadvies
+- klasse: sysStandard
+- API: getSysStandardList
+- view/tabel: vwfrmadviezen
+- identifier scherm: xml-filename: MDLC_getTrackNTrace_AdviezenOmgList.xml
+- default sortering: ddadvaanvraag, ddadvadvies
 
-In de kolom *Kolominformatie Toggle F11* moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmadviezen.
+In de kolom _Kolominformatie Toggle F11_ moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmadviezen.
 
 Een voorbeeld:
 
@@ -378,33 +378,33 @@ Een voorbeeld:
 
 De applicatiebeheerder maakt een kaart met:
 
-* **Code**: TrackNTrace_ProcesstappenOmg
-* **Hoofdtabel of viewnaam**: vwfrmtermijnbewstappen
-* **Kolomnaam van de primary key**: dnkey
-* **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbtermijnbewstappen
-* **Kolomnaam foreign key uit deze achterliggende tabel**: dnkeyomgvergunningen
-* **Kolomnaam foreign key (uit hoofdtabel/view)**: dnkeyomgvergunningen
-* **Parenttabelnaam**: tbomgvergunning
-* **Schermidentifier voor detail**: MDLC_getTrackNTrace_ProcesstappenOmgList.xml
-* **Tbqueries.dvcode voor lijst**: omgeving_trackntrace
-* **where clausule bij lijst**: dlingebruik = 'T' and dvtrmvoorwjn = 'N'
+- **Code**: TrackNTrace_ProcesstappenOmg
+- **Hoofdtabel of viewnaam**: vwfrmtermijnbewstappen
+- **Kolomnaam van de primary key**: dnkey
+- **Tabelnaam waarop hoofdtabel/view is gebaseerd**: tbtermijnbewstappen
+- **Kolomnaam foreign key uit deze achterliggende tabel**: dnkeyomgvergunningen
+- **Kolomnaam foreign key (uit hoofdtabel/view)**: dnkeyomgvergunningen
+- **Parenttabelnaam**: tbomgvergunning
+- **Schermidentifier voor detail**: MDLC_getTrackNTrace_ProcesstappenOmgList.xml
+- **Tbqueries.dvcode voor lijst**: omgeving_trackntrace
+- **where clausule bij lijst**: dlingebruik = 'T' and dvtrmvoorwjn = 'N'
 
 De overige kolommen van deze kaart kunnen leeg blijven.
 
 De API getflexlist zal de data van de processtappen ophalen uit vwfrmtermijnbewstappen where dnkeyomgvergunningen = {arg1} (dus in ons voorbeeld bijv. 2345 (de %keypointer%)). Hierbij worden alleen de kaarten met dlingebruik = 'T' and dvtrmvoorwjn = 'N' meegenomen (alleen de termijnstappen die zichtbaar en muteerbaar zijn en niet de ja/nee vragen).
 
-Allereerst wordt  een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = *omgeving_trackntrace* te evalueren. Die moet dus bestaan (zie hierboven).
+Allereerst wordt een rechtencheck gedaan door het statement uit tbqueries (beheerportaal-Nieuw) met dvcode = _omgeving_trackntrace_ te evalueren. Die moet dus bestaan (zie hierboven).
 
-Met de schermidentifier voor lijst wordt verwezen naar een kaart in tbscreencolumns (beheertegel *Schermkolomdefinitie
-tabellen standaard-api*) met xml-filename = *MDLC_getTrackNTrace_ProcesstappenOmgList.xml*. Als die kaart niet bestaat moet deze aangemaakt worden met:
+Met de schermidentifier voor lijst wordt verwezen naar een kaart in tbscreencolumns (beheertegel _Schermkolomdefinitie
+tabellen standaard-api_) met xml-filename = _MDLC_getTrackNTrace_ProcesstappenOmgList.xml_. Als die kaart niet bestaat moet deze aangemaakt worden met:
 
-* klasse: sysStandard
-* API: getSysStandardList
-* view/tabel: vwfrmtermijnbewstappen
-* identifier scherm: xml-filename : MDLC_getTrackNTrace_ProcesstappenOmgList.xml
-* default sortering: dntrmvolgnr
+- klasse: sysStandard
+- API: getSysStandardList
+- view/tabel: vwfrmtermijnbewstappen
+- identifier scherm: xml-filename : MDLC_getTrackNTrace_ProcesstappenOmgList.xml
+- default sortering: dntrmvolgnr
 
-In de kolom *Kolominformatie Toggle F11* moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmtermijnbewstappen.
+In de kolom _Kolominformatie Toggle F11_ moet vervolgens de layout van het scherm gedefinieerd worden in xml-formaat met een of meer kolommen uit vwfrmtermijnbewstappen.
 
 Een voorbeeld:
 

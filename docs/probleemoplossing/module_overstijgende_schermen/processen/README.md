@@ -6,8 +6,7 @@ Voor de algortitmes die ten grondslag liggen aan de termijnbewakingsberekeningen
 
 Pagina's binnen dit onderwerp:
 
-  * [Detailscherm bewerk ja/nee stap](/docs/probleemoplossing/module_overstijgende_schermen/processen/detailscherm_bewerk_ja_nee_stap.md)
-  * [Detailscherm Processtap](/docs/probleemoplossing/module_overstijgende_schermen/processen/detailscherm_processtap.md)
-  * [Lijst bewerk ja/nee stappen](/docs/probleemoplossing/module_overstijgende_schermen/processen/lijst_bewerk_ja_nee_stappen.md)
-  * [Lijst Processtappen](/docs/probleemoplossing/module_overstijgende_schermen/processen/lijst_processtappen.md)
-
+- [Detailscherm bewerk ja/nee stap](/docs/probleemoplossing/module_overstijgende_schermen/processen/detailscherm_bewerk_ja_nee_stap.md)
+- [Detailscherm Processtap](/docs/probleemoplossing/module_overstijgende_schermen/processen/detailscherm_processtap.md)
+- [Lijst bewerk ja/nee stappen](/docs/probleemoplossing/module_overstijgende_schermen/processen/lijst_bewerk_ja_nee_stappen.md)
+- [Lijst Processtappen](/docs/probleemoplossing/module_overstijgende_schermen/processen/lijst_processtappen.md)

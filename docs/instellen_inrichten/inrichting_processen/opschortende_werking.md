@@ -4,9 +4,9 @@ Wanneer tijdens de ontvankelijkheidtoets de aanvrager om aanvullende gegevens wo
 
 Wanneer de daadwerkelijke indiening echter plaatsvindt na de afgesproken datum dat ze ingediend zouden moeten zijn, dan geldt als opschortende termijn het aantal dagen tussen die afgesproken datum en de uitnodiging. Dit is de opschortende werking.
 
-In het kort komt het hierop neer dat één bepaalde processtap wordt aangewezen als de stap met de betekenis *Indiening van de gevraagde aanvullende gegevens*. Deze stap krijgt zoals alle stappen een streefdatum dat de gegevens ook daadwerkelijk ingediend worden. Het programma weet dan dat de periode die ligt tussen het (minimum van die streefdatum en de afgehandeld datum van deze indieningsstap) versus de afgehandeld datum van de direct daarvoor liggende stap beschouwd moet worden als het aantal op te schorten dagen.
+In het kort komt het hierop neer dat één bepaalde processtap wordt aangewezen als de stap met de betekenis _Indiening van de gevraagde aanvullende gegevens_. Deze stap krijgt zoals alle stappen een streefdatum dat de gegevens ook daadwerkelijk ingediend worden. Het programma weet dan dat de periode die ligt tussen het (minimum van die streefdatum en de afgehandeld datum van deze indieningsstap) versus de afgehandeld datum van de direct daarvoor liggende stap beschouwd moet worden als het aantal op te schorten dagen.
 
-Dit aantal op te schorten dagen wordt sowieso opgeteld bij de fatale datum op het basisscherm van de vergunningsaanvraag mits de instelling *Sectie: Termijnbewaking en Item: Omgeving_BerOpschAanvProces* (bij omgevingszaken) aangevinkt is. Voor APV/Overige zaken is dit de instelling *Sectie: Termijnbewaking en Item: APVOverig_BerOpschAanvProces*.
+Dit aantal op te schorten dagen wordt sowieso opgeteld bij de fatale datum op het basisscherm van de vergunningsaanvraag mits de instelling _Sectie: Termijnbewaking en Item: Omgeving_BerOpschAanvProces_ (bij omgevingszaken) aangevinkt is. Voor APV/Overige zaken is dit de instelling _Sectie: Termijnbewaking en Item: APVOverig_BerOpschAanvProces_.
 De opschortende werking van aanvullende gegevens kan ook via de aparte tabel tbopschorten worden geregeld.
 Zie hiervoor: [Opschorten/Verlengen](/docs/probleemoplossing/module_overstijgende_schermen/opschorten_verlengen.md).
 
@@ -37,9 +37,9 @@ Wanneer de afgehandeld-stap wordt gevuld begint de opschortende werking-teller t
 
 ![](/img/applicatiebeheer/instellen_inrichten/inrichting_processen/stap_40.w.600_tok.dbe965.jpeg){ class="media" loading="lazy" alt="" width="600" }
 
-Het programma weet dat bovenstaande stap 40 de stap is waar het om gaat bij de indiening van de aanvullende gegevens. Daarom is hier de optie *Deze stap is de ontvangst van de aanvullende gegevens* aangezet.
+Het programma weet dat bovenstaande stap 40 de stap is waar het om gaat bij de indiening van de aanvullende gegevens. Daarom is hier de optie _Deze stap is de ontvangst van de aanvullende gegevens_ aangezet.
 
-Door *Deze stap is de ontvangst van de aanvullende gegevens* op ja te zetten weet het programma ook - bij afspraak - dat de stap ervoor de uitnodiging daartoe is, en dat het verschil tussen de twee afgehandeld datums de opschortende werking bepaalt.
+Door _Deze stap is de ontvangst van de aanvullende gegevens_ op ja te zetten weet het programma ook - bij afspraak - dat de stap ervoor de uitnodiging daartoe is, en dat het verschil tussen de twee afgehandeld datums de opschortende werking bepaalt.
 
 1. Wanneer de afhandeldatum eerder dan of gelijk is aan de streefdatum wordt het verschil bij de fatale datum bijgeteld.
 2. Wanneer de afhandeldatum groter is dan de streefdatum wordt het verschil in dagen ook bij de fatale datum opgeteld.
@@ -52,13 +52,13 @@ Kortom:
 - komen de stukken bv. na 5 weken binnen (1 week te laat dus) dan zou de fatale datum dus met 5 weken worden verlengd.
 
 Echter er is nu een instelling bijgekomen in de Configuratie die ervoor zorgt dat er alleen 4 weken bij de fatale datum (oftewel de periode die gedefinieerd is in de streefdatum) bijgeteld wordt.
-Deze instelling is: *Sectie: Processen, Item: FataleDatumMax* (moet worden aangevinkt) en moet men zelf aanmaken indien gewenst.
+Deze instelling is: _Sectie: Processen, Item: FataleDatumMax_ (moet worden aangevinkt) en moet men zelf aanmaken indien gewenst.
 
 Er staat dat de volgende stap 50, besluit ontvankelijkheid, 5 dagen na indiening van de aanvullende gegevens moet worden genomen.
 
-Met het vinkje *Streefdatum verandert niet mee met invulling afhandeldatums* wordt aangegeven dat de deadline van het 'besluit volledigheid' wordt berekend op het moment dat het proces voor het eerst wordt opgehaald, en dat deze waarde daarna niet meer aangepast wordt, behalve voor het effectueren van de opschort-periode.
+Met het vinkje _Streefdatum verandert niet mee met invulling afhandeldatums_ wordt aangegeven dat de deadline van het 'besluit volledigheid' wordt berekend op het moment dat het proces voor het eerst wordt opgehaald, en dat deze waarde daarna niet meer aangepast wordt, behalve voor het effectueren van de opschort-periode.
 
-Wanneer de optie *Streefdatum verandert niet mee met invulling afhandeldatums* niet aangevinkt zou staan, en er is sprake van indiening aanvullende gegevens, dan zou volgens bovenstaande voorbeeld het 'besluit volledigheid' 5 dagen na de indiening van die aanvullende gegevens liggen vermeerderd met de opschort-periode.
+Wanneer de optie _Streefdatum verandert niet mee met invulling afhandeldatums_ niet aangevinkt zou staan, en er is sprake van indiening aanvullende gegevens, dan zou volgens bovenstaande voorbeeld het 'besluit volledigheid' 5 dagen na de indiening van die aanvullende gegevens liggen vermeerderd met de opschort-periode.
 
 Bovenstaand proces is echter zo gemaakt dat de hele ontvankelijkheid altijd een vastgestelde periode duurt, eventueel vermeerderd met de opschortperiode.
 
@@ -70,10 +70,10 @@ De stapeling van ontvankelijkheid en daarop de Reguliere procedure kan dan in de
 
 Dit is natuurlijk een keuze:
 
-- Wil ik altijd dezelfde ruimte hebben om een vergunningsaanvraag af te handelen: regel dan de processen in met de volgende stap gebaseerd op de streefdatum van de vorige stap of door - zoals in bovenstaand voorbeeld - de laatste stap te voorzien van het vinkje *Streefdatum verandert niet mee met invulling afhandeldatums*  
-- Richt ik de processen zo in, dat waar mogelijk, het behandelproces vóór de wettelijke termijn afgerond kan zijn: regel dan de processen in met de volgende stappen zoveel mogelijk gebaseerd op afgehandeld datums.  
-
+- Wil ik altijd dezelfde ruimte hebben om een vergunningsaanvraag af te handelen: regel dan de processen in met de volgende stap gebaseerd op de streefdatum van de vorige stap of door - zoals in bovenstaand voorbeeld - de laatste stap te voorzien van het vinkje _Streefdatum verandert niet mee met invulling afhandeldatums_
+- Richt ik de processen zo in, dat waar mogelijk, het behandelproces vóór de wettelijke termijn afgerond kan zijn: regel dan de processen in met de volgende stappen zoveel mogelijk gebaseerd op afgehandeld datums.
 
 > [!IMPORTANT] **Belangrijk**
-> - Er kan maar één bepaalde processtap wordt aangewezen als de stap met de betekenis *Indiening van de gevraagde aanvullende gegevens*. Als processen worden gestapeld (dus bijvoorbeeld de stappen van de ontvankelijkheidstoets laten volgen door stappen van de uitgebreide inhoudelijke toets) dan geldt ook dat voor alle stappen bij elkaar hooguit eentje de eigenschap *uitzondering ontvankelijkheid* mag hebben.
-> - Er mag in dezelfde opstapeling van processtappen ook maar één stap aangewezen zijn waarbij de optie *Opschortende werkingstermijn wordt bij deze stap opgeteld?* is aangevinkt.
+>
+> - Er kan maar één bepaalde processtap wordt aangewezen als de stap met de betekenis _Indiening van de gevraagde aanvullende gegevens_. Als processen worden gestapeld (dus bijvoorbeeld de stappen van de ontvankelijkheidstoets laten volgen door stappen van de uitgebreide inhoudelijke toets) dan geldt ook dat voor alle stappen bij elkaar hooguit eentje de eigenschap _uitzondering ontvankelijkheid_ mag hebben.
+> - Er mag in dezelfde opstapeling van processtappen ook maar één stap aangewezen zijn waarbij de optie _Opschortende werkingstermijn wordt bij deze stap opgeteld?_ is aangevinkt.

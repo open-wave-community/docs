@@ -8,28 +8,27 @@ De rijen uit de view vwfrmswfruimte dat zijn alle samenwerkingsruimtes per omgev
 
 Boven op de where clausules van de view is de volgende extra restrictie van kracht:
 
-  * de status van de ruimte is *GESLOTEN*
-  * de ruimte is nog niet verwijderd in de samenwerkingsruimte van het DSO.
+- de status van de ruimte is _GESLOTEN_
+- de ruimte is nog niet verwijderd in de samenwerkingsruimte van het DSO.
 
 Zie: [Samenwerkingsfunctionaliteit](/docs/instellen_inrichten/samenwerkingsfunctionaliteit.md).
 
 ## Rechten
 
-De lijst kan alleen opgevraagd worden door een medewerker die lid is van een rechtengroep met het omgevingsrecht *Samenwerkingsruimte - Zichtbaar* (tbomgrechten.dlcomgswfvsb).
+De lijst kan alleen opgevraagd worden door een medewerker die lid is van een rechtengroep met het omgevingsrecht _Samenwerkingsruimte - Zichtbaar_ (tbomgrechten.dlcomgswfvsb).
 
 ## Problemen
 
-  * De lijst geeft een foutmelding:
-    * Er is mogelijk een zelf gedefinieerde schermindeling gebruikt (Schermkolomdefinitie onder Beheer) die niet valide is.
+- De lijst geeft een foutmelding:
+  - Er is mogelijk een zelf gedefinieerde schermindeling gebruikt (Schermkolomdefinitie onder Beheer) die niet valide is.
 
 ## Triggers
 
 Welke zijn van toepassing op deze lijst?
 
-  * pagingknoppen rechtsboven: aanwezig indien aantal rijen groter dan de instelling *Getal1* van tbinitialisatie *Sectie: paging* en *Item: pagesize* (defaultwaarde = 100)
-  * klikken op regel verwijst altijd door naar de achterliggende zaak
-  * zoekeditbox rechtsonder: altijd aanwezig
-  * versie-informatie rechtsonder (hierop klikken en screensource = tbscreencolumns geeft aan of er een afwijkende schermkolommen definitie gebruikt wordt)
-  * de knop *Detailgegevens* linksonder. Deze knop toont de detailgegevens van de SWF-ruimte van de geselecteerde regel
-  * de knop *dowload als excel* linksonder. Met deze knop is het mogelijk om de getoonde lijst te exporteren naar Excel.
-
+- pagingknoppen rechtsboven: aanwezig indien aantal rijen groter dan de instelling _Getal1_ van tbinitialisatie _Sectie: paging_ en _Item: pagesize_ (defaultwaarde = 100)
+- klikken op regel verwijst altijd door naar de achterliggende zaak
+- zoekeditbox rechtsonder: altijd aanwezig
+- versie-informatie rechtsonder (hierop klikken en screensource = tbscreencolumns geeft aan of er een afwijkende schermkolommen definitie gebruikt wordt)
+- de knop _Detailgegevens_ linksonder. Deze knop toont de detailgegevens van de SWF-ruimte van de geselecteerde regel
+- de knop _dowload als excel_ linksonder. Met deze knop is het mogelijk om de getoonde lijst te exporteren naar Excel.

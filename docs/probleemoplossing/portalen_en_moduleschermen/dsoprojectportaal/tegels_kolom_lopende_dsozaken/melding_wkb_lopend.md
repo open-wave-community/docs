@@ -2,45 +2,44 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm van de *Lopende zaken van type Melding WKB* bij een DSO project.
+De tegel is een trigger voor het lijstscherm van de _Lopende zaken van type Melding WKB_ bij een DSO project.
 
-  * De tegel is alleen zichtbaar voor inlogger wanneer: 
-    * deze aan hem/haar is toegekend 
-    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert:
-      * de tegel is zichtbaar als er voor dit DSO project openstaande omgevingszaken (besluitdatum niet gevuld) zijn van DSO type *Melding* OF *Melding gelijkwaardige maatregel* en er WEL activiteiten met eigenschap *WKB* aanwezig zijn voor deze zaken
-  * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert:
+    - de tegel is zichtbaar als er voor dit DSO project openstaande omgevingszaken (besluitdatum niet gevuld) zijn van DSO type _Melding_ OF _Melding gelijkwaardige maatregel_ en er WEL activiteiten met eigenschap _WKB_ aanwezig zijn voor deze zaken
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Probleem
 
 Het dynamische opschrift op tegels is niet zichtbaar:
 
-  * indien foutieve queryverwijzing (codering *dso_meldingwkb_lopend*) 
-  * indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
-  * indien inlogger geen recht heeft om query uit te voeren 
-  * indien de kolom *altijd verversen* (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
+- indien foutieve queryverwijzing (codering _dso_meldingwkb_lopend_)
+- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien inlogger geen recht heeft om query uit te voeren
+- indien de kolom _altijd verversen_ (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-  *  Portaal: *dsoprojectportaal*
-  *  Kolom: *Lopende DSO-Zaken* 
-  *  Kopregel: *Melding WKB*
-  *  Dynamisch tegelopschrift: *getTileContent(dso_meldingwkb_lopend,{id})*
-  *  Actie: *getFlexList(SysStandardList,tbdsoproject,{id},nil,dso_meldingwkb_lopend)*
-  *  Onzichtbaar indien result van de volgende select 0 is:
+- Portaal: _dsoprojectportaal_
+- Kolom: _Lopende DSO-Zaken_
+- Kopregel: _Melding WKB_
+- Dynamisch tegelopschrift: _getTileContent(dso_meldingwkb_lopend,{id})_
+- Actie: _getFlexList(SysStandardList,tbdsoproject,{id},nil,dso_meldingwkb_lopend)_
+- Onzichtbaar indien result van de volgende select 0 is:
 
 ```sql
-select case when 
-   (select count(*) from tbomgvergunning 
-    where dnkeydsoproject = {id} 
-    and (lower(dvdsoverzoektype) = 'melding' 
-         OR lower(dvdsoverzoektype) = 'melding gelijkwaardige maatregel') 
-    and ddbesluitdatum is null 
-    and (lower(dvdsoverzoekdoel) <> ''vooroverleg'' and lower(dvdsoverzoekdoel) <> ''conceptverzoek'') 
-    and dnkey in (select dnkeyomgvergunningen from tbtoestemmingen 
-                  where dnkeysrttoestemming in (select dnkey from tbsrttoestemming 
-                                                where dliswkb = 'T'))) >= 1 
+select case when
+   (select count(*) from tbomgvergunning
+    where dnkeydsoproject = {id}
+    and (lower(dvdsoverzoektype) = 'melding'
+         OR lower(dvdsoverzoektype) = 'melding gelijkwaardige maatregel')
+    and ddbesluitdatum is null
+    and (lower(dvdsoverzoekdoel) <> ''vooroverleg'' and lower(dvdsoverzoekdoel) <> ''conceptverzoek'')
+    and dnkey in (select dnkeyomgvergunningen from tbtoestemmingen
+                  where dnkeysrttoestemming in (select dnkey from tbsrttoestemming
+                                                where dliswkb = 'T'))) >= 1
   then 1 else 0 end
 ```
-

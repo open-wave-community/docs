@@ -2,18 +2,18 @@
 
 ## Trigger
 
-De tegel is een trigger voor de view van mogelijke *Energieverbruik-categorieën*.
+De tegel is een trigger voor de view van mogelijke _Energieverbruik-categorieën_.
 
-* De tegel is alleen zichtbaar voor inlogger wanneer:
-  * deze aan hem/haar is toegekend
-  * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
-* Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  - deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-* Portaal: *Inrichtingenbeheer*
-* Kolom: *Controle en Maatregelen*
-* Vast opschrift: *Energie verbruik;categorie*
-* Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_vwfrmmilverbruikcat)*
+- Portaal: _Inrichtingenbeheer_
+- Kolom: _Controle en Maatregelen_
+- Vast opschrift: _Energie verbruik;categorie_
+- Actie: _getFlexList(SysStandardList,nil,nil,G,beheer_vwfrmmilverbruikcat)_

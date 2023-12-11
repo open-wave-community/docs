@@ -5,7 +5,7 @@ Er zijn in OpenWave op dit moment twee functietoetsen te gebruiken, te weten F8 
 ### F8
 
 Het indrukken van de F8 toets in een memoveld (oftewel kolommen van het type memo of flexmemo) heeft tot gevolg dat op de plaats van de cursor de datum uitgeschreven wordt gevolgd door de medewerkerscode.
-Bijvoorbeeld:  18-06-10-2019  (TP)
+Bijvoorbeeld: 18-06-10-2019 (TP)
 
 Daarnaast is de functietoets F8 in datumvelden te gebruiken voor het vullen met de systeemdatum (datum van vandaag).
 Bijvoorbeeld bij Openstaande processtappen waarbij veel datumvelden zo makkelijker gevuld kunnen worden.
@@ -19,9 +19,9 @@ Zie bijvoorbeeld bij schermkolominformatie [Schermdefinitie](/docs/instellen_inr
 
 #### Werking in opmerking/toelichting kolommen
 
-* *Memo’s* bij een zaak of inrichting
-* Het veld *Opmerking* op het detailscherm van een Inspectietraject
-* Het veld *Bezoekverslag* bij een Inspectiebezoek
-* Het veld *Toelichting* op het Omgevingszaakdetailscherm
-* Het veld *Toelichting* op het APV/overige zaakdetailscherm
-* Het veld *Opmerking* op het Bezwaar/Beroep detailscherm.
+- _Memo’s_ bij een zaak of inrichting
+- Het veld _Opmerking_ op het detailscherm van een Inspectietraject
+- Het veld _Bezoekverslag_ bij een Inspectiebezoek
+- Het veld _Toelichting_ op het Omgevingszaakdetailscherm
+- Het veld _Toelichting_ op het APV/overige zaakdetailscherm
+- Het veld _Opmerking_ op het Bezwaar/Beroep detailscherm.

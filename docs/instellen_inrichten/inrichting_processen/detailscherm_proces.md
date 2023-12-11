@@ -12,8 +12,8 @@ Een proces kan gelden voor een specifiek compartiment. Dat betekent dat alleen b
 
 Het volgnummer van een proces is van belang. Processen kunnen gestapeld worden: dus nadat het ene proces is gekozen kan een tweede of een derde proces worden toegevoegd. Bij het toevoegen of stapelen van processen zal het programma de termijnstappen invoegen op basis van het volgnummer van het proces. Er zijn daar twee beperkingen:
 
-* Er kan geen proces ingevoegd worden met een lager volgnummer dan de eerst gekozen proces tenzij de instelling *Sectie: Processen en Item: VolgordeVrij* is aangevinkt.
-* Er kan niet twee keer dezelfde proces worden ingevoegd tenzij de eigenschap *Meer keer oproepbaar* aangevinkt staat.
+- Er kan geen proces ingevoegd worden met een lager volgnummer dan de eerst gekozen proces tenzij de instelling _Sectie: Processen en Item: VolgordeVrij_ is aangevinkt.
+- Er kan niet twee keer dezelfde proces worden ingevoegd tenzij de eigenschap _Meer keer oproepbaar_ aangevinkt staat.
 
 ## Van toepassing op
 
@@ -25,7 +25,7 @@ Indien deze optie staat aangevinkt heeft dat tot gevolg dat het betrokken proces
 
 ## Stappen chronologisch afwerken
 
-Indien deze optie is aangevinkt (dlmoetstapvoorstap) dan heeft dat tot gevolg dat de processtappen bij dat proces bij een zaak één voor één moeten worden afgehandeld. Alleen de stappen met een reeds gevulde afgehandeld datum EN de stap met de eerstvolgende LEGE afgehandeld datum zijn muteerbaar. De overige stappen zijn wel zichtbaar, maar disabled. OpenWave gaat er vanuit dat de streefdatums per proces verschillend zijn (dus de termijnen van stap a naar stap b altijd minimaal een dag).
+Indien deze optie is aangevinkt (dlmoetstapvoorstap) dan heeft dat tot gevolg dat de processtappen bij dat proces bij een zaak één voor één moeten worden afgehandeld. Alleen de stappen met een reeds gevulde afgehandeld datum en de stap met de eerstvolgende LEGE afgehandeld datum zijn muteerbaar. De overige stappen zijn wel zichtbaar, maar disabled. OpenWave gaat er vanuit dat de streefdatums per proces verschillend zijn (dus de termijnen van stap a naar stap b altijd minimaal een dag).
 
 Bovendien werkt dit alleen goed indien de opeenvolgende stappen ook qua streefdatum chronologisch oplopend zijn (dus als stap a verwijst naar stap b als volgende stap en stap b verwijst naar stap c, dan moeten de streefdatum van c groter zijn dan die van b en die van b moet groter zijn dan die van a.
 

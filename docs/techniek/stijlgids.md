@@ -21,4 +21,3 @@ stukje over woordkeuze, afkortingen enz.
 ### Functionaliteit lemma
 
 ### Configuratie instelling
-

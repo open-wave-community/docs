@@ -2,19 +2,18 @@
 
 ## Trigger
 
-De tegel is een trigger voor tonen van het overzicht van de codetabel *Milieu Belastende activiteiten*. Voor de definitie van de lijst zie beheertabel *tabellen standaardapi* (tbsysstandardtable.dvcode = *beheer_tbmilcodemba)*.
+De tegel is een trigger voor tonen van het overzicht van de codetabel _Milieu Belastende activiteiten_. Voor de definitie van de lijst zie beheertabel _tabellen standaardapi_ (tbsysstandardtable.dvcode = _beheer_tbmilcodemba)_.
 
-  *  De tegel is alleen zichtbaar voor inlogger wanneer:
-    * deze aan hem/haar is toegekend 
-    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert. 
-  * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
+- De tegel is alleen zichtbaar voor inlogger wanneer:
+  \*deze aan hem/haar is toegekend
+  - de evaluatie van het _SQL statement onzichtbaar_ bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
+- Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-  * Portaal: *inrichtingenbeheer*
-  * Kolom: *Registratie en Veiligheid*
-  * Kopregel: *MBA-coderingen*
-  * Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbmilcodemba)*
-
+- Portaal: _inrichtingenbeheer_
+- Kolom: _Registratie en Veiligheid_
+- Kopregel: _MBA-coderingen_
+- Actie: _getFlexList(SysStandardList,nil,nil,G,beheer_tbmilcodemba)_
