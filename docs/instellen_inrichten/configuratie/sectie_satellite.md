@@ -6,8 +6,8 @@ Let op: elk compartiment heeft zijn eigen instellingen m.b.t. satellite (beheerp
 
 ## Items Configuratietabel
 
-| Item                     | Kolom        | Omschrijving                                                                                                                                                              |
-| ------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Item                     | Kolom        | Omschrijving |
+| ------------------------ | ------------ | ------------ |
 | AllowAllHostnameVerifier | Aanvinkvakje | Indien aangevinkt zal de OpenWave Cloud instemmen met een self-signed of verlopen certificaat van de satellite-server bij een verbinding onder https.                     |
 |                          | Aanvinkvakje | Indien aangevinkt zullen de berichten van de Cloud naar de satellite gaan onder httpsauthenticatie.                                                                       |
 | ChunkMbsize              | Getal1       | In _Getal1_ komt de grootte van de chunks in Mb te staan. Een document kan namelijk worden opgeknipt in chunks. Alleen een integer is toegestaan (default waarde = 1 Mb). |
