@@ -1,0 +1,29 @@
+Sectie Sessie
+=============
+
+Hieronder de instellingen uit de
+`configuratietabel </docs/instellen_inrichten/configuratie.md>`__
+(tbinitialisatie) van de *Sectie: Sessie* gerangschikt op item.
+
+Items Configuratietabel
+-----------------------
+
++---------------------+--------------+-------------------------------+
+| Item                | Kolom        | Omschrijving                  |
++=====================+==============+===============================+
+| AlwaysCreateSession | Aanvinkvakje | Indien aangevinkt wordt bij   |
+|                     |              | de overdracht van OnlyOffice  |
+|                     |              | terug naar OpenWave altijd    |
+|                     |              | een nieuwe sessie aangemaakt  |
+|                     |              | voor de gebruiker. Default =  |
+|                     |              | False.                        |
++---------------------+--------------+-------------------------------+
+| MaxMinutesSession   | Getal1       | In *Getal1* staat het aantal  |
+|                     |              | minuten dat bij de begintijd  |
+|                     |              | van een bestaande sessie van  |
+|                     |              | een inlogger mag worden       |
+|                     |              | opgeteld bij bij de           |
+|                     |              | overdracht van OnlyOffice     |
+|                     |              | terug naar OpenWave. Default  |
+|                     |              | 30 minuten.                   |
++---------------------+--------------+-------------------------------+

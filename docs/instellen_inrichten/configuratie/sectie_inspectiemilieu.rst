@@ -1,0 +1,49 @@
+Sectie InspectieMilieu
+======================
+
+Hieronder de instellingen uit de
+`configuratietabel </docs/instellen_inrichten/configuratie.md>`__
+(tbinitialisatie) van de *Sectie: InspectieMilieu* gerangschikt op item.
+
+Items Configuratietabel
+-----------------------
+
++--------------------------+--------------+--------------------------+
+| Item                     | Kolom        | Omschrijving             |
++==========================+==============+==========================+
+| N                        | Aanvinkvakje | Indien aangevinkt dan    |
+| ietBlokkerenMetHoofdzaak |              | wordt de                 |
+|                          |              | inspectietrajectkaart    |
+|                          |              | (en overtredingen en     |
+|                          |              | bezoeken) niet           |
+|                          |              | mee-geblokkeerd tegen    |
+|                          |              | wijzigingen indien de    |
+|                          |              | bovenliggende zaak of    |
+|                          |              | inrichting wel is        |
+|                          |              | geblokkeerd              |
+|                          |              | (ddblokkering). Echter   |
+|                          |              | indien aangevinkt maar   |
+|                          |              | de afgerond datum van de |
+|                          |              | inspectietrajectkaart    |
+|                          |              | (ddcontrole) is gevuld,  |
+|                          |              | dan worden alsnog de     |
+|                          |              | onderliggende            |
+|                          |              | inspectiebezoeken en     |
+|                          |              | overtredingen            |
+|                          |              | geblokkeerd.             |
++--------------------------+--------------+--------------------------+
+| Rechtengroepen           | Tekst        | Hier kunnen - gescheiden |
+|                          |              | door puntkomma's' de     |
+|                          |              | dnkeys van de            |
+|                          |              | rechtengroepen           |
+|                          |              | (tbrechten) opgesomd     |
+|                          |              | worden die bedoeld zijn  |
+|                          |              | voor de inspecteurs.     |
+|                          |              | Bijvoorbeeld             |
+|                          |              | 1;13;210;340; Is dit het |
+|                          |              | geval dan laat de        |
+|                          |              | dropdownlist bij         |
+|                          |              | inspecties alleen        |
+|                          |              | medewerkers zien die lid |
+|                          |              | zijn van deze groepen.   |
++--------------------------+--------------+--------------------------+
