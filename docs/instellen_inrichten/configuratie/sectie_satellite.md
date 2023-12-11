@@ -20,8 +20,6 @@ Let op: elk compartiment heeft zijn eigen instellingen m.b.t. satellite (beheerp
 
 Het endpoint moet zijn:
 
-```
-https://xxxx:yyyy/services/nl.rem.satellite.published.Fileserver.nl.rem.satellite.published.FileserverHttpSoap12Endpoint/
-```
+`https://xxxx:yyyy/services/nl.rem.satellite.published.Fileserver.nl.rem.satellite.published.FileserverHttpSoap12Endpoint/`
 
 Op de plaats van de xxxx en de yyyy ip.nummer en poort.

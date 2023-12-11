@@ -18,7 +18,7 @@ Instellingen die nodig zijn om vanuit OpenWave een SMTP-server (uitgaande email)
     - the authentication username
     - the encrypted (rem-encryptie) authentication password
   - De kolom _Info_ bestaat indien smtp.authentication uit staat, alleen uit the host name of the mail.
-    ** Sectie: Web.mail* en Item: *smtp.starttls.enable\*. Aan of uitvinken. Default = uit. Indien aan gevinkt dan wordt STARTTLS encryptie aangezet bij het versturen van mail. Let op: de poort moet dan worden ingesteld op **587\**. Zie *Getal1* van instelling *Sectie: Web.mail en Item: transport.protocol\*.
+    ** Sectie: Web.mail*en Item: _smtp.starttls.enable\*. Aan of uitvinken. Default = uit. Indien aan gevinkt dan wordt STARTTLS encryptie aangezet bij het versturen van mail. Let op: de poort moet dan worden ingesteld op **587\*_. Zie _Getal1_ van instelling*Sectie: Web.mail en Item: transport.protocol\*.
 - In de kolom _Tekst_ van _Sectie: Web.mail en Item: smtp.ssl.protocols_ kan de TLS-versie worden opgegeven. Aangeraden wordt TLSv1.2. Meerdere opties kunnen worden opgegeven gescheiden door een spatie bijvoorbeeld: TLSv1.1 TLSv1.2. Indien leeg gelaten dan wordt het aan de server overgelaten. Mogelijke opties:
   - TLSv1
   - TLSv1.1

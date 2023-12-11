@@ -8,6 +8,7 @@ De Editschuif rechtsboven op de detailpagina's kan zijn:
 
 Default: bij het ontbreken van bovenstaande instelling is de schuif zichtbaar met status _uit_.
 
-**LET OP**: na het wijzigen van deze instelling moet u opnieuw inloggen om resultaat te zien.
+> [!WARNING]
+> **LET OP**: na het wijzigen van deze instelling moet u opnieuw inloggen om resultaat te zien.
 
 Per (detail)scherm kan van bovenstaande algemene editschuif-instelling afgeweken worden. De instelling wordt in dat geval overruled naar AAN mits de inlogger edit-rechten heeft op dat scherm. Zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md).

@@ -39,20 +39,18 @@ Die variabelen die gebruikt kunnen worden in de kolom _Tekst_ van de instelling 
 
 **Voorbeeld 1 zaakpagina van een DMS**
 
-```
-https://docs.ecm2.nl/share/page/repository#filter=path%7C%2FOpenWave%2FOmgeving%2F%zaakjaar%%2F%zaaknr%&page=1
-```
+`https://docs.ecm2.nl/share/page/repository#filter=path%7C%2FOpenWave%2FOmgeving%2F%zaakjaar%%2F%zaaknr%&page=1`
 
 wordt bij het uitvoeren van de link bijvoorbeeld omgezet in:
 
-`[https://docs.ecm2.nl/share/page/repository#filter=path%7C%2FOpenWave%2FOmgeving%2F](https://docs.ecm2.nl/share/page/repository#filter=path%7C%2FOpenWave%2FOmgeving%2F.md)**2016**%2F**2016W0074**&page=1`
+`https://docs.ecm2.nl/share/page/repository#filter=path%7C%2FOpenWave%2FOmgeving%2F2016%2F2016W0074&page=1`
 
 **Voorbeeld 2 zaakpagina van een DMS**
 
-`[http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/%dmsnr%](http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/%dmsnr%.md)`
+`http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/%dmsnr%`
 wordt bij het uitvoeren van de link bijvoorbeeld omgezet in:
 
-`[http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/](http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/.md)**1200023**`
+`http://dms-test.onegov.nl:40081/_layouts/15/qnh.dms.modules.openwave/documents.aspx/z/1200023`
 
 **Voorbeeld 3 naar map op fileshare**
 
@@ -60,9 +58,7 @@ Werkt waarschijnlijk alleen met Internet Explorer/Edge en indien fileshare binne
 
 Is dit het geval dan kan ook naar een plek op het filesysteem worden verwezen, waarbij Explorer op de gewenste map opstart. De constructie in de instelling moet dan iets dergelijks zijn als:
 
-```
-file://///URANUS/Organisatie/Wave/%zaakjaar%/%zaaknr%
-```
+`file://///URANUS/Organisatie/Wave/%zaakjaar%/%zaaknr%`
 
-**Let op:** na file volgen de 5 slashes.
-Zie ook toepassing via kolom hyperlink ([Hyperlink](/docs/instellen_inrichten/hyperlink.md)).
+> [!WARNING]
+> **Let op:** na file volgen de 5 slashes. Zie ook toepassing via kolom hyperlink ([Hyperlink](/docs/instellen_inrichten/hyperlink.md)).

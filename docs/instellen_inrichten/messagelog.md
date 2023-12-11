@@ -70,8 +70,8 @@ _ De rubriek die toegekend wordt bij het exporteren van een zipfile naar een FTP
 
 ### Ingekomen StuFZaken berichten
 
-- zakLk01 (deze worden wel gelogd, maar alleen verwerkt indien tag <mutatiesoort> de waarde T heeft)
-- zakLK02 (deze worden wel gelogd, maar alleen verwerkt indien tag <mutatiesoort> de waarde T heeft)
+- zakLk01 (deze worden wel gelogd, maar alleen verwerkt indien tag `<mutatiesoort>` de waarde T heeft)
+- zakLK02 (deze worden wel gelogd, maar alleen verwerkt indien tag `<mutatiesoort>` de waarde T heeft)
 
 ### Uitgaande StufBAG berichten
 
@@ -123,8 +123,7 @@ Uitgaande API-berichten naar OpenWave Satellite om vanuit de Cloud een fileshare
 
 Er wordt alleen gelogd indien - naast de algemene instelling - het volgende geldt:
 
-- indien de zaak waar de documenten onder vallen behoort bij een compartiment, dan moet de kolom _Messagelog_ op de betreffende compartimentskaart (beheerportaal-Nieuw) aangevinkt zijn
-  *indien de zaak NIET valt onder een compartiment, dan moet de instelling *Sectie: Satellite en Item: Messagelog\* bestaan en aangevinkt zijn. Het gaat om de volgende methodes:
+- indien de zaak waar de documenten onder vallen behoort bij een compartiment, dan moet de kolom _Messagelog_ op de betreffende compartimentskaart (beheerportaal-Nieuw) aangevinkt zijn indien de zaak NIET valt onder een compartiment, dan moet de instelling _Sectie: Satellite_ en _Item: Messagelog_ bestaan en aangevinkt zijn. Het gaat om de volgende methodes:
 - deletemap
 - fileExist
 - getFileList (geef lijst met aanwezige documenten)

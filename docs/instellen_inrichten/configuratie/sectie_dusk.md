@@ -9,6 +9,6 @@ Voorbeelden voor berichtverkeer via de DUSK zie:
 
 ## Items Configuratietabel
 
-| Item    | Kolom        | Omschrijving                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Item    | Kolom        | Omschrijving |
+| ------- | ------------ | ------------ |
 | WIN1252 | Aanvinkvakje | Vanaf 1.29 is de OpenWave database in karakterset UTF-8. Dit betekent dat de database een groter aantal tekens aan kan dan voorheen. Het voorheen filteren van tekens die niet konden worden opgeslagen in de OpenWave database is daarom niet meer van toepassing. Indien in uitzonderlijke geval het toch nodig is dat berichtverkeer over DUSK WEL de oude filtering toepast van tekens, dan dient men deze instelling aan te maken en aan te vinken. |

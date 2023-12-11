@@ -1,6 +1,6 @@
 # Taskscheduler
 
-Portal: _beheerportaal-Nieuw)_, Kolom _Dieper Beheer_. Tegel _Taskscheduler_.
+Portal: _beheerportaal-Nieuw_, Kolom _Dieper Beheer_. Tegel _Taskscheduler_.
 
 Screenidentifiers:
 

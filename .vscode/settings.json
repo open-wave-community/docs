@@ -1,5 +1,8 @@
 {
-  "vs-code-prettier-eslint.prettierLast": true,
+  "vs-code-prettier-eslint.prettierLast": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
 }

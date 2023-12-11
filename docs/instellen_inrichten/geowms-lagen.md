@@ -42,14 +42,14 @@ In de tabel zijn ook niet-transparante basislagen opgenomen:
   - layer: 'grijs'
   - label: 'BRT Grijs'
 - URL: `[https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0](https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0.md)`
-  \*layer: 'pastel'
+  - layer: 'pastel'
   - label: 'BRT Pastel'
 - URL: `[https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0](https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0.md)`
-  *layer: 'water'
-  *label: 'BRT Water'
+  - layer: 'water'
+  - label: 'BRT Water'
 - URL: `[https://service.pdok.nl/hwh/luchtfotorgb/wmts/v1_0](https://service.pdok.nl/hwh/luchtfotorgb/wmts/v1_0.md)`
-  *layer: 'Actueel_ortho25'
-  *label: 'Luchtfoto\'s'
+  - layer: 'Actueel_ortho25'
+  - label: 'Luchtfoto\'s'
 
 De URL kan afwijken van bovenstaande.
 

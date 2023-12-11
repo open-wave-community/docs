@@ -33,7 +33,8 @@ Per module is er een apart recht dat bepaald of een medewerker het vinkje hoofdp
 
 OpenWave redeneert als volgt indien een zaak op een onbekend adres staat (dus: tbperceeladressen.dlonbekendadres is aangevinkt) en er is een hoofdprojectlocatie opgegeven onder de tegel _Projectlocaties/Kadastrale percelen_, dan zal in koptekst3 van het zaak/inrichtingportaal niet meer het lokatieadres uit tbperceeladressen komen te staan maar de opgegeven projectlocatieomschrijving (de kolom tbzaakkadperc.dvstraatnaam).
 
-**Let op**: Indien er in het beheer bij de portaaldefinitie eigen gedefinieerde kopteksten zijn dan zal de eigen gedefinieerde query van koptekst 3 leidend zijn.
+> [!WARNING]
+> **Let op**: Indien er in het beheer bij de portaaldefinitie eigen gedefinieerde kopteksten zijn dan zal de eigen gedefinieerde query van koptekst 3 leidend zijn.
 
 De kolom _Projectlocatie_ is van het type combobox.
 
@@ -52,7 +53,9 @@ het dropdownlijstje de keuze komen te staan voor 'Bevoegd gezag, straat y, proje
 Omgevingszaak 3 speelt zich af op een ANDER adres, namelijk in Gemeente X, straat K en huisnummer 0. Ook dit adres is een onbekend adres.
 In het detailscherm zal bij veld 'Projectlocatie' (indien nog leeg) hier in het dropdownlijstje NIET de keuze komen te staan voor 'Bevoegd gezag, straat y,
 project voorbeeld'. Deze komt immers niet voor bij een projectlocatie/kadastraal perceel onder een zaak die zich afspeelt op hetzelfde locatieadres.
-**Let op!** Wellicht ten overvloede: er kunnen dus meerdere projectlocaties zijn per zaak/inrichting maar alleen van de hoofdprojectlocatie zal de projectlocatieomschrijving in het zaakportaal (of inrichtingportaal) in de koptekst te zien zijn.
+
+> [!WARNING]
+> **Let op!** Wellicht ten overvloede: er kunnen dus meerdere projectlocaties zijn per zaak/inrichting maar alleen van de hoofdprojectlocatie zal de projectlocatieomschrijving in het zaakportaal (of inrichtingportaal) in de koptekst te zien zijn.
 
 ## Omschrijving van hoofdprojectlocatie in Werkvoorraad
 

@@ -36,11 +36,13 @@ OpenWave kan bij de aanroep van een action binnen die action-definitie de volgen
 - {id} kan alleen worden gebruikt bij een action die wordt uitgevoerd vanuit een lijstscherm (bijv. dubbelklikken op regel). De substring {id} wordt vervangen met de regel-id uit de lijst waar de gebruiker op dat moment op staat, die - meestal- de primary key bevat van de tabel waarop de lijst is gebaseerd.
 - Toepassing: Zie het record in standaardapi-tabel met code _beheer_queries_.
 
-> [!WARNING] > **Let op:** wordt niet door alle methodes ondersteund: zie hieronder
+> [!WARNING]
+> **Let op:** wordt niet door alle methodes ondersteund: zie hieronder
 
 - {kolomnaam_uit_onderliggendeview/tabel}. Werkt hetzelfde als {id} bij een action die wordt uitgevoerd vanuit een lijstscherm, bijv. {dnkeyopslag} waarbij deze string zal worden vervangen door de waarde van de kolom dnkeyopslag van de betreffende rij.
 
-> [!WARNING] > **Let op:** wordt niet door alle methodes ondersteund: zie hieronder.
+> [!WARNING]
+> **Let op:** wordt niet door alle methodes ondersteund: zie hieronder.
 
 ## Welke OpenWave methodes kunnen worden gebruikt?
 
@@ -56,8 +58,8 @@ Voor de onderstreepte items geldt dat de substring _{id}_ of _{kolomnaam}_ in de
   - param1 de waarde _#kaartoverzicht_ heeft, dan zal OpenWave de interne kaart openen met de gedefinieerde kaartlagen uit de beheertabel _GEO kaartlagen_. Zie o.a. voor centrering [Kaart](/docs/probleemoplossing/module_overstijgende_schermen/kaart.md)
   - param1 opgebouwd is als URI-aanroep voor openen of bewerken van een fileserver-document via een Microsoft-office pakket, dan zal OpenWave deze aanroep doorzetten in de URL-balk (met de juiste slashes) b.v. ms-word:ofe| u |file:/oxygen/users/pdeboer/LocalFileLinksTest.docx.
 
-> [!WARNING] **Let op:**
-> indien openTabPage vanuit een tegelaction wordt aangeroepen kunnen de parameters niet via een query aanroep worden gesubstitueerd. Dat moet in dat geval iets ingewikkelder via een flexaction: bijvoorbeeld de action op de tegel is `getflexaction(omgeving_complex_oorsprong,{id})` waarbij de aangeroepen query (in dit voorbeeld `omgeving_complex_oorsprong`) een openTabPage-aanroep dient te construeren zonder te substitueren variabelen zoals: `select 'openTabPage(#omgevingdetail/' | | dnkeyparentverg | |  ')' from tbomgvergunning where dnkey = {id}`
+> [!WARNING]
+> **Let op:** Indien openTabPage vanuit een tegelaction wordt aangeroepen kunnen de parameters niet via een query aanroep worden gesubstitueerd. Dat moet in dat geval iets ingewikkelder via een flexaction: bijvoorbeeld de action op de tegel is `getflexaction(omgeving_complex_oorsprong,{id})` waarbij de aangeroepen query (in dit voorbeeld `omgeving_complex_oorsprong`) een openTabPage-aanroep dient te construeren zonder te substitueren variabelen zoals: `select 'openTabPage(#omgevingdetail/' | | dnkeyparentverg | |  ')' from tbomgvergunning where dnkey = {id}`
 
 ### getFlexList
 
@@ -117,7 +119,8 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
 
 - Wat doet het?: In een hint-venster (ballontekst) behorende bij de knop waarmee deze methode wordt aangeroepen wordt een tekst getoond.
 
-> [!WARNING] **Let op:**
+> [!WARNING]
+> **Let op:**
 > de tag refresh bij de knop moet de waarde false hebben (of leeg zijn)
 
 - aanroep: getFlexBalloon(param1, param2):
