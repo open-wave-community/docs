@@ -55,7 +55,7 @@ Sterk aangeraden wordt om in het geval van een FTPS server (FTPS-LFTP)
 al deze instellingen mee te geven.
 
 .. note::
-     **Voorbeeld:**
+   **Voorbeeld:**
    *{"verifycertificate":false,"forcesslencryption":true,"sslprotectdata":true}*
 
 -  De volgende instellingen binnen de JSON zijn mogelijk:
@@ -122,7 +122,7 @@ operationslog-regel kan de zipfile gedownload worden naar de device van
 de gebruiker.
 
 .. warning::
-     de zipfiles kunnen heel groot worden. De
+   de zipfiles kunnen heel groot worden. De
    opslag van de zipfile in de operationslog is dus echt bedoeld voor
    kleinere TESTS!
 
@@ -169,7 +169,7 @@ worden weergegeven:
 ..
 
 .. warning::
-     dat het endpoint dat is ingevoerd wel degelijk
+   dat het endpoint dat is ingevoerd wel degelijk
    het juiste is. Let er ook op dat de instellingen als volgt zijn
    ingesteld bij "Settings": *"forcesslencryption":true* en
    *"sslprotectdata":true*.

@@ -20,7 +20,7 @@ afhankelijk van het aantal aanwezige contactpersonen met gevuld
 mailadres bij de zaak/inrichting.
 
 .. warning::
-     Uiteraard moet er wel vanuit OpenWave gemaild
+   Uiteraard moet er wel vanuit OpenWave gemaild
    kunnen worden. Hiervoor bestaan standaard mailinstellingen. Indien er
    al gemaild wordt naar de BAG en/of adviesinstanties, dan zijn deze
    instellingen al goed ingeregeld. Zie ook `sectie
@@ -249,7 +249,7 @@ afhankelijk van het aangevinkt zijn van de volgende instellingen:
 ..
 
 .. warning::
-    **Let op:** indien een document wordt gecreëerd bij een
+   **Let op:** indien een document wordt gecreëerd bij een
    zaak die geen extern zaak/DMS nummer heeft, dan worden bovenstaande
    metadata niet gevraagd (en het document wordt ook niet aan het DMS
    aangeboden).
@@ -314,6 +314,6 @@ aangevinkt, zal de verzender kunnen kiezen uit één of meer
 niet-vervallen geregistreerde documenten bij die zaak.
 
 .. warning::
-    **Let op:** overleg met de juiste personen in uw
+   **Let op:** overleg met de juiste personen in uw
    organisatie of het versturen van documenten per email toegestaan is
    alvorens u bijlagen in de email in de sjabloon toestaat.

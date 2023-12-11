@@ -15,7 +15,7 @@ gebruiker bekend moet zijn in OpenWave en op de SSO server. In OpenWave
 moeten deze aan elkaar worden gekoppeld.
 
 .. warning::
-     Tenzij anders aangegeven dan gaat het bij
+   Tenzij anders aangegeven dan gaat het bij
    configuratie items om items uit *Sectie: SingleSignOn*
 
 (Technische) Opmerkingen vooraf
@@ -60,7 +60,7 @@ dient men de volgende stappen te ondernemen:
 ..
 
 .. warning::
-    **Let op:** Om Single Sign-On te kunnen testen moet er een
+   **Let op:** Om Single Sign-On te kunnen testen moet er een
    gebruiker zijn gekoppeld vanuit OpenWave met de SSO server en vice
    versa moet er een gebruiker zijn gekoppeld op de SSO server met
    OpenWave. Voor deze laatste stap dient u contact op te nemen met uw
@@ -146,7 +146,7 @@ adresbalk is te zien:
 https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0?client_id=1111111-2222-3333-4444-55555555&amp;response_type=code&amp;scope=openid_profile&amp;state=123456789&amp;redirect_uri=https://www.open-wave.nl
 
 .. warning::
-    **Let op:** Aangeraden wordt om
+   **Let op:** Aangeraden wordt om
    met\ `jsonlint.com <https://jsonlint.com/.md>`__ te controleren of de
    configuratie JSON valide is. Wanneer de JSON niet valide is dan wordt
    de knop: "Inloggen met Single Sign On" onzichtbaar en kan niet worden
@@ -158,7 +158,7 @@ https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0?client_id=1111111-2222-
    geval een boolean (true/false) en behoeven geen aanhalingstekens.
 
 .. warning::
-     In de Authorisatie endpoint URL staat veelal aangegeven
+   In de Authorisatie endpoint URL staat veelal aangegeven
    met welke versie van een endpoint men te maken heeft. Een server
    biedt veelal v1.0 en v2.0 endpoints aan. Echter gaat het bij ADFS
    2016 en 2019 servers evenwel vaak om een v1.0 implementatie van
@@ -173,7 +173,7 @@ met versienummering:
 https://ditiseenadfsserver.nl/adfs/oauth2/authorize/v2.0
 
 .. warning::
-     Indien er een nonce wordt meegestuurd dan
+   Indien er een nonce wordt meegestuurd dan
    dient de volgende instelling te bestaan: *Sectie: PreInlog, Item:
    TussenMapSSO* met in kolom *Tekst* de waarde van de tussenmap
    (/tmp/openwave/sso/).
@@ -227,7 +227,7 @@ Een voorbeeld van de configuratie JSON wordt daarmee als volgt:
 ..
 
 .. warning::
-    **Let op:** Aangeraden wordt om
+   **Let op:** Aangeraden wordt om
    met\ `jsonlint.com <https://jsonlint.com/.md>`__ te controleren of de
    configuratie JSON valide is. Wanneer de JSON niet valide is dan wordt
    de knop: "Inloggen met Single Sign On" onzichtbaar en kan niet worden
@@ -261,7 +261,7 @@ serverconfiguratie. \| **Server** \| **SSO serverversie** \| **Waarde**
 (2.0) \| \| Azure Active Directory \| 2.0 \| oid \|
 
 .. warning::
-    **Let op:** De SSO gebruikersnaam is
+   **Let op:** De SSO gebruikersnaam is
    hoofdlettergevoelig. In het geval van een oid is dit een string met
    cijfers en letters.
 
@@ -334,7 +334,7 @@ ervaart dient men contact op te nemen met de eigen ICT-afdeling voor het
 controleren van het wachtwoord en de gebruikersnaam.
 
 .. warning::
-    **Let op:** Indien men eenmaal succesvol is ingelogd in
+   **Let op:** Indien men eenmaal succesvol is ingelogd in
    OpenWave via Single Sign-On dan hoeft men niet meer opnieuw
    inloggegevens in te vullen. Dit geldt voor zowel het sluiten van alle
    OpenWave instanties (tabbladen) als de browser. Dit is van toepassing

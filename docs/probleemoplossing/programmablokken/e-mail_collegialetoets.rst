@@ -32,7 +32,7 @@ Noodzakelijke instellingen
 ..
 
 .. note::
-     **Goed om te weten**: er zal bij opstellen van de mail niet
+   **Goed om te weten**: er zal bij opstellen van de mail niet
    gekeken worden naar of er input parameters bij het sjabloon staan
    opgegeven, eveneens wordt er niet gekeken naar eigenschappen als
    *Bijlagen toevoegen*, *Documentnaam* etc. De mail wordt niet

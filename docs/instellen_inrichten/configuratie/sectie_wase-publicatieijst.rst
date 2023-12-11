@@ -6,7 +6,7 @@ Hieronder de instellingen uit de
 item.
 
 .. warning::
-     er zijn meer instellingen van de *Sectie:
+   er zijn meer instellingen van de *Sectie:
    Wase-publicatielijst* die gebruikt worden door de (deprecated)
    publicatielijst van Rem: een aparte installatie die aangevraagde en
    afgehandelde zaken publiceert op een kaart met doorverwijzing naar
