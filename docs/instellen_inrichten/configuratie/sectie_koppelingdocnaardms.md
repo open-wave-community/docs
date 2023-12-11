@@ -9,11 +9,9 @@ OpenWave zal voor het verzenden van StUF Zaak/DMS berichten voor de nodige stuur
 | Item | Kolom | Omschrijving |
 |---|---|---|
 | AllowAllHostnameVerifier | Aanvinkvakje | Indien aangevinkt is zal de OpenWave Cloud instemmen met een self-signed of verlopen (server)certificaat bij een verbinding onder https met een DMS. |
-| AuteurVerplicht | Aanvinkvakje  | StUF bericht voor voegZaakdocumentToe. Indien aangevinkt:
-
-* zal de inlogger als auteur in het bericht worden meegegeven indien het gaat om een automatisch opgeslagen document op basis van sjabloon
-
-* zal *onbekend* als auteur worden meegegeven indien het gaat om een upload van een aangewezen document via de uploadwizard. |
+| AuteurVerplicht | Aanvinkvakje  | StUF bericht voor voegZaakdocumentToe. Indien aangevinkt: |
+| | | * zal de inlogger als auteur in het bericht worden meegegeven indien het gaat om een automatisch opgeslagen document op basis van sjabloon |
+| | | * zal *onbekend* als auteur worden meegegeven indien het gaat om een upload van een aangewezen document via de uploadwizard. |
 | Charset | Tekst | StUF bericht. Hier kan opgegeven worden welke charset in de transport header wordt gebruikt bijv. utf-8. (default is dat ISO-8859-1). |
 | ClientCertificaatNaam | Tekst | Indien er gebruik moet worden gemaakt van een client-certificaat (wordt geplaatst op de CONF-map van de WSAS server) dan staat hier de bestandnaam van dat certificaat. |
 | CertificaatPassword | Tekst | Indien er gebruik moet worden gemaakt van een client-certificaat dan staat hier het password (kan gecrypt worden opgeslagen. |
@@ -21,34 +19,17 @@ OpenWave zal voor het verzenden van StUF Zaak/DMS berichten voor de nodige stuur
 | DocumenttypeVerplicht | Aanvinkvakje | Indien aangevinkt zal de inlogger voor elk up te loaden document het documenttype moeten aanwijzen uit een keuzelijst dat wordt meegegeven in StUF bericht voor voegZaakdocumentToe en bij CMIS upload document. |
 | CloseConnectionOloDso | Aanvinkvakje | Indien aangevinkt dan wordt de databaseconnectie van een OLO/DSO bijlages die gestreamd naar de OpenWave server is gegaan niet nodeloos opengehouden in het geval dat de verwerking op zich laat wachten vanwege het wachten op het aanvraag/verzoekbericht. |
 | Domein | Tekst | Het domein bij HTTPS-authenticatie indien *HTTPAuthenticatieNaam* is aangevinkt. |
-| Externedoclink |Tekst| Indien gevuld en *Getal1* heeft de waarde 1  en een document wordt succesvol met StUF zaak/dms naar het DMS verzonden, waarbij dat document ook nog eens in OpenWave geregistreerd wordt, dan wordt  in de kolom tbcorrespondentie.dvurl een string geconstrueerd op basis van deze *Tekst* waarin de substrings %dmszaakcode% en %dmsdoccode%  on the fly worden vervangen door hun echte waarde bij het betreffende document.
-
-Een compartiment heeft hiertoe eigen instellingen (dvexternedoclink en dlextlinkautovul)|
-| |Getal1|zie hierboven|
+| Externedoclink |Tekst| Indien gevuld en *Getal1* heeft de waarde 1  en een document wordt succesvol met StUF zaak/dms naar het DMS verzonden, waarbij dat document ook nog eens in OpenWave geregistreerd wordt, dan wordt  in de kolom tbcorrespondentie.dvurl een string geconstrueerd op basis van deze *Tekst* waarin de substrings %dmszaakcode% en %dmsdoccode%  on the fly worden vervangen door hun echte waarde bij het betreffende document. Een compartiment heeft hiertoe eigen instellingen (dvexternedoclink en dlextlinkautovul)|
+| | Getal1|zie hierboven |
 | HTTPAuthenticatieNaam | Tekst | Naam voor authenticatie binnen https. |
 | | Aanvinkvakje  | Indien aangevinkt dan wordt de verzending over HTTPS geautoriseerd met naam en wachtwoord. |
 | HTTPAuthenticatiePass | Tekst | Wachtwoord voor authenticatie binnen HTTPS. Kan gecrypt zijn opgeslagen. |
 | HTTPAuthenticatieType | Tekst | Hier kan desgewenst het authenticatietype worden ingevuld: NTLM (versie 1) of Basic (default waarde). |
-| HTTPSoapAction_geefLijstZaakdocumenten_Lv01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor geefLijstZaakdocumenten: Indien zaak/DMS dan
-
-`[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) geefLijstZaakdocumenten_Lv01`. Indien (oude) stufzaken dan `[http://www.egem.nl/StUF/sector/zkn/0310/zakLv01](http://www.egem.nl/StUF/sector/zkn/0310/zakLv01.md)`.
-
-LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
-| HTTPSoapAction_geefZaakdocumentLezen_Lv01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor geefZaakdocumentLezen: Indien zaak/DMS dan `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) geefZaakdocumentLezen_Lv01`. Indien (oude) stufzaken dan `[http://www.egem.nl/StUF/sector/zkn/0310/edcLv01](http://www.egem.nl/StUF/sector/zkn/0310/edcLv01.md)`.
-
-LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
-| HTTPSoapAction_genereerDocumentIdentificatie_Di02  | Tekst | De kolom *Tekst* moet gevuld worden met juiste soapaction voor genereerDocumentIdentificatie t.b.v. voegZaakdocumentenToe:
-
-`http://www.egem.nl/StUF/sector/zkn/0310/genereerDocumentIdentificatie_Di02`
-
-LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan.
-|
-| HTTPSoapAction_updateZaakDocument_Di02 | Tekst | De kolom *Tekst*moet gevuld worden met juiste soapaction t.b.v. voegZaakdocumentenToe: `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) updateZaakdocument_Di02`.
-
-LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. Deze methode wordt gebruikt indien een StUF-document met OnlyOffice wordt bewerkt en weer opgeslagen onder de bestaande documentidentifier. |
-| HTTPSoapAction_voegZaakdocumentToe_Lk01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor voegZaakdocumentToe: Indien zaak/DMS dan `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) voegZaakdocumentToe_Lk01`. Indien (oude) stufzaken dan `[http://www.egem.nl/StUF/sector/zkn/0310/edcLk01](http://www.egem.nl/StUF/sector/zkn/0310/edcLk01.md)`.
-
-LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
+| HTTPSoapAction_geefLijstZaakdocumenten_Lv01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor geefLijstZaakdocumenten: Indien zaak/DMS dan `http://www.egem.nl/StUF/sector/zkn/0310/geefLijstZaakdocumenten_Lv01`. Indien (oude) stufzaken dan `http://www.egem.nl/StUF/sector/zkn/0310/zakLv01`. LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
+| HTTPSoapAction_geefZaakdocumentLezen_Lv01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor geefZaakdocumentLezen: Indien zaak/DMS dan `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) geefZaakdocumentLezen_Lv01`. Indien (oude) stufzaken dan `[http://www.egem.nl/StUF/sector/zkn/0310/edcLv01](http://www.egem.nl/StUF/sector/zkn/0310/edcLv01.md)`. LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
+| HTTPSoapAction_genereerDocumentIdentificatie_Di02  | Tekst | De kolom *Tekst* moet gevuld worden met juiste soapaction voor genereerDocumentIdentificatie t.b.v. voegZaakdocumentenToe: `http://www.egem.nl/StUF/sector/zkn/0310/genereerDocumentIdentificatie_Di02`. LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
+| HTTPSoapAction_updateZaakDocument_Di02 | Tekst | De kolom *Tekst*moet gevuld worden met juiste soapaction t.b.v. voegZaakdocumentenToe: `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) updateZaakdocument_Di02`. LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. Deze methode wordt gebruikt indien een StUF-document met OnlyOffice wordt bewerkt en weer opgeslagen onder de bestaande documentidentifier. |
+| HTTPSoapAction_voegZaakdocumentToe_Lk01 | Tekst | StUF-bericht. De kolom *Tekst* moet gevuld worden met juiste soapaction voor voegZaakdocumentToe: Indien zaak/DMS dan `[http://www.egem.nl/StUF/sector/zkn/0310/](http://www.egem.nl/StUF/sector/zkn/0310/.md) voegZaakdocumentToe_Lk01`. Indien (oude) stufzaken dan `[http://www.egem.nl/StUF/sector/zkn/0310/edcLk01](http://www.egem.nl/StUF/sector/zkn/0310/edcLk01.md)`. LET OP: het kan zijn dat deze *Tekst* tussen dubbele quootjes moet staan. |
 | | Getal1 | De verwerkingssoort van de gerelateerde bij *IsRelevantVoor* van het Voegzaakdocument bericht is hier instelbaar. Indien leeg of ongelijk aan 1, 2 of 3 dan 'T', indien 1 dan ook 'T', indien 2 dan 'I',  indien 3 dan 'W'. |
 | InboxmapOLO | Tekst | Een vaste map op de fileshare waar een derde partij OLO-bijlagen kan stallen door achter deze *inboxmapolo* een submap te creëren met als submapnaam het OLO-nummer. |
 | | Aanvinkvakje | Indien aangevinkt zal bij het opvragen van de documentenlijst bij een omgevingszaak, OpenWave de documenten op *inboxmapolo* verplaatsen naar de juiste map bij de zaak of naar het DMS via StUFVoegZaakDocumentToe. |
