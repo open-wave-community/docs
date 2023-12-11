@@ -4,15 +4,14 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item                      | Kolom        | Omschrijving                                                                                                                                                                                                                                                                                 |
-| ------------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| AllowAllHostnameVerifier  | Aanvinkvakje | Indien aangevinkt is zal de OpenWave Cloud instemmen met een self-signed of verlopen (server)certificaat bij een verbinding onder https.                                                                                                                                                     |
-| Charset                   | Tekst        | StUF bericht. Hier kan opgegeven worden welke charset in de transport header wordt gebruikt bijv. utf-8. (default is dat ISO-8859-1).                                                                                                                                                        |
-| ClientCertificaatNaam     | Tekst        | Deprecated. De client-certificaatnaam van het certificaat (zoals die op de map conf staat op de WSAS-server) dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_. |
-| ClientCertificaatPassword | Tekst        | Deprecated. Het (gecrypte) password van het certificaat dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_.                                                      |
-| ClientCertificaatType     | Tekst        | Deprecated. Het Certificaattype (default PKCS12) dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_.                                                             |
-| HTTPSoapAction            | Tekst        | Soapaction voor vraag-bericht                                                                                                                                                                                                                                                                |
-
+| Item | Kolom | Omschrijving |
+| ------------------------- | ------------ | -------------------------------- |
+| AllowAllHostnameVerifier | Aanvinkvakje | Indien aangevinkt is zal de OpenWave Cloud instemmen met een self-signed of verlopen (server)certificaat bij een verbinding onder https. |
+| Charset | Tekst | StUF bericht. Hier kan opgegeven worden welke charset in de transport header wordt gebruikt bijv. utf-8. (default is dat ISO-8859-1). |
+| ClientCertificaatNaam | Tekst | Deprecated. De client-certificaatnaam van het certificaat (zoals die op de map conf staat op de WSAS-server) dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_. |
+| ClientCertificaatPassword | Tekst | Deprecated. Het (gecrypte) password van het certificaat dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_. |
+| ClientCertificaatType | Tekst | Deprecated. Het Certificaattype (default PKCS12) dat nodig is voor goede ontvangst van het StUF-BG 310 bericht: vesLv01. Deze instelling is nu per gemeente te doen in de beheertabel tb33gemeente bij de kopjes _NHR-gegevens_. |
+| HTTPSoapAction | Tekst | Soapaction voor vraag-bericht |
 Voor Competent moet dit zijn: _ophalenVestiging_
 voor Stuf-BG moet dit zijn: `[http://www.egem.nl/StUF/sector/bg/0310/vesLv01](http://www.egem.nl/StUF/sector/bg/0310/vesLv01.md)`.
 LET OP: de soapactions kunnen ingesloten moeten zijn met dubbele quootjes. |

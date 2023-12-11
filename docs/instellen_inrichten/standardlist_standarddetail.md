@@ -55,15 +55,18 @@ De kaarten in de tabel tbSysStandardTable hebben een unieke codering. Elke kaart
 - **Kolomnaam blokkering (uit hoofdtabel/view)**(dvblokkeringfieldname ). Betekent dat indien de achterliggende waarde van deze kolom gevuld is, dat dan geen wijzigingen en deletes bij deze kaart kunnen plaatsvinden.
 - **Schermidentifier voor lijst** (dvlistscreenfilename). De unieke naam met de schermkolominformatie die verwijst naar tbscreencolumns.dvscreenfilename (beheertegel _Schermkolomdefinitie tabellen standaard-api_).
 
-> [!WARNING] > **Let op:** de conventie in OpenWave voor lijsten is MDLC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
+> [!WARNING]
+> **Let op:** de conventie in OpenWave voor lijsten is MDLC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
 
 - **Schermidentifier voor detail** (dvdetailscreenfilename). De unieke naam met de schermkolominformatie die verwijst naar tbscreencolumns.dvscreenfilename (beheertegel _Schermkolomdefinitie tabellen standaard-api_).
 
-> [!WARNING] > **Let op:** de conventie in OpenWave voor detailschermen is MDDC_getXXXXXXXXDetail.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
+> [!WARNING]
+> **Let op:** de conventie in OpenWave voor detailschermen is MDDC_getXXXXXXXXDetail.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
 
 - **Schermidentifier voor filter** (dvfilterscreenfilename). De unieke naam met de schermkolominformatie die verwijst naar tbscreencolumns.dvscreenfilename (beheertegel _Schermkolomdefinitie tabellen standaard-api_).
 
-> [!WARNING] > **Let op:** de conventie in OpenWave voor filterschermen is MDFC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
+> [!WARNING]
+> **Let op:** de conventie in OpenWave voor filterschermen is MDFC_getXXXXXXXXList.xml. Met de knop achter deze kolomnaam wordt naar de betreffende schermkaart in tbscreencolumns genavigeerd. Indien er nog geen kaart bestaat wordt deze automatisch aangemaakt.
 
 - **Kijkrechtenkolom (bijv. tbomgrechten.dlcomgadvvsb)** (dvauthvisiblefield). Een verwijzing naar een rechtenkolom waarvan de waarde T moet zijn voor de inlogger om de gevraagde lijst of detailpagina te bekijken. Indien ingevuld gaat deze kolom voor op de kolom _tbqueries.dvcode kijkrechten_.
 - **Muteerrechtenkolom (bijv. tbomgrechten.dlcomgadvedt)** (dvautheditfield). Een verwijzing naar een rechtenkolom waarvan de waarde T moet zijn voor de inlogger om de gevraagde lijst of detailpagina te muteren. Indien ingevuld gaat deze kolom voor op de kolom _tbqueries.dvcode wijzigrechten_.

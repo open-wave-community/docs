@@ -4,10 +4,10 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item                  | Kolom        | Omschrijving |
+| Item | Kolom | Omschrijving |
 | --------------------- | ------------ | ------------ |
-| AanhefContactpersonen | Tekst        | Hetgeen hier wordt gevuld vervangt bij de berekening van de briefaanhef (contacten-detailscherm) het woordje 'Geachte'.      |
-| AdresrolViaZaaktype   | Aanvinkvakje | Indien aangevinkt zal bij het handmatig aanmaken van een nieuwe zaak gekeken worden naar de kolom _verplichte adresrol_ (bijv. tbsoortomgverg.dvadressoortverpl) bij de zaaktypedefinitie. Indien die rol gevuld dan zal een contactpersoon onder die rol moeten worden toegevoegd. Indien die rol leeg is dan hoeft geen contactpersoon te worden toegevoegd. | Indien deze instelling niet is aangevinkt geldt dat bij alle type hoofdzaken een contactpersoon met de rol AVR moet worden toegevoegd (uitzondering: bij handhavingszaken is dit HPC). |
+| AanhefContactpersonen | Tekst | Hetgeen hier wordt gevuld vervangt bij de berekening van de briefaanhef (contacten-detailscherm) het woordje 'Geachte'. |
+| AdresrolViaZaaktype | Aanvinkvakje | Indien aangevinkt zal bij het handmatig aanmaken van een nieuwe zaak gekeken worden naar de kolom _verplichte adresrol_ (bijv. tbsoortomgverg.dvadressoortverpl) bij de zaaktypedefinitie. Indien die rol gevuld dan zal een contactpersoon onder die rol moeten worden toegevoegd. Indien die rol leeg is dan hoeft geen contactpersoon te worden toegevoegd. | Indien deze instelling niet is aangevinkt geldt dat bij alle type hoofdzaken een contactpersoon met de rol AVR moet worden toegevoegd (uitzondering: bij handhavingszaken is dit HPC). |
 | Afzemaildefvolg | Tekst | 1, 2 of 3. Indien 1 dan wordt default het emailadres (tbmedewerkers.dvemail) van de verzender voorgesteld als afzender, indien 2 dan het niet persoonlijke emailadres (dvnietperemail) van de verzender en 3 dan kolom _Tekst_ van de instelling _Sectie: Programma en Item: NoReplyEmailAdres._ Bij een compartiment kan deze default ook ingesteld worden in de kolom dvafzemaildefvolg. |
 | ApvAantCollegToetsZichtbaar | Aanvinkvakje |Indien aangevinkt dan zijn drie kolommen m.b.t. uitstaande en geretourneerde collegiale toetsen extra zichtbaar in de lijst met openstaande APV/Overige zaken: dnaantalctuitstaand, dnaantalctretour en dnaantalctgezien. |
 | BezwaarberoepDesktop | Aanvinkvakje |Deprecated. Indien aangevinkt kijkt het programma voor het plaatsen van het weegschaalicoontje op de #zi zakenlijst niet naar de tabel tbbezwaarberoep, maar naar de kolommen ddindieningbezwaar of ddrbindieningberoep van de hoofdzaak (die ook deprecated zijn). |

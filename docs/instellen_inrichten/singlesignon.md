@@ -23,7 +23,8 @@ Voor een succesvolle integratie van OpenWave binnen de SSO omgeving dient men de
 - **2.** **OpenWave koppelen aan SSO server**. Wanneer OpenWave is ingesteld op de desbetreffende SSO server dan kan met de verkregen gegevens OpenWave gekoppeld worden met de SSO server. Zie kopje _Koppeling OpenWave met Single Sign-On_ op deze pagina hoe dit te doen.
 - **3.** **Gebruikers uit OpenWave koppelen aan de SSO server**. Na het instellen bij stap 1 en 2 kunnen gebruikers uit OpenWave gekoppeld worden aan de SSO server. Vooraleer een gebruiker gekoppeld is, is het belangrijk dat deze gebruiker eerst wordt gekoppeld aan OpenWave op de SSO server. Dit is een actie voor uw ICT afdeling. Zie kopje _Koppeling OpenWave gebruiker met Single Sign-On_ op deze pagina voor meer informatie.
 
-**Let op**: Om Single Sign-On te kunnen testen moet er een gebruiker zijn gekoppeld vanuit OpenWave met de SSO server en vice versa moet er een gebruiker zijn gekoppeld op de SSO server met OpenWave. Voor deze laatste stap dient u contact op te nemen met uw ICT-afdeling.
+> [!WARNING] 
+> **Let op**: Om Single Sign-On te kunnen testen moet er een gebruiker zijn gekoppeld vanuit OpenWave met de SSO server en vice versa moet er een gebruiker zijn gekoppeld op de SSO server met OpenWave. Voor deze laatste stap dient u contact op te nemen met uw ICT-afdeling.
 
 ## Koppeling OpenWave met Single Sign-On
 
