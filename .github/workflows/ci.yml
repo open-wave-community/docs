@@ -33,4 +33,5 @@ jobs:
       - run: pip install mkdocs-gen-files
       - run: pip install pymdown-extensions
       - run: pip install httpx
+      - run: pip install toml
       - run: mkdocs gh-deploy --force
