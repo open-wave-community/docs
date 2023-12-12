@@ -12,13 +12,13 @@ Deze tegel verwijst door naar portaal **Operations**. Dit portaal bevat tegels d
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren
 - indien de kolom _altijd verversen_ (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: \*beheerportaal-NIEUW/
 - Kolom: _Overige Beheerportalen_

@@ -16,12 +16,12 @@ De tegel is een trigger voor het lijstscherm _Afgeronde zaken bij dit project_ e
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _handhavingdetail_
 - Kolom: _Samenhang_

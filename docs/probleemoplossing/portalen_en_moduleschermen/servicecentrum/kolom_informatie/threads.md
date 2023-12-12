@@ -11,7 +11,7 @@ De tegel is een trigger voor een lijst van alle _Threads_: alle op de achtergron
 
 ### Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Servicecentrum_
 - Kolom: _Informatie_

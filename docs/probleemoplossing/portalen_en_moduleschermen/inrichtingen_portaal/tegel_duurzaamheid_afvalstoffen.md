@@ -14,12 +14,12 @@ De tegel is een trigger voor het tonen van de afvalstofregistraties bij de inric
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 * indien foutieve queryverwijzing (codering *inrichting_afvalstof*)
-* indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+* indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 * indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 * Portaal: *inrichtingdetail*
 * Kolom: *Duurzaamheid*

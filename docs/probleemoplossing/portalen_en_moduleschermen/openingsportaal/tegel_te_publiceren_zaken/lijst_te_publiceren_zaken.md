@@ -9,7 +9,7 @@ Binnen het detailscherm:
 
 - MDLC_getVwFrmTePublicerenDetailsList.xml
 
-Zie ook lemma: [Drop](/docs/instellen_inrichten/drop.md).
+Zie ook lemma: [Drop](/instellen_inrichten/drop.md).
 
 ## Welke gegevens worden getoond in het lijstscherm
 

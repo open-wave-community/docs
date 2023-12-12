@@ -56,4 +56,4 @@ Welke zijn van toepassing op deze lijst?
   - rood indien rappeldatum < vandaag
   - oranje indien vandaag < = rappeldatum < = overmorgen.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/docs/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).

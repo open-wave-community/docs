@@ -10,6 +10,6 @@ Alle kolommen en knoppen zijn dan toegankelijk.
 
 Zie:
 
-- [Portalkolommen](/docs/instellen_inrichten/portaldefinitie/portal_kolommen.md)
-- [Portaltegel](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)
-- [Portalnaam](/docs/instellen_inrichten/portaldefinitie/portalnaam.md)
+- [Portalkolommen](/instellen_inrichten/portaldefinitie/portal_kolommen.md)
+- [Portaltegel](/instellen_inrichten/portaldefinitie/portal_tegel.md)
+- [Portalnaam](/instellen_inrichten/portaldefinitie/portalnaam.md)

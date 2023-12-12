@@ -11,7 +11,7 @@ De tegel is een trigger voor tonen van het overzicht van de codetabel voor de _B
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Registratie en Veiligheid_

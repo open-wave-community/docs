@@ -22,7 +22,7 @@ Kan worden aangeroepen vanuit de lijsten Contactpersonen bij een zaak (tegels _C
 
 Het scherm geeft een foutmelding indien:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger behoort tot een rechtengroep die geen kijkrechten heeft op contactadressen (contactadressen zichtbaar bij hoofdrechtengroep).
 
 ### Filteropties
@@ -70,4 +70,4 @@ De volgende kolommen hebben een extra input controle bij handmatige invoer:
 
 ### Triggers knoppen linksonder
 
-- Controleer BRP/NHR. Is zichtbaar en enabled indien de inlogger behoort tot een rechtengroep die wijzig BPR/NHR heeft op contactadressen (hoofdrechtengroep). Zie: [NHR bevraging](/docs/probleemoplossing/programmablokken/nhr_bevraging.md) en [BPR (GBA) bevraging](/docs/probleemoplossing/programmablokken/bpr_bevraging.md).
+- Controleer BRP/NHR. Is zichtbaar en enabled indien de inlogger behoort tot een rechtengroep die wijzig BPR/NHR heeft op contactadressen (hoofdrechtengroep). Zie: [NHR bevraging](/probleemoplossing/programmablokken/nhr_bevraging.md) en [BPR (GBA) bevraging](/probleemoplossing/programmablokken/bpr_bevraging.md).

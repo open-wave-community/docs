@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het openen van de [Lijst Gesloten samenwerkingsruimtes](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_alle_gesloten_samenwerkingsruimtes/lijst_gesloten_samenwerkingsruimtes.md).
+De tegel is een trigger voor het openen van de [Lijst Gesloten samenwerkingsruimtes](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_alle_gesloten_samenwerkingsruimtes/lijst_gesloten_samenwerkingsruimtes.md).
 
   - De tegel is alleen zichtbaar voor inlogger wanneer:
     - deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger voor het openen van de [Lijst Gesloten samenwerkingsruim
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   - Portaal: *Opening*
   - Kolom: *Deelzaken*

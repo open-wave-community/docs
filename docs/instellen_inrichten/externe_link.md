@@ -61,4 +61,4 @@ Is dit het geval dan kan ook naar een plek op het filesysteem worden verwezen, w
 `file://///URANUS/Organisatie/Wave/%zaakjaar%/%zaaknr%`
 
 > [!WARNING]
-> **Let op:** na file volgen de 5 slashes. Zie ook toepassing via kolom hyperlink ([Hyperlink](/docs/instellen_inrichten/hyperlink.md)).
+> **Let op:** na file volgen de 5 slashes. Zie ook toepassing via kolom hyperlink ([Hyperlink](/instellen_inrichten/hyperlink.md)).

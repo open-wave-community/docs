@@ -14,18 +14,18 @@ De tegel is een trigger voor een lijst van alle *MBA-coderingen*: Milieu Belaste
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 * indien foutieve queryverwijzing (codering *inrichting_mba*)
-* indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+* indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 * indien inlogger geen recht heeft om query uit te voeren.
 
 ## Bijzonderheden
 
 De onderliggende tabel (tbmilmba) bevat de kolom dlhoofdmba (T of F). De OpenWave programmatuur zorgt ervoor dat slechts één MBA-activiteit bij een inrichting de waarde T kan hebben. Indien een MBA-activiteit wordt bestempeld als hoofdactiviteit, worden bij alle overige MBA-kaarten bij dezelfde inrichting de dlhoofdmba op F gezet. Bij het inserten van een nieuwe MBA activiteit krijgt deze automatisch de waarde dlhoofdmba = T mits er geen andere kaarten zijn met T.
 
-Zie lemma [Milieu  Belastende Activiteiten](/docs/instellen_inrichten/milieu_belastende_activiteiten_mba.md).
+Zie lemma [Milieu  Belastende Activiteiten](/instellen_inrichten/milieu_belastende_activiteiten_mba.md).
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 * Portaal: *inrichtingdetail*
 * Kolom: *Wat gebeurt er*

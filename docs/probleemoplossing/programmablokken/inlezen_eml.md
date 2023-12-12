@@ -1,6 +1,6 @@
 # Inlezen EML gegevens
 
-In de kolom _Import_ op het portaal _Operations_ staat de ingang voor het verwerken van EML overtredingen onder tegel **Inlezen EML gegevens** (geen standaard uitgeleverde tegel). Zie voor de tegeldefinitie:[Import EML gegevens](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_import/import_eml_gegevens.md).
+In de kolom _Import_ op het portaal _Operations_ staat de ingang voor het verwerken van EML overtredingen onder tegel **Inlezen EML gegevens** (geen standaard uitgeleverde tegel). Zie voor de tegeldefinitie:[Import EML gegevens](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_import/import_eml_gegevens.md).
 
 LET OP: Afhankelijk van het aantal te verwerken regels kan het gaan om een geheugen intensieve proces.
 Het is de bedoeling dat alleen de EML gegevens gaande overtredingen bij inrichtingen m.b.t. OpenWave worden opgenomen in het inleesbestand.

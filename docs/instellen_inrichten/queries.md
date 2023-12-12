@@ -46,7 +46,7 @@ Bij query's kunnen twee variabelen worden gebruikt:
   - vervangen met de dnkey van de kaart die hoort bij de basistabel van het detailscherm van waaruit de query wordt aangeroepen als onderdeel van schermattributen bij de schermkolomdefinitie
   - vervangen met de dnkey van de kaart van de tabel waaruit een document wordt gecreëerd.
 
-OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei queries. Zie: [OpenWave database functies](/docs/instellen_inrichten/openwave_database-functies.md).
+OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei queries. Zie: [OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
 
 De query heeft in de kolom dvcode een unieke, maar editbare, identifier, waarmee de query kan worden aangeroepen.
 
@@ -63,7 +63,7 @@ De kijkrechten op de modules:
 
 ## Queries voor tegelopschrift
 
-De aanroep van het SQL-statement vindt plaats via de tegeldefinitie van de tegel waarop het dynamische opschrift moet verschijnen door het vullen van de kolom _Tegelopschrift dynamisch met API gettilecontent_ (zie [Portal tegel](/docs/instellen_inrichten/portaldefinitie/portal_tegel)). Een voorbeeld van een dynamisch tegelopschrift is de waarde `_getTileContent(omgeving_status,{id}.md)`. De codering _omgeving_status_ verwijst naar een uniek codering in de tabel tbqueries. Het SQL-statement dat aldaar staat zal worden gebruikt om het dynamische deel van het tegelopschrift te genereren.
+De aanroep van het SQL-statement vindt plaats via de tegeldefinitie van de tegel waarop het dynamische opschrift moet verschijnen door het vullen van de kolom _Tegelopschrift dynamisch met API gettilecontent_ (zie [Portal tegel](/instellen_inrichten/portaldefinitie/portal_tegel)). Een voorbeeld van een dynamisch tegelopschrift is de waarde `_getTileContent(omgeving_status,{id}.md)`. De codering _omgeving_status_ verwijst naar een uniek codering in de tabel tbqueries. Het SQL-statement dat aldaar staat zal worden gebruikt om het dynamische deel van het tegelopschrift te genereren.
 
 Die parameter {id} kan gebruikt worden bij tegels op de zaakportals (dus niet bij opening of beheer). Deze wordt vervangen door de primary key van het betreffende zaakportaal (de identifier die opgenomen is in de URL van de portaalpagina).
 Indien de resultaat set uit meerdere regels bestaat, zal OpenWave deze aan elkaar plakken gescheiden door een puntkomma, zodat elke regel ook een regel op de tegel wordt.
@@ -87,7 +87,7 @@ select
 
 Het resultaat als tegelopschrift is bijvoorbeeld:
 
-![Tegel-query met kleur](/img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png.md){ class="media" loading="lazy" alt="" width="200" }
+![Tegel-query met kleur](/docs/img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png){ class="media" loading="lazy" alt="" width="200" }
 
 Wanneer een query niet valide SQL-code gebruikt zal het programma - bij gebruik voor tegelopschrift - het resultaat vervangen door 'fout:xml': dat zal dan op de betreffende tegel verschijnen.
 
@@ -103,7 +103,7 @@ Wanneer een query niet valide SQL-code gebruikt zal het programma - bij gebruik 
       <column value="dvhyperlink">
 ```
 
-Zie [Scherminformatie voor detailschermen](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md).
+Zie [Scherminformatie voor detailschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md).
 In de tags van een blok van een detailscherm kan (hoeft dus niet) de tag`<notvisibleif>`opgenomen worden (onder de tag <type>). De inhoud van de tag verwijst naar een bepaalde query. Zo zal _<notvisibleif>%query(omgeving_hyperlink)%</notvisibleif>_ verwijzen naar een rij in tbqueries met dvcode = _omgeving_hyperlink_.
 
 De bijbehorende query wordt geëvalueerd. De uitkomst van de query moet 1 (het blok is NIET zichtbaar) of 0 (WEL zichtbaar) zijn.
@@ -130,7 +130,7 @@ Voorbeeld: wanneer in de schermkolomdefinitie van een detailscherm staat `<label
 
 Indien de contextgevoeligheid is gebaseerd op andere informatie uit de kaart die getoond wordt (de query zal dan bestaan uit `select x from y where dnkey = {id}`) dan moet een tweede parameter `%keypointer%` meegegeven worden: `<label>Datum %query('omg_labelbesluit,%keypointer%)%</label>`. De variabele {id} uit de query zal vervangen worden met de primary key (dnkey) van de kaart waar je op staat.
 
-Zie de voorbeelden hieronder bij [action](/docs/instellen_inrichten/queries#action.md).
+Zie de voorbeelden hieronder bij [action](/instellen_inrichten/queries#action.md).
 
 ### Visible
 
@@ -323,7 +323,7 @@ Een query kan worden gebruikt om de inhoud van de tag nullable contextgevoelig t
 
 ## Query's voor invoegen tekstblokken bij sjablonen
 
-Zie ook kopje **Invoegen tekstblokken op basis van een query-aanroep naar tbqueries** bij [Documentsjablonen](/docs/instellen_inrichten/documentsjablonen.md).
+Zie ook kopje **Invoegen tekstblokken op basis van een query-aanroep naar tbqueries** bij [Documentsjablonen](/instellen_inrichten/documentsjablonen.md).
 De query wordt in het documentsjabloon wordt aangeroepen door met de merge-codering `<%query(param1,param2)%>`.
 
 Bijvoorbeeld: `<%query(apvoverig_tkstblk1,:keyvergunning)%>`.
@@ -375,7 +375,7 @@ Hetgeen betekent dat indien het zaaktype van de APV/Overige vergunning waar vand
 
 Indien soort = 'E' wordt de inhoud van de kolom dvtekstblok met dvcode = _tkstblk_2_ afgedrukt. En anders niets.
 
-Zie voor invoegen plaatjes op basis van query onder Kopje: _Invoegen plaatjes op basis van een query-aanroep naar tbqueries die verwijst naar tbimages_ bij [Documentsjablonen](/docs/instellen_inrichten/documentsjablonen.md).
+Zie voor invoegen plaatjes op basis van query onder Kopje: _Invoegen plaatjes op basis van een query-aanroep naar tbqueries die verwijst naar tbimages_ bij [Documentsjablonen](/instellen_inrichten/documentsjablonen.md).
 
 ## Query's als vervanging voor formqueries en childqueries bij definitie document- en emailsjablonen
 
@@ -383,4 +383,4 @@ De inhoud van de kolommen van de formqueries en childqueries uit de definitie do
 
 Hierdoor hoeft een query die in meerdere sjablonen gebruikt wordt maar eenmalig te worden gedefinieerd. De opmaak van de sjablonen wijzigt hierdoor niet. In tbqueries kan bovendien een select statement ingevoerd worden van onbeperkte grootte.
 
-Zie het kopje _formquery en childquery-verwijzingen naar tbqueries_ bij [Documentsjablonen en Sjabloongroepen](/docs/instellen_inrichten/documentsjablonen.md)
+Zie het kopje _formquery en childquery-verwijzingen naar tbqueries_ bij [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md)

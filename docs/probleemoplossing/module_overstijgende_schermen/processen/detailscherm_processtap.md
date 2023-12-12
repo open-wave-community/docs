@@ -8,7 +8,7 @@ Dit scherm kan worden aangeroepen vanuit de lijst met _Processtappen_, mits door
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak (bijvoorbeeld zichtbaar-rechten op proces/checklijst bij omgeving).
 
 ## Disabled/enabled
@@ -54,7 +54,7 @@ Voor de afgehandeld datum geldt dat deze in principe muteerbaar is tenzij in het
 
 ### Blok action
 
-Het blok _Action_ is zichtbaar indien aan de processtap een action is gekoppeld (beheertegel _Processen_), zie definitie [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md).
+Het blok _Action_ is zichtbaar indien aan de processtap een action is gekoppeld (beheertegel _Processen_), zie definitie [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
 
 Met het uitvoeren van de action kan in een aantal gevallen worden geregeld dat automatisch de afgehandeld datum wordt gevuld. De knop die de action triggert is alleen enabled bij een lege afhandeldatum. Indien de action _startwizard(maaknieuwezaak)_ wordt aangeroepen teneinde een vervolgzaak te kiezen, zal automatisch een groep (tbgroepvergunning) worden aangemaakt, die de vervolgzaak verbindt aan de zaak waar de processtap aan is gekoppeld (als deze zaak waar de processtap aan is gekoppeld al aan een groep was verbonden, dan wordt de vervolgzaak ook aan deze bestaande groep verbonden).
 
@@ -86,7 +86,7 @@ startWizard(maakDocument,8890,tbdocumenten;;tbomgvergunning;85842,W)
 
 ### Blok extra invoerkolommen
 
-Het blok _Extra invoerkolommen_ is zichtbaar indien bij de processtap minimaal één extra invoerkolom is gedefinieerd (beheertegel [Processen](/docs/probleemoplossing/module_overstijgende_schermen/processen/README.md) ), zie definitie [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md). Per processtap kan aldaar gedefinieerd worden of er extra invoerkolommen bij de stap actief worden. Er zijn 5 mogelijkheden: een datum, een string (max lengte 200), een dropdown (max lengte 100), een geheel getal of een decimaal getal. Bij de definitie van deze kolommen kan per kolom aangegeven worden dat het wijzigen van een waarde tot gevolg heeft dat de afgehandeld datum van de stap wordt gevuld (met de systeemdatum).
+Het blok _Extra invoerkolommen_ is zichtbaar indien bij de processtap minimaal één extra invoerkolom is gedefinieerd (beheertegel [Processen](/probleemoplossing/module_overstijgende_schermen/processen/README.md) ), zie definitie [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md). Per processtap kan aldaar gedefinieerd worden of er extra invoerkolommen bij de stap actief worden. Er zijn 5 mogelijkheden: een datum, een string (max lengte 200), een dropdown (max lengte 100), een geheel getal of een decimaal getal. Bij de definitie van deze kolommen kan per kolom aangegeven worden dat het wijzigen van een waarde tot gevolg heeft dat de afgehandeld datum van de stap wordt gevuld (met de systeemdatum).
 
 ### Checklistitems
 
@@ -94,7 +94,7 @@ Het lijstje met checklistitems is alleen gevuld indien er checklistitems bestaan
 
 De schermidentifier is MDLC_getProcItemCheckList.xml.
 
-Deze checklistitems worden automatisch aangemaakt bij het nieuw invoegen van een proces (zie [Checklijstitems](/docs/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)).
+Deze checklistitems worden automatisch aangemaakt bij het nieuw invoegen van een proces (zie [Checklijstitems](/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)).
 
 De kolom status van dit checklistscherm is muteerbaar indien:
 

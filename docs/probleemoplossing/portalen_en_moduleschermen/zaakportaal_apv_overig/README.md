@@ -11,7 +11,7 @@ Schermtype portal.
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbovvergunningen.dnkey
 - inlogger heeft geen kijkrechten voor APV/Overige zaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _APV/Overige zaken Zichtbaar_ niet is aangevinkt)
 - de variabele x uit de aanroep verwijst naar een zaak van een gemeente waarvoor de inlogger geen kijkrechten rechten (zie instelling medewerker: alleen gemeentes en/of medewerker is lid van compartiment en de locatie van de zaak valt niet onder de aan het compartiment toegekende gemeentes)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 2. Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -35,12 +35,12 @@ Indien het niet om een compartimentszaak gaat, is de knop zichtbaar en enabled i
 
 ### Docs
 
-- Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbovrechten.dlcovvcorregvsb)_ heeft
-- anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlcovvcorvsb)_ heeft.
+- Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbovrechten.dlcovvcorregvsb)_ heeft
+- anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlcovvcorvsb)_ heeft.
 
 ### Kaart
 
-Knop is altijd zichtbaar en enabled. Afhankelijk van het al of niet ingevuld zijn van de kolom _Info_ van de instelling _Sectie: Programma Item: ToonKaart_ wordt met deze knop een externe kaart geopend (conform de URL in die kolom _Info_, waarbij %x% en %y% vervangen worden door de locatiecoördinaten en %zoom% door _Getal2_), of een interne kaart van OpenWave. Zie:[Kaart](/docs/probleemoplossing/module_overstijgende_schermen/kaart.md).
+Knop is altijd zichtbaar en enabled. Afhankelijk van het al of niet ingevuld zijn van de kolom _Info_ van de instelling _Sectie: Programma Item: ToonKaart_ wordt met deze knop een externe kaart geopend (conform de URL in die kolom _Info_, waarbij %x% en %y% vervangen worden door de locatiecoördinaten en %zoom% door _Getal2_), of een interne kaart van OpenWave. Zie:[Kaart](/probleemoplossing/module_overstijgende_schermen/kaart.md).
 
 ### Memo
 
@@ -56,39 +56,39 @@ Knop is altijd zichtbaar en enabled.
 
 ## Overige triggers
 
-Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)).
+Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)).
 
 ## Detailscherm
 
-[Detailscherm APV/Overige zaak](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/detailscherm_apv_overige_zaak.md)
+[Detailscherm APV/Overige zaak](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/detailscherm_apv_overige_zaak.md)
 
 ## Tegels
 
-- [Tegel Afgehandelde Adviezen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_adviezen.md)
-- [Tegel Afgeronde Inspectietrajecten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_inspectietrajecten.md)
-- [Tegel Afgehandelde Processtappen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_processtappen.md)
-- [Tegel Afgerond Bezwaar/Beroep](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgerond_bezwaar_beroep.md)
-- [Tegel Afgeronde Overtredingen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgeronde_issues.md)
-- [Tegel Afgeronde Overtredingen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgeronde_issues.md)
-- [Tegel Afgesloten Inspectiebezoeken](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgesloten_inspectiebezoeken.md)
-- [Tegel Afgeronde zaken op dit adres](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgesloten_zaken_op_dit_adres.md)
-- [Tegel Alert](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_alert.md)
-- [Tegel Alle processtappen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_alle_processtappen.md)
-- [Tegel Collegiale Toetsen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_collegiale_toetsen.md)
-- [Tegel Contactadressen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_contactadressen.md)
-- [Tegel Dossierbehandelaars](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_dossierbehandelaars.md)
-- [Tegel Gekoppeld aan inrichting](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_gekoppeld_aan_inrichting.md)
-- [Tegel Geregistreerde Documenten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_geregistreerde_documenten.md)
-- [Tegel Leges](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_leges.md)
-- [Tegel Lopend Bezwaar/Beroep](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopend_bezwaar_beroep.md)
-- [Tegel Lopende Inspectietrajecten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopende_inspectietrajecten.md)
-- [Tegel Lopende zaken op dit adres](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopende_zaken_op_dit_adres.md)
-- [Tegel Openstaande Adviezen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_adviezen.md)
-- [Tegel Openstaande Inspectiebezoeken](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_inspectiebezoeken.md)
-- [Tegel Openstaande Overtredingen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_issues.md)
-- [Tegel Openstaande processtappen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_processtappen.md)
-- [Tegel Proces Checklijsten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_proces_checklijsten.md)
-- [Tegel Product](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_product.md)
-- [Tegel Producten/Diensten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_producten_diensten.md)
-- [Tegel Status](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_status.md)
-- [Tegel Verbonden aan Groep](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_verbonden_aan_groep.md)
+- [Tegel Afgehandelde Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_adviezen.md)
+- [Tegel Afgeronde Inspectietrajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_inspectietrajecten.md)
+- [Tegel Afgehandelde Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgehandelde_processtappen.md)
+- [Tegel Afgerond Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgerond_bezwaar_beroep.md)
+- [Tegel Afgeronde Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgeronde_issues.md)
+- [Tegel Afgeronde Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgeronde_issues.md)
+- [Tegel Afgesloten Inspectiebezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgesloten_inspectiebezoeken.md)
+- [Tegel Afgeronde zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_afgesloten_zaken_op_dit_adres.md)
+- [Tegel Alert](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_alert.md)
+- [Tegel Alle processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_alle_processtappen.md)
+- [Tegel Collegiale Toetsen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_collegiale_toetsen.md)
+- [Tegel Contactadressen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_contactadressen.md)
+- [Tegel Dossierbehandelaars](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_dossierbehandelaars.md)
+- [Tegel Gekoppeld aan inrichting](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_gekoppeld_aan_inrichting.md)
+- [Tegel Geregistreerde Documenten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_geregistreerde_documenten.md)
+- [Tegel Leges](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_leges.md)
+- [Tegel Lopend Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopend_bezwaar_beroep.md)
+- [Tegel Lopende Inspectietrajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopende_inspectietrajecten.md)
+- [Tegel Lopende zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_lopende_zaken_op_dit_adres.md)
+- [Tegel Openstaande Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_adviezen.md)
+- [Tegel Openstaande Inspectiebezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_inspectiebezoeken.md)
+- [Tegel Openstaande Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_issues.md)
+- [Tegel Openstaande processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_openstaande_processtappen.md)
+- [Tegel Proces Checklijsten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_proces_checklijsten.md)
+- [Tegel Product](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_product.md)
+- [Tegel Producten/Diensten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_producten_diensten.md)
+- [Tegel Status](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_status.md)
+- [Tegel Verbonden aan Groep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig/tegel_verbonden_aan_groep.md)

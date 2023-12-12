@@ -4,7 +4,7 @@
 
 De tegel is een trigger voor de weergave van de tabel met mislukte OLO/DSO-Bijlages (tbbadextupload). De bijlages die niet automatisch geplaatst konden worden krijgen in deze tabel een regel met een omschrijving van de reden.
 
-Zie ook de tegelbeschrijving op het portaal operations: [Verwerken Mislukte OLO/DSO bijlages](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_overig/verwerken_mislukte_olo.dso_-_bijlages.md) om de lijst op te schonen en nog een poging tot verwerking te doen.
+Zie ook de tegelbeschrijving op het portaal operations: [Verwerken Mislukte OLO/DSO bijlages](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_overig/verwerken_mislukte_olo.dso_-_bijlages.md) om de lijst op te schonen en nog een poging tot verwerking te doen.
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -13,7 +13,7 @@ Zie ook de tegelbeschrijving op het portaal operations: [Verwerken Mislukte OLO/
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Servicecentrum_
 - Kolom: \*Notificaties/

@@ -1,8 +1,8 @@
 # Sectie CBS
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/sectie_aanmaakmappen.md) (tbinitialisatie) van de _Sectie: CBS_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/sectie_aanmaakmappen.md) (tbinitialisatie) van de _Sectie: CBS_ gerangschikt op item.
 
-Voor meer informatie omtrent CBS export functionaliteit in OpenWave zie [CBS export](/docs/probleemoplossing/programmablokken/cbs_export/README.md)
+Voor meer informatie omtrent CBS export functionaliteit in OpenWave zie [CBS export](/probleemoplossing/programmablokken/cbs_export/README.md)
 
 ## Items Configuratietabel
 

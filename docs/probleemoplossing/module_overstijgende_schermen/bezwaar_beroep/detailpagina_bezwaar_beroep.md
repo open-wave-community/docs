@@ -49,7 +49,7 @@ Het blok **Keten** is alleen zichtbaar indien de instelling instelling _Sectie: 
 ### Contactadressen
 
 Aan elke bezwaar/beroepzaak kunnen één of meer contacten worden toegevoegd.
-Zie lijst en detailscherm bij [ContactenLijst](/docs/probleemoplossing/module_overstijgende_schermen/contactenlijst.md).
+Zie lijst en detailscherm bij [ContactenLijst](/probleemoplossing/module_overstijgende_schermen/contactenlijst.md).
 
 ## Triggers in het scherm zelf achter kolommen
 
@@ -95,7 +95,7 @@ Achter einddatum/blokkeerdatum van zaak/DMS nummer in het blok _Keten_.
 
 ### Toon geregistreerde documenten (bij dit bezwaarberoep)
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
+Zie [Geregistreerde Documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt
@@ -103,7 +103,7 @@ Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_sch
 
 #### Creëer document
 
-Zie [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.md).
+Zie [Creëer document](/probleemoplossing/programmablokken/creeer_document.md).
 
 - Zichtbaar indien:
   - de inlogger lid is van een rechtengroep die bij hoofdzaak het recht creëren van documenten heeft
@@ -112,7 +112,7 @@ Zie [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.
 
 ### Toon uploads bij dit bezwaar/beroep
 
-Zie [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md).
+Zie [Upload Lijst](/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten_ en _Item: MultipleUpload_ aangevinkt is
@@ -135,7 +135,7 @@ Zie [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads
 
 ### Toon documenten
 
-Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md).
+Zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md).
 
 - Zichtbaar wanneer:
   - een van onderstaande twee beweringen waar is:
@@ -153,11 +153,11 @@ Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_
   - OF de programma-instelling _Sectie: Documenten en Item: OphalenViaDMS_ is aangevinkt
     - en de instelling _Sectie: KoppelingDOCNAARDMS en Item: Methode en Tekst: StUF-ZAKEN 310_ en aangevinkt en de kolom externe zaak/dms nummer (dvintzaakcode) is leeg MAAR de instelling _Sectie: KoppelingDOCNAARDMS en Item: Ontvangstadres_cmis_ is gevuld (bijzondere instelling in hybride situatie dat zowel via Stuf Zaak/DMS als via CMIS documenten opgehaald moeten kunnen worden).
 
-Indien de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt wordt met de knop de lijst met geregistreerde documenten geopend zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md). Anders wordt de algemene documentenlijst geopend.
+Indien de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt wordt met de knop de lijst met geregistreerde documenten geopend zie [Geregistreerde Documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md). Anders wordt de algemene documentenlijst geopend.
 
 ### Upload document(en)
 
-Zie [Upload document](/docs/probleemoplossing/programmablokken/upload_document.md).
+Zie [Upload document](/probleemoplossing/programmablokken/upload_document.md).
 
 - Zichtbaar wanneer compartiment OK en tenminste één van onderstaande twee instellingen is aangevinkt:
   - _Sectie: Documenten_ en _Item: OphalenViaFileserver_

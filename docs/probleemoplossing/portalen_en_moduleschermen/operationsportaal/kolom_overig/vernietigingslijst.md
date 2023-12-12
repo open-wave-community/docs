@@ -1,6 +1,6 @@
 # Vernietigingslijst
 
-Zie ook [Vernietigingslijst](/docs/probleemoplossing/programmablokken/vernietigingslijst.md).
+Zie ook [Vernietigingslijst](/probleemoplossing/programmablokken/vernietigingslijst.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor het openen van een lijst van _Te vernietigen zaken_
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Operations_
 - Kolom: _Overig_

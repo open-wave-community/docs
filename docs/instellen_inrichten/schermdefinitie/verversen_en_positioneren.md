@@ -1,6 +1,6 @@
 # Verversen en Positioneren
 
-Dit hoofdstuk gaat over het instellen van verversen en positioneren in de [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)
+Dit hoofdstuk gaat over het instellen van verversen en positioneren in de [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)
 
 ## Verversen Detailscherm
 

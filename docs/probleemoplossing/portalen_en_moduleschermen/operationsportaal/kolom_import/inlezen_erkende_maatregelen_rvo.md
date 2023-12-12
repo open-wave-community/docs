@@ -1,6 +1,6 @@
 # Erkende Maatregelen;te verwerken;RVO inrichtingids
 
-Zie: [Erkende Maatregelen](/docs/probleemoplossing/programmablokken/erkende_maatregelen.md).
+Zie: [Erkende Maatregelen](/probleemoplossing/programmablokken/erkende_maatregelen.md).
 
 ## Trigger
 
@@ -15,7 +15,7 @@ Voor de definitie van de lijst zie beheertegel *Tabellen standaardapi* (tbstanda
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Operations*
 - Kolom: *Import*

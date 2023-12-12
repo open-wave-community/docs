@@ -1,6 +1,6 @@
 # Automatisch inlezen BAG- mutaties
 
-Het inlezen van BAG-mutaties per gemeente kan handmatig (zie hiertoe de uitleg onder hoofdstuk Import BAG-Mutaties van [Inlezen BAG Extract en/of BAG-mutaties](/docs/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md)), maar kan ook automatisch gebeuren door de scheduler zodanig in te stellen.
+Het inlezen van BAG-mutaties per gemeente kan handmatig (zie hiertoe de uitleg onder hoofdstuk Import BAG-Mutaties van [Inlezen BAG Extract en/of BAG-mutaties](/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md)), maar kan ook automatisch gebeuren door de scheduler zodanig in te stellen.
 
 Met het geautomatiseerd verwerken wordt aan het kadaster gevraagd welke (laatste) maandmutaties er zijn. Deze lijst wordt vervolgens gefilterd op de daartoe aangekruiste gemeentes in tb33gemeentes (beheerportaal-Nieuw, kolom Administratie, tegel _Gemeentes_) op de kolom dlmaandmutatiesbag (maandmutaties BAG ophalen).
 De zip-bestanden met de maandmutaties worden vervolgens gedownload en verwerkt door dezelfde API als bij de handmatige verwerking.
@@ -10,8 +10,8 @@ De zip-bestanden met de maandmutaties worden vervolgens gedownload en verwerkt d
 - **SOAP-endpoint kadaster**. In de kolom _Tekst_ van de instelling _Sectie: KadasterBAG en Item: SoapEndpoint_ dient het betreffende endpoint te worden opgegeven bijvoorbeeld: _<https://service10.kadaster.nl/gds2/afgifte/productstore>_. Dit endpoint wordt gebruikt om de lijst met aanwezige maandmutaties op te halen.
 - **Download-endpoint kadaster**. In de kolom _Tekst_ van de instelling _Sectie: KadasterBAG en Item: DownloadEndpoint_ dient het betreffende endpoint te worden opgegeven bijvoorbeeld: _<https://service30.kadaster.nl/gds2/download/productstore>_. Dit endpoint wordt gebruikt om de zip-bestanden met maandbestanden op te halen ter verwerking.
 - **Login**. In de kolom _Tekst_ van de instelling _Sectie: KadasterBAG en Item: login_ dient de loginnaam te staan waarmee OpenWave toegang heeft tot de BAG-mutatiebestanden van het kadaster.
-- **Password**. In de kolom _Tekst_ van de instelling _Sectie: KadasterBAG en Item: Password_ dient het password te staan waarmee OpenWave toegang heeft tot de BAG-mutatiebestanden van het kadaster. Deze kan in OpenWave desgewenst geëncrypt worden opgeslagen ([2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
-- **Taskscheduler**. Regel in de [taskscheduler](/docs/instellen_inrichten/taskscheduler.md) met de naam _importmaandkadasterBAG_ die bijv. ingesteld is op één keer per week inlezen (dus: - gebaseerd op een cyclus van 7 dagen- : 10080 minuten ).
+- **Password**. In de kolom _Tekst_ van de instelling _Sectie: KadasterBAG en Item: Password_ dient het password te staan waarmee OpenWave toegang heeft tot de BAG-mutatiebestanden van het kadaster. Deze kan in OpenWave desgewenst geëncrypt worden opgeslagen ([2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
+- **Taskscheduler**. Regel in de [taskscheduler](/instellen_inrichten/taskscheduler.md) met de naam _importmaandkadasterBAG_ die bijv. ingesteld is op één keer per week inlezen (dus: - gebaseerd op een cyclus van 7 dagen- : 10080 minuten ).
 - **Messagelog**. Het opvragen van de lijst met maandmutaties kan gelogd worden in de messagelog mits de instelling _Sectie: KadasterBag en Item: Messagelog_ aangevinkt is.
 
 ## Verwerking

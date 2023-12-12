@@ -1,6 +1,6 @@
 # Sectie EmailNaarBagBeheerder
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de *Sectie: EmailNaarBagBeheerder* gerangschikt op item. Zie [Email naar BAG beheerder](/docs/probleemoplossing/programmablokken/email_bag-beheerder.md).
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de *Sectie: EmailNaarBagBeheerder* gerangschikt op item. Zie [Email naar BAG beheerder](/probleemoplossing/programmablokken/email_bag-beheerder.md).
 
 ## Items Configuratietabel
 

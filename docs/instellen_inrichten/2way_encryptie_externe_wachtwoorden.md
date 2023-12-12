@@ -9,7 +9,7 @@ De encryptie moet door OpenWave ongedaan gemaakt kunnen worden, omdat de ongecry
 
 Er zijn drie manieren waarop een wachtwoord geëncrypt kan worden:
 
-De methode die OpenWave gebruikt is [instelbaar](/docs/instellen_inrichten.md) met de waarde van _Getal1_ van de instelling _Sectie: Encryption_ en _Item: Method_.
+De methode die OpenWave gebruikt is [instelbaar](/instellen_inrichten.md) met de waarde van _Getal1_ van de instelling _Sectie: Encryption_ en _Item: Method_.
 
 Deze waarde kan zijn: 1 of 2 of 3.
 

@@ -1,6 +1,6 @@
 # Sectie ErkendeMaatregelen
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: ErkendeMaatregelen_ gerangschikt op item. Zie [Erkende Maatregelen](/docs/probleemoplossing/programmablokken/erkende_maatregelen.md).
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: ErkendeMaatregelen_ gerangschikt op item. Zie [Erkende Maatregelen](/probleemoplossing/programmablokken/erkende_maatregelen.md).
 
 ## Items Configuratietabel
 

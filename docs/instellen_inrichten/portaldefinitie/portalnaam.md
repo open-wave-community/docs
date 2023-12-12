@@ -26,7 +26,7 @@ en de zaakportalen:
 - milieugebruikdetail
 - horecadetail
 
-Het weghalen van een dergelijk verplicht [portal](/docs/instellen_inrichten/portaldefinitie/README.md) kan leiden tot ernstige verstoringen. Niet doen dus. Het wijzigen van een dergelijk verplichte portalnaam kan leiden tot ernstige verstoringen. Niet doen (uitzondering dus het beginportaal).
+Het weghalen van een dergelijk verplicht [portal](/instellen_inrichten/portaldefinitie/README.md) kan leiden tot ernstige verstoringen. Niet doen dus. Het wijzigen van een dergelijk verplichte portalnaam kan leiden tot ernstige verstoringen. Niet doen (uitzondering dus het beginportaal).
 
 U kunt dus wel een eigen nieuwe (unieke) portaalnaam maken ten behoeve van bijvoorbeeld tegels met links naar andere pakketten.
 Stel u noemt dit portaal _Doorkiesportaal_ dan kunt u in het beginportaal ergens een tegel definiëren met een doorverwijzing naar dit doorkiesportaal. Dat wil zeggen met de action: _openTabPage(#Doorkiesportaal)_ en deze tegel toekennen aan de medewerkers die dit nieuwe portaal mogen benaderen.
@@ -44,7 +44,7 @@ Stel u noemt dit portaal _Doorkiesportaal_ dan kunt u in het beginportaal ergens
 - Ook de **kolombreedte** (210) is gebaseerd op 5 kolommen naast elkaar voor een IPad.
 - **Uitlijning van de tekst op kolomlabels**: Alleen (L)inks wordt momenteel ondersteund.
 - **Uitlijning van tekst op de tegels**: Alleen (L)inks wordt momenteel ondersteund.
-- **Sidebar groepsnaam** . Indien [sidebar](/docs/instellen_inrichten/sidebar_zijbalk.md) aanstaat kan hier de naam van groep ingegeven worden bijv. Omgevingzaken of Handhaving.
+- **Sidebar groepsnaam** . Indien [sidebar](/instellen_inrichten/sidebar_zijbalk.md) aanstaat kan hier de naam van groep ingegeven worden bijv. Omgevingzaken of Handhaving.
 - **Sidebar Label van element** onder groep. Hier kan in SQL het gewenste label opgegeven worden voor een specifiek element uit de sidebargroep bijvoorbeeld voor een specifieke omgevingszaak. In de SQL kan met {id} een variabele worden gebruikt die het programma dynamisch vervangt met de dnkey van de hoofdtabel van het aangeroepen portal. De SQL mag geen puntkomma's bevatten en moet beginnen met 'select' en de result set moet bestaan uit één kolom en één rij. Voorbeeld: _select dvzaakcode | | ' ' | | dvaanvraagnaam from vwfrmomgvergunningen where dnkeyomgvergunning = {id}_. Als de query geen resultaat geeft (het veld uit de select is leeg bv) dan geeft de sidebar de naam van de betreffende module, plus het zaaknummer.
 - **Sidebar Hint van element** onder groep. Hier kan in SQL de gewenste hint opgegeven worden voor een specifiek element uit de sidebargroep bijvoorbeeld voor een specifieke omgevingszaak. In de SQL kan met {id} een variabele worden gebruikt die het programma dynamisch vervangt met de dnkey van de hoofdtabel van het aangeroepen portal. De sql mag geen puntkomma's bevatten en moet beginnen met 'select' en de result set moet bestaan uit één kolom en één rij.
 - **Kopteksten Koptekst 1**. Hier kan in SQL de koptekst 1 opgegeven worden die in het portaalscherm als bovenste koptekstregel te zien zal zijn. In de SQL kan met {id} een variabele worden gebruikt die het programma dynamisch vervangt met de dnkey van de hoofdtabel van het aangeroepen portal. De SQL mag geen puntkomma's bevatten en moet beginnen met 'select' en de result set moet bestaan uit één kolom en één rij. Let op: het programma zal alleen kijken naar deze koptekst indien portaal headertype waarde 2 heeft voor dit portaal. Indien deze niet waarde 2 heeft (maar dus waarde 1) dan zal het programma kijken naar de standaard gedefinieerde kopteksten ipv de hier gedefinieerde koptekst 1.
@@ -61,4 +61,4 @@ Een voorbeeld van zelf gedefinieerde kopteksten met
 
 geeft volgende resultaat:
 
-![](/img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }

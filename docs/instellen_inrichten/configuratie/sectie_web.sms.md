@@ -2,7 +2,7 @@
 
 Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de *Sectie: Web.sms* gerangschikt op item.
 Instellingen die nodig zijn om vanuit OpenWave een SMS-dienst aan te kunnen spreken.
-Zie [SMS](/docs/instellen_inrichten/sms.md).
+Zie [SMS](/instellen_inrichten/sms.md).
 
 ## Items Configuratietabel
 

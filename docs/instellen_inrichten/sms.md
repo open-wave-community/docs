@@ -5,7 +5,7 @@ Naast een valide telefoonnummer in de kolom dvmobiel van tbmedewerkers (zonder s
 
 - De kolom _Tekst_ van _Sectie: Web.sms en Item: endpoint_ vullen met het endpoint van die telecomprovider, waarmee een contract is afgesloten voor het versturen van sms'jes, bijvoorbeeld `https://api.spryngsms.com/api/send.php` (oude variant) of `https://rest.spryngsms.com/api/simple/message` (nieuwe variant).
 - De kolom _Tekst_ van _Sectie: Web.sms en Item: username_ vullen met de inlognaam voor dat endpoint
-- De kolom _Tekst_ van _Sectie: Web.sms en Item: password_ vullen met het wachtwoord voor dat endpoint. Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+- De kolom _Tekst_ van _Sectie: Web.sms en Item: password_ vullen met het wachtwoord voor dat endpoint. Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
 - De kolom _Tekst_ van _Sectie: Web.sms en Item: sender_ vullen met de gewenste afzender van het sms-bericht bijv. _beheer OW_. LET OP deze tekst mag maximaal 11 karakters bevatten.
 
 OpenWave zendt een bericht met daarin opgenomen het telefoonnummer van de inlogger, de unlockcode en de afzender naar het endpoint van de web service van de telecomprovider. Die provider zet dat bericht om in een sms.

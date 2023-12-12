@@ -10,7 +10,7 @@ Met de Xential opdracht _creeer document_ wordt het samengestelde document terug
 
 ### Endpoints en credentials
 
-Zie [Sectie Xential](/docs/instellen_inrichten/configuratie/sectie_xential.md) voor de instellingen in de configuratietabel (tbinitialisatie) met betrekking tot endpoints en credentials.
+Zie [Sectie Xential](/instellen_inrichten/configuratie/sectie_xential.md) voor de instellingen in de configuratietabel (tbinitialisatie) met betrekking tot endpoints en credentials.
 
 ### Sjabloon verwijzing
 
@@ -91,4 +91,4 @@ De OpenWave API haalt op grond van het UUID nummer de herkomst- en bestemmingsge
 
 Zo nodig (_Sectie: DocumentregistReren Item: AlleHandmatigeUploads_ is aangevinkt of tbcompartiment.dldocregallehandmuploads is _T_) wordt een registratie aangemaakt in tbcorrespondentie.
 
-Zo nodig - bij opslag in DMS - wordt de kolom dvurl van die correspondentiekaart automatisch geconstrueerd. Zie kopje _blok url_ bij [Detailscherm Geregistreerd Document](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/detailscherm_geregistreerd_document.md)
+Zo nodig - bij opslag in DMS - wordt de kolom dvurl van die correspondentiekaart automatisch geconstrueerd. Zie kopje _blok url_ bij [Detailscherm Geregistreerd Document](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/detailscherm_geregistreerd_document.md)

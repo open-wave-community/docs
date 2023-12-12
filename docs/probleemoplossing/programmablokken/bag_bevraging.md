@@ -1,6 +1,6 @@
 # BAG bevraging via StUF BG vraagbericht
 
-Voor verwerken van XML-BAG-Extracten en BAG-mutaties: zie:[Inlezen BAG Extract en/of BAG-mutaties](/docs/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md).
+Voor verwerken van XML-BAG-Extracten en BAG-mutaties: zie:[Inlezen BAG Extract en/of BAG-mutaties](/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md).
 
 ## Waar vandaan aangeroepen
 
@@ -33,14 +33,14 @@ LET OP: de soapactions kunnen ingesloten moeten zijn met dubbele quootjes dus bi
 
 - **maximum aantal retourobjecten** In de kolom _Getal2_ van de instelling met _Sectie: KoppelingBAG_ en _Item: Zender_Applicatie_ kan het maximum aantal retourobjecten opgegeven worden (default 100). Deze instelling wordt gebruikt bij het opvragen van openbare ruimtenamen bij een woonplaats (oprLv01) en opvragen van verblijfsobjecten bij een openbare ruimte (tgoLv01).
 - Als de instelling _Sectie: KoppelingBAG_ en _Item: HTTPAuthenticatieNaam_ bestaat en is aangevinkt dan wordt de verzending over HTTPS geautoriseerd met:
-  *authenticatienaam is kolom *Tekst* van de instelling *Sectie: KoppelingBAG* en *Item: HTTPAuthenticatieNaam\*
-  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingBAG_ en _Item: HTTPAuthenticatiePass_. Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
+  *authenticatienaam is kolom *Tekst* van de instelling *Sectie: KoppelingBAG* en*Item: HTTPAuthenticatieNaam\*
+  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingBAG_ en _Item: HTTPAuthenticatiePass_. Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
   - In de kolom _Tekst_ van de instelling _Sectie: KoppelingBAG_ en _Item: HTTPAuthenticatieType_ kan desgewenst het authenticatietype worden ingevuld: ( Basic is de default waarde).
 
 Indien er gebruik moet worden gemaakt van een **client-certificaat** (wordt geplaatst op de CONF-map van de WSAS server) dan:
 
 - moet de (file)-naam van dat certificaat worden opgeslagen in de kolom _Tekst_ van _Sectie: KoppelingBAG en Item: ClientCertificaatNaam_
-- het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingBAG en Item: CertificaatPassword_. Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+- het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingBAG en Item: CertificaatPassword_. Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
 - het certificaattype in de kolom _Tekst_ van _Sectie: KoppelingBAG en Item: CertificaatType_ (default PKCS12).
 
 Indien de instelling _Sectie: KoppelingBAG en Item: AllowAllHostnameVerifier_ aangevinkt is zal de Openwave Cloud instemmen met een self-signed of verlopen (server)certificaat bij een verbinding onder https.
@@ -124,7 +124,7 @@ Indien gevuld antwoord dan kan de inlogger kiezen uit een lijst van verblijfsobj
 
 - Indien het locatie adres nog niet bestaat dan wordt een nieuwe kaart aangemaakt met:
   - dnkeyopenbruimte met de dnkey van de betrokken openbare ruimte
-  - dvidentificatiecode met `<identificatie>` uit de gekozen rij van het antwoordbericht (zie voor betekenis: [Locatie detailscherm](/docs/probleemoplossing/module_overstijgende_schermen/locatie.md))
+  - dvidentificatiecode met `<identificatie>` uit de gekozen rij van het antwoordbericht (zie voor betekenis: [Locatie detailscherm](/probleemoplossing/module_overstijgende_schermen/locatie.md))
   - ddcontroleBAG met datum van vandaag
   - dvtypeadrobj met ‘V’
   - dvhuisnummer met `<aoa.huisnummer>` uit de gekozen rij van het antwoordbericht

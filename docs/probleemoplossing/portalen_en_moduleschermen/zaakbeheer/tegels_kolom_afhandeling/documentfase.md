@@ -13,7 +13,7 @@ De tegel is een trigger voor een lijst van verschillende soorten *documentfasen*
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 * Portaal: *Zaakbeheer*
 * Kolom: *Afhandeling*

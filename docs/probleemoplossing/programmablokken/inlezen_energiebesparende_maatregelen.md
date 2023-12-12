@@ -1,6 +1,6 @@
 # Inlezen EB Maatregelen (EBM)
 
-In de kolom _Import_ op het portaal _Operations_ staat de ingang voor het verwerken van Energie Besparende Maatregelen onder tegel **Inlezen EB Maatregelen** (geen standaard uitgeleverde tegel). Zie voor de tegeldefinitie:[Import Energie Besparende Maatregelen (EBM)](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_import/import_ebmaatregelen.md).
+In de kolom _Import_ op het portaal _Operations_ staat de ingang voor het verwerken van Energie Besparende Maatregelen onder tegel **Inlezen EB Maatregelen** (geen standaard uitgeleverde tegel). Zie voor de tegeldefinitie:[Import Energie Besparende Maatregelen (EBM)](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_import/import_ebmaatregelen.md).
 
 **LET OP:** afhankelijk van het aantal te verwerken regels kan het gaan om een geheugen intensief proces.
 Mocht er een groot aantal te verwerken regels in het inleesbestand staan (1000 of meer),

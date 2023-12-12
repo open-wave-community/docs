@@ -1,6 +1,6 @@
 # Sectie Web.mail
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Web.mail_ gerangschikt op item. Instellingen die nodig zijn om vanuit OpenWave een SMTP-server (uitgaande email) aan te kunnen spreken. Zie [E-mail SMTP instellingen](/docs/instellen_inrichten/email.md).
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Web.mail_ gerangschikt op item. Instellingen die nodig zijn om vanuit OpenWave een SMTP-server (uitgaande email) aan te kunnen spreken. Zie [E-mail SMTP instellingen](/instellen_inrichten/email.md).
 
 ## Items Configuratietabel
 

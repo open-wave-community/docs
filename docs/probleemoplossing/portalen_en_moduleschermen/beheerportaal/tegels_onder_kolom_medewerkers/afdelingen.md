@@ -11,9 +11,9 @@ De tegel is een trigger voor een lijst van de gedefinieerde *Afdelingen*.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
-- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
+- Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
+- Kolom: [Tegels onder kolom Medewerkers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
 - Kopregel: *Afdelingen*
 - Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbmewafdeling)*

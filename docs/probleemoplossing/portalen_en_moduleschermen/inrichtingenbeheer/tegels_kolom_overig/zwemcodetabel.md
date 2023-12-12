@@ -11,7 +11,7 @@ De tegel is een trigger voor het tonen van de codetabel voor *Zwemwater*. Deze c
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Inrichtingenbeheer*
 - Kolom: *Overig*

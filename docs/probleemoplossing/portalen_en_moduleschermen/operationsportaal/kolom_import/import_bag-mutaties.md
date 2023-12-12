@@ -1,6 +1,6 @@
 # Import BAG-Mutaties
 
-Zie ook [Inlezen BAG Extract en/of BAG-mutaties](/docs/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md).
+Zie ook [Inlezen BAG Extract en/of BAG-mutaties](/probleemoplossing/programmablokken/inlezen_bag-extract_en_bag-mutaties.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het importeren van BAG-mutaties van Ã
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Operations_
 - Kolom: _Import_

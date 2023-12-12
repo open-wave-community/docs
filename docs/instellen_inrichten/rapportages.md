@@ -48,7 +48,7 @@ Deze moduleletters kunnen gebruikt worden om tegels te definiëren waarmee door 
 
 *getFlexList(myReportGroupList)* toont een doorkieslijst van alle rapportagegroepen (met dezelfde autorisatie-restrictie).
 
-Tegels met rapportgroepen kunnen makkelijk worden ingedeeld in het daartoe bestemde portaal [Rapportageportaal](/docs/probleemoplossing/portalen_en_moduleschermen/rapportageportaal.md). Maar ze kunnen ook op andere portalen worden geplaatst…
+Tegels met rapportgroepen kunnen makkelijk worden ingedeeld in het daartoe bestemde portaal [Rapportageportaal](/probleemoplossing/portalen_en_moduleschermen/rapportageportaal.md). Maar ze kunnen ook op andere portalen worden geplaatst…
 
 Het doorklikken op een item van een groepslijst door de gebruiker opent een lijst van rapporten die de gebruiker kan openen (getMyreportList).
 
@@ -65,7 +65,7 @@ Per rapportgroep kunnen rapporten verwijderd worden (inclusief parameters en de 
     - als *identifier rapport* in tbscreencolumns (beheertegel *Schermkolomdefinitie*) voor aanpassingen op de lay-out van het te tonen rapport die niet met de SQL alleen te maken zijn.
   - De **rapportagenaam** (dvnaam) moet gevuld zijn. **Let op**: in de omschrijving mogen geen komma's voorkomen!
   - Een gebruiker van rapportages ziet alleen rapporten waarvan het **vereist rapportageniveau** (dnvereistniveau) kleiner of gelijk is dan de medewerker eigenschap rapportageniveau (beheertegel *Medewerkers*).
-  - Het aanvinken van de kolom **WMS** (dlwms) betekent dat de rapportage bedoeld is om als WMS_laag gepubliceerd te worden. Zie: [Rapportage als WMS-laag](/docs/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
+  - Het aanvinken van de kolom **WMS** (dlwms) betekent dat de rapportage bedoeld is om als WMS_laag gepubliceerd te worden. Zie: [Rapportage als WMS-laag](/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
   - De kolom **EPSG** (dvwms_epsg)kan vooralsnog alleen gevuld worden met 28992 (rijksdriehoek). Is dus alleen van belang als WMS aangevinkt is.
   - De kolom **Kopregels niet in Excel-export**. Indien aangevinkt worden de kopregels van het lijstscherm waarin het rapport wordt getoond niet meegenomen bij het exporteren naar Excel file (knopje linksonder op dat resultaatscherm). Het gaat hier niet om de kolom labels.
   - In de kolom **SQL-1** (dvquery) moet een valide SQL statement komen die de rapportage definieert beginnend met 'Select'. Daarbij geldt:
@@ -73,7 +73,7 @@ Per rapportgroep kunnen rapporten verwijderd worden (inclusief parameters en de 
     - dat een kolomnaam of kolom-alias alleen letters uit letters of cijfers of underscores mag bestaan. Dus geen spaties of slashes/backslashes e.d.
     - dat de alias niet ingepakt mag zijn met dubbele quootjes!!!
     - dat de substring %where% vervangen zal worden door de inhoud van SQL-2 (zo kan de query uit 8000 tekens bestaan)
-    - dat Open_Wave functies gebruikt kunnen worden in de SQL zie [OpenWave database functies](/docs/instellen_inrichten/openwave_database-functies.md)
+    - dat Open_Wave functies gebruikt kunnen worden in de SQL zie [OpenWave database functies](/instellen_inrichten/openwave_database-functies.md)
     - dat substrings met het masker %xxxx% anders dan %where% worden beschouwd als parameternamen (zie verderop). Het programma zal bij uitvoer van het rapport deze parameternamen vervangen door hun bedoelde waarde.
   - De kolom **SQL-2** (dvwhere) vervangt de substring %where% uit SQL-1. Is dus nodig wanneer het totale SQL-statement groter is dan de 4000 tekens die in SQL-1 passen. Dezelfde opmerkingen als hierboven bij SQL-1 gelden ook voor SQL-2 met uitzondering van de vervanging van de substring %where%.
   - De kolom **Action** (dvaction) kan gevuld worden met een action die wordt uitgevoerd op het moment dat de gebruiker dubbelklikt op een regel van een geopend rapport. Meest voor de hand liggende mogelijkheid is een doorverwijzing naar een bepaald zaak- of inrichtingsportaal dat correspondeert met de geselecteerde regel. Of naar een specifiek detailscherm. Dergelijke actions moeten als volgt gedefinieerd worden:
@@ -93,11 +93,11 @@ Wanneer de action samengesteld moet worden op grond van de inhoud van regel (dus
 
   -  De kolom **kolomnaam van keywaarde t.b.v. action** (dvkeykolom) geeft aan welke achterliggende waarde van welke kolomnaam uit de rapportage gebruikt moet worden door het programma om de variabele {id} uit de action te vervangen met de primary key van de module.
 
-Zie verdere informatie over action: [Actions](/docs/instellen_inrichten/actions.md).
+Zie verdere informatie over action: [Actions](/instellen_inrichten/actions.md).
 
 #### Triggers
 
-In het menu opties rechtsboven. Zie ook [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md):
+In het menu opties rechtsboven. Zie ook [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md):
 
   - Maak schermdefinitie:
     - Zichtbaar en enabled indien er GEEN kaart bestaat in tbscreencolumns (beheertegel *Schermkolomdefinitie*) met *identifier rapport* (dnreportkey) = ID van het rapport. De trigger maakt een schermkolomdefinitie voor het rapport op basis van de SQL en opent deze pagina ter aanpassing.
@@ -162,7 +162,7 @@ Wanneer in de SQL van het rapport meerdere keren dezelfde parameter wordt aanger
 #### OpenWave database functies
 
 OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() -  die gebruikt kunnen worden in allerlei query's.
-Zie: [OpenWave database functies](/docs/instellen_inrichten/openwave_database-functies.md).
+Zie: [OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
 
 #### Rapport export naar Excel
 
@@ -177,7 +177,7 @@ Indien de kolom met numerieke waardes is gedefinieerd als wavetype string (bijvo
 
 Het gewenste formaat kan - en dit geldt overigens voor alle kolommen - doorgegeven worden met de tag `<excelformat>#,#0.00</excelformat>`. Het voorbeeld >#,#0.00 is van toepassing op een Getal, waarbij de decimaalscheidingstekens (met twee decimalen) als een komma moeten worden gerepresenteerd en een punt verwacht wordt voor de duizendtallen. Het format wordt dus door Excel gedefinieerd (Excel geeft ook foutmelding als dit niet goed is gedaan).
 
-Zie [Scherminformatie voor lijstschermen en (dus ook) rapportages](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md) voor de juiste volgordeplek van de tags exceltype en excelformat binnen een schermkolomdefinitie.
+Zie [Scherminformatie voor lijstschermen en (dus ook) rapportages](/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md) voor de juiste volgordeplek van de tags exceltype en excelformat binnen een schermkolomdefinitie.
 
 #### Rapportage direct vanaf tegel starten
 
@@ -194,11 +194,11 @@ Zie onderstaand uitgewerkt voorbeeld.
 Onderstaand voorbeeld is een rapport dat lopende verleende APV/Overige vergunningen van soort HOR of EXP of SLU of SPE of TER opsomt bij een inrichting.
 Het rapport wordt met een klik op de tegel gestart op het portaal van een inrichting:
 
-![](/img/applicatiebeheer/instellen_inrichting/acthortegel.png){ class="media" loading="lazy" alt="" width="300" }
+![](/docs/img/applicatiebeheer/instellen_inrichting/acthortegel.png){ class="media" loading="lazy" alt="" width="300" }
 
 Klikken op de tegel (mits geautoriseerd) laat de rapportagelijst zien:
 
-![](/img/applicatiebeheer/instellen_inrichting/acthorlijst.png){ class="media" loading="lazy" alt="" width="500" }
+![](/docs/img/applicatiebeheer/instellen_inrichting/acthorlijst.png){ class="media" loading="lazy" alt="" width="500" }
 
 **De rapportdefinitie**
 Eerst kolom SQL-1:
@@ -229,13 +229,13 @@ dnkeymilinrichtingen = %portalid%
 
 Omdat in de resultset van de SQL ook de primary key van de APV/Overige is opgenomen onder de alias 'key' kan de gebruiker ook doorklikken naar de detailschermen van die APV/Overige zaken in de lijst. Dat komt door de action definitie bij het rapport:
 
-![](/img/applicatiebeheer/instellen_inrichting/rapportaction.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichting/rapportaction.png){ class="media" loading="lazy" alt="" width="600" }
 
 **De rapportparameter**
 
 De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
-![](/img/applicatiebeheer/instellen_inrichting/rapportparameter.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichting/rapportparameter.png){ class="media" loading="lazy" alt="" width="600" }
 
 (de kolom label is hier overigens zinloos ingevuld, want het is een automatische parameter)
 
@@ -243,7 +243,7 @@ De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
 Stel dat de dnkey van de rapportdefinitie (kolom ID) de waarde 3041 heeft dan krijgt de tegel die geplaatst wordt op het inrichtingsportaal de actionaanroep: startWizard(startReport,3041,{id}).
 
-![](/img/applicatiebeheer/instellen_inrichting/acthorportaltile.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichting/acthorportaltile.png){ class="media" loading="lazy" alt="" width="600" }
 
 De tegel nog wel even toekennen aan de gewenste personen…. en het rapportniveau van de medewerkerskaart van die personen moet nog steeds groter of gelijk zijn aan het vereist rapportageniveau bij de rapportdefinitie EN die personen moeten *Interne medewerkers* zijn.
 

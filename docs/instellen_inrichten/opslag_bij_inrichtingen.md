@@ -6,9 +6,9 @@ Wat betreft de benadering van de tabel tbmilopslag via één of meer tegels is d
 
 ## Rubricering
 
-De inrichtingstabel tbmilopslag kan onder verschillende tegels op het inrichtingsportaal benaderd worden. De aanroep op de [tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md) bepaalt hoe de achterliggende lijst van opslagkaarten gefilterd wordt op rubriek.
+De inrichtingstabel tbmilopslag kan onder verschillende tegels op het inrichtingsportaal benaderd worden. De aanroep op de [tegeldefinitie](/instellen_inrichten/portaldefinitie/README.md) bepaalt hoe de achterliggende lijst van opslagkaarten gefilterd wordt op rubriek.
 
-Een van de attributen van deze tbmilopslag-tabel is de kolom dnrubriek. Dit is een foreign key naar tbmilrubriek (portaal Inrichtingenbeheer, tegel Milieurubrieken onder kolom Kenmerken en verplichtingen): Zie ook: [Milieurubrieken](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_kenmerken_en_verplichtingen/milieurubrieken.md). In deze tabel kunnen rubrieken worden gedefinieerd waarbij aangeven kan worden of deze rubrieken van toepassing zijn op de tabel tbmilopslag. De tabel tbmilrubriek wordt gevuld aangeleverd en daarop zijn onderstaande voorbeelden van toepassing; de functioneel beheerder kan echter zelf coderingen aanpassen en of toevoegen.
+Een van de attributen van deze tbmilopslag-tabel is de kolom dnrubriek. Dit is een foreign key naar tbmilrubriek (portaal Inrichtingenbeheer, tegel Milieurubrieken onder kolom Kenmerken en verplichtingen): Zie ook: [Milieurubrieken](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_kenmerken_en_verplichtingen/milieurubrieken.md). In deze tabel kunnen rubrieken worden gedefinieerd waarbij aangeven kan worden of deze rubrieken van toepassing zijn op de tabel tbmilopslag. De tabel tbmilrubriek wordt gevuld aangeleverd en daarop zijn onderstaande voorbeelden van toepassing; de functioneel beheerder kan echter zelf coderingen aanpassen en of toevoegen.
 
 Met behulp van die rubrieken kunnen de opslagkaarten verdeeld worden over één of meer tegels. Zo kunnen de opslagkaarten die gekoppeld zijn aan de rubriek met dvcode 3 (bodem) exclusief zichtbaar gemaakt worden via de tegeldefinitie Bodem (inrichtingportaal kolom Bodem: tegel: Bodem/opslagvoorz.). De actionaanroep op de tegel is in dit geval _getFlexList(tbmilopslag,tbmilinrichtingen,{id},3,V)_. Zo zijn er ook tegels die opslagkaarten tonen met tbmilrubriek.dvcode = 10 (tanks): _getFlexList(tbmilopslag,tbmilinrichtingen,{id},10,V)_.
 
@@ -33,7 +33,7 @@ Bij de standaarduitlevering is de opslagtabel verdeeld over de tegels:
 Een nieuwe opslagkaart kan worden aangemaakt
 
 - vanuit de lijsten achter de opslagtegels (zie hierboven)
-- vanuit de lijst met EV-activiteiten per inrichting ([Tegel REV BKL Activiteiten](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_rev_bkl_activiteiten.md))
+- vanuit de lijst met EV-activiteiten per inrichting ([Tegel REV BKL Activiteiten](/probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_rev_bkl_activiteiten.md))
 
 In beide gevallen kan OpenWave in de wizard - naast de verplichte benaming (dvnaamopslag) - vragen om:
 
@@ -45,7 +45,7 @@ In beide gevallen kan OpenWave in de wizard - naast de verplichte benaming (dvna
 
 ### Blokken in detailscherm opslagkaart m.b.t. Register externe veiligheid
 
-Zie [Register Externe Veiligheid](/docs/instellen_inrichten/register_exrterne_veiligheid.md).
+Zie [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md).
 
 - **REV activiteit referentie contour** In dit blok kan een bestaande opslagkaart gekoppeld worden aan een bij de inrichting gedefinieerde REV EV-activiteit.
 - **Kenmerken referentie contour** Dit blok is alleen zichtbaar indien de opslagkaart gekoppeld is aan een REV EV-activiteit (tbmilopslag.dnkeymilbklactiviteiten is gevuld)
@@ -53,4 +53,4 @@ Zie [Register Externe Veiligheid](/docs/instellen_inrichten/register_exrterne_ve
 
 ## Blokken in detailscherm opslagkaart m.b.t. Kenmerken/verplichtingen
 
-- **Verplichtingen** Dit blok is alleen zichtbaar indien de kolom dvkenmerkverplichting van de opslagkaart de waarde "K" heeft (kenmerk). Die keuze is afhankelijk van het gekozen item bij de codetabel tbmilvoorzopslag. Zie: [Opslagvoorziening Kenmerk en Verplichting](/docs/instellen_inrichten/opslag_kenmerk-en_verplichting.md)
+- **Verplichtingen** Dit blok is alleen zichtbaar indien de kolom dvkenmerkverplichting van de opslagkaart de waarde "K" heeft (kenmerk). Die keuze is afhankelijk van het gekozen item bij de codetabel tbmilvoorzopslag. Zie: [Opslagvoorziening Kenmerk en Verplichting](/instellen_inrichten/opslag_kenmerk-en_verplichting.md)

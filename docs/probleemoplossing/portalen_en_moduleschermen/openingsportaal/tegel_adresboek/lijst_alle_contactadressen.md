@@ -15,7 +15,7 @@ Alle gegevens van vwfrmcontactadressen waarbij indien het recht _is groep voor p
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Schermkolomdefinitie rapportages](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen/schermkolomdefinitie_rapportages.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Schermkolomdefinitie rapportages](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen/schermkolomdefinitie_rapportages.md)) die niet valide is
 - de inlogger moet lid zijn van rechtengroep die kijkrechten heeft op de contactadressen (tbrechten.dlaadrvsb).
 
 ## Filteropties
@@ -31,7 +31,7 @@ LET OP: OpenWave regelt dat het zoeken NIET CASE SENSITIVE gebeurt
 
 ## Triggers
 
-- In het scherm: dubbel klikken op een regel opent het detailscherm van het geselecteerde contact. Altijd enabled. Zie [Contactadres](/docs/probleemoplossing/module_overstijgende_schermen/contact_adres.md).
+- In het scherm: dubbel klikken op een regel opent het detailscherm van het geselecteerde contact. Altijd enabled. Zie [Contactadres](/probleemoplossing/module_overstijgende_schermen/contact_adres.md).
 - Zoekeditbox rechtsonder in scherm: altijd aanwezig.
 - pagingknoppen rechtsboven. Aanwezig indien aantal rijen groter dan de instelling _Getal1_ bij _Sectie: paging_ en _Item: pagesize_ (defaultwaarde = 100).
 - De samenvoegknop linksonder is zichtbaar en enabled indien de inlogger het recht _samenvoegen contactadressen_ heeft (tbrechten.dldcasam).

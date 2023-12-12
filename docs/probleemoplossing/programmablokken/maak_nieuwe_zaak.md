@@ -1,6 +1,6 @@
 # Aanmaken van nieuwe zaak
 
-Vanuit het archiefportaal **Zaken**/Inrichtingen (wordt uit gefaseerd) kan met de insertknop een nieuwe zaak aangemaakt worden op de straat die op dat moment actief is. Vanuit het openingsportaal vanuit de lijst onder de tegel **Alle Zaken** kan een nieuwe zaak aangemaakt worden waarbij het programma eerst vraagt om gemeente, woonplaats en straat. Vanuit het openingsportaal vanuit de lijst onder de tegel **Alle Zaken** met de knop _Nieuwe zaak op deze straat_ kan een nieuwe zaak aangemaakt worden op dezelfde straat als die van de de actieve rij. Vanuit termijnbewakingsstappen indien zo gedefinieerd: zie [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md).
+Vanuit het archiefportaal **Zaken**/Inrichtingen (wordt uit gefaseerd) kan met de insertknop een nieuwe zaak aangemaakt worden op de straat die op dat moment actief is. Vanuit het openingsportaal vanuit de lijst onder de tegel **Alle Zaken** kan een nieuwe zaak aangemaakt worden waarbij het programma eerst vraagt om gemeente, woonplaats en straat. Vanuit het openingsportaal vanuit de lijst onder de tegel **Alle Zaken** met de knop _Nieuwe zaak op deze straat_ kan een nieuwe zaak aangemaakt worden op dezelfde straat als die van de de actieve rij. Vanuit termijnbewakingsstappen indien zo gedefinieerd: zie [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
 
 ## parameters Wizard maakNieuweZaak
 
@@ -39,7 +39,7 @@ Indien deze instelling _Sectie: Programma en Item: adresrolviazaaktype_ niet bes
 ### Keuze zaaktypes
 
 De inlogger moet een keuze maken uit een lijst met zaaktypes.
-Zie hiervoor de tegels in beheerportaal zaaktypes Omgeving, Handhaving, Milieu/gebruik, Horeca, info-aanvragen en APV/overig. Het gaat om de kaarten met een lege vervaldatum. Zie verder bij instellen/inrichten. Indien de inlogger lid is van een compartiment kunnen alleen die zaaktypes worden gekozen die toegekend zijn aan dat compartiment (en wel alleen binnen de gemeentes die toegekend zijn aan dat compartiment). Per zaaktype kan in het compartiment een eigen masker en lengte opgegeven zijn/worden voor het genereren van compartiment eigen zaaknummers. Indien de inlogger GEEN lid is van een compartiment kunnen alleen die zaaktypes worden gekozen bij de gegeven gemeente indien de combinatie zaaktype/gegeven gemeente NIET voorkomt in een [compartiment](/docs/instellen_inrichten/compartimenten.md).
+Zie hiervoor de tegels in beheerportaal zaaktypes Omgeving, Handhaving, Milieu/gebruik, Horeca, info-aanvragen en APV/overig. Het gaat om de kaarten met een lege vervaldatum. Zie verder bij instellen/inrichten. Indien de inlogger lid is van een compartiment kunnen alleen die zaaktypes worden gekozen die toegekend zijn aan dat compartiment (en wel alleen binnen de gemeentes die toegekend zijn aan dat compartiment). Per zaaktype kan in het compartiment een eigen masker en lengte opgegeven zijn/worden voor het genereren van compartiment eigen zaaknummers. Indien de inlogger GEEN lid is van een compartiment kunnen alleen die zaaktypes worden gekozen bij de gegeven gemeente indien de combinatie zaaktype/gegeven gemeente NIET voorkomt in een [compartiment](/instellen_inrichten/compartimenten.md).
 
 ### Ophalen actoren
 
@@ -61,11 +61,11 @@ Zie hiervoor de tegels in beheerportaal zaaktypes Omgeving, Handhaving, Milieu/g
   - indien geen compartiment dan met de defaultwaarde van de behandelaar bij de definitie van het zaaktype (beheerportaal _Zaakbeheer_)
   - indien wel compartiment dan in de compartimentsdefinitie (beheerportaal-Nieuw) de defaultwaarde van de behandelaar bij het betreffende zaaktype en gemeente.
 
-Zie [Behandelaar bij nieuwe zaak](/docs/probleemoplossing/programmablokken/bepaling_behandelaar_nieuwe_zaak.md) voor een schematische weergave van deze redeneringen bij automatisch en handmatig aangemaakte zaken.
+Zie [Behandelaar bij nieuwe zaak](/probleemoplossing/programmablokken/bepaling_behandelaar_nieuwe_zaak.md) voor een schematische weergave van deze redeneringen bij automatisch en handmatig aangemaakte zaken.
 
 ### Kopiëren kolommen bij dupliceren omgevingszaak (vervolgzaak)
 
-Indien _param3_ begint met de moduleletter: W en _param4_ is gevuld (dus je kopieert een omgevingszaak met de dnkey van _param4_: situatie C of D van hierboven bij het kopje _parameters Wizard maakNieuweZaak_) dan kijkt OpenWave naar de kolom _Tekst_ van instelling _Sectie: Programma_ en _Item: KopieerOmgKolommen_. Zie voorbeelden bij processtapdefinitie bij kopje _Automatisch kiezen vervolgzaak_ bij [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md). Indien deze instelling _KopieerOmgKolommen_ is:
+Indien _param3_ begint met de moduleletter: W en _param4_ is gevuld (dus je kopieert een omgevingszaak met de dnkey van _param4_: situatie C of D van hierboven bij het kopje _parameters Wizard maakNieuweZaak_) dan kijkt OpenWave naar de kolom _Tekst_ van instelling _Sectie: Programma_ en _Item: KopieerOmgKolommen_. Zie voorbeelden bij processtapdefinitie bij kopje _Automatisch kiezen vervolgzaak_ bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md). Indien deze instelling _KopieerOmgKolommen_ is:
 
 - gevuld met een opsomming van één of meer veldnamen uit tbomgvergunning gescheiden door een puntkomma
 - en indien kolomnaam ongelijk aan dnkey, dnkeygroepvergunning en dnkeysoortomgverg, dnkeyperceeladressen, dvaanvraagnaam, ddaanvraag, dvzaakcode, ddfataledatum en dnkeyoinbevgez dan wordt de inhoud van deze kolommen naar de nieuwe omgevingszaak gekopieerd.
@@ -74,7 +74,7 @@ Indien een zaak wordt gekopieerd waarbij de kolom OLO/DSO-nummer gevuld is en de
 
 ### Kopiëren kolommen bij dupliceren handhavingzaak (vervolgzaak)
 
-Indien _param3_ begint met de moduleletter: H en _param4_ is gevuld (dus je kopieert een handhavingzaak met de dnkey van _param4_: situatie C of D van hierboven bij het kopje _parameters Wizard maakNieuweZaak_) dan kijkt OpenWave naar de kolom _Tekst_ van instelling _Sectie: Programma_ en _Item: KopieerHahKolommen_. Zie voorbeelden bij processtapdefinitie bij kopje _Automatisch kiezen vervolgzaak_ bij [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md). Indien deze instelling _KopieerHahKolommen_ is:
+Indien _param3_ begint met de moduleletter: H en _param4_ is gevuld (dus je kopieert een handhavingzaak met de dnkey van _param4_: situatie C of D van hierboven bij het kopje _parameters Wizard maakNieuweZaak_) dan kijkt OpenWave naar de kolom _Tekst_ van instelling _Sectie: Programma_ en _Item: KopieerHahKolommen_. Zie voorbeelden bij processtapdefinitie bij kopje _Automatisch kiezen vervolgzaak_ bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md). Indien deze instelling _KopieerHahKolommen_ is:
 
 - gevuld met een opsomming van één of meer veldnamen uit tbhandhavingen gescheiden door een puntkomma
 - en indien kolomnaam ongelijk aan dnkey, dnkeygroepvergunning en dnkeysoorthhzaak, dnkeyperceeladressen, dvomsbouwerk, ddverzoekdatum, dvaanschrijfnr, ddfataledatum, dnkeyoinbevgez dan wordt de inhoud van deze kolommen naar de nieuwe handhavingzaak gekopieerd.
@@ -90,7 +90,7 @@ De zaaktypes van Omgeving, Handhaving, Milieu/gebruik, Horeca, Info-aanvragen en
 ### Controle met BAG
 
 Deze kan automatisch worden uitgevoerd met een StUF-BG bevraging indien de instelling _Sectie: KoppelingBAG Item: Methode_ en _Tekst: StUF-310_ aangevinkt is.
-De verplichte instellingen hierbij voor de opmaak en adressering van de stuf-berichten zijn (zie [BAG bevraging](/docs/probleemoplossing/programmablokken/bag_bevraging.md)):
+De verplichte instellingen hierbij voor de opmaak en adressering van de stuf-berichten zijn (zie [BAG bevraging](/probleemoplossing/programmablokken/bag_bevraging.md)):
 
 #### Sectie: KoppelingBAG
 
@@ -105,7 +105,7 @@ Indien het adres niet wordt aangetroffen in de BAG, dan wordt de identificatie v
 Wel gevonden: dan worden Datum BAG, identificatie en puntcoördinaten gevuld.
 
 **Opmerking:** indien gewenst kunnen bepaalde huisnummers uitgesloten worden van controle/synchronisatie met BAG. Zie de instelling _NieuweZaakGeenBAGSync_ bij
-[Sectie Programma](/docs/instellen_inrichten/configuratie/sectie_programma.md).
+[Sectie Programma](/instellen_inrichten/configuratie/sectie_programma.md).
 
 ### Automatisch aanmaken zaak in extern zaak/DMS
 
@@ -127,7 +127,7 @@ Indien er WEL sprake is van een compartiment dan:
 - infoaanvraagzaak en de kolom dlAutoZaakDmsInfoAanvraag is aangevinkt bij het betreffende compartiment (beheerportaal-Nieuw)
 - horecazaak en de kolom dlAutoZaakDmsHoreca is aangevinkt bij het betreffende compartiment (beheerportaal-Nieuw).
 
-Zie voor overige verplichte instellingen voor aanmaken zaak in extern zaak/DMS bij [Creëer zaak zaak/dms](/docs/probleemoplossing/programmablokken/creeer_zaak_zaak_dms.md).
+Zie voor overige verplichte instellingen voor aanmaken zaak in extern zaak/DMS bij [Creëer zaak zaak/dms](/probleemoplossing/programmablokken/creeer_zaak_zaak_dms.md).
 
 ### Automatisch aanmaken mappen op fileshare
 
@@ -144,11 +144,11 @@ OF indien
   - en de kolom _Automatisch aanmaken mappen_ (dlautoaanmaakmappen) aangevinkt is bij het betreffende compartiment
 
 dan zullen bij het aanmaken van een nieuwe zaak of inrichting automatisch de mappen genoemd in de rijen van _Sectie: Aanmaakmappen_ worden aangemaakt, waarbij er een '4' voorkomt in _Getal1_ (dus indien _Getal1_ de waarde 25 heeft dan niet, indien bijv. 4 of 124 dan wel). Hierbij uitgezonderd zijn de mappen waarin de variabelen `%adviesnr%`, `%bezwaarnr%` en `%inspnr%` zijn opgenomen.
-Indien OpenWave in de Cloud draait maar de fileserver staat niet in de Cloud, dan moet wel de [satellite](/docs/instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn op de fileserver.
+Indien OpenWave in de Cloud draait maar de fileserver staat niet in de Cloud, dan moet wel de [satellite](/instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn op de fileserver.
 
 ### Automatisch vullen van kolom dvhyperlink
 
-Zie: [Hyperlink](/docs/instellen_inrichten/hyperlink.md).
+Zie: [Hyperlink](/instellen_inrichten/hyperlink.md).
 
 ### Automatisch aanmaken inspectietraject
 
@@ -169,7 +169,7 @@ Indien het traject direct wordt afgesloten, maar het wel de bedoeling is dat bez
 ### Automatisch toevoegen aan Groep
 
 Indien de zaak wordt aangemaakt vanuit een vervolgaction bij een processtap dan wordt de groep waar de hoofdzaak bij is aangesloten, ook toegekend aan de nieuwe gekopieerde zaak. Indien de hoofdzaak nog niet aan een groep is toegekend (nog steeds in geval van vervolgaction) dan wordt een nieuwe groep aangemaakt met de startdatum en aanvraagnaam van de oorspronkelijke zaak. Deze groep wordt vervolgens zowel aan de bestaande hoofdzaak als aan de nieuwe gekopieerde zaak toegekend.
-Met een instelling kan opgegeven worden dat bij het aanmaken van de groep niet de zaakomschrijving maar het DMS-nummer van de originele zaak als waarde gepakt worden, zie [Maak nieuwe zaak](/docs/instellen_inrichten/configuratie/sectie_programma.md).
+Met een instelling kan opgegeven worden dat bij het aanmaken van de groep niet de zaakomschrijving maar het DMS-nummer van de originele zaak als waarde gepakt worden, zie [Maak nieuwe zaak](/instellen_inrichten/configuratie/sectie_programma.md).
 
 ### Automatisch vullen van Bevoegd gezag
 

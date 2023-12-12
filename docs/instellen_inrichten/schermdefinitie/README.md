@@ -14,7 +14,7 @@ Elke lijst- filter-of detailscherm of standaardinsert-scherm heeft een eigen ide
 
 - **aar**. In dat geval komt de schermkolominformatie uit de api-zelf. Dit is het geval wanneer het programma constateert dat er geen gevuld afwijkend scherm (de kolom dvscreenxml) in de tabel tbscreencolumns is gevonden bij de getoonde screenidentifier. De waarde van die identifier zoekt het programma in de kolom dvscreenfilename van die tabel tbscreencolumns. Deze tabel wordt bij database-updates vanzelf van de mogelijke screenidentifiers voorzien. De gebruiker ziet het scherm zoals door Rem standaard uitgeleverd
 - **tbscreencolumns**. De beheerder heeft zelf een scherm aangepast. In dit geval komt de schermkolominformatie wel uit de kolom dvscreenxml van tbscreencolumns waarbij de waarde van de kolom dvscreenfilename overeenkomt met de getoonde identifier. Deze kolom dvscreenxml is gevuld met een xml-string waarin alle kolommen en labels van het scherm zijn gedefinieerd (daarover gaat de rest van deze hoofdstukken). De gebruiker ziet een aangepast scherm. Ook als bij een update Rem zelf een gewijzigd scherm meelevert in de aar is dat niet zichtbaar: het zelf aangepaste scherm prevaleert.
-- **fileserver**. Deze situatie kan alleen voorkomen in het lab van Rem Automatisering. Het programma zoekt op de fileserver naar een xml-file met de naam van de identifier indien zoeken binnen tbscreencolumns niets heeft opgeleverd. Deze xml-file bevat de scherminformatie op dezelfde manier als hierboven. De kolom _Tekst_ van instelling _Sectie: OWB en Item: FlexRootmap_ moet hiertoe gevuld zijn met een valide root en moet aangevinkt zijn. Voor rechten zie [Ophalen van fileshare](/docs/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md).
+- **fileserver**. Deze situatie kan alleen voorkomen in het lab van Rem Automatisering. Het programma zoekt op de fileserver naar een xml-file met de naam van de identifier indien zoeken binnen tbscreencolumns niets heeft opgeleverd. Deze xml-file bevat de scherminformatie op dezelfde manier als hierboven. De kolom _Tekst_ van instelling _Sectie: OWB en Item: FlexRootmap_ moet hiertoe gevuld zijn met een valide root en moet aangevinkt zijn. Voor rechten zie [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md).
 
 Indien deze informatie wordt opgevraagd bij een **rapportlijst** dan zijn er twee mogelijkheden:
 
@@ -37,7 +37,7 @@ Aan de voorkant kan op dus op elk scherm rechtsonder de screenidentifier en `de 
 - de klasse = systandard dan kan de screenidentifier opgezocht worden in het (nieuwe) beheerportaal onder de kolom _Scherm- en Tegelbeheertegel_ achter de tegel: _Schermkolomdefinitie tabellen standaard-api_. Bij de klasse systandard zijn alleen schermen met apinaam getsysstandardList, getsysstandardDetail, insertsysstandardrow of getSysStandardFilter gedefinieerd.
 - anders, bij een andere waarde van de klasse, moet de screenidentifier opgezocht worden achter de tegel _schermkolomdefinitie tabellen OW-api_ Hier zijn veel verschillende apinamen mogelijk.
 
-Naast alles lijst- en detail- en filter en insertschermen kunnen in deze tabel - maar hoeft niet - voor één of meer rapportages kaarten aangemaakt zijn teneinde de kolommen van die rapportage beter op te kunnen maken. Zie trigger _maak schermdefinitie_ bij [Rapportages](/docs/instellen_inrichten/rapportages.md). De rapportageschermen bevinden zich achter de tegel _Schermkolomdefinitie rapportages_. Alle schermen zijn hier van de klasse Reports met de api getReportResultList.
+Naast alles lijst- en detail- en filter en insertschermen kunnen in deze tabel - maar hoeft niet - voor één of meer rapportages kaarten aangemaakt zijn teneinde de kolommen van die rapportage beter op te kunnen maken. Zie trigger _maak schermdefinitie_ bij [Rapportages](/instellen_inrichten/rapportages.md). De rapportageschermen bevinden zich achter de tegel _Schermkolomdefinitie rapportages_. Alle schermen zijn hier van de klasse Reports met de api getReportResultList.
 
 De tabel is en wordt gevuld met de updatescripts van databasewijzigingen. Schermen onder de SysStandard-klasse (lijst, detail, filter en insertscheremn) kunnen door functioneel beheerders worden aangemaakt: in dat geval moet het scherm opgeslagen worden in de kolom _Kolominformatie (dvscreenxml)_. Naar schermen die de klasse SysStandard hebben wordt verwezen vanuit de tabel tbsysstandardtable of vanuit tbsysstandardbutton. Onderaan de lijst van schermen bij klasse SysStandard is een wizardknop zichtbaar: _verwijder niet gekoppelde scherminformatie_. Hiermee wordt een lijst opgebouwd van schermen die 'zweven', dus die geen connectie hebben in een kaart van tbsysstandardtable of tbsysstandardbutton (tegel Tabellen Standaard-api).
 
@@ -69,7 +69,7 @@ Alle kolommen (behalve de niet muteerbare: zie hieronder) en knoppen zijn dan to
   - nieuwe projectlocatie : tbscreencolumns.dvscreenfilename = _mdlc_getzaakkadpercList.xml_
   - nieuw inspectietraject: tbscreencolumns.dvscreenfilename = _mdlc_geefinsptrajectoverzicht.xml_
   - nieuw advies: tbscreencolumns.dvscreenfilename = _mdlc_geefadviezenoverzicht.xml_
-- **Editschuif automatisch aan**. Is alleen van toepassing voor detailschermen. Indien aangevinkt zal het openen van het betreffende scherm gebeuren met de editschuif op AAN ongeacht de default instelling (zie: [Edit-schuif](/docs/instellen_inrichten/editschuif.md)), tenzij de inlogger geen wijzigrechten heeft op dat scherm.
+- **Editschuif automatisch aan**. Is alleen van toepassing voor detailschermen. Indien aangevinkt zal het openen van het betreffende scherm gebeuren met de editschuif op AAN ongeacht de default instelling (zie: [Edit-schuif](/instellen_inrichten/editschuif.md)), tenzij de inlogger geen wijzigrechten heeft op dat scherm.
 - **Blokvolgorde** Alleen van toepassing op detailschermen. Zonder de opmaak-xml van het scherm te veranderen (dus bij lege kolom dvscreenxml) kan hier een afwijkende volgorde van de blokken worden opgegeven. Zie hieronder onder kopje _blokvolgorde_
 - **sql kopregel1, kopregel2** en **kopregel3**. Indien gevuld met een valide SQL-statement worden de resultaten van die statements gebruikt voor de drie kopregels van het scherm (de bestaande waardes worden hiermee overschreven). Aan de queries worden de volgende eisen gesteld:
   - het resultaat van een query ( dus de evaluatie van het select-statement) mag maar uit één kolom en één rij bestaan.
@@ -78,10 +78,10 @@ Alle kolommen (behalve de niet muteerbare: zie hieronder) en knoppen zijn dan to
     - _:keyaccount_ zal worden vervangen door tbmedewerkers.dvcode van de inlogger
     - _{id}_ wordt vervangen met de dnkey van tbomgvergunning of tbhandhavingen of tbmilinrichtingen of tbovvergunningen of tbmilvergunningen wanneer het statement gebruikt wordt op achterliggende schermen van een zaak- of inrichtingportaaltegel en/of door de primary key van de lijst waar vanuit een detailscherm wordt aangeroepen.
 - **Kolominformatie** (dvscreenxml). Indien gevuld wordt de informatie in deze kolom gebruikt om een afwijkend scherm op te maken. Met de trigger _Haal Origineel_ kan altijd het standaard uitgeleverde scherm worden opgehaald uit de aar (de openwave programmatuur) teneinde deze dus als afwijkend scherm aan te passen. Indien deze kolom leeg is, dan gebruikt het programma altijd de standaardversie van het scherm of rapport. Met F11 wordt de kolom weergegeven in een groot scherm met ondersteuning voor de xml-syntax. Met F11 kan nadien ook weer teruggekeerd worden naar normale modus. Voor de betekenis en gebruik van de xml-structuur in deze kolom zie:
-  - [Scherminformatie voor lijstschermen en (dus ook) rapportages](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md)
-  - [Scherminformatie voor detailschermen](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md).
-  - [Scherminformatie voor filterblokken op lijstschermen](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_filterblokken.md)
-  - [Scherminformatie voor standaard insert- en kopieer](/docs/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
+  - [Scherminformatie voor lijstschermen en (dus ook) rapportages](/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md)
+  - [Scherminformatie voor detailschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md).
+  - [Scherminformatie voor filterblokken op lijstschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_filterblokken.md)
+  - [Scherminformatie voor standaard insert- en kopieer](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
 
 ## Blokvolgorde detailscherm
 
@@ -119,11 +119,11 @@ Met de wizardknop _verwijder niet gekoppelde scherminformatie_ (alleen bij scher
 
 ## Meer informatie Scherm(kolom)definitie
 
-- [Iconenlijst](/docs/instellen_inrichten/schermdefinitie/iconenlijst.md)
-- [Scherminformatie voor getFlexTree schermen](/docs/instellen_inrichten/schermdefinitie/scherminfomatie_voor_getflextree_schermen.md)
-- [Scherminformatie voor standaard insert- en kopieer](/docs/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
-- [Scherminformatie voor detailschermen](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md)
-- [Scherminformatie voor filterblokken op lijstschermen](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_filterblokken.md)
-- [Scherminformatie voor lijstschermen en (dus ook) rapportages](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md)
-- [Sorteren van lijstschermen](/docs/instellen_inrichten/schermdefinitie/sorteren_van_lijstschermen.md)
-- [Verversen en Positioneren](/docs/instellen_inrichten/schermdefinitie/verversen_en_positioneren.md)
+- [Iconenlijst](/instellen_inrichten/schermdefinitie/iconenlijst.md)
+- [Scherminformatie voor getFlexTree schermen](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_getflextree_schermen.md)
+- [Scherminformatie voor standaard insert- en kopieer](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
+- [Scherminformatie voor detailschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md)
+- [Scherminformatie voor filterblokken op lijstschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_filterblokken.md)
+- [Scherminformatie voor lijstschermen en (dus ook) rapportages](/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md)
+- [Sorteren van lijstschermen](/instellen_inrichten/schermdefinitie/sorteren_van_lijstschermen.md)
+- [Verversen en Positioneren](/instellen_inrichten/schermdefinitie/verversen_en_positioneren.md)

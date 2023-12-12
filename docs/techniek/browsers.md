@@ -9,4 +9,4 @@
 N.B.1 van de browsers worden de huidige en voorgaande hoofdversie ondersteund
 N.B.2 Met mobiele telefoons wordt niet specifiek getest omdat deze in de praktijk weinig wordt gebruikt. Mobiel toezicht bijvoorbeeld vindt primair plaats op laptops en tablets en niet op een mobiele telefoonschermpje.
 
-Voor de [technische vereisten](/docs/techniek.md) moeten browsers javascript, cookies, images en CSS ondersteunen. Er wordt getest met de standaardinstellingen, ook met betrekking tot font-size en expensions/plug-ins.
+Voor de [technische vereisten](/techniek.md) moeten browsers javascript, cookies, images en CSS ondersteunen. Er wordt getest met de standaardinstellingen, ook met betrekking tot font-size en expensions/plug-ins.

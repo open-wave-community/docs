@@ -9,7 +9,7 @@ Dit scherm kan worden aangeroepen vanuit de lijst _Onderdelen/activiteiten_ bij 
 Het scherm geeft een foutmelding, indien:
 
 - er mogelijk een zelf gedefinieerde schermindeling gebruikt is die niet valide is
-- de inlogger geen kijkrechten heeft op de activiteiten/onderdelen bij een [omgevingszaak](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/tegel_onderdelen/lijst_onderdelen.md).
+- de inlogger geen kijkrechten heeft op de activiteiten/onderdelen bij een [omgevingszaak](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/tegel_onderdelen/lijst_onderdelen.md).
 
 ### Muteren
 
@@ -30,7 +30,7 @@ De kolom _W011_ is muteerbaar maar wordt in de volgende situaties automatisch aa
 - indien de activiteit een bouwactiviteit betreft (in beheer is de eigenschap _Werkzaamheden, gereedmelding, terugkoppeling bag en CBS van toepassing_ (dluitvoering) toegewezen aan de soort activiteit) en
   - de herziene kosten van de activiteit zijn gevuld en groter of gelijk aan 50.0000,
   - OF de herziene kosten zijn NIET gevuld maar de vastgestelde kosten zijn groter of gelijk aan 50.000,
-  - OF vastgestelde en herziene kosten zijn beide niet gevuld, maar de kosten berekend vanuit ROEB zijn groter of gelijk aan 50.000 (zie [Roeb berekening vastg. kosten](/docs/instellen_inrichten/roeb_berekening_vastg._kosten.md)),
+  - OF vastgestelde en herziene kosten zijn beide niet gevuld, maar de kosten berekend vanuit ROEB zijn groter of gelijk aan 50.000 (zie [Roeb berekening vastg. kosten](/instellen_inrichten/roeb_berekening_vastg._kosten.md)),
   - OF alleen de opgegeven kosten zijn gevuld en groter of gelijk aan 50.000 dan zal _W011_ automatisch aangevinkt worden
 - hetzelfde geldt ook andersom: stond _W011_ aan en de kosten worden lager dan 50.000 voor de bouwactiviteit, dan zal _W011_ automatisch uitgevinkt worden.
 
@@ -38,7 +38,7 @@ Let op: voorheen werd als bouwactiviteit gezien een activiteit waarvoor in behee
 
 Houd er rekening mee dat indien de vastgestelde of herziene kosten niet zijn opgegeven, dat een wijziging in de ROEB van invloed kan zijn op de eigenschap W011.
 
-Zie voor CBS en gebruik van deze kolom W011 de knop CBS bij het kopje triggers linksonder in [Detailscherm Omgevingszaak](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/detailscherm_omgevingszaken.md)
+Zie voor CBS en gebruik van deze kolom W011 de knop CBS bij het kopje triggers linksonder in [Detailscherm Omgevingszaak](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/detailscherm_omgevingszaken.md)
 
 ### Woonmonitor
 

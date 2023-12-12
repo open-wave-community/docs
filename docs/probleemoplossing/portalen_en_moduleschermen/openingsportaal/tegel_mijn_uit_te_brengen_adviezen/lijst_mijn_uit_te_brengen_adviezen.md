@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_geefExterneAdviezenLijst.xml (voor Vaarwegzaken is dit MDLC_geefExterneAdviezenVaarwegLijst.xml).
 
-Zie ook [Tegel Mijn uit te brengen adviezen](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_uit_te_brengen_adviezen.md)
+Zie ook [Tegel Mijn uit te brengen adviezen](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_uit_te_brengen_adviezen.md)
 
 ## Welke gegevens worden getoond
 

@@ -4,13 +4,13 @@ Onder deze kolom bevinden zich de zaakbeheertegels die veelal op de verschillend
 
 ## Tegels
 
-- [Bestemmingsplannen](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestemmingsplannen.md)
-- [Bestplancategorie](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestplancategorie.md)
-- [Bestemtoetscriteria](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestemtoetscriteria.md)
-- [Acties DSO Spec. Vraagid&#039;s](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/acties_dso_specvraagids.md)
-- [Preparaties](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/preparaties.md)
-- [Installaties](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/installaties.md)
-- [Zaakdomein](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/zaakdomein.md)
-- [Nationaliteiten](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/nationaliteiten.md)
-- [Prognose](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/prognose.md)
-- [Prognose categorieën](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/prognose_categorieen.md)
+- [Bestemmingsplannen](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestemmingsplannen.md)
+- [Bestplancategorie](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestplancategorie.md)
+- [Bestemtoetscriteria](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/bestemtoetscriteria.md)
+- [Acties DSO Spec. Vraagid&#039;s](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/acties_dso_specvraagids.md)
+- [Preparaties](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/preparaties.md)
+- [Installaties](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/installaties.md)
+- [Zaakdomein](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/zaakdomein.md)
+- [Nationaliteiten](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/nationaliteiten.md)
+- [Prognose](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/prognose.md)
+- [Prognose categorieën](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/tegels_kolom_overig_1/prognose_categorieen.md)

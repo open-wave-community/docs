@@ -27,7 +27,7 @@ Het password dat OpenWave moet gebruiken voor toegang tot de DMS-server
 - _Item: Pass_cmis_
 - _Tekst_: het password
 
-Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
+Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
 
 ## Mogelijke mappen met CMIS-protocol
 

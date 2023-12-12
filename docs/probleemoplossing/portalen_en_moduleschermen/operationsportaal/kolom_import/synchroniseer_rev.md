@@ -1,6 +1,6 @@
 # REV Synchronisatie
 
-Zie [REV-synchroniseren](/docs/probleemoplossing/programmablokken/rev_synchroniseren.md)
+Zie [REV-synchroniseren](/probleemoplossing/programmablokken/rev_synchroniseren.md)
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de lijst van de te synchroniseren data uit het REV 
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 * Portaal: *Operations*
 * Kolom: *Import*

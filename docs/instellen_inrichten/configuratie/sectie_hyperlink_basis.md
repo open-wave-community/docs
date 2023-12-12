@@ -1,12 +1,12 @@
 # Sectie Hyperlink_basis
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Hyperlink_basis_ gerangschikt op item. Deze instellingen zijn alleen van belang indien:
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Hyperlink_basis_ gerangschikt op item. Deze instellingen zijn alleen van belang indien:
 
 - gebruik gemaakt wordt van de fileserver (_Sectie: Documenten en Item: ophalenviafileserver_ is aangevinkt) voor het opslaan en ophalen van documenten
 - en wanneer gebruik gemaakt wordt van Microsoft IE/ of Edge die als trusted zijn gedefinieerd voor Open-Wave
 - en wanneer het IP-adres waarvandaan wordt ingelogd toegang heeft tot de fileserver.
 
-Zie [Hyperlink](/docs/instellen_inrichten/hyperlink.md).
+Zie [Hyperlink](/instellen_inrichten/hyperlink.md).
 
 ## Items Configuratietabel
 

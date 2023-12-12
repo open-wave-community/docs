@@ -44,41 +44,41 @@ In dat geval dient deze waarde handmatig op null gezet te worden. OpenWave doet 
 
 ## Welke callables zijn in te stellen
 
-- **importSWFOpenActieverzoeken** (zie voorwaarde en noodzakelijke instellingen bij [Samenwerkingsfunctionaliteit](/docs/instellen_inrichten/samenwerkingsfunctionaliteit.md)).
+- **importSWFOpenActieverzoeken** (zie voorwaarde en noodzakelijke instellingen bij [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md)).
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: ImportSWFOpenActieverzoeken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportReportContainer** met als parameter een dvcode uit de tabel tbexportcontainer (tegel _Container exportrapportages_ onder kolom _Werkbeheer_ van beheerportaal _Inrichtingenbeheer_) dus bijvoorbeeld exportReportContainer(inspectieview) zie: [Export Report Container](/docs/instellen_inrichten/export_report_container.md).
+- **exportReportContainer** met als parameter een dvcode uit de tabel tbexportcontainer (tegel _Container exportrapportages_ onder kolom _Werkbeheer_ van beheerportaal _Inrichtingenbeheer_) dus bijvoorbeeld exportReportContainer(inspectieview) zie: [Export Report Container](/instellen_inrichten/export_report_container.md).
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: ExportReportContainer_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportREV** (zie [Register Externe Veiligheid](/docs/instellen_inrichten/register_exrterne_veiligheid.md)) bij kopje _Export Naar REV_
+- **exportREV** (zie [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md)) bij kopje _Export Naar REV_
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: ExportREV_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importDSOGerelateerdeZaken** (zie [DSO Gerelateerde Zaken](/docs/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md))
+- **importDSOGerelateerdeZaken** (zie [DSO Gerelateerde Zaken](/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: importDSOGerelateerdeZaken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importDSOGemisteVerzoeken** (zie [DSO Gemiste Verzoeken](/docs/probleemoplossing/programmablokken/dso_gemiste_verzoeken.md))
+- **importDSOGemisteVerzoeken** (zie [DSO Gemiste Verzoeken](/probleemoplossing/programmablokken/dso_gemiste_verzoeken.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: importDSOGemisteVerzoeken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **SynchroniseerOpenSWFRuimtes** (zie [Synchroniseer Open SWF ruimtes](/docs/probleemoplossing/programmablokken/synchroniseer_open_swfruimtes.md))
+- **SynchroniseerOpenSWFRuimtes** (zie [Synchroniseer Open SWF ruimtes](/probleemoplossing/programmablokken/synchroniseer_open_swfruimtes.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: synchroniseerOpenSWFRuimtes_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportInrichtingenWFS** (zie [Data Op Kaart / Export Inrichtingen als WFS](/docs/instellen_inrichten/data_op_kaart.md))
+- **exportInrichtingenWFS** (zie [Data Op Kaart / Export Inrichtingen als WFS](/instellen_inrichten/data_op_kaart.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: exportInrichtingenWFS_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importmaandKadasterBAG** (zie [Automatisch inlezen BAG- mutaties](/docs/probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md))
+- **importmaandKadasterBAG** (zie [Automatisch inlezen BAG- mutaties](/probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: Inlezenbag_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
 ## Stroomschema runScheduledTasks
 
-![](/img/applicatiebeheer/instellen_inrichten/runscheduledtasks.w.700_tok.d26a53.png?w=700&tok=d26a53".md){ class="media" loading="lazy" alt="" width="700" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/runscheduledtasks.w.700_tok.d26a53.png){ class="media" loading="lazy" alt="" width="700" }
 
 ad 1. De waarde van _Getal1_ van instelling _sectie Taskscheduler item: AantalBenBezigHersteluren_ .
 
@@ -86,4 +86,4 @@ Indien niet aanwezig dan wordt 12 als defaultwaarde genomen. Indien 0 dan wordt 
 
 ## Stroomschema geldig voor alle Callables
 
-![](/img/applicatiebeheer/instellen_inrichten/callable.w.700_tok.3aec52.png){ class="media" loading="lazy" alt="" width="700" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/callable.w.700_tok.3aec52.png){ class="media" loading="lazy" alt="" width="700" }

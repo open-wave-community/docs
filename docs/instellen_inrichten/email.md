@@ -1,8 +1,8 @@
 # E-mail SMTP instellingen
 
-Zie ook [E-mail](/docs/functionaliteiten/email.md)
+Zie ook [E-mail](/functionaliteiten/email.md)
 
-Instellingen die nodig zijn om vanuit OpenWave een SMTP-server (uitgaande email) aan te kunnen spreken. Het gaat om de volgende kaarten in tbinitialisatie (beheertegel _[Configuratie](/docs/instellen_inrichten/configuratie/README.md)_).
+Instellingen die nodig zijn om vanuit OpenWave een SMTP-server (uitgaande email) aan te kunnen spreken. Het gaat om de volgende kaarten in tbinitialisatie (beheertegel _[Configuratie](/instellen_inrichten/configuratie/README.md)_).
 
 - _Sectie: Web.mail_ en _Item: debug_. Aan of uitvinken. Normaal uit.
 - _Sectie: Web.mail_ en _Item: mime.address.strict_. Aan of uitvinken. Normaal aan.

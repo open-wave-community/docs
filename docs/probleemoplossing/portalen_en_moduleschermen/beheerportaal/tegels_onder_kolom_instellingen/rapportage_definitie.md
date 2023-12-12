@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger naar het doorkiesscherm voor *Rapportages*, zie [Rapportages](/docs/instellen_inrichten/rapportages.md).
+De tegel is een trigger naar het doorkiesscherm voor *Rapportages*, zie [Rapportages](/instellen_inrichten/rapportages.md).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger naar het doorkiesscherm voor *Rapportages*, zie [Rapport
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Beheer*
 - Kolom: *Instellingen*

@@ -15,7 +15,7 @@ Het scherm geeft een foutmelding, indien:
 
 ### Automatisch aanmaken inspectietraject en Compartiment
 
-Indien voor een [compartiment](/docs/instellen_inrichten/compartimenten.md) is ingesteld (beheerportaal-Nieuw tegel _Compartimenten_) dat het compartiment een bepaald zaaktype behandelt, kan daarbij ook worden aangegeven of dit inclusief of exclusief de deelzaken inspecties en bezwaar/beroep is. Dat betekent dat een compartiment bijvoorbeeld een reguliere bouwzaak afhandelt, maar dat de inspectie daarop door de OpenWave gastheer wordt afgehandeld waarbinnen het compartiment valt.
+Indien voor een [compartiment](/instellen_inrichten/compartimenten.md) is ingesteld (beheerportaal-Nieuw tegel _Compartimenten_) dat het compartiment een bepaald zaaktype behandelt, kan daarbij ook worden aangegeven of dit inclusief of exclusief de deelzaken inspecties en bezwaar/beroep is. Dat betekent dat een compartiment bijvoorbeeld een reguliere bouwzaak afhandelt, maar dat de inspectie daarop door de OpenWave gastheer wordt afgehandeld waarbinnen het compartiment valt.
 
 Als bij de definitie van het zaaktype in het compartiment is opgegeven:
 
@@ -31,7 +31,7 @@ dan zal bij het afsluiten van een zaak door het compartiment dat valt onder het 
 - Het blok **Digitale checklisten** is alleen zichtbaar indien de instelling _Sectie: koppelinginsptoets en Item: methode_ is aangevinkt en de kolom _Tekst_ de waarde _digitalechecklisten_ heeft.
 - Het **blok TMLO** is alleen zichtbaar indien de kolom **Is Hoofdzaak** (tbinspaanleiding.dlhoofdzaak) aangevinkt is voor de betreffende aanleiding (beheerportaal _Zaakbeheer_, kolom _Handhaving en Toezicht_, tegel _Inspectietrajectsoorten_). De kolom bewaartermijnindagen geeft de ingestelde waarde weer uit de tabel tbaardbesluitsoortinsp (de koppeltabel tussen tbinspaanleiding en tbaardbesluit op het detailscherm van de inspectietrajectsoorten).
 
-De kolom **vernietigingsjaar** i.v.m. [Vernietigingslijst](/docs/probleemoplossing/programmablokken/vernietigingslijst.md) wordt als volgt berekend: Indien
+De kolom **vernietigingsjaar** i.v.m. [Vernietigingslijst](/probleemoplossing/programmablokken/vernietigingslijst.md) wordt als volgt berekend: Indien
 _eeuwig bewaren is aangevinkt dan: leeg
 _ anders, indien de bewaartermijn uit tbaardbesluitsoortinsp is gemeten vanaf startdatum (tbinspecties.ddrappel):
 _indien afwijkende bewaartermijn gevuld dan ddrappel + afwijkende termijn
@@ -39,7 +39,7 @@ _ anders, dan ddrappel + bewaartermijn uit tbaardbesluitsoortinsp
 _anders, indien de bewaartermijn uit tbaardbesluitsoortinsp is gemeten vanaf einddatum (ddcontrole):
 _ indien afwijkende bewaartermijn gevuld dan ddcontrole + afwijkende termijn \* anders, dan ddcontrole + bewaartermijn uit tbaardbesluitsoortinsp.
 
-- Het blok **Producten/Diensten** is alleen zichtbaar indien de instelling _Sectie: Product/Dienst en Item: Inspecties_ is aangevinkt. De lijst in het blok is zichtbaar indien de inlogger het kijkrecht op inspecties bij omgevingzaken heeft (tbomgrechten.dlcomginsvsb) dus ook indien de inspectiekaart aan bijv. een handhavingzaak is gekoppeld. De inlogger kan hier een of meer producten opvoeren bij de het inspectietraject op grond van de toegekende producten aan de betreffende inspectie-aanleiding (zie blok _gekoppeld aan producten_ in detailscherm achter _portaal Zaakbeheer, kolom Handhaving & toezicht, tegel Soorten inspectietrajectsoorten (tbinspaanleiding)_. Zie werking [Producten Klanten en Werkpakketten](/docs/instellen_inrichten/producten_klanten_werkpakketten.md)
+- Het blok **Producten/Diensten** is alleen zichtbaar indien de instelling _Sectie: Product/Dienst en Item: Inspecties_ is aangevinkt. De lijst in het blok is zichtbaar indien de inlogger het kijkrecht op inspecties bij omgevingzaken heeft (tbomgrechten.dlcomginsvsb) dus ook indien de inspectiekaart aan bijv. een handhavingzaak is gekoppeld. De inlogger kan hier een of meer producten opvoeren bij de het inspectietraject op grond van de toegekende producten aan de betreffende inspectie-aanleiding (zie blok _gekoppeld aan producten_ in detailscherm achter _portaal Zaakbeheer, kolom Handhaving & toezicht, tegel Soorten inspectietrajectsoorten (tbinspaanleiding)_. Zie werking [Producten Klanten en Werkpakketten](/instellen_inrichten/producten_klanten_werkpakketten.md)
 
 ### Muteren
 
@@ -81,7 +81,7 @@ Er zijn twee resultaatkolommen waarvan er altijd maar eentje zichtbaar is. Indie
 
 Indien deze _Getal 1_ van deze instelling **WEL** de waarde 1 heeft dan zijn de kolommen vwfrminspecties.dnkeyaardbesluitsoortinsp en dvaardbesluit zichtbaar. Het resultaat komt in dit geval uit de tabel tbaardbesluit via de koppeltabel tbaardbesluitsoortinsp (koppeling op tbinspaanleiding en tbaardbesluit). In de koppeltabel tbaardbesluitsoortinsp op het detailscherm van een inspectietrajectsoort (dus uit tbinspaanleiding: beheerportaal _Zaakbeheer_, kolom _Handhaving en toezicht_, tegel _Inspectietrajectsoorten_) kunnen items uit tbaardbesluit worden gekoppeld aan een rij van tbinspaanleiding.
 
-Aan de voorkant bepaalt dus de keuze voor de aanleiding inspectie wat de mogelijkheden zijn voor het resultaat. In de koppeltabel tbaardbesluitsoortinsp worden ook de bewaartermijndagen opgegeven die gebruikt worden bij de [Vernietigingslijst](/docs/probleemoplossing/programmablokken/vernietigingslijst.md).
+Aan de voorkant bepaalt dus de keuze voor de aanleiding inspectie wat de mogelijkheden zijn voor het resultaat. In de koppeltabel tbaardbesluitsoortinsp worden ook de bewaartermijndagen opgegeven die gebruikt worden bij de [Vernietigingslijst](/probleemoplossing/programmablokken/vernietigingslijst.md).
 
 ### Koppeling Digitale checklisten
 
@@ -112,7 +112,7 @@ De StUF zaak/DMS koppeling is het geval indien daarbij:
 
 #### Sluit inspectietraject af
 
-Achter de kolom afgerond. Zie [Sluiten en Nieuw aanmaken Inspectietraject](/docs/probleemoplossing/programmablokken/afsluiten_inspectietraject.md)
+Achter de kolom afgerond. Zie [Sluiten en Nieuw aanmaken Inspectietraject](/probleemoplossing/programmablokken/afsluiten_inspectietraject.md)
 
 - Altijd zichtbaar
 - enabled indien:
@@ -212,7 +212,7 @@ Het report.pdf uit Digitale checklisten wordt default geüpload onder de naam: D
 
 #### Toon geregistreerde documenten bij dit traject
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
+Zie [Geregistreerde Documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt
@@ -271,7 +271,7 @@ Door het indrukken van de knop wordt een nieuwe handhavingszaak aangemaakt zoals
 
 #### Toon documenten
 
-(Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md)).
+(Zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md)).
 
 - Zichtbaar wanneer:
   - een van onderstaande twee beweringen waar is:

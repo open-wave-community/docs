@@ -51,7 +51,7 @@ Als een proces als tweede of derde proces aan een zaak wordt gekoppeld, moet van
 
 Een gevulde vervaldatum die groter is dan de systeemdatum heeft tot gevolg dat de termijnstap niet zichtbaar is en dat de termijnstap niet zal wordt aangemaakt bij het koppelen van een vergunning aan de proces waar deze stap een onderdeel van uitmaakt. **Opschortende werkingstermijn wordt bij deze stap opgeteld**
 
-De berekende opschortende werking kan dus - naast de optelling bij de fatale datum in een omgevingszaak of APV/Overige - OOK bij een termijnstap worden opgeteld, maar dit hoeft niet. Zie [Ontvankelijkheid en opschortende werking](/docs/instellen_inrichten/inrichting_processen/opschortende_werking.md).
+De berekende opschortende werking kan dus - naast de optelling bij de fatale datum in een omgevingszaak of APV/Overige - OOK bij een termijnstap worden opgeteld, maar dit hoeft niet. Zie [Ontvankelijkheid en opschortende werking](/instellen_inrichten/inrichting_processen/opschortende_werking.md).
 
 #### Berekende streefdatum door gebruiker aan te passen
 
@@ -72,7 +72,7 @@ Daarop gelden uitzonderingen; de deadlines kunnen toch veranderen bij:
 
 In de takenlijst komt een regel als de streefdatum van een termijnbewakingsstap verlopen is of dreigt te verlopen.
 
-**Deze stap is de ontvangst van de aanvullende gegevens** Zie hiervoor ook: Ontvankelijkheid en opschortende werking ([Ontvankelijkheid en opschortende werking](/docs/instellen_inrichten/inrichting_processen/opschortende_werking.md)). Indien dit vakje is aangevinkt dan heeft dat de volgende betekenis.
+**Deze stap is de ontvangst van de aanvullende gegevens** Zie hiervoor ook: Ontvankelijkheid en opschortende werking ([Ontvankelijkheid en opschortende werking](/instellen_inrichten/inrichting_processen/opschortende_werking.md)). Indien dit vakje is aangevinkt dan heeft dat de volgende betekenis.
 
 De termijnstap wordt geïnterpreteerd als de stap waarbij in het kader van de ontvankelijkheidstoetsing op uitnodiging aanvullende gegevens worden aangeleverd. Het programma neemt aan dat de voorgaande stap dan de uitnodiging tot het aanleveren van die aanvullende gegevens is. Het programma kan dan een opschortende werking gaan berekenen door het aantal dagen tussen de afhandeldatum van deze termijnstap (de aanlevering) minus de afhandeldatum van de voorgaande stap (de uitnodiging) te bepalen.
 
@@ -132,7 +132,7 @@ In alle gevallen geldt dat als de afgehandeld datum nog leeg is dat dan de stree
 
 Aan een processtap kan een action worden toegevoegd. Dat heeft tot gevolg dat er op het detailscherm van de betreffende processtap bij het afhandelen van de zaak een blok action zichtbaar wordt met het hier te definiëren label en een knop om de action uit te voeren. Tevens wordt er een uitvoerbare knop zichtbaar op het lijstscherm van de processtappen om de actie uit te voeren.
 
-Bij een aantal actions is het mogelijk deze zo te parameteriseren dat met het uitvoeren van de action ook de afgehandeld datum van de betreffende stap wordt gevuld. De knop die de action triggert is alleen enabled bij een lege afgehandeld datum. Een aantal voorbeelden geredeneerd vanuit een proces bij een omgevingszaak: Let goed op de komma's en puntkomma's. Luistert nauw. Zie verdere documentatie over actions: [Actions](/docs/instellen_inrichten/actions.md).
+Bij een aantal actions is het mogelijk deze zo te parameteriseren dat met het uitvoeren van de action ook de afgehandeld datum van de betreffende stap wordt gevuld. De knop die de action triggert is alleen enabled bij een lege afgehandeld datum. Een aantal voorbeelden geredeneerd vanuit een proces bij een omgevingszaak: Let goed op de komma's en puntkomma's. Luistert nauw. Zie verdere documentatie over actions: [Actions](/instellen_inrichten/actions.md).
 
 ### Automatisch creëren van document op basis van specifiek sjabloon zonder vullen afgehandeld datum van stap
 
@@ -285,7 +285,7 @@ _startwizard(maaknieuwezaak,,W;%keypointer%,%keyparent%)_
 - _W_ geeft aan in welke module het advies wordt aangemaakt. Op de plaats van de W (tbomgvergunning) kunnen ook de moduleletters H (tbhandhavingen), O (tbovvergunningen), I (tbinfoaanvragen), C (tbhorecavergunningen) of E (tbmilvergunningen) worden gebruikt
 - _2_ geeft hier aan de de gebruiker kan kiezen uit de adviesinstanties (voor de betreffende module) waarvan de dvcode begint met een 2.
 
-**Automatisch aanroep wizard insertAdvies **zonder** extra restrictie adviesinstanties**met** vullen van afgehandeld datum van stap**
+**Automatisch aanroep wizard insertAdvies **zonder** extra restrictie adviesinstanties**met**vullen van afgehandeld datum van stap**
 
 `startWizard(insertAdvies,%keyparent%,W,;%keypointer%)`
 
@@ -322,14 +322,14 @@ _startwizard(maaknieuwezaak,,W;%keypointer%,%keyparent%)_
 
 `startWizard(StuurDSOOntvangstbevestiging,%keyparent%,tbomgvergunning)`
 
-- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
+- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
 - _%keyparent%_ wordt on the fly automatisch vervangen met de dnkey van de kaart uit de hoofdzaak van de module (dus de dnkey van de zaak waar je op staat)
 
 **Automatisch aanroep wizard StuurDSOOntvangstbevestiging **met** vullen van afgehandeld datum van stap**
 
 `startWizard(StuurDSOOntvangstbevestiging,%keyparent%,tbomgvergunning,%keypointer%)`
 
-- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
+- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
 - _%keyparent%_ wordt on the fly automatisch vervangen met de dnkey van de kaart uit de hoofdzaak van de module (dus de dnkey van de zaak waar je op staat)
 - _%keypointer%_ wordt on the fly automatisch vervangen met de dnkey van de stap (termijnbewstappen) teneinde op de juiste plek de afhandeldatum te kunnen vullen.
 
@@ -386,7 +386,7 @@ select distinct a.dnkeyaardbesluit ||':'|| coalesce(a.dvomschrijving,' ') id,  a
 
 ### Blok Canvas
 
-Zie [Grafische weergave](/docs/instellen_inrichten/inrichting_processen/grafische_weergave.md).
+Zie [Grafische weergave](/instellen_inrichten/inrichting_processen/grafische_weergave.md).
 
 ### Blok kolom-koppeling
 

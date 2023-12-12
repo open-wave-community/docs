@@ -59,4 +59,4 @@ Welke zijn van toepassing op deze lijst?
   - oranje indien er tenminste één openstaande advies is met vandaag < rappeldatum < = datum_van_vandaag + 2
   - wit in alle andere gevallen.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/docs/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).

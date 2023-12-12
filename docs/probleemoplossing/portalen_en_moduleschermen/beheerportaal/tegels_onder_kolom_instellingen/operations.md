@@ -11,7 +11,7 @@ De tegel is een trigger naar het Portaal _Operations_. Daarin bevinden zich tege
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Beheer_
 - Kolom: _Instellingen_

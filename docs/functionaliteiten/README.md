@@ -4,12 +4,12 @@ In de volgende pagina's wordt een aantal onderwerpen behandeld dat het meeste aa
 
 De volgende onderwerpen komen aan de orde:
 
-* [BAG](/docs/functionaliteiten/bag.md)
-* [DSO](/docs/functionaliteiten/dso.md)
-* [E-mail](/docs/functionaliteiten/email.md)
-* [FIS](/docs/functionaliteiten/fis.md)
-* [Geo/Kaart](/docs/functionaliteiten/geo.md)
-* [Inspecties](/docs/functionaliteiten/inspecties.md)
-* [NHR](/docs/functionaliteiten/nhr.md)
-* [OLO](/docs/functionaliteiten/olo.md)
-* [REV](/docs/functionaliteiten/rev.md)
+* [BAG](/functionaliteiten/bag.md)
+* [DSO](/functionaliteiten/dso.md)
+* [E-mail](/functionaliteiten/email.md)
+* [FIS](/functionaliteiten/fis.md)
+* [Geo/Kaart](/functionaliteiten/geo.md)
+* [Inspecties](/functionaliteiten/inspecties.md)
+* [NHR](/functionaliteiten/nhr.md)
+* [OLO](/functionaliteiten/olo.md)
+* [REV](/functionaliteiten/rev.md)

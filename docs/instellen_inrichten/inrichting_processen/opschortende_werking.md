@@ -8,13 +8,13 @@ In het kort komt het hierop neer dat één bepaalde processtap wordt aangewezen 
 
 Dit aantal op te schorten dagen wordt sowieso opgeteld bij de fatale datum op het basisscherm van de vergunningsaanvraag mits de instelling _Sectie: Termijnbewaking en Item: Omgeving_BerOpschAanvProces_ (bij omgevingszaken) aangevinkt is. Voor APV/Overige zaken is dit de instelling _Sectie: Termijnbewaking en Item: APVOverig_BerOpschAanvProces_.
 De opschortende werking van aanvullende gegevens kan ook via de aparte tabel tbopschorten worden geregeld.
-Zie hiervoor: [Opschorten/Verlengen](/docs/probleemoplossing/module_overstijgende_schermen/opschorten_verlengen.md).
+Zie hiervoor: [Opschorten/Verlengen](/probleemoplossing/module_overstijgende_schermen/opschorten_verlengen.md).
 
 Daarnaast kan dit aantal op te schorten dagen ook opgeteld worden bij de streefdatums van de processtappen die na de indiening aanvullende gegevens komen. Hiertoe moet de processtap aangewezen worden waar vanaf de opschortende werking moet worden meegeteld.
 
 In het volgende voorbeeld het proces Ontvankelijkheid in de processtappen, waarbij er vanuit wordt gegaan dat de ontvankelijkheid-toets altijd 14 dagen duurt eventueel verhoogd met de opschortende werking.
 
-![](/img/applicatiebeheer/instellen_inrichten/inrichting_processen/termijnstap_beoordeling.w.600_tok.f56a2b.jpeg){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/inrichting_processen/termijnstap_beoordeling.w.600_tok.f56a2b.jpeg){ class="media" loading="lazy" alt="" width="600" }
 
 Bovenstaande stap 20 betekent:
 
@@ -23,19 +23,19 @@ Als er wel aanvullende gegevens nodig zijn dan moet de uitnodiging voor het indi
 
 Verderop zullen we zien dat of er nou wel of geen aanvullende gegevens nodig zijn, de totale duur van deze ontvankelijkheid altijd 2 weken is, eventueel vermeerderd met de opschort-tijd.
 
-De zogenaamde beslisstap - stap 25 - waarmee aangegeven wordt of er aanvullende gegevens nodig zijn: zie [Afvinkstappen](/docs/instellen_inrichten/inrichting_processen/afvinkstappen.md).
+De zogenaamde beslisstap - stap 25 - waarmee aangegeven wordt of er aanvullende gegevens nodig zijn: zie [Afvinkstappen](/instellen_inrichten/inrichting_processen/afvinkstappen.md).
 
-![](/img/applicatiebeheer/instellen_inrichten/inrichting_processen/afvinkstap.w.450_tok.27293b.jpeg){ class="media" loading="lazy" alt="" width="450" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/inrichting_processen/afvinkstap.w.450_tok.27293b.jpeg){ class="media" loading="lazy" alt="" width="450" }
 
 Stap 30 ziet er als volgt uit:
 
-![](/img/applicatiebeheer/instellen_inrichten/inrichting_processen/stap30.w.600_tok.461165.jpeg){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/inrichting_processen/stap30.w.600_tok.461165.jpeg){ class="media" loading="lazy" alt="" width="600" }
 
 In deze bovenstaande stap 30 Verzoek om aanvulling staat dat de aanvrager 28 dagen de tijd heeft vanaf de daadwerkelijke uitnodigingsbrief om de gegevens aan te leveren in stap 40.
 
 Wanneer de afgehandeld-stap wordt gevuld begint de opschortende werking-teller te lopen en deze eindigt bij het vullen van de afgehandeld datum van stap 40.
 
-![](/img/applicatiebeheer/instellen_inrichten/inrichting_processen/stap_40.w.600_tok.dbe965.jpeg){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/inrichting_processen/stap_40.w.600_tok.dbe965.jpeg){ class="media" loading="lazy" alt="" width="600" }
 
 Het programma weet dat bovenstaande stap 40 de stap is waar het om gaat bij de indiening van de aanvullende gegevens. Daarom is hier de optie _Deze stap is de ontvangst van de aanvullende gegevens_ aangezet.
 

@@ -2,7 +2,7 @@
 
 Er kan automatisch een email verzonden worden naar de BAG-beheerder van de gemeente die hoort bij de betreffende locatie bij de volgende triggers:
 
-- Vanuit het **omgevingdetailscherm** (zie [Detailscherm omgevingszaken](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/detailscherm_omgevingszaken.md) i.v.m. de voorwaarden voor het enabled zijn van de knoppen) met:
+- Vanuit het **omgevingdetailscherm** (zie [Detailscherm omgevingszaken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/detailscherm_omgevingszaken.md) i.v.m. de voorwaarden voor het enabled zijn van de knoppen) met:
   - de knop achter de kolom _BAG initieel email_ (ddinitbag). Deze knop kan de aanleiding zijn tot één van de volgende berichten:
     - **Sloopmelding afgehandeld**. Dit is het geval indien de dnkey van de soort omgevingszaak (beheertegel _Zaaktypes omgeving_) gelijk is aan _Getal2_ van de instelling _Sectie: Koppeling OLO_ en _Item: MeldingOnderdeelSlopen_
     - **Calamiteitenmelding ontvangen**. Dit is het geval indien de dnkey van de soort omgevingszaak (beheertegel _zaaktypes omgeving_) gelijk is aan _Getal2_ van de instelling _Sectie: EmailNaarBagBeheerder_ en _Item: Calamiteitenmelding_
@@ -25,7 +25,7 @@ Er kan automatisch een email verzonden worden naar de BAG-beheerder van de gemee
 
 - In de de kolom Email BAGbeheerder (dvemailbagheheerder) van de tabel tb33 gemeente (beheertegel _Gemeentes_) moet voor de betrokken gemeentes het emailadres ingevoerd worden van de BAG-beheerder.
 - De inlogger die de knop indrukt moet ook een valide mailadres hebben (beheertegel _Medewerkers_).
-- De webmailinstellingen moeten kloppen, zie: [E-mail](/docs/instellen_inrichten/email.md).
+- De webmailinstellingen moeten kloppen, zie: [E-mail](/instellen_inrichten/email.md).
 
 ## Opbouw emailbericht
 

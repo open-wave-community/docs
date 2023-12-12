@@ -16,7 +16,7 @@ Die flexibele properties zijn gegroepeerd per thema/subthema. Thema’s zijn bij
 
 Voorbeeld van één featuretype (= inrichting) binnen de WFS-file met twee verschillende flexibele properties:
 
-![](/img/applicatiebeheer/instellen_inrichten/dataopkaartswfexport.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/dataopkaartswfexport.png){ class="media" loading="lazy" alt="" width="600" }
 
 Thema en subthema zijn in de WFS-file onderdeel van de (flexibele) propertynaam. De drie entiteiten zijn hierin gescheiden door een underscore. Thema is verplicht, subthema is niet verplicht. In bovenstaand voorbeeld is de property *amvb-types* alleen gekoppeld aan het thema *inrichtingsindelingen*. De property *nooitbezocht* is ingedeeld onder het subthema *bezoeken* binnen het thema *toezicht*.
 
@@ -33,7 +33,7 @@ Ook in het *inrichtingenbeheerportaal* onder de kolom *Overig* de tegel *SQL exp
 
 Een voorbeeld van een indeling:
 
-![](/img/applicatiebeheer/instellen_inrichten/dataopkaart-lijst..png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/dataopkaart-lijst..png){ class="media" loading="lazy" alt="" width="600" }
 
 Achter elke gedefinieerde property is een SQL-statement gedefinieerd dat bij de export naar de WFS-file voor elke inrichting wordt geëvalueerd. Elke inrichting krijgt bij elke property bij de evaluatie van de SQL dus een propertywaarde toegekend.
 
@@ -81,7 +81,7 @@ Bovenstaand voorbeeld levert dus per een inrichting een resultaatset op met als 
 
 Door een kaart in de tabel tbtaskscheduler op te nemen (portaal *Service centrum*, kolom *Acties*) kan de samenstelling van de WFS-export en verzending daarvan geschedulded worden gestart.
 
-De aanroep (de taak) is *exportInrichtingenWFS*  (zie:  [Taskscheduler](/docs/instellen_inrichten/taskscheduler).md).
+De aanroep (de taak) is *exportInrichtingenWFS*  (zie:  [Taskscheduler](/instellen_inrichten/taskscheduler).md).
 
 Het samenstellen van de file kan geruimte tijd duren: voor elke inrichting worden evenzoveel SQL's geëvalueerd als er opgenomen zijn in de tabel tbexportinrkrt_sql (40 SQL's voor 10.000 inrichtingen duurt ongeveer een uur).
 

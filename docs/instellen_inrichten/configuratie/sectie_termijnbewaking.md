@@ -1,6 +1,6 @@
 # Sectie Termijnbewaking
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Termijnbewaking_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Termijnbewaking_ gerangschikt op item.
 
 Kijk ook bij secties: _Processen en Procedures_.
 

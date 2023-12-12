@@ -4,7 +4,7 @@
 
 De tegel is een trigger voor het lijstscherm *Collegiale Toetsen* bij een omgevingszaak.
 
-Zie [beheertabel](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md) *[tabellen standaardapi](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/schermdef_tabellen_standaardapi.md)* (tbsysstandardtable.dvcode = *omgeving_collegtoets)*.
+Zie [beheertabel](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md) *[tabellen standaardapi](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/schermdef_tabellen_standaardapi.md)* (tbsysstandardtable.dvcode = *omgeving_collegtoets)*.
 Doorklikken opent het geregistreerde document waar de toets bij hoort.
 
   *  De tegel is alleen zichtbaar voor inlogger wanneer:
@@ -17,13 +17,13 @@ Doorklikken opent het geregistreerde document waar de toets bij hoort.
 Het dynamische opschrift op tegels is niet zichtbaar:
 
   * indien foutieve queryverwijzing (codering: *omgeving_collegtoets*)
-  * indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+  * indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
   * indien inlogger geen recht heeft om query uit te voeren
   * indien de kolom *altijd verversen* (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   * Portaal: *omgevingdetail*
   * Kolom: *BehandelingProces*

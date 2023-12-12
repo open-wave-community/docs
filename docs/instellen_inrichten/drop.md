@@ -12,7 +12,7 @@ Bij een combinatie van zaaktype, publicatietype en gemeente kunnen ook één of 
 
 ### Instellingen configuratietabel
 
-Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/docs/instellen_inrichten/configuratie/sectie_droppubliceren.md).
+Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/instellen_inrichten/configuratie/sectie_droppubliceren.md).
 
 ### Instellingen gemeentetabel
 
@@ -152,7 +152,7 @@ Een voorbeeld van een query die in de kolom dvformquery moet worden geplaatst om
 select dvbetreft | | ' in ' | | dvobjstraat | | ' te ' | | dvgemeentenaam from vwfrmzakentepubliceren where dvid = :idzakentepubliceren
 ```
 
-![Formquery DROP titel](/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png.md){ class="media" loading="lazy" alt="" width="700" }
+![Formquery DROP titel](/docs/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png){ class="media" loading="lazy" alt="" width="700" }
 
 **Velden buiten de view vwfrmzakentepubliceren**
 
@@ -365,6 +365,6 @@ Open wave vult bij de publicatie bij de geodata op; grond van punt of vlak of li
 
 Onderstaande tekening toont een stroomschema van het algoritme. Wanneer het sluitpaar van een polygoon ongelijk is aan het beginpaar wordt het vlak als lijn (linestring) behandeld.
 
-![Polygoonenvlak in DROP](/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png.md) { class="media" loading="lazy" alt="" width="800" }
+![Polygoonenvlak in DROP](/docs/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png) { class="media" loading="lazy" alt="" width="800" }
 
 Overigens is het polygoon op hoofdzaakniveau (bijv. tbomgvergunning.dvgmlpolygoon) alleen zichtbaar en muteerbaar indien de instelling *Sectie: Programma en Item: VlakNietOpZaakniveau* NIET aangevinkt is. Indien wel aangevinkt dan is zowel het blok onzichtbaar als de menu optie teken vlak op kaart.

@@ -46,4 +46,4 @@ Welke zijn van toepassing op deze lijst?
 - zoekeditbox rechtsonder: altijd aanwezig
 - versie-informatie rechtsonder (hierop klikken en screensource = tbscreencolumns geeft aan of er een afwijkende schermkolommen definitie gebruikt wordt)
 
-Ga terug naar [Zaakportaal Omgeving](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving.md)
+Ga terug naar [Zaakportaal Omgeving](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving.md)

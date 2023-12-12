@@ -84,4 +84,4 @@ pand [https://geodata.nationaalgeoregister.nl/bag/wms](https://geodata.nationaal
 
 ### OpenWave rapportage als kaartlaag
 
-Zie [Rapportage publiceren als WMS laag](/docs/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
+Zie [Rapportage publiceren als WMS laag](/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).

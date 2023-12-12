@@ -5,16 +5,16 @@
 De tegel is een trigger voor een lijst van de *LHS-matrix*. Bij overtredingen kan uit deze lijst gekozen worden.
 
   * De tegel is alleen zichtbaar voor inlogger wanneer:
-    * deze aan hem/haar is toegekend 
-    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert. 
+    * deze aan hem/haar is toegekend
+    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
   * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   *  Portaal: *Beheer*
-  *  Kolom: *Brontabellen* 
+  *  Kolom: *Brontabellen*
   *  Kopregel: *LHS-matrix*
   *  Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tblhsmatrix)*
 

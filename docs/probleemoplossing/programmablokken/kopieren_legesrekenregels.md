@@ -16,7 +16,7 @@ In beide wizard-gevallen wordt de uitvoer van kopieerwizard door een runnable ge
 
 Als de runnable begint wordt de _Datum_ van de instelling _Sectie: Operations Item: KopierenLegesRekenRegels_ gevuld met timestamp. De kolom _Tekst_ met medewerkerscode en _Getal1_ met 1. Indien klaar dan wordt _Getal1_ op null gezet. Zolang _Getal1_ de waarde 1 heeft, zal niemand de wizard kunnen uitvoeren (er verschijnt wel keurig een mededeling).
 
-In de [operationslog](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_logs/operationlog.md) wordt ook een kaart aangemaakt onder code _KopierenLegesRekenRegels_ waarin het aantal gekopieerde rijen wordt bijgehouden. In de memo staat begin- en eindkey van de nieuwe aangemaakte rijen in tblegesberekeningen en de keys va de betrokken legessoorten waarbij nieuwe rijen zijn aangemaakt.
+In de [operationslog](/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_logs/operationlog.md) wordt ook een kaart aangemaakt onder code _KopierenLegesRekenRegels_ waarin het aantal gekopieerde rijen wordt bijgehouden. In de memo staat begin- en eindkey van de nieuwe aangemaakte rijen in tblegesberekeningen en de keys va de betrokken legessoorten waarbij nieuwe rijen zijn aangemaakt.
 
 ## Kopiëren van de rekenregels bij één legessoort
 

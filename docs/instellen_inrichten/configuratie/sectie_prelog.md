@@ -1,6 +1,6 @@
 # Sectie PreInlog
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: PreInlog_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: PreInlog_ gerangschikt op item.
 
 ## Items Configuratietabel
 

@@ -4,7 +4,7 @@ Alle inloghandelingen worden apart gelogd op de webserver. Het wegschrijven van 
 
 Hieronder de programmaflow van de inlogprocedure en de instellingen die daarop van invloed zijn.
 
-**N.b.** De hieronder beschreven programmaflow geldt NIET voor het inloggen middels Single Sign On. Zie pagina [Single Sign On](/docs/instellen_inrichten/singlesignon.md) voor **de inlogvereisten Single Sign On en benodigde instellingen**.
+**N.b.** De hieronder beschreven programmaflow geldt NIET voor het inloggen middels Single Sign On. Zie pagina [Single Sign On](/instellen_inrichten/singlesignon.md) voor **de inlogvereisten Single Sign On en benodigde instellingen**.
 
 ## 1. Kloppen login en wachtwoord?
 
@@ -93,12 +93,12 @@ Bovendien wordt de unlockcode:
 - ofwel per mail gestuurd naar de inlogger (indien gevulde tbmedewerkers.dvemail). Dit is het geval indien op de medewerkerskaart de kolom _2-factor type_ is ingevuld met waarde 1 (tevens defaultwaarde)
 - dan wel per sms gestuurd naar de inlogger (indien gevulde tbmedewerkers.dvmobiel). Dit is het geval indien op de medewerkerskaart de kolom _2-factor type_ is ingevuld met waarde 2. Het bericht naar de web service van de telecomprovider waarmee hiertoe een contract is afgesloten (die het bericht omzet in een sms) wordt ook gelogd in tbmessagelog (beheertegel _Messagelog_).
 
-Voor e-mailinstellingen zie het hoofdstuk: [E-mail SMTP instellingen](/docs/instellen_inrichten/email.md). Standaard wordt het emailadres van de betreffende medewerkerskaart als afzender genomen voor het verzenden van de unlockcode. Deze afzender kan worden overruled door de inhoud van de kolom _Tekst_ van de instelling _Sectie: Logon en Item: AfzenderAdres_.
+Voor e-mailinstellingen zie het hoofdstuk: [E-mail SMTP instellingen](/instellen_inrichten/email.md). Standaard wordt het emailadres van de betreffende medewerkerskaart als afzender genomen voor het verzenden van de unlockcode. Deze afzender kan worden overruled door de inhoud van de kolom _Tekst_ van de instelling _Sectie: Logon en Item: AfzenderAdres_.
 
-Voor sms-instellingen zie het hoofdstuk: [SMS](/docs/instellen_inrichten/sms.md).
+Voor sms-instellingen zie het hoofdstuk: [SMS](/instellen_inrichten/sms.md).
 
-Voor medewerkers zie het hoofdstuk: [Medewerkers](/docs/instellen_inrichten/medewerkers.md).
-Voor vrijstellen 2-factor op basis van IP-adres zie [IP-ranges](/docs/instellen_inrichten/ip-ranges.md).
+Voor medewerkers zie het hoofdstuk: [Medewerkers](/instellen_inrichten/medewerkers.md).
+Voor vrijstellen 2-factor op basis van IP-adres zie [IP-ranges](/instellen_inrichten/ip-ranges.md).
 
 De inlogger heeft dan tbmedewerkers.ddpinunlockcode + het aantal uur van de instelling _Getal1_ van _Sectie: Device_ en _Item: Unlock_Pin_MaxUurSindsCreatie_ (default 1) de tijd om de unlockcode door te voeren.
 
@@ -108,7 +108,7 @@ Indien OpenWave wordt gebruikt op dezelfde device vanuit twee verschillende brow
 
 ## 8. Afvinken inlogverklaringen
 
-Indien een inlogverklaring is klaargezet (zie: [Loginverklaringen](/docs/instellen_inrichten/loginverklaringen.md)) waarvan:
+Indien een inlogverklaring is klaargezet (zie: [Loginverklaringen](/instellen_inrichten/loginverklaringen.md)) waarvan:
 
 - de vervaldatum leeg is of in de toekomst ligt
 - en waarvan de ingangsdatum leeg is OF kleiner of gelijk is dan de systeemdatum

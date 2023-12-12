@@ -5,8 +5,8 @@ Screenidentifiers: MDLC_getPortalColumnsList.xml en MDDC_getPortalColumnsDetail.
 ## Betekenis van de kolommen
 
 - De **kolomnaam** mag aangepast worden, maar bij updatescripts van OpenWave versie x naar OpenWave versie y worden sommige kolomnamen verondersteld aanwezig te zijn om bijvoorbeeld nieuwe tegels onder te plaatsen. Indien die kolomnamen er niet meer zijn dan worden deze kolommen opnieuw aangemaakt met hun oorspronkelijke naam. Zo kunnen er doublures in kolommen ontstaan. Op zich niet erg, want de nieuwe tegels kunnen zonder gevaar verplaatst worden naar een andere kolom binnen hetzelfde portaal.
-- Met de **kolomvolgorde** kan de volgorde van de kolommen horizontaal binnen een [portal](/docs/instellen_inrichten/portaldefinitie/README.md) worden bepaald.
-- Indien de kolom **Is kolom voor van buitenaf toevoegen nieuwe tegels** is aangevinkt dan is deze kolom bedoeld om van buiten af - bijvoorbeeld met een updatescript - tegels toe te voegen. De nieuwe tegels worden dan default onder deze aangevinkte kolom geplaatst. De beheerder kan ze dan desgewenst verplaatsen naar een andere kolom. Per [portalname](/docs/instellen_inrichten/portaldefinitie/portalnaam.md) kan er maar één kolom deze eigenschap hebben. Dit wordt op de database afgevangen.
+- Met de **kolomvolgorde** kan de volgorde van de kolommen horizontaal binnen een [portal](/instellen_inrichten/portaldefinitie/README.md) worden bepaald.
+- Indien de kolom **Is kolom voor van buitenaf toevoegen nieuwe tegels** is aangevinkt dan is deze kolom bedoeld om van buiten af - bijvoorbeeld met een updatescript - tegels toe te voegen. De nieuwe tegels worden dan default onder deze aangevinkte kolom geplaatst. De beheerder kan ze dan desgewenst verplaatsen naar een andere kolom. Per [portalname](/instellen_inrichten/portaldefinitie/portalnaam.md) kan er maar één kolom deze eigenschap hebben. Dit wordt op de database afgevangen.
 
 ## Verplaatsen van kolom
 

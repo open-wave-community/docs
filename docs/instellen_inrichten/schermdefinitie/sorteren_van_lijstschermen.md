@@ -1,6 +1,6 @@
 # Sorteren van lijstschermen
 
-Dit hoofdstuk gaat over het instellen van sorteren van lijstschermen in de [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)
+Dit hoofdstuk gaat over het instellen van sorteren van lijstschermen in de [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)
 
 ## Sortering bij starten van een lijst
 

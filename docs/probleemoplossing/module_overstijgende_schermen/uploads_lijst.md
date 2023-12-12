@@ -9,13 +9,13 @@ Dit scherm kan worden aangeroepen vanuit:
 - de detailschermen van adviezen, bezwaar/beroep en inspectietrajecten. De lijst toont alle uploadpogingen naar fileshare of zaak/DMS van documenten bij dat specifieke advies, bezwaar/beroep of inspectietraject
 - het detailscherm van een documentsjabloon (beheerportaal-Nieuw). De lijst toont alle uploadpogingen van documentsjablonen (in base64) naar de kolom dvtemplatebase64 van de tabel tbdocumenten.
 
-De bron van de lijst is de view vwfrmupload op basis van de tabel tbupload die gevuld wordt bij het handmatig uploaden van documenten. In de tabel worden herkomst en bestemming vastgelegd van een upload. Zie [Upload document](/docs/probleemoplossing/programmablokken/upload_document.md).
+De bron van de lijst is de view vwfrmupload op basis van de tabel tbupload die gevuld wordt bij het handmatig uploaden van documenten. In de tabel worden herkomst en bestemming vastgelegd van een upload. Zie [Upload document](/probleemoplossing/programmablokken/upload_document.md).
 
-Uploads gedaan door automatische processen, zoals de bijlagen bij een DSO-bericht, staan niet in deze lijst. Alleen de mislukte pogingen van automatische OLO/DSO-bijlage-uploads worden opgeslagen in de tabel tbBadExternUpload en zijn zichtbaar in de tegel _Mislukte OLO-bijlages_ op het beheerportaal-Nieuw. Zie [Verwerken DSO-bijlagen vanuit digi-koppelaar](/docs/probleemoplossing/programmablokken/upload_dso-document_vanuit_digi-koppelaar.md).
+Uploads gedaan door automatische processen, zoals de bijlagen bij een DSO-bericht, staan niet in deze lijst. Alleen de mislukte pogingen van automatische OLO/DSO-bijlage-uploads worden opgeslagen in de tabel tbBadExternUpload en zijn zichtbaar in de tegel _Mislukte OLO-bijlages_ op het beheerportaal-Nieuw. Zie [Verwerken DSO-bijlagen vanuit digi-koppelaar](/probleemoplossing/programmablokken/upload_dso-document_vanuit_digi-koppelaar.md).
 
 ## Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ### Trigger
 

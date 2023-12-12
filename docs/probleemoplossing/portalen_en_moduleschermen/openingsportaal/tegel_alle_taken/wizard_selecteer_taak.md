@@ -1,6 +1,6 @@
 # Wizard Selecteer Taak
 
-De wizard wordt aangeroepen vanuit het openingsportaal vanuit de tegel _Al Mijn Taken_ (zie ook [Tegel Alle Taken](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_alle_taken.md)) met de action startWizard(selecteerTaak,1,1) en vanuit de tegel _Alle Taken_ met de action startWizard(selecteerTaak,1).
+De wizard wordt aangeroepen vanuit het openingsportaal vanuit de tegel _Al Mijn Taken_ (zie ook [Tegel Alle Taken](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_alle_taken.md)) met de action startWizard(selecteerTaak,1,1) en vanuit de tegel _Alle Taken_ met de action startWizard(selecteerTaak,1).
 
 De wizard regelt in een aantal schermen de selectie op de view vwfrmalletaken.
 

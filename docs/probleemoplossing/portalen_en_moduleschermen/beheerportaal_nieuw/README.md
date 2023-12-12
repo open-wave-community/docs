@@ -6,14 +6,14 @@ Dit portaal is bedoeld voor alle algemene/ dagelijkse beheerwerkzaamheden. Men v
 
 Vanaf dit portaal kan men navigeren naar de overige beheerportalen:
 
-_[Servicecentrum](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum.md)
-_[Operationsportaal](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal.md)
-_[Zaakbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
-_[Inrichtingenbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)
+_[Servicecentrum](/probleemoplossing/portalen_en_moduleschermen/servicecentrum.md)
+_[Operationsportaal](/probleemoplossing/portalen_en_moduleschermen/operationsportaal.md)
+_[Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
+_[Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)
 
 ## Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname _beheerportaal-NIEUW_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie/README.md))
+- er zijn geen tegels gedefinieerd onder portalname _beheerportaal-NIEUW_ (Zie [Portal Definitie](/instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 
@@ -27,9 +27,9 @@ _[Inrichtingenbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/inricht
 
 ## Gerelateerde pagina's
 
-- [Tegels onder kolom Administratie](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_administratie/README.md)
-- [Tegels onder kolom Dieper Beheer](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_dieperbeheer/README.md)
-- [Tegels onder kolom Gebruikers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_gebruikers/README.md)
-- [Tegels onder kolom Overige beheerportalen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_overige_portalen/README.md)
-- [Tegels onder kolom Scherm- en Tegelbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md)
-- [Tegels onder kolom Werkbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_werkbeheer/README.md)
+- [Tegels onder kolom Administratie](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_administratie/README.md)
+- [Tegels onder kolom Dieper Beheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_dieperbeheer/README.md)
+- [Tegels onder kolom Gebruikers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_gebruikers/README.md)
+- [Tegels onder kolom Overige beheerportalen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_overige_portalen/README.md)
+- [Tegels onder kolom Scherm- en Tegelbeheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md)
+- [Tegels onder kolom Werkbeheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_werkbeheer/README.md)

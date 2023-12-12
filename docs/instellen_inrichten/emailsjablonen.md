@@ -53,7 +53,7 @@ Per sjabloongroep kunnen emailsjablonen verwijderd (inclusief parameters), nieuw
   - **Naam/beschrijving** (dvomschrijving). Vrij in te voeren naam voor het sjabloon, zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard *MaakEmail* aanroept.
   - **Is sjabloon voor standaardmail naar adviesinstantie?**. Indien aangevinkt dan zal dit sjabloon gebruikt worden bij de standaard email naar adviesinstantie bij een advies. Kan alleen aangevinkt worden als veld **Benaderbaar vanuit tabel** waarde *tbadviezen* heeft. Ook mag er per module maar 1 adviessjabloon zijn. Indien er al een sjabloon is met dit vinkje aan EN zelfde waarde voor veld *Voor module*, dan zal bij aanvinken in ander sjabloon het vinkje automatisch uitgezet worden bij het eerste sjabloon. Indien men gebruik wilt maken van sjablonen voor de standaard email aan adviesinstanties zal men dus per module een sjabloon moeten maken. Indien er geen sjabloon is met vinkje aan dan zal het programma terugvallen op de configuratie instelling voor standaard mail aan adviesinstantie.
   - **Is sjabloon voor standaardmail naar collegiale toetser?**. Dit vinkje is alleen zichtbaar wanneer de instelling Sectie: Documenten, Item: CtMail aan staat. Indien aangevinkt dan zal dit sjabloon gebruikt worden bij de eenmalige email naar de collegiale toetser bij een geregistreerd document. Hiervoor moet het veld **Benaderbaar vanuit tabel** de waarde *tbcorrespcollegtoets* hebben. Ook mag er per module maar 1 sjabloon voor de mail naar collegiale toetser zijn.
-  - **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/docs/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
+  - **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
   - **Bijlagen toevoegen?** (dlbijlagesregdoc). Indien aangevinkt dan zal in de wizard die het maken van de uitgaande email regelt een extra pagina worden toegevoegd die de gebruiker laat kiezen uit één of meer geregistreerde documenten, die vervolgens als bijlagen aan de email worden toegevoegd. De lijst van geregistreerde documenten wordt beperkt tot de documenten die als plaats (S)erver hebben: dat wil zeggen dat zij NIET op dat moment lokaal bewerkt worden.
   - Met het **Volgordenummer** kan de volgorde van de sjabloonnamen bepaald worden zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard *MaakEmail* aanroept.
   - **Vervaldatum**. Vervallen mailsjablonen zijn niet zichtbaar voor de gebruiker bij de wizard *Maakemail*.
@@ -81,10 +81,10 @@ Per sjabloongroep kunnen emailsjablonen verwijderd (inclusief parameters), nieuw
   - **Alleen gemeentes**. Alleen indien deze kolom gevuld is heeft dat consequenties voor de lijst met sjablonen die de gebruiker kan kiezen met de wizard *Maakemail*. De kolom kan gevuld worden met de gemeentelijke identificatiecoderingen uit de tabel33 (bijv. 0197 = Aalten) gescheiden door een puntkomma. Indien gevuld zal het sjabloon alleen benaderbaar zijn indien de gemeente van de locatie waar de zaak, inrichting c.q. inspectie of advies zich afspeelt voorkomt in deze rij gemeente-identificaties.
   - **Naam sjabloon** (dvemailnaam). Deze kolom bevat de naam van de email. Indien de email als document moet worden opgeslagen en de kolom *Te genereren documentnaam* is niet gevuld, zal de documentnaam de hier ingevulde waarde krijgen.
   - **Autom. upload** (dlautoupload). Indien aangevinkt heeft dat als consequentie dat het programma na aanmaken en versturen van de email, een .txt file genereert en deze direct gaat opslaan: Indien
-    - de kolom *Tekst* van instelling *Sectie: KoppelingDOCNAARDMS* en *Item: Methode* de waarde *StUF-ZAKEN 310* heeft EN de externe zaakcode is gevuld EN de instelling *Sectie: Documenten* en *Item: OphalenViaDMS* is aangevinkt, dan wordt het document doorgegeven met de zaak/DMS services. Zie [Upload documenten met StUF zaak/dms](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
-    - de kolom *Tekst* van instelling *Sectie: KoppelingDOCNAARDMS* en *Item: Methode* de waarde *CMIS 1.0* heeft EN de instelling *Sectie: Documenten, Item: OphalenViaDMS* is aangevinkt EN de kolom *Item* van *Sectie: Aanmaakmappen* verwijst naar een kaart in tbinitialisatie met de juiste cmis-mapinformatie, dan wordt het document doorgegeven met CMIS. Zie: [Upload documenten met CMIS](/docs/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)
-    - de instelling *Sectie: Documenten, Item: OphalenViaFileserver* is aangevinkt EN de kolom *Item* van *Sectie: Aanmaakmappen* verwijst naar een kaart in tbinitialisatie met de juiste fileshare-mapinformatie, dan wordt het document geplaatst op de fileshare. Zie: [Upload documenten naar fileshare](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md).
-  - **Item van Sectie Aanmaakmappen**. Deze kolom is alleen zinvol indien *Autom upload* is aangevinkt en die automatische upload van het gegenereerde document moet naar de fileshare of via CMIS in een DMS. Hier wordt verwezen naar de instellingskaart kaart met *Sectie: Aanmaakmappen* waarin exact wordt verwezen onder welke map het document geplaatst moet worden. Zie: [Upload document](/docs/probleemoplossing/programmablokken/upload_document.md).
+    - de kolom *Tekst* van instelling *Sectie: KoppelingDOCNAARDMS* en *Item: Methode* de waarde *StUF-ZAKEN 310* heeft EN de externe zaakcode is gevuld EN de instelling *Sectie: Documenten* en *Item: OphalenViaDMS* is aangevinkt, dan wordt het document doorgegeven met de zaak/DMS services. Zie [Upload documenten met StUF zaak/dms](/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
+    - de kolom *Tekst* van instelling *Sectie: KoppelingDOCNAARDMS* en *Item: Methode* de waarde *CMIS 1.0* heeft EN de instelling *Sectie: Documenten, Item: OphalenViaDMS* is aangevinkt EN de kolom *Item* van *Sectie: Aanmaakmappen* verwijst naar een kaart in tbinitialisatie met de juiste cmis-mapinformatie, dan wordt het document doorgegeven met CMIS. Zie: [Upload documenten met CMIS](/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)
+    - de instelling *Sectie: Documenten, Item: OphalenViaFileserver* is aangevinkt EN de kolom *Item* van *Sectie: Aanmaakmappen* verwijst naar een kaart in tbinitialisatie met de juiste fileshare-mapinformatie, dan wordt het document geplaatst op de fileshare. Zie: [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md).
+  - **Item van Sectie Aanmaakmappen**. Deze kolom is alleen zinvol indien *Autom upload* is aangevinkt en die automatische upload van het gegenereerde document moet naar de fileshare of via CMIS in een DMS. Hier wordt verwezen naar de instellingskaart kaart met *Sectie: Aanmaakmappen* waarin exact wordt verwezen onder welke map het document geplaatst moet worden. Zie: [Upload document](/probleemoplossing/programmablokken/upload_document.md).
   - **Onderwerp mag gewijzigd worden bij aanmaken e-mail?**. Indien aangevinkt dan mag het onderwerp van de email gewijzigd worden in de wizard *Maakemail*.
   - **Onderwerp van email**. In deze kolom wordt de waarde van het onderwerp van de email gevuld. Bij het creëren van de mail zal er dus als onderwerp deze waarde worden meegegeven. Indien gewenst kunnen net als in de body van email, ook in het onderwerp tags voorkomen die verwijzen naar op te halen waardes uit de formqueries en kan men verwijzen naar een query uit de tbqueries tabel.
   - **Body mag gewijzigd worden bij aanmaken e-mail?**. Indien aangevinkt dan mag de body van de email gewijzigd worden in de wizard *Maakemail*.
@@ -208,7 +208,7 @@ Select
 #### OpenWave database functies
 
 OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei query's.
-Zie:[OpenWave database functies](/docs/instellen_inrichten/openwave_database-functies.md).
+Zie:[OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
 
 #### Childquery
 
@@ -265,7 +265,7 @@ Het is mogelijk om delen van een sjabloon samen te voegen met gegevens uit een e
 OpenWave zal bij een childquery zoeken naar speciale gevallen die worden herkend aan een vaste formulering in die childquery. Momenteel zijn daartoe enkel de volgende mogelijkheden:
 
   - Opsomming van afgekeurde items uit digitale checklist. De tekst in de bijbehorende childquery moet zijn: *JSON_DigitaleChecklisten_Controle_brief_1
-*. Zie hiertoe het kopje *Instellingen voor overnemen van afgekeurde checklist-items in document* bij [Digitale checklisten](/docs/probleemoplossing/programmablokken/digitale_checklijsten.md).
+*. Zie hiertoe het kopje *Instellingen voor overnemen van afgekeurde checklist-items in document* bij [Digitale checklisten](/probleemoplossing/programmablokken/digitale_checklijsten.md).
 
 ## Invoegen tekstblokken op basis van een query-aanroep naar tbqueries
 
@@ -301,7 +301,7 @@ select case when (select dvsoortproc from vwfrmomgvergunningen where dnkeyomgver
 
 Hetgeen wil zeggen dat indien het zaaktype van de omgevingszaak waar je op staat van het type M (melding) is, druk dan de waarde van de kolom dvtekstblok van de tabel tbtekstblokken af waarbij dvcode = *tkstblk_1*. Anders, is het type anders dan M, druk dan niets af. Die kolom dvtekstblok kan gevuld zijn met een tekst van maximaal 4000 tekens.
 
-In de tabel tbtekstblokken (beheertegel *Tekstblokken*) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen. Zie ook: [Queries](/docs/instellen_inrichten/queries.md).
+In de tabel tbtekstblokken (beheertegel *Tekstblokken*) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen. Zie ook: [Queries](/instellen_inrichten/queries.md).
 
 ### Tonen Wave briefnummer
 
@@ -312,7 +312,7 @@ Voorbeeld: stel de instellingen zijn als volgt WaveBriefnummer staat aan, *Getal
 
 ### Tonen gecrypte versie van een kolomwaarde
 
-Verder kan de encryptiemethode worden aangeroepen vanuit het emailsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een email als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in de email opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
+Verder kan de encryptiemethode worden aangeroepen vanuit het emailsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een email als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in de email opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
 
 ## Sjabloon-parameters
 
@@ -394,11 +394,11 @@ Select
 
 Er zijn dus 5 invoerparameters:
 
-![](/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
 
 Dat resulteert bij het genereren van de email tot een invoerscherm:
 
-![](/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
 
 En de te genereren email ziet er dan zo uit:
 
@@ -415,8 +415,8 @@ Rommeldam, 01 mei 2017
 
 ## formquery en childquery-verwijzingen naar tbqueries
 
-De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/docs/instellen_inrichten/queries.md)
+De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/instellen_inrichten/queries.md)
 
 Hierdoor hoeft een query die in meerdere sjablonen gebruikt wordt maar eenmalig te worden gedefinieerd.  De opmaak van de sjablonen wijzigt hierdoor niet.
-Zie voorbeeld onder het kopje *formquery en childquery-verwijzingen naar tbqueries* bij [Documentsjablonen en Sjabloongroepen](/docs/instellen_inrichten/documentsjablonen.md)
+Zie voorbeeld onder het kopje *formquery en childquery-verwijzingen naar tbqueries* bij [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md)
 

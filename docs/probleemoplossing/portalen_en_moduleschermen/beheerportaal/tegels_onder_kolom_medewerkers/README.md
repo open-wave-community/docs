@@ -5,7 +5,7 @@
 1) Het scherm ziet er raar uit (al of niet met een foutmelding) of reageert niet:
 
 * inlogger heeft geen kijkrechten
-* alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md))
+* alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
 * geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 2) Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -16,22 +16,22 @@ kan alleen indien aan medewerkers a andere tegels zijn toegekend dan aan medewer
 
 Klikken op tegel opent een vervolgscherm.
 
-Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)).
+Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)).
 
 ## Gerelateerde pagina's
 
-* [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
-  * [Afdelingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/afdelingen.md)
-  * [Audit](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/audit.md)
-  * [Compartimentsrechten](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/compartimentsrechten.md)
-  * [Gebruikersinformatie](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/gebruikersinformatie.md)
-  * [IP-ranges](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/ip-ranges.md)
-  * [Loginverklaringen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/loginverklaringen.md)
-  * [Medewerkers (actief)](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/medewerkers_actief.md)
-  * [Medewerkers (alle)](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/medewerkers_alle.md)
-  * [Messagelog](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/messagelog.md)
-  * [Mislukte_OLO-bijlages](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/mislukte_olo-bijlages.md)
-  * [Ontbrekende configuratie items](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/missing_configuration.md)
-  * [Functionele Rechten](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/rechten.md)
-  * [Session](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/session.md)
-  * [Teams](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/teams.md)
+* [Tegels onder kolom Medewerkers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
+  * [Afdelingen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/afdelingen.md)
+  * [Audit](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/audit.md)
+  * [Compartimentsrechten](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/compartimentsrechten.md)
+  * [Gebruikersinformatie](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/gebruikersinformatie.md)
+  * [IP-ranges](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/ip-ranges.md)
+  * [Loginverklaringen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/loginverklaringen.md)
+  * [Medewerkers (actief)](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/medewerkers_actief.md)
+  * [Medewerkers (alle)](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/medewerkers_alle.md)
+  * [Messagelog](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/messagelog.md)
+  * [Mislukte_OLO-bijlages](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/mislukte_olo-bijlages.md)
+  * [Ontbrekende configuratie items](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/missing_configuration.md)
+  * [Functionele Rechten](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/rechten.md)
+  * [Session](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/session.md)
+  * [Teams](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/teams.md)

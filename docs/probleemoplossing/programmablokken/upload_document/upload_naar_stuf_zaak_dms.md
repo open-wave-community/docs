@@ -53,12 +53,12 @@ Een uitzondering hierop is de situatie dat een zaak speelt bij een gemeente die 
 - _Item: Zender_gebruiker_. De kolom _Tekst_ met de gebruiker
 - Als de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: **HTTPAuthenticatie**Naam_ bestaat en is aangevinkt dan wordt de verzending over HTTPS geautoriseerd met :
   - authenticatienaam is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatieNaam_
-  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatiePass_ Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatiePass_ Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
   - In de kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatieType_ kan desgewenst het authenticatietype worden ingevuld: Basic (default) of NTLM (versie 1)
   - In de kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Domein_ kan desgewenst het domein worden ingevuld
 - Indien er gebruik moet worden gemaakt van een **client-certificaat** (wordt geplaatst op de CONF-map van de WSAS server) dan:
   - moet de (file)-naam van dat certificaat worden opgeslagen in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: ClientCertificaatNaam_
-  - het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: CertificaatPassword_ Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+  - het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: CertificaatPassword_ Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
   - het certificaattype in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: CertificaatType_ (default PKCS12).
 
 ### Overige instellingen
@@ -97,7 +97,7 @@ De berichten kunnen gelogd worden op 2 manieren:
 
 Nadat de wizard voor het aanwijzen van up te loaden files is afgesloten, gebeurt het volgende:
 
-- De [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md) wordt geopend waarin alle aangewezen files in principe de status klaargezet hebben. De inlogger moet zelf de refreshknop linksonder gebruiken om de voortgang te kunnen monitoren
+- De [Upload Lijst](/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md) wordt geopend waarin alle aangewezen files in principe de status klaargezet hebben. De inlogger moet zelf de refreshknop linksonder gebruiken om de voortgang te kunnen monitoren
 - de aangewezen up te loaden files worden één voor één opgehaald van het device (of van netwerk wat daaraan verbonden is) van de inlogger en geplaatst op een webserver map
 - zo gauw een file volledig binnen is gestreamd dan wacht de webserver y milliseconden (dat instelbare interval _Getal1_ van _Sectie: OWB_ en _Item:VertragingMilSecUploadFile_) en roept de OpenWave API aan dat er een file X klaar staat op de webserver
 - de API verandert de betreffende regel van file X in de uploadtabellijst van status _klaargezet_ naar _wordt_momenteel_geupload_

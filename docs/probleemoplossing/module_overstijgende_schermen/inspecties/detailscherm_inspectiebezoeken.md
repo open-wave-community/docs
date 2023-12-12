@@ -40,7 +40,7 @@ Uitzondering blokkering: Als de bovenliggende hoofdzaak is geblokkeerd kunnen er
 
 Welke triggers **rechtsboven** bij menu opties:
 
-- Creëer document (zie verder bij [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.md)):
+- Creëer document (zie verder bij [Creëer document](/probleemoplossing/programmablokken/creeer_document.md)):
   - Zichtbaar indien de inlogger lid is van een rechtengroep die bij hoofdzaak/inrichting het recht creëren van documenten heeft en Compartimentsrecht is OK.
   - De knop is disabled indien de bovenliggende zaak geblokkeerd is.
 
@@ -48,12 +48,12 @@ Welke triggers **rechtsboven** bij menu opties:
 
 Welke triggers in scherm **linksonder**
 
-- Creëer document (zie verder bij [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.md)):
+- Creëer document (zie verder bij [Creëer document](/probleemoplossing/programmablokken/creeer_document.md)):
   - Zichtbaar indien de inlogger lid is van een rechtengroep die bij hoofdzaak/inrichting het recht creëren van documenten heeft en Compartimentsrecht is OK.
   - De knop is disabled indien de bovenliggende zaak geblokkeerd is.
-- Creëer email (zie verder bij [Creëer email](/docs/probleemoplossing/programmablokken/creeer_email.md)):
+- Creëer email (zie verder bij [Creëer email](/probleemoplossing/programmablokken/creeer_email.md)):
   - Zichtbaar en enabled indien de inlogger lid is van een rechtengroep die documenten mag creëren.
   - en de omgevingszaak is niet geblokkeerd.
-  - Klikken op het email-icoon start de wizard _maak email_. Er kan gekozen worden uit mailsjablonen mits deze gedefinieerd zijn aan de beheerkant onder de tegel _Emailsjablonen_. Voor meer informatie over het definiëren van mailsjablonen zie [Emailsjablonen](/docs/instellen_inrichten/emailsjablonen.md).
+  - Klikken op het email-icoon start de wizard _maak email_. Er kan gekozen worden uit mailsjablonen mits deze gedefinieerd zijn aan de beheerkant onder de tegel _Emailsjablonen_. Voor meer informatie over het definiëren van mailsjablonen zie [Emailsjablonen](/instellen_inrichten/emailsjablonen.md).
 
 Uitzondering blokkering: Als de bovenliggende hoofdzaak is geblokkeerd kunnen er toch bezoeken worden gemuteerd en documenten worden gecreëerd indien de instelling _Sectie: InspectieMilieu_ en _Item: NietBlokkerenMetHoofdzaak_ aangevinkt is.

@@ -16,14 +16,14 @@ De tegel is een trigger voor het lijstscherm _Lopende zaken bij dit project_ en 
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Zaakportaal Omgeving](/docs/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving.md)
+- Portaal: [Zaakportaal Omgeving](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving.md)
 - Kolom: _Samenhang_
 - Kopregel: _Lopende zaken bij dit project_
 - Dynamisch tegelopschrift:

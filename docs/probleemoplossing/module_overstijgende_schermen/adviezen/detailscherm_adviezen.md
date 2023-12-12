@@ -121,7 +121,7 @@ Het programma kijkt naar de advieskaart zelf indien de instelling _Sectie: Advie
 
 ## Blok documenten
 
-In het blok documenten kan een gebruiker met advies insert- en delete-rechten documenten koppelen aan het betreffende advies uit de tabel met geregistreerde documenten (tbcorrespondentie) die aan de hoofdzaak verbonden zijn. Vanuit deze lijst kan een gebruiker een document openen en - indien geautoriseerd - wijzigen. Voor het openen of wijzigen van een document gelden dezelfde rechten en voorwaarden als vanuit de geregistreerde documententabel zelf ([Lijst Geregistreerde Documenten bij een zaak](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)).
+In het blok documenten kan een gebruiker met advies insert- en delete-rechten documenten koppelen aan het betreffende advies uit de tabel met geregistreerde documenten (tbcorrespondentie) die aan de hoofdzaak verbonden zijn. Vanuit deze lijst kan een gebruiker een document openen en - indien geautoriseerd - wijzigen. Voor het openen of wijzigen van een document gelden dezelfde rechten en voorwaarden als vanuit de geregistreerde documententabel zelf ([Lijst Geregistreerde Documenten bij een zaak](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)).
 
 De koppeltabel is tbkopadviescorresp.
 
@@ -131,7 +131,7 @@ De koppeltabel is tbkopadviescorresp.
 
 #### Stuur mail aan adviesinstantie achter de kolom email verstuurd
 
-Zie verder [Email adviesinstantie](/docs/probleemoplossing/programmablokken/e-mail_adviesinstantie.md).
+Zie verder [Email adviesinstantie](/probleemoplossing/programmablokken/e-mail_adviesinstantie.md).
 
 - Zichtbaar en enabled indien:
   - de inlogger wijzigrechten heeft op de advieskaart voor de betreffende module
@@ -180,7 +180,7 @@ Achter eind/blokkeerdatum van zaak/DMS nummer indien eind/blokkeerdatum is gevul
 
 #### Toon geregistreerde documenten (bij dit advies)
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
+Zie [Geregistreerde Documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt
@@ -188,7 +188,7 @@ Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_sch
 
 #### Creëer document
 
-Zie [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.md).
+Zie [Creëer document](/probleemoplossing/programmablokken/creeer_document.md).
 
 - Zichtbaar indien de inlogger lid is van een rechtengroep die bij hoofdzaak het recht creëren van documenten heeft
 - De knop is disabled indien:
@@ -198,7 +198,7 @@ Zie [Creëer document](/docs/probleemoplossing/programmablokken/creeer_document.
 
 #### Toon uploads bij dit advies
 
-Zie [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md)).
+Zie [Upload Lijst](/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md)).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten_ en _Item: MultipleUpload_ aangevinkt is
@@ -206,7 +206,7 @@ Zie [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads
 
 #### Creëer email
 
-Zie verder bij [Creëer email](/docs/probleemoplossing/programmablokken/creeer_email.md).
+Zie verder bij [Creëer email](/probleemoplossing/programmablokken/creeer_email.md).
 
 - Zichtbaar en enabled indien:
   - de inlogger lid is van een rechtengroep die bij omgevingszaak het recht _creëren van documenten_ heeft
@@ -216,7 +216,7 @@ Zie verder bij [Creëer email](/docs/probleemoplossing/programmablokken/creeer_e
 
 #### Toon documenten
 
-Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md).
+Zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md).
 
 - Zichtbaar wanneer:
   - een van onderstaande twee beweringen waar is:
@@ -235,15 +235,15 @@ Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_
 
 ### Creëer email (2)
 
-Zie verder bij [Creëer email](/docs/probleemoplossing/programmablokken/creeer_email.md).
+Zie verder bij [Creëer email](/probleemoplossing/programmablokken/creeer_email.md).
 
 - Zichtbaar en enabled indien de inlogger lid is van een rechtengroep die documenten mag creëren
   - en de bovenliggende zaak is niet geblokkeerd.
-- Klikken op het email-icoon start de wizard _Maak email_. Er kan gekozen worden uit mailsjablonen mits deze gedefinieerd zijn aan de beheerkant onder de tegel _Emailsjablonen_. Voor meer informatie over het definiëren van mailsjablonen zie [Emailsjablonen](/docs/instellen_inrichten/emailsjablonen.md).
+- Klikken op het email-icoon start de wizard _Maak email_. Er kan gekozen worden uit mailsjablonen mits deze gedefinieerd zijn aan de beheerkant onder de tegel _Emailsjablonen_. Voor meer informatie over het definiëren van mailsjablonen zie [Emailsjablonen](/instellen_inrichten/emailsjablonen.md).
 
 #### Upload document(en)
 
-Zie [Upload document](/docs/probleemoplossing/programmablokken/upload_document.md).
+Zie [Upload document](/probleemoplossing/programmablokken/upload_document.md).
 
 - Zichtbaar wanneer:
   - de instelling _Sectie: Documenten_ en _Item: MultipleUpload_ aangevinkt is
@@ -265,7 +265,7 @@ Zie [Upload document](/docs/probleemoplossing/programmablokken/upload_document.m
 
 #### Welstandsscherm
 
-- Zichtbaar en enabled indien de adviesinstantie (beheerportaal-Nieuw) de eigenschap _is welstandsadvies_ aangevinkt heeft staan. Zo nodig wordt een kaart aangemaakt in tbadvieswelstand, waarin extra welstandsgegevens kunnen worden genoteerd (commissie: beheertabel welstandcommissies, datum en conclusie en verslag). De conclusietekst - alleen indien het tekst vak nog leeg is - kan default na het kiezen van een conclusie, worden opgehaald uit de instellingentabel: zie: [Sectie Welstand](/docs/instellen_inrichten/configuratie/sectie_welstand.md).
+- Zichtbaar en enabled indien de adviesinstantie (beheerportaal-Nieuw) de eigenschap _is welstandsadvies_ aangevinkt heeft staan. Zo nodig wordt een kaart aangemaakt in tbadvieswelstand, waarin extra welstandsgegevens kunnen worden genoteerd (commissie: beheertabel welstandcommissies, datum en conclusie en verslag). De conclusietekst - alleen indien het tekst vak nog leeg is - kan default na het kiezen van een conclusie, worden opgehaald uit de instellingentabel: zie: [Sectie Welstand](/instellen_inrichten/configuratie/sectie_welstand.md).
 
 #### Urenregistratie
 

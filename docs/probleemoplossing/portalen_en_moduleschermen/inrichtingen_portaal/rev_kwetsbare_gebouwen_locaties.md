@@ -4,7 +4,7 @@
 
 De tegel is een trigger voor een lijst van alle _Kwetsbare gebouwen en locaties_ waarop de ev-contouren van een inrichting van invloed kunnen zijn
 
-ZIE: [Register Externe Veiligheid](/docs/instellen_inrichten/register_exrterne_veiligheid.md)
+ZIE: [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md)
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -16,12 +16,12 @@ ZIE: [Register Externe Veiligheid](/docs/instellen_inrichten/register_exrterne_v
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing (codering _inrichting_bklgebloc_)
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _inrichtingdetail_
 - Kolom: _Wat gebeurt er_

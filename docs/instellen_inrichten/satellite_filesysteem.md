@@ -11,7 +11,7 @@ Wanneer de gebruiker vraagt om een lijst van beschikbare mappen, of om een lijst
 
 Dit is het geval wanneer documenten up-of gedownload worden bij een zaak die NIET onder een compartiment valt.
 
-Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/docs/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
+Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
 
 - **Aan/uit**. de kolom _Tekst_ van _Sectie: Documenten, Item: OphalenViaFileserver_ moet gevuld zijn met de waarde _Satellite_.
 - Het **endpoint** van de satellite staat in kolom _Tekst_ van _Sectie: Satellite_ en _Item: Endpoint_fileserver_. Moet zijn:
@@ -20,7 +20,7 @@ Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals besc
 
 Op de plaats van de xxxx en de yyyy ip.nummer en poort.
 
-- **Authenticatie**. Indien de instelling _Sectie: Satellite_ en _Item: HTTPAuthenticatieNaam_ aangevinkt is dan gaat de berichten van de Cloud naar de satellite onder httpsauthenticatie. De usernaam staat in de kolom _Tekst_ bij deze HTTPAuthenticatieNaam. Het Password staat in kolom _Tekst_ onder _Sectie: Satellite_ en _Item: HTTPAuthenticatiePass_ (zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
+- **Authenticatie**. Indien de instelling _Sectie: Satellite_ en _Item: HTTPAuthenticatieNaam_ aangevinkt is dan gaat de berichten van de Cloud naar de satellite onder httpsauthenticatie. De usernaam staat in de kolom _Tekst_ bij deze HTTPAuthenticatieNaam. Het Password staat in kolom _Tekst_ onder _Sectie: Satellite_ en _Item: HTTPAuthenticatiePass_ (zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
 - **Domein** staat in kolom _Tekst_ onder _Sectie: Satellite en Item: Domain_.
 - **Type versleuteling** staat in kolom _Tekst_ onder _Sectie: Satellite en Item: HTTPAuthenticatieType_ (vooralsnog alleen Basic).
 - **Chunksize**. In _Getal1_ van de instelling _Sectie: Satellite_ en _Item: ChunkMbsize_ komt de grootte van de chunks in Mb te staan. Een document kan namelijk worden opgeknipt in chunks. Alleen een integer is toegestaan. (defaultwaarde = 1 Mb).
@@ -31,7 +31,7 @@ Op de plaats van de xxxx en de yyyy ip.nummer en poort.
 
 Dit is het geval wanneer documenten up-of gedownload worden bij een zaak die WEL onder een compartiment valt.
 
-Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/docs/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
+Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
 
 - **Aan/uit**. de kolom _Satellite (dlsatellite)_ van de betreffende compartimentskaart moet aangevinkt zijn.
 - Het **endpoint** van de satellite staat in kolom _endpoint_ van blok satellite op de compartimentskaart. Moet zijn:
@@ -42,7 +42,7 @@ Op de plaats van de xxxx en de yyyy ip.nummer en poort.
 
 - **Authenticatie**. Indien de kolom _HTTPAuthenticatieNaam_ gevuld is dan gaat de berichten van de Cloud naar de satellite onder httpsauthenticatie.
   - De usernaam voor htttps-authenticatie staat in deze kolom _HTTPAuthenticatieNaam_.
-  - Het Password staat in kolom _HTTPAuthenticatiePass_ onder blok satellite op de compartimentskaart (zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
+  - Het Password staat in kolom _HTTPAuthenticatiePass_ onder blok satellite op de compartimentskaart (zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)).
   - Het Type versleuteling staat in kolom _HTTPAuthenticatieType_ (vooralsnog alleen Basic).
   - de inhoud van de kolom _username toegang satellite-ini_ (dvsatelfileserveruser) wordt vergeleken met de _api-name_ van de satellite ini-file. In die ini-file staat de echte toegangsnaam voor de fileserver die aan de satellite is verbonden.
   - de inhoud van de kolom _password toegang satellite-ini_ (dvsatelfileserveruser) wordt vergeleken met de _api-pass_ van de satellite ini-file. In die ini-file staat de echte toegangspass voor de fileserver die aan de satellite is verbonden.

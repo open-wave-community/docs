@@ -1,7 +1,7 @@
 # Sectie KoppelingBAG
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: KoppelingBAG_ gerangschikt op item.
-Zie [BAG bevraging via StUF BG vraagbericht](/docs/probleemoplossing/programmablokken/bag_bevraging.md).
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: KoppelingBAG_ gerangschikt op item.
+Zie [BAG bevraging via StUF BG vraagbericht](/probleemoplossing/programmablokken/bag_bevraging.md).
 
 ## Items Configuratietabel
 

@@ -1,6 +1,6 @@
 # UpdateZaak-bericht wijzigen metadata(StUF)
 
-Het updateZaak-bericht kan ook gebruikt worden om een zaak af te sluiten. Normaliter gebeurt dit met een actualiseerZaakStatus bericht, maar kan desgewenst ook met een updateZaak-bericht. Zie hiervoor het kopje _Uitzondering doorgeven einddatum en resultaat via updateZaak_Lk01_ onderaan [Wijzigen Status externe zaak met Zaak/DMS](/docs/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms.md).
+Het updateZaak-bericht kan ook gebruikt worden om een zaak af te sluiten. Normaliter gebeurt dit met een actualiseerZaakStatus bericht, maar kan desgewenst ook met een updateZaak-bericht. Zie hiervoor het kopje _Uitzondering doorgeven einddatum en resultaat via updateZaak_Lk01_ onderaan [Wijzigen Status externe zaak met Zaak/DMS](/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms.md).
 
 ## Gebruik van updateZaak-bericht
 

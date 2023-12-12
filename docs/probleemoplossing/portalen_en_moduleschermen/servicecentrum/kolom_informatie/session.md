@@ -2,16 +2,16 @@
 
 ## Trigger
 
-De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instellen/Inrichting: [Inloggen](/docs/probleemoplossing/programmablokken/inloggen.md).
+De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instellen/Inrichting: [Inloggen](/probleemoplossing/programmablokken/inloggen.md).
 
   * De tegel is alleen zichtbaar voor inlogger wanneer:
-    * deze aan hem/haar is toegekend 
-    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert. 
+    * deze aan hem/haar is toegekend
+    * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
   * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   * Portaal: *Servicecentrum*
   * Kolom: *Informatie*

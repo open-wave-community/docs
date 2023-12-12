@@ -49,4 +49,4 @@ Een stuf updatezaakbericht met het nieuwe bevoegd gezag als extra element wordt 
 - indien de zaak NIET speelt in compartiment dan moet _Getal1_ van de instelling _Sectie: Koppeling Zaak en Item: UpdateZaakNaam_ de waarde 1 hebben en kolom _Tekst_ van _Sectie: Koppeling Zaak en Item: Methode_ moet de waarde _Stuf Zaken 310_ hebben.
 
 > [!INFO]
-> Kijk voor meer informatie over de DSO op de [DSO verzamelpagina](/docs/functionaliteiten/dso.md)
+> Kijk voor meer informatie over de DSO op de [DSO verzamelpagina](/functionaliteiten/dso.md)

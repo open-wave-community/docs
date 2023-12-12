@@ -42,7 +42,7 @@ Indien de instelling _Sectie: Koppeling OLO en Item: Aanmaakmappen_ aangevinkt i
 
 Bij de rechtengroepen (beheertegel _Functionele rechten_) kan per rechtengroep aangevinkt worden of de inlogger geautoriseerd is voor hyperlink gebruik: toegang tot alle mappen en hyperlink (kolom: dlmappenhyperlink).
 
-Op basis van dit recht kan de kolom dvhyperlink en bijbehorende ga-naar-knop in het detailscherm zichtbaar of onzichtbaar worden gemaakt. De kolom dvhyperlink (en de ga-naar-schermknop: zie hieronder) kan opgenomen worden in een apart blok in het detailscherm van de zaak/inrichting. Dit blok kan onzichtbaar zijn voor niet geautoriseerde op grond van een conditie gebaseerd op bovengenoemd recht. Zie hiertoe het voorbeeld onder het kopje _Queries om blokken onzichtbaar te maken in detailscherm_ bij [Queries](/docs/instellen_inrichten/queries.md)).
+Op basis van dit recht kan de kolom dvhyperlink en bijbehorende ga-naar-knop in het detailscherm zichtbaar of onzichtbaar worden gemaakt. De kolom dvhyperlink (en de ga-naar-schermknop: zie hieronder) kan opgenomen worden in een apart blok in het detailscherm van de zaak/inrichting. Dit blok kan onzichtbaar zijn voor niet geautoriseerde op grond van een conditie gebaseerd op bovengenoemd recht. Zie hiertoe het voorbeeld onder het kopje _Queries om blokken onzichtbaar te maken in detailscherm_ bij [Queries](/instellen_inrichten/queries.md)).
 
 ### Koppelen van de dvhyperlink aan actions met schermknop
 
@@ -64,7 +64,7 @@ Met deze knop wordt de inhoud van de kolom dvhyperlink in het klembord geplaatst
 
 #### verplaats mappen/documenten
 
-Met deze knop (alleen zichtbaar indien de gebruiker het recht _verplaatsen documenten in documentenTree_ (bijv. tbomgrechten.dlcomgcorverplaats) heeft) kan de gebruiker binnen een flexTree scherm van OpenWave, mappen en documenten vanaf de hyperlink beheren. Zie [Verplaatsen van bestanden in OpenWave (fileshare)](/docs/probleemoplossing/programmablokken/verplaatsen_bestanden_fileshare.md).
+Met deze knop (alleen zichtbaar indien de gebruiker het recht _verplaatsen documenten in documentenTree_ (bijv. tbomgrechten.dlcomgcorverplaats) heeft) kan de gebruiker binnen een flexTree scherm van OpenWave, mappen en documenten vanaf de hyperlink beheren. Zie [Verplaatsen van bestanden in OpenWave (fileshare)](/probleemoplossing/programmablokken/verplaatsen_bestanden_fileshare.md).
 
 ### Daadwerkelijk aanmaken van mappen op de fileserver
 

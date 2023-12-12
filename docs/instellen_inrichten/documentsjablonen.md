@@ -49,7 +49,7 @@ Voor bestaande sjablonen kan via het detailscherm op dezelfde manier de koppelin
 
 ### Triggers in het menu opties rechtsboven
 
-- **Toon uploads** bij deze sjabloonfile. Hiermee wordt de uploadgeschiedenis getoond van het documentsjabloon zelf in de kolom dvtemplatebase64. Zie [Upload Lijst](/docs/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md)
+- **Toon uploads** bij deze sjabloonfile. Hiermee wordt de uploadgeschiedenis getoond van het documentsjabloon zelf in de kolom dvtemplatebase64. Zie [Upload Lijst](/probleemoplossing/module_overstijgende_schermen/uploads_lijst.md)
 - **Verwijder upgeloade sjabloon**. Hiermee wordt de kolom dvtemplatebase64 leeggemaakt. Zichtbaar doordat het aanvinkvakje voor het label _Sjabloon is upgeload in tabel_ leeggemaakt wordt.
 
 ### Triggers linksonder
@@ -72,8 +72,8 @@ Voor bestaande sjablonen kan via het detailscherm op dezelfde manier de koppelin
 
 - De kolom **ID** (dnkey) geeft de automatisch gegenereerde primary key weer van het sjabloon in de tabel tbdocumenten.
 - **Naam/beschrijving** (dvomschrijving). Vrij in te voeren naam voor het sjabloon, zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard _Maakdocument_ aanroept.
-- **Naam van sjabloon in Xential** (dvnaaminexternsjablprog). Moet alleen gevuld worden indien het OpenWave sjabloon doorgeefluik is naar een Xentail-sjabloon. Zie: [Xential](/docs/probleemoplossing/programmablokken/xential.md).
-- **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/docs/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
+- **Naam van sjabloon in Xential** (dvnaaminexternsjablprog). Moet alleen gevuld worden indien het OpenWave sjabloon doorgeefluik is naar een Xentail-sjabloon. Zie: [Xential](/probleemoplossing/programmablokken/xential.md).
+- **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
 - Met het **Volgordenummer** kan de volgorde van de sjabloonnamen bepaald worden zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard _Maakdocument_ aanroept via optie _Creëer document_.
 - **Vervaldatum**. Vervallen documentsjablonen zijn niet zichtbaar voor de gebruiker bij de wizard _Maakdocument_.
 - **Te genereren documentnaam** (dvtemplate). Bij het samenvoegen in de wizard _Maakdocument_ van sjabloon en databasevelden wordt een nieuw document gecreëerd. Hier kan de gewenste documentnaam worden ingevuld (zonder extensie). Indien deze kolom is gevuld dan geldt het volgende: de nieuwe documentnaam is de waarde van deze kolom met het extensiegedeelte (inclusief punt) uit de kolom _(uncpad) + naam sjabloon_ (dvdocumentnaam) waarbij de extensie .dotx wordt omgezet naar .docx. De variabelen:
@@ -104,16 +104,16 @@ dvtemplate heeft de waarde _vraagaanvulling\_%date%_ en de _(UNC-pad) + naam sja
 - **(UNC-pad) + naam sjabloon** (dvdocumentnaam). Deze kolom moet in ieder geval een filenaam bevatten met extensie .dotx, docx of .odt. Indien de filenaam voorafgegaan wordt door een UNC-pad EN de kolom dvtemplatebase64 is NIET gevuld (zichtbaar indien _Sjabloon is upgeload in tabel_ leeg is: leeg te maken via de menu optie),dan zal het programma proberen het sjabloon van de fileshare op te halen. Dan moeten ook de kolommen*Tekst*bij de instellingen _Sectie: Documenten_ en de _Items: OphalenViaFileserver_Domain, OphalenViaFileserver_Password, OphalenViaFileserver_Username en OphalenViaFileserver_Wins_ gevuld zijn. Indien de kolom dvtemplatebase64 WEL is gevuld (zichtbaar indien*Sjabloon is upgeload in tabel* aangevinkt is) dan zal het programma voor het samenvoegen de sjabloon uit deze kolom halen. Er is dan geen toegang tot de fileshare nodig (behalve indien het gegenereerde document daarop automatisch geplaatst moet worden)
 - **Sjabloon is upgeload in tabel** (dvtemplatebase64 is wel/niet gevuld). Zie hierboven en bij de triggers upload/download sjabloon
 - **autom upload** (dlautoupload). Indien aangevinkt heeft dat als consequentie dat het programma het te genereren document direct gaat opslaan: Indien
-  - de kolom _Tekst_ van instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Methode_ de waarde _StUF-ZAKEN 310_ heeft EN de externe zaakcode is gevuld EN de instelling _Sectie: Documenten_ en _Item: OphalenViaDMS_ is aangevinkt, dan wordt het document doorgegeven met de zaak/DMS services. Zie [Upload documenten met StUF zaak/dms](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
-  - de kolom _Tekst_ van instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Methode_ de waarde _CMIS 1.0_ heeft EN de instelling _Sectie: Documenten, Item: OphalenViaDMS_ is aangevinkt EN de kolom _Item_ van _Sectie: Aanmaakmappen_ verwijst naar een kaart in tbinitialisatie met de juiste CMIS map-informatie, dan wordt het document doorgegeven met CMIS. Zie: [Upload documenten met CMIS](/docs/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)
-  - de instelling _Sectie: Documenten, Item: OphalenViaFileserver_ is aangevinkt EN de kolom _Item_ van _Sectie: Aanmaakmappen_ verwijst naar een kaart in tbinitialisatie met de juiste fileshare-mapinformatie, dan wordt het document geplaatst op de fileshare. Zie: [Upload documenten naar fileshare](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare). Indien sprake is van een hybride situatie van zowel opslag mogelijk op fileserver als in DMS kan een voorkeur opgegeven worden met de instelling _Sectie: Documenten Item: BriefAutoOpslaan_. Indien _Getal1_ wordt gevuld met 1 dan zal OpenWave bij het creëren van een brief op basis van een sjabloon als default de fileserver voorstellen. Bij 2 wordt DMS voorgesteld en bij 3 de optie Nee (hetgeen betekent: niet automatisch opslaan). Deze instelling geldt alleen voor de Host. Indien namelijk sprake is van een compartiment wordt deze zelfde informatie opgehaald uit de nieuwe kolom met label _Default brieven opslaan_ (tbcompartiment.dnAutoopslaan.md)
-- **Item Sectie Aanmaakmappen**. Deze kolom is alleen zinvol indien _autom upload_ is aangevinkt en die automatische upload van het gegenereerde document moet naar de fileshare of via CMIS in een DMS. Hier wordt verwezen naar de instellingskaart kaart met _Sectie : Aanmaakmappen_ waarin exact wordt verwezen onder welke map het document geplaatst moet worden. Zie: [Upload document](/docs/probleemoplossing/programmablokken/upload_document.md)
+  - de kolom _Tekst_ van instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Methode_ de waarde _StUF-ZAKEN 310_ heeft EN de externe zaakcode is gevuld EN de instelling _Sectie: Documenten_ en _Item: OphalenViaDMS_ is aangevinkt, dan wordt het document doorgegeven met de zaak/DMS services. Zie [Upload documenten met StUF zaak/dms](/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
+  - de kolom _Tekst_ van instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Methode_ de waarde _CMIS 1.0_ heeft EN de instelling _Sectie: Documenten, Item: OphalenViaDMS_ is aangevinkt EN de kolom _Item_ van _Sectie: Aanmaakmappen_ verwijst naar een kaart in tbinitialisatie met de juiste CMIS map-informatie, dan wordt het document doorgegeven met CMIS. Zie: [Upload documenten met CMIS](/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)
+  - de instelling _Sectie: Documenten, Item: OphalenViaFileserver_ is aangevinkt EN de kolom _Item_ van _Sectie: Aanmaakmappen_ verwijst naar een kaart in tbinitialisatie met de juiste fileshare-mapinformatie, dan wordt het document geplaatst op de fileshare. Zie: [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare). Indien sprake is van een hybride situatie van zowel opslag mogelijk op fileserver als in DMS kan een voorkeur opgegeven worden met de instelling _Sectie: Documenten Item: BriefAutoOpslaan_. Indien _Getal1_ wordt gevuld met 1 dan zal OpenWave bij het creëren van een brief op basis van een sjabloon als default de fileserver voorstellen. Bij 2 wordt DMS voorgesteld en bij 3 de optie Nee (hetgeen betekent: niet automatisch opslaan). Deze instelling geldt alleen voor de Host. Indien namelijk sprake is van een compartiment wordt deze zelfde informatie opgehaald uit de nieuwe kolom met label _Default brieven opslaan_ (tbcompartiment.dnAutoopslaan.md)
+- **Item Sectie Aanmaakmappen**. Deze kolom is alleen zinvol indien _autom upload_ is aangevinkt en die automatische upload van het gegenereerde document moet naar de fileshare of via CMIS in een DMS. Hier wordt verwezen naar de instellingskaart kaart met _Sectie : Aanmaakmappen_ waarin exact wordt verwezen onder welke map het document geplaatst moet worden. Zie: [Upload document](/probleemoplossing/programmablokken/upload_document.md)
 - **Queries**. Er zijn 10 formqueries (queries waarvan het resultaat van het SQL-statement uit maar één regel mag bestaan) en 12 childqueries (de resultaatsets van deze SQL-statements mogen wel meer dan één regel bevatten). In het .odt of .dotx of .docx sjabloon worden childqueries gebruikt om tabellen te vullen en formqueries voor één op één merge-coderingen. Zie kopjes formquery en childquery. De views waarvan de naam begint met ‘VwFrm’ zijn de views die goed gedocumenteerd zijn en door Rem bij updates worden beschermd. Het is dus raadzaam alleen deze views als onderlaag van de queries te gebruiken. Zie [https://www.open-wave.nl/community/online/datadictionary/Index.html](https://www.open-wave.nl/community/online/datadictionary/Index.html.md).
 
 =====Queries voor merge =====
 Queries worden gebruikt om een documentsjabloon te mergen met gegevens uit de database.
 
-In het geval dat het OpenWave sjabloon een doorgeefluik is naar een Xential sjabloon (kolom dvnaaminexternsjablprog is dan gevuld), worden de resultsets van de queries gebruikt om een xml te construeren die Xential gebruikt om te mergen. Zie voor deze toepassing: [Xential](/docs/probleemoplossing/programmablokken/xential.md).
+In het geval dat het OpenWave sjabloon een doorgeefluik is naar een Xential sjabloon (kolom dvnaaminexternsjablprog is dan gevuld), worden de resultsets van de queries gebruikt om een xml te construeren die Xential gebruikt om te mergen. Zie voor deze toepassing: [Xential](/probleemoplossing/programmablokken/xential.md).
 
 ====Formquery ====
 
@@ -228,7 +228,7 @@ Select
 #### OpenWave database functies
 
 OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei queries.
-Zie:[OpenWave database functies](/docs/instellen_inrichten/openwave_database-functies.md).
+Zie:[OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
 
 ### Childquery
 
@@ -238,7 +238,7 @@ Het aantal regels dat de tabel uiteindelijk in het te genereren document gaat in
 
 Het eenvoudige .docx voorbeeld van een ontvangstbevestiging is hieronder uitgebreid met een tabel waarin het de bedoeling is dat daar de onderdelen van de omgevingszaak worden opgesomd:
 
-![](/img/applicatiebeheer/instellen_inrichten/sjabloonmettabel.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/sjabloonmettabel.png){ class="media" loading="lazy" alt="" width="600" }
 
 De childquery-1 kan er als volgt uitzien:
 
@@ -256,7 +256,7 @@ select
 
 In de tabellen mogen meerdere merge-coderingen per cel gebruikt worden al of niet in combinatie met tekst:
 
-![](/img/applicatiebeheer/instellen_inrichten/tabelmettekstencodering.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/tabelmettekstencodering.png){ class="media" loading="lazy" alt="" width="600" }
 
 LET OOK OP: Indien in het sjabloon een tabel is opgenomen in de header of footer dan geldt het volgende:
 
@@ -270,7 +270,7 @@ OpenWave zal bij een childquery zoeken naar speciale gevallen die worden herkend
 Momenteel zijn daartoe enkel de volgende mogelijkheden:
 
 - Opsomming van afgekeurde items uit digitale checklist. De tekst in de bijbehorende childquery moet zijn: _JSON_DigitaleChecklisten_Controle_brief_1
-  _. Zie hiertoe het kopje _Instellingen voor overnemen van afgekeurde checklist-items in document_ bij [Digitale checklisten](/docs/probleemoplossing/programmablokken/digitale_checklijsten.md).
+  _. Zie hiertoe het kopje _Instellingen voor overnemen van afgekeurde checklist-items in document_ bij [Digitale checklisten](/probleemoplossing/programmablokken/digitale_checklijsten.md).
 
 ### Speciale childquery: Opsommen aangewezen bijlages
 
@@ -333,7 +333,7 @@ Hetgeen wil zeggen dat indien het zaaktype van de omgevingszaak waar je op staat
 Die kolom dvtekstblok kan gevuld zijn met een tekst van maximaal 4000 tekens.
 
 In de tabel tbtekstblokken (beheertegel _Tekstblokken_) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen.
-Zie ook: [Queries](/docs/instellen_inrichten/queries.md).
+Zie ook: [Queries](/instellen_inrichten/queries.md).
 
 ### Invoegen plaatje op basis van een query-aanroep naar tbqueries die verwijst naar tbimages
 
@@ -382,7 +382,7 @@ De string <%ExtDocIdent%> (let op kamelennotatie) zal worden vervangen door de e
 
 ## Tonen gecrypte versie van een kolomwaarde
 
-Verder kan de encryptiemethode worden aangeroepen vanuit het documentsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een document als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in het document opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
+Verder kan de encryptiemethode worden aangeroepen vanuit het documentsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een document als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in het document opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
 
 ## Sjabloon-parameters
 
@@ -464,11 +464,11 @@ LET HIER OP DAT:
 
 Er zijn dus 5 invoerparameters:
 
-![](/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
 
 Dat resulteert bij het genereren van het document tot een invoerscherm:
 
-![](/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
+![](/docs/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
 
 En het te genereren document ziet er dan zo uit:
 
@@ -485,7 +485,7 @@ Rommeldam, 01 mei 2017
 
 ## formquery en childquery-verwijzingen naar tbqueries
 
-De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/docs/instellen_inrichten/queries.md)
+De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/instellen_inrichten/queries.md)
 
 Hierdoor hoeft een query die in meerdere sjablonen gebruikt wordt maar eenmalig te worden gedefinieerd. De opmaak van de sjablonen wijzigt hierdoor niet.
 

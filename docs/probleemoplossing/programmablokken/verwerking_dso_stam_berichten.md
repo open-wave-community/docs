@@ -2,8 +2,8 @@
 
 Zie ook:
 
-- [Verwerken DSO-bijlagen vanuit digi-koppelaar](/docs/probleemoplossing/programmablokken/upload_dso-document_vanuit_digi-koppelaar.md)
-- [Testen xml-berichten DSO / Erk.Maatreg.](/docs/instellen_inrichten/testen_dso_erkmaatreg.md)
+- [Verwerken DSO-bijlagen vanuit digi-koppelaar](/probleemoplossing/programmablokken/upload_dso-document_vanuit_digi-koppelaar.md)
+- [Testen xml-berichten DSO / Erk.Maatreg.](/instellen_inrichten/testen_dso_erkmaatreg.md)
 
 De service laag van de OpenWave omgeving ontvangt deze DSO-berichten (een triggerbericht in xml-formaat en een verzoekbericht in xml-formaat en een Jnet/EnableU bericht in xml om een intrekking door te geven) op het endpoint /DSO/Verzoek/ als HTTPS:POST.
 
@@ -96,7 +96,7 @@ De volgende types kunnen worden aangeleverd in het verzoekbericht:
 
 Het is raadzaam hier zaaktypes voor te definiëren (of bestaande te hergebruiken) in de beheertabel _Zaaktypes omgeving_ (tbsoortomgverg). Daartoe is de kolom _Verzoektype_ (dvdsotype) in het blok _DSO-type_. OpenWave zal eerst proberen vast te stellen of het DSO verzoekbericht voor een compartiment is bedoeld op grond van de locatie, uitvoerende instantie en bevoegd gezag.
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
+![](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
 
 Indien de uitvoerende instantie (behandeldienst) in het verzoekbericht is gevuld dan is het verzoekbericht sowieso niet voor een compartiment.
 
@@ -353,7 +353,7 @@ Bij het verwerken van STAM-bericht wordt eerst deze voorcheck gedaan: Indien
 Dan gaat het om een kopiebericht dat moet worden genegeerd. In de messagelog wordt het bericht wel opgenomen met de reden waarom genegeerd.
 
 Indien het kopiebericht toch moet worden opgeslagen (de instelling _Sectie: DSO en Item: KopieberichtenOpslaan_ is **WEL** aangevinkt, dan krijgt het verzoeknummer de postfix `_KCV`.
-![DSO zwarte gaten en kopieberichten](/img/applicatiebeheer/probleemoplossing/programmablokken/dsozwartegatenenkopieberichten.png.md){class="media" loading="lazy" width="800" }
+![DSO zwarte gaten en kopieberichten](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/dsozwartegatenenkopieberichten.png){class="media" loading="lazy" width="800" }
 
 ## Vervolgacties na verwerken verzoekbericht
 
@@ -374,7 +374,7 @@ Dit is het geval indien:
 - er GEEN sprake is van een compartiment EN de instelling _Koppeling ZAAK_ en _Item: AutoZaakDmsOmgeving_ is aangevinkt
 - er WEL sprake is van een compartiment dan EN de kolom dlAutoZaakDmsOmgeving is aangevinkt bij het betreffende compartiment (beheerportaal-Nieuw).
 
-Zie voor overige verplichte instellingen voor aanmaken zaak in extern zaak/DMS bij [Creëer zaak zaak/dms](/docs/probleemoplossing/programmablokken/creeer_zaak_zaak_dms.md).
+Zie voor overige verplichte instellingen voor aanmaken zaak in extern zaak/DMS bij [Creëer zaak zaak/dms](/probleemoplossing/programmablokken/creeer_zaak_zaak_dms.md).
 
 ### Automatisch aanmaken mappen op fileshare
 
@@ -391,11 +391,11 @@ OF indien
   - EN de kolom _Automatisch aanmaken mappen_ (dlautoaanmaakmappen) aangevinkt is bij het betreffende compartiment
 
 dan zullen bij het aanmaken van een nieuwe zaak automatisch de omgeving_mappen genoemd in de rijen van _Sectie: Aanmaakmappen_ worden aangemaakt waarbij er een '4' voorkomt in _Getal1_ (dus indien _Getal1_ de waarde 25 heeft dan niet, indien bijv. 4 of 124 dan wel). Hierbij uitgezonderd zijn de mappen waarin de variabelen `%adviesnr%` , `%bezwaarnr%` en `%inspnr%` zijn opgenomen.
-Indien OpenWave in de Cloud draait, dan moet wel de [satellite](/docs/instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn.
+Indien OpenWave in de Cloud draait, dan moet wel de [satellite](/instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn.
 
 ### Automatisch vullen van kolom dvhyperlink
 
-Zie: [Hyperlink](/docs/instellen_inrichten/hyperlink.md).
+Zie: [Hyperlink](/instellen_inrichten/hyperlink.md).
 
 ### Automatisch sturen van DSO Ontvangstbevestiging
 
@@ -405,4 +405,4 @@ Dit is het geval indien:
 - doel van DSO STAM-bericht Initiëren, Vooroverleg, Conceptverzoek of Aanvullen is (dus niet bij Intrekken)
 
 Zie voor overige verplichte instellingen voor automatisch versturen van DSO ontvangstbevestiging bij
-[DSO Ontvangstbevestiging sturen](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md).
+[DSO Ontvangstbevestiging sturen](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md).

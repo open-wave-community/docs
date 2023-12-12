@@ -9,7 +9,7 @@ Dit (lijst) scherm kan worden aangeroepen vanuit alle zaakportalen (tegel _Dossi
 
 ### Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ### Muteren
 

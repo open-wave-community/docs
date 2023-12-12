@@ -1,6 +1,6 @@
 # Procesflow en bewaking
 
-Een [proces](/docs/instellen_inrichten/inrichting_processen.md) is een verzameling regels die samen een bepaalde procesflow begeleiden bijvoorbeeld een ontvankelijkheidtoets. De procesregels hebben daarin de vorm van een termijnbewakingstap of van een afvinkstap.
+Een [proces](/instellen_inrichten/inrichting_processen.md) is een verzameling regels die samen een bepaalde procesflow begeleiden bijvoorbeeld een ontvankelijkheidtoets. De procesregels hebben daarin de vorm van een termijnbewakingstap of van een afvinkstap.
 
 Een termijnbewakingstap heeft een deadline. Die deadline wordt berekend aan de hand van termijnen gerekend vanaf een eerdere regel. De deadline van de allereerste regel is gerelateerd aan een startpunt: de ontvangstdatum van een zaak (datum constatering bij handhavingen). De gebruiker sluit een openstaande termijnstap door de afhandeldatum van die stap te vullen (kan ook met voor gedefinieerde acties als _creëer document_ of _kies vervolgzaak_).
 
@@ -12,7 +12,7 @@ Het kan ook zijn dat processen zijn gekoppeld aan het zaaktype met attribuut _au
 
 Wanneer een proces wordt toegevoegd bij een zaak worden de gedefinieerde stappen in het beheerportaal daartoe gekopieerd naar de betrokken zaak. Uitgangspunt voor het berekenen van de deadlines van de termijn bewakingsregels is de ontvangstdatum van de aanvraag/vergunning en de datum constatering bij handhavingen.
 
-Op het openingsportaal staat de tegel _Mijn procestaken_. De tegel toont de eerstvolgende niet afgehandelde processtappen per zaak die aan de inlogger zijn toegekend. Indien een stap niet aan een specifieke medewerker is toegekend, is de actieve behandelaar degene die deze taak krijgt. Instelbaar is of OpenWave hierbij kijkt naar de eerstvolgende stap per zaak of naar de eerstvolgende stap per proces per zaak. Zie [Tegel Mijn Procestaken](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_procestaken.md).
+Op het openingsportaal staat de tegel _Mijn procestaken_. De tegel toont de eerstvolgende niet afgehandelde processtappen per zaak die aan de inlogger zijn toegekend. Indien een stap niet aan een specifieke medewerker is toegekend, is de actieve behandelaar degene die deze taak krijgt. Instelbaar is of OpenWave hierbij kijkt naar de eerstvolgende stap per zaak of naar de eerstvolgende stap per proces per zaak. Zie [Tegel Mijn Procestaken](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_procestaken.md).
 De tegel _Mijn procestaken_ kan ook aan een team worden toegekend (alle leden van dat team zien dan dezelfde openstaande stappenlijst).
 
 Wanneer er twee of meer processen aan een zaak worden gekoppeld (bijv. zienswijze behandelen volgt op het proces Reguliere vergunning) is de eerste bewakingstermijn van het tweede proces gerelateerd aan de laatste termijn van de eerste (zie startregel onder lemma _Termijnstappen_). De eerste termijn van het eerste proces is altijd gerelateerd aan de startdatum van de zaak zelf.

@@ -93,6 +93,6 @@ De kolommen dvactiveringscode en ddactiveringscode worden leeg gemaakt als wacht
 ## Email opmaak instellingen
 
 Er is een aantal instellingen m.b.t. de onderwerp, ondertekening en bodytekst van de te versturen e-mails.
-Zie hiervoor de instellingen bij [Sectie Inloggegevens](/docs/instellen_inrichten/configuratie/sectie_inloggegevens.md). De meeste instellingen hebben een defaultwaarde.
+Zie hiervoor de instellingen bij [Sectie Inloggegevens](/instellen_inrichten/configuratie/sectie_inloggegevens.md). De meeste instellingen hebben een defaultwaarde.
 
 Er is echter één gegeven dat per OpenWave-installatie apart moet worden aangepast: dat is de kolom _Info_ van _Sectie: Inloggegevens en Item: WachtwoordEmailTekstBody_. Daarin staat de tekst die getoond wordt in de mail die degene die het wachtwoord vergeten is krijgt te zien met daarin een activeringscode. Default staat er: Wanneer u op de onderstaande link klikt kunt u uw wachtwoord wijzigen: `[https://open-wave.nl/#wachtwoordvergeten/%link%](https://open-wave.nl/#wachtwoordvergeten/%link%.md)`. U dient het gedeelte `[https://open-wave.nl/](https://open-wave.nl/.md)` te vervangen met het domein waarop OpenWave bij u is geïnstalleerd zodat er bijvoorbeeld komt te staan: `[https://rommeldam.open-wave.nl:4444/#wachtwoordvergeten/%link%](https://rommeldam.open-wave.nl:4444/#wachtwoordvergeten/%link%.md)` (let op de slashes).

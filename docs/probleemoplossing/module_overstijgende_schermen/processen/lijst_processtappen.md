@@ -11,13 +11,13 @@ Deze niet in gebruik termijnstappen kunnen toch zichtbaar gemaakt worden indien 
 In de beheer- bij de definitie van de processen kunnen twee soorten termijnstappen worden gedefinieerd die niet aan de voorkant terug te vinden zijn:
 
 - Een stap met de naam _Startregel_ waarbij volgnummer de waarde 0 heeft, wordt door OpenWave niet opgenomen bij de uit te voeren processtappen, maar enkel onder water gebruikt om twee processen aan elkaar te koppelen.
-- Een stap met de naam _Tussenregel_ wordt wel opgenomen bij de uit te voeren processtappen, maar is altijd onzichtbaar. Deze stap krijgt bij de aanroep van de wizard _SluitZaak_ automatisch als afhandeldatum de streefdatum van die zaak. De _Tussenregel_ wordt ook niet opgenomen in de vwfrmeersteprocesstapperzaak en ook niet in de vwfrmeerstestapperproces, zodat er geen openstaande taak op deze stap kan staan. Zie ook [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md) bij kopje _Tussenregel_.
+- Een stap met de naam _Tussenregel_ wordt wel opgenomen bij de uit te voeren processtappen, maar is altijd onzichtbaar. Deze stap krijgt bij de aanroep van de wizard _SluitZaak_ automatisch als afhandeldatum de streefdatum van die zaak. De _Tussenregel_ wordt ook niet opgenomen in de vwfrmeersteprocesstapperzaak en ook niet in de vwfrmeerstestapperproces, zodat er geen openstaande taak op deze stap kan staan. Zie ook [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md) bij kopje _Tussenregel_.
 
 ## Probleem
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak.
 
 ## Disabled/enabled - Chronologisch afhandelen

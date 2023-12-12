@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_geefRecenteAdviezenLijst.xml (voor vaarwegzaken is dit: MDLC_geefRecenteAdviezenVaarwegLijst.xml).
 
-Zie ook [Tegel Mijn recent binnengekomen adviezen](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_recent_binnengekomen_adviezen.md)
+Zie ook [Tegel Mijn recent binnengekomen adviezen](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_recent_binnengekomen_adviezen.md)
 
 ## Welke gegevens worden getoond
 

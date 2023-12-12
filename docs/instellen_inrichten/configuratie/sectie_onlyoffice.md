@@ -1,6 +1,6 @@
 # Sectie OnlyOffice
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: OnlyOffice_ gerangschikt op item. Kijk voor overige OnlyOffice instellingen bij:
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: OnlyOffice_ gerangschikt op item. Kijk voor overige OnlyOffice instellingen bij:
 
 - Sectie: OWB items: TussenmapOnlyOfficeUploadfiles en TussenmapOnlyOfficeDownloadfiles
 - Sectie: Documenten Item: OnlyOffice

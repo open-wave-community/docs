@@ -1,8 +1,8 @@
 # Sectie Satellite
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Satellite_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Satellite_ gerangschikt op item.
 
-Let op: elk compartiment heeft zijn eigen instellingen m.b.t. satellite (beheerportaal-Nieuw: _Compartiment_) Zie [Satellite t.b.v. benadering fileserver](/docs/instellen_inrichten/satellite_filesysteem.md).
+Let op: elk compartiment heeft zijn eigen instellingen m.b.t. satellite (beheerportaal-Nieuw: _Compartiment_) Zie [Satellite t.b.v. benadering fileserver](/instellen_inrichten/satellite_filesysteem.md).
 
 ## Items Configuratietabel
 

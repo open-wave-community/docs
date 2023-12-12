@@ -26,19 +26,19 @@ Het versturen van de DSO ontvangstbevestiging vereist een aantal instellingen:
   - indien wel compartimentzaak dan indien _tbcompartiment.dldocregallehandmuploads_ de waarde T heeft.
 
 **LET OP:** uiteraard moet er wel vanuit OpenWave gemaild kunnen worden. Hiervoor bestaan standaard mailinstellingen. Indien er al gemaild wordt naar de BAG en/of adviesinstanties of vanuit MaakEmail, dan zijn deze instellingen al goed ingeregeld.
-Zie ook [sectie webmail](/docs/instellen_inrichten/configuratie/sectie_web.mail.md).
+Zie ook [sectie webmail](/instellen_inrichten/configuratie/sectie_web.mail.md).
 
 ## Werkwijze
 
 ### Automatisch versturen van DSO ontvangstbevestiging
 
-Bij het verwerken van DSO STAM-berichten (aanvragen uit het DSO) kan indien zo ingesteld, automatisch een DSO ontvangstbevestigingsmail verstuurd worden naar de [Geadresseerde(n)](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging#geadresseerde_n.md) van het verzoek.
+Bij het verwerken van DSO STAM-berichten (aanvragen uit het DSO) kan indien zo ingesteld, automatisch een DSO ontvangstbevestigingsmail verstuurd worden naar de [Geadresseerde(n)](/probleemoplossing/programmablokken/dso_ontvangstbevestiging#geadresseerde_n.md) van het verzoek.
 Dit is het geval indien:
 
 - instelling _Sectie: DSO en Item: OntvangstBevestAutoVersturen_ aan is gevinkt
 - doel van DSO STAM-bericht Initiëren, Vooroverleg, Conceptverzoek of Aanvullen is (dus niet bij Intrekken)
 
-Zie overige instellingen/vereisten kopje: [Benodigde instellingen](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging#benodigde_instellingen.md).
+Zie overige instellingen/vereisten kopje: [Benodigde instellingen](/probleemoplossing/programmablokken/dso_ontvangstbevestiging#benodigde_instellingen.md).
 
 Het automatisch versturen gebeurd zonder userinterface en is daarmee niet zichtbaar voor de gebruiker. Bij het verwerken van het STAM-bericht zal na het aanmaken van nieuwe zaak (indien Doel = Initieren, Vooroverleg of Conceptverzoek), indien bovengenoemde configuratie instelling aan staat gepoogd worden de DSO ontvangstbevestiging te versturen. Idem dito bij verwerken van STAM-bericht maar doel = Aanvullen, zal met bovengenoemde instelling gepoogd worden voor de aanvulling de DSO ontvangstbevestiging te sturen.
 
@@ -46,7 +46,7 @@ Bij het zaaktype van de (nieuwe) zaak zal de programmatuur het gewenste sjabloon
 
 Omdat er geen userinterface is bij het verwerken van een DSO STAM-bericht zal het ontbreken van gegevens/niet kunnen opstellen van de mail en de reden daarvoor, genoteerd worden in het beheer bij _Ontbrekende configuratieitems_. Dit is voor beheerders in te zien maar niet voor behandelaar van de zaak.
 
-De behandelaar van de zaak kan controleren of het versturen van de DSO ontvangstbevestiging gelukt is door te kijken of de gewenste verstuurdatum gevuld is: zie uitleg kopje [Controle op versturen DSO ontvangstbevestiging](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging#controle_op_versturen_dso_ontvangstbevesting.md)
+De behandelaar van de zaak kan controleren of het versturen van de DSO ontvangstbevestiging gelukt is door te kijken of de gewenste verstuurdatum gevuld is: zie uitleg kopje [Controle op versturen DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging#controle_op_versturen_dso_ontvangstbevesting.md)
 
 ### Handmatig versturen van DSO ontvangstbevestiging
 
@@ -57,7 +57,7 @@ In de standaard uitlevering is er voor het mailen van de initiële ontvangstbeve
 In de lijst met **DSO Aanvullingen** is er per regel (mits het doel _Aanvullen_ is) een knop zichtbaar om de ontvangstbevestiging per Aanvulling te kunnen versturen. Ook hier is een datumveld zichtbaar waarop de ontvangstbevestiging voor het laatst verstuurd is.
 Deze twee knoppen roepen beiden de wizard _StuurDSOOntvangstbevestiging_ aan.
 
-Het is mogelijk de wizard aan te roepen via een actie achter een processtap of achter een tegel. Acties achter een processtap en/of tegel dienen naar wens door de beheerder aangemaakt te worden. Zie uitgewerkte voorbeelden onder kopje **Action** bij [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md) en voorbeeld aanroep onder kopje **startWizard** bij [Actions](/docs/instellen_inrichten/actions.md).
+Het is mogelijk de wizard aan te roepen via een actie achter een processtap of achter een tegel. Acties achter een processtap en/of tegel dienen naar wens door de beheerder aangemaakt te worden. Zie uitgewerkte voorbeelden onder kopje **Action** bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md) en voorbeeld aanroep onder kopje **startWizard** bij [Actions](/instellen_inrichten/actions.md).
 
 Na aanroepen van de wizard zal deze een ontvangstbevestigingsmail genereren en sturen naar aanvrager/gemachtigde als reactie op het binnengekomen DSO verzoekbericht.
 Er zijn drie mogelijkheden qua aanroep van de wizard:
@@ -66,7 +66,7 @@ Er zijn drie mogelijkheden qua aanroep van de wizard:
 - 2. **Initieel ontvangstmail genereren en versturen met sluiten processtap**. Deze aanroep kan men instellen bij actie achter processtap en zal de ontvangstbevestiging Initieel versturen en indien geslaagd, de verstuurdatum (opnieuw) vullen met datum van versturen. Vervolgens zal de processtap waarvandaan de wizard gestart is, afgesloten worden.
 - 3. **Aanvulling ontvangstmail versturen** (nooit vanuit processtap). Deze aanroep zit achter de knoppen in de lijst **DSO Aanvullingen** en zal de ontvangstbevestiging Aanvullen versturen en indien geslaagd, de verstuurdatum (opnieuw) van de aanvullingsregel vullen met datum van versturen.
 
-De wizard toont bij start een melding als er gegevens ontbreken zoals rechtencontrole niet oké (de gebruiker moet het recht hebben voor _Creëren van documenten (tbomgrechten.dlcomgcorins)_), er geen valide dnkeymailsjabloon is opgegeven bij de zaaktypedefinitie, als er geen [Geadresseerde(n)](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging#geadresseerde_n.md) te bepalen is enzovoorts.
+De wizard toont bij start een melding als er gegevens ontbreken zoals rechtencontrole niet oké (de gebruiker moet het recht hebben voor _Creëren van documenten (tbomgrechten.dlcomgcorins)_), er geen valide dnkeymailsjabloon is opgegeven bij de zaaktypedefinitie, als er geen [Geadresseerde(n)](/probleemoplossing/programmablokken/dso_ontvangstbevestiging#geadresseerde_n.md) te bepalen is enzovoorts.
 In dat geval kan de gebruiker alleen nog annuleren.
 
 Indien de verstuurdatum al gevuld is voor de mail zal de wizard een melding tonen dat de mail al verstuurd is. De gebruiker kan in dit geval annuleren OF toch uitvoeren: dan wordt de mail nogmaals verstuurd en de verstuurdatum overschreven.
@@ -76,7 +76,7 @@ Na eventueel tonen van melding scherm, zal de wizard gelijk de mail genereren en
 Anders dan bij **Creëer email** kan de gebruiker niet zelf de contactpersoon kiezen en kunnen er ook geen bijlagen worden gekozen.
 De mail wordt eventueel (alleen indien zo opgeven bij het sjabloon: geen actieve keuze) op de documentopslag geplaatst en indien zo ingesteld als geregistreerd document opgeslagen.
 
-Na uitvoeren van de wizard kan de inlogger controleren of het versturen van de DSO ontvangstbevestiging gelukt is door te kijken of de gewenste verstuurdatum gevuld is: zie uitleg kopje [Controle op versturen DSO ontvangstbevestiging](/docs/probleemoplossing/programmablokken/dso_ontvangstbevestiging#controle_op_versturen_dso_ontvangstbevesting.md).
+Na uitvoeren van de wizard kan de inlogger controleren of het versturen van de DSO ontvangstbevestiging gelukt is door te kijken of de gewenste verstuurdatum gevuld is: zie uitleg kopje [Controle op versturen DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging#controle_op_versturen_dso_ontvangstbevesting.md).
 
 ## Geadresseerde(n)
 

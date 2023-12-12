@@ -4,8 +4,8 @@ Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sec
 
 Voorbeelden voor berichtverkeer via de DUSK zie:
 
-- [Verwerking van StUF OLO/AIM berichten](/docs/probleemoplossing/programmablokken/olo_verwerking.md)
-- [Verwerking zakLk01 en zakLk02 berichten](/docs/probleemoplossing/programmablokken/stuf_zaken_zaklk01_02-verwerking.md)
+- [Verwerking van StUF OLO/AIM berichten](/probleemoplossing/programmablokken/olo_verwerking.md)
+- [Verwerking zakLk01 en zakLk02 berichten](/probleemoplossing/programmablokken/stuf_zaken_zaklk01_02-verwerking.md)
 
 ## Items Configuratietabel
 

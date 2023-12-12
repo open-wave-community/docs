@@ -1,6 +1,6 @@
  Sectie Koppeling OLO
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: koppeling OLO_ gerangschikt op item. Indien de itemnaam uit twee regels bestaat dan is dat vanwege de leesbaarheid. In de werkelijkheid in de databasetabel staan de twee regels aan elkaar in de kolom dvitem van tbinitialisatie.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: koppeling OLO_ gerangschikt op item. Indien de itemnaam uit twee regels bestaat dan is dat vanwege de leesbaarheid. In de werkelijkheid in de databasetabel staan de twee regels aan elkaar in de kolom dvitem van tbinitialisatie.
 
 ## Items Configuratietabel
 

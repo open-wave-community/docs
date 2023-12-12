@@ -23,11 +23,11 @@ De lijst toont:
 
   - alle rijen van vwfrmalleaanvragen met dezelfde dnkeygroepvergunning als het herkomstportaal.
 
-         N.B. Met een instelling kan opgegeven worden dat bij het aanmaken van de groep niet de zaakomschrijving maar het DMS-nummer van de originele zaak als waarde gepakt worden, zie [Maak nieuwe zaak](/docs/instellen_inrichten/configuratie/sectie_programma.md).
+         N.B. Met een instelling kan opgegeven worden dat bij het aanmaken van de groep niet de zaakomschrijving maar het DMS-nummer van de originele zaak als waarde gepakt worden, zie [Maak nieuwe zaak](/instellen_inrichten/configuratie/sectie_programma.md).
 
 ## Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ## Triggers
 

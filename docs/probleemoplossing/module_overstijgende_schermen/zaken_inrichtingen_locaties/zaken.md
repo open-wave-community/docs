@@ -25,7 +25,7 @@ Met behulp van de filter bovenin het scherm kan het resultaat van de lijst gefil
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger geen kijkrechten heeft op omgevingszaken.
 
 ### Bijzondere kolommen
@@ -50,7 +50,7 @@ Dubbel klikken op een regel opent het portaalscherm van de zaak. Altijd enabled.
   - Zichtbaar indien inlogger verwijderrechten heeft op de zaakmodule van betreffende zaak.
 - Toon kaart:
   - Zichtbaar indien inlogger het recht heeft locatie-adressen zichtbaar.
-  - Opent de kaartviewer van de geselecteerde zaak (indien kolom Info van _Sectie: Programma Item: Toonkaart_ een gevulde waarde heeft dan beschouwt OpenWave die gevulde waarde als een URL van een externe kaartviewer die geopend moet worden, anders wordt de standaardkaart (interne kaartviewer) van Openwave aangeroepen. Zie verder [Kaart](/docs/probleemoplossing/module_overstijgende_schermen/kaart.md))
+  - Opent de kaartviewer van de geselecteerde zaak (indien kolom Info van _Sectie: Programma Item: Toonkaart_ een gevulde waarde heeft dan beschouwt OpenWave die gevulde waarde als een URL van een externe kaartviewer die geopend moet worden, anders wordt de standaardkaart (interne kaartviewer) van Openwave aangeroepen. Zie verder [Kaart](/probleemoplossing/module_overstijgende_schermen/kaart.md))
 - Locatie-adres:
   - Zichtbaar indien inlogger het recht heeft locatie-adressen zichtbaar.
   - Opent de detailkaart met gegevens van het locatie-adres.
@@ -63,11 +63,11 @@ Dubbel klikken op een regel opent het portaalscherm van de zaak. Altijd enabled.
 
 ### Aanmaken van nieuwe zaak bij insert
 
-Er kan gekozen worden voor **Nieuwe zaak op deze straat** of **Nieuwe zaak**. Beide knoppen starten de wizard _MaakNieuweZaak_. Indien gekozen wordt voor zaak aanmaken op deze straat, dan zal het programma het adres overnemen van de zaak in het lijstscherm waarop men staat bij klikken op knop _Nieuwe zaak op deze straat_. Indien gekozen voor knop _Nieuwe zaak_ dan zal de gebruiker in de wizard _MaakNieuweZaak_ eerst de locatie moeten doorgeven voor de nieuw aan te maken zaak. Voor meer informatie over aanmaken van zaken: zie [Aanmaken van nieuwe zaak](/docs/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
+Er kan gekozen worden voor **Nieuwe zaak op deze straat** of **Nieuwe zaak**. Beide knoppen starten de wizard _MaakNieuweZaak_. Indien gekozen wordt voor zaak aanmaken op deze straat, dan zal het programma het adres overnemen van de zaak in het lijstscherm waarop men staat bij klikken op knop _Nieuwe zaak op deze straat_. Indien gekozen voor knop _Nieuwe zaak_ dan zal de gebruiker in de wizard _MaakNieuweZaak_ eerst de locatie moeten doorgeven voor de nieuw aan te maken zaak. Voor meer informatie over aanmaken van zaken: zie [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
 
 ### Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Openingsportaal_
 - Kolom: _Hoofdzaken_

@@ -1,6 +1,6 @@
 # Afvinkstappen
 
-Per (sub) [proces](/docs/instellen_inrichten/inrichting_processen.md) kunnen een of meer afvinkstappen worden gedefinieerd. Afvinkstappen zijn de stappen die beantwoord kunnen worden met ja of nee.
+Per (sub) [proces](/instellen_inrichten/inrichting_processen.md) kunnen een of meer afvinkstappen worden gedefinieerd. Afvinkstappen zijn de stappen die beantwoord kunnen worden met ja of nee.
 
 Het al of niet aangevinkt staan van een afvinkstap kan gevolgen hebben voor de termijnbewakingstappen. Het aanvinken kan bijvoorbeeld tot gevolg hebben dat één of meer deadlines opschuiven of dat de afgehandeld datums van bepaalde termijnbewakingsstappen moeten worden ingevuld, waar dat eerst onmogelijk was.
 
@@ -8,7 +8,7 @@ Met de - knop onderaan het scherm wordt een afvinkstap – na een controle-vraag
 
 Met de + knop kan een nieuwe afvinkstap aan de geselecteerde proces worden toegevoegd. Een detailscherm wordt daarvoor geopend waarin Afvinkstapnummer en Naam (Vraag) ingevoerd kunnen worden.
 
-Klikken op een regel geeft een detailscherm waarin de eigenschappen van de afvinkstap kunnen worden gewijzigd en de Canvas waarden voor de Grafische procesweergave, zie [Grafische weergave](/docs/instellen_inrichten/inrichting_processen/grafische_weergave.md).
+Klikken op een regel geeft een detailscherm waarin de eigenschappen van de afvinkstap kunnen worden gewijzigd en de Canvas waarden voor de Grafische procesweergave, zie [Grafische weergave](/instellen_inrichten/inrichting_processen/grafische_weergave.md).
 
 In de caption-bar van het detailscherm van de afvinkstap staat de bijbehorende proces-naam.
 

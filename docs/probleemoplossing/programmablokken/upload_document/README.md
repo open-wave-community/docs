@@ -2,9 +2,9 @@
 
 Met de knop _Upload_ op de detailschermen van omgeving, inrichting, APV/overig en handhaving, alsmede vanuit de advies en inspectie detailschermen kunnen met een wizard een of meer documenten aangewezen worden en vervolgens geüpload naar fileshare of DMS.
 
-De uploadfunctie kan ook door een apparaat of automatisch proces worden aangeroepen (bijlagen van OLO). Zie [Upload vanuit automatisch proces](/docs/probleemoplossing/programmablokken/upload_vanuit_automatisch_proces.md).
+De uploadfunctie kan ook door een apparaat of automatisch proces worden aangeroepen (bijlagen van OLO). Zie [Upload vanuit automatisch proces](/probleemoplossing/programmablokken/upload_vanuit_automatisch_proces.md).
 
-De uploadfunctie kan ook worden aangeroepen vanuit de [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md) met de **VerplaatsNaarDMS-knop**. Zichtbaar en enabled in de hybride situatie dat zowel van de fileserver gebruikt wordt gemaakt als van een DMS onder StUF zaak/DMS. De inlogger kan een document dat op de fileserver staat en waar de gele balk op staat, met deze knop - na invulling van verplichte metadata - in het DMS plaatsen (mits de bovenliggende zaak een zaakidentificatienummer heeft). Het betrokken fileserver-document daarbij wordt verplaatst naar een kopiemap: zie instelling kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: MapKopieVerplaatsteFiles_.
+De uploadfunctie kan ook worden aangeroepen vanuit de [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md) met de **VerplaatsNaarDMS-knop**. Zichtbaar en enabled in de hybride situatie dat zowel van de fileserver gebruikt wordt gemaakt als van een DMS onder StUF zaak/DMS. De inlogger kan een document dat op de fileserver staat en waar de gele balk op staat, met deze knop - na invulling van verplichte metadata - in het DMS plaatsen (mits de bovenliggende zaak een zaakidentificatienummer heeft). Het betrokken fileserver-document daarbij wordt verplaatst naar een kopiemap: zie instelling kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: MapKopieVerplaatsteFiles_.
 
 De bestandnamen van de up te loaden files mogen **niet groter dan 500 tekens** zijn.
 
@@ -19,14 +19,14 @@ De bestandnamen van de up te loaden files mogen **niet groter dan 500 tekens** z
 
 ### Upload waar naartoe?
 
-- Indien de zaak/inrichting, waarbij de upload plaatsvindt, NIET valt onder een [compartiment](/docs/instellen_inrichten/compartimenten.md) dan:
+- Indien de zaak/inrichting, waarbij de upload plaatsvindt, NIET valt onder een [compartiment](/instellen_inrichten/compartimenten.md) dan:
   - indien de instelling _Sectie: Documenten_ en _Item: OphalenViaFileserver_ aangevinkt is en ook de instelling _Sectie: Documenten_ en _Item: OphalenViaDMS_ aangevinkt is dan zal de uploadwizard aan de gebruiker vragen waar de upload geplaatst moet worden (fileshare OF DMS). Indien er maar één van deze instellingen is aangevinkt wordt deze vraag niet gesteld
   - indien _OphalenViaDMS_ aangevinkt is, dan moet ook de instelling aangevinkt staan met _Sectie: KoppelingDOCNAARDMS_ en _Item: Methode_ en _Tekst = StUF-ZAKEN 310 of CMIS 1.0_.
 - Indien de zaak/inrichting WEL valt onder een compartiment dan:
   - indien de kolom _documenten opslag fileserver_ op de betreffende compartimentskaart (beheerportaal-Nieuw) aangevinkt is en ook de kolom _documenten opslag DMS_ aangevinkt is dan zal de uploadwizard aan de gebruiker vragen waar de upload geplaatst moet worden (fileshare OF DMS). Indien er maar één van deze instellingen is aangevinkt wordt deze vraag niet gesteld
   - indien de kolom _documenten opslag DMS_ aangevinkt is, dan moet ook de de kolom _dms methode_ op die compartimentskaart gevuld zijn met StUF-ZAKEN 310 of CMIS 1.0.
 
-Zie schema [Schema Upload naar welke mappen/endpoints](/docs/probleemoplossing/programmablokken/upload_document/schema_welke_mappen_endpoints.md).
+Zie schema [Schema Upload naar welke mappen/endpoints](/probleemoplossing/programmablokken/upload_document/schema_welke_mappen_endpoints.md).
 
 ### Is aanvullende (meta)-informatie verplicht per geüpload document?
 
@@ -101,6 +101,6 @@ Indien de upload vanuit de tabel **adviezen** wordt gedaan dan geldt nog het vol
 
 Zie voor verdere specifieke instellingen bij de paragrafen:
 
-- [Upload documenten naar fileshare](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md)
-- [Upload documenten met StUF zaak/DMS](/docs/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
-- [Upload documenten met CMIS](/docs/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)
+- [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md)
+- [Upload documenten met StUF zaak/DMS](/probleemoplossing/programmablokken/upload_document/upload_naar_stuf_zaak_dms.md)
+- [Upload documenten met CMIS](/probleemoplossing/programmablokken/upload_document/upload_met_cmis.md)

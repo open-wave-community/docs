@@ -25,4 +25,4 @@ De kolommen kunnen gemuteerd worden indien:
 - **Laatste muteerder** en **Laatste mutatiedatum**:
   - velden worden automatisch gevuld indien men veld **Status** wijzigt met de medewerker code van de ingelogde gebruiker respectievelijk met de datum van vandaag
 
-Zie ook [Checklijsten](/docs/probleemoplossing/module_overstijgende_schermen/checklijsten/README.md) en [Lijst checklijstitems](/docs/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)
+Zie ook [Checklijsten](/probleemoplossing/module_overstijgende_schermen/checklijsten/README.md) en [Lijst checklijstitems](/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)

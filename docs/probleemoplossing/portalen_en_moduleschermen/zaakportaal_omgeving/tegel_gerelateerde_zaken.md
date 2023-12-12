@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm van DSO gerelateerde zaken. Zie [DSO Gerelateerde Zaken](/docs/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md)
+De tegel is een trigger voor het lijstscherm van DSO gerelateerde zaken. Zie [DSO Gerelateerde Zaken](/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md)
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -14,13 +14,13 @@ De tegel is een trigger voor het lijstscherm van DSO gerelateerde zaken. Zie [DS
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing (codering _omgeving_groep_)
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren
 - indien de kolom _altijd verversen_ (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _omgevingdetail_
 - Kolom: _Samenhang_

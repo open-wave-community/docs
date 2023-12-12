@@ -2,7 +2,7 @@
 
 Indien gewerkt wordt met StUF-Zaken (zaak/DMS koppeling) dan worden een geefLijstZaakDocument \_Lv01 en geefZaakDocumentLezen_lv01 vraagberichten uitgestuurd. De volgende instellingen zijn daarbij onontbeerlijk.
 
-Voor het openen van een document dat in het DMS staat via OnlyOffice: zie het betreffende kopje bij [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md).
+Voor het openen van een document dat in het DMS staat via OnlyOffice: zie het betreffende kopje bij [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md).
 
 ## Instellingen
 
@@ -45,14 +45,14 @@ LET OP: de soapactions kunnen ingesloten moeten zijn met dubbele quootjes, dus b
 Als de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatieNaam_ bestaat en is aangevinkt dan wordt de verzending over HTTPS geautoriseerd met :
 
 - authenticatienaam is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatieNaam_
-- authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatiePass_. Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+- authenticatiepass is kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatiePass_. Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
 - in de kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: HTTPAuthenticatieType_ kan desgewenst het authenticatietype worden ingevuld: NTLM (versie 1) of Basic (default waarde)
 - In de kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: Domein_ kan desgewenst het domein worden ingevuld.
 
 Indien er gebruik moet worden gemaakt van een **client-certificaat** (wordt geplaatst op de CONF-map van de WSAS server) dan:
 
 - moet de (file)-naam van dat certificaat worden opgeslagen in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: ClientCertificaatNaam_
-- het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: ClientCertificaatPassword_. Zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+- het certificaat password in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS en Item: ClientCertificaatPassword_. Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
 - het certificaattype in de kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS_ en _Item: ClientCertificaatType_ (default PKCS12).
 
 Indien de instelling _Sectie: KoppelingDOCNAARDMS en Item: AllowAllHostnameVerifier_ aangevinkt is zal de OpenWave Cloud instemmen met een self-signed of verlopen (server)certificaat bij een verbinding onder https.

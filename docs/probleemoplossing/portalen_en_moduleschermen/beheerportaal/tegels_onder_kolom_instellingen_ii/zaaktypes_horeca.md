@@ -11,9 +11,9 @@ De tegel is een trigger voor het doorkiesscherm naar *Soorten Horecavergunningen
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
-- Kolom: [Tegels onder kolom Instellingen II](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
+- Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+- Kolom: [Tegels onder kolom Instellingen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
 - Kopregel: *Zaaktypes horeca*
 - Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbsoorthorverg)*

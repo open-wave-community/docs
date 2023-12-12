@@ -4,7 +4,7 @@ Het sluiten van een (hoofd)zaak kan vanuit het detailscherm van een zaak met:
 
 - de knop achter de afhandel/besluitdatum (blok _Afhandeling_)
 - de knop achter de intrekkingsdatum (blok _Ingetrokken;tijdens;behandeling_)
-- vanuit een action die gekoppeld is aan een processtap (zie kopje blok _Action_ bij de definitie van:[Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md)).
+- vanuit een action die gekoppeld is aan een processtap (zie kopje blok _Action_ bij de definitie van:[Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md)).
 
 In onderstaand verhaal wordt meestal een omgevingszaak als voorbeeld genomen, maar grosso modo werken de andere modules hetzelfde.
 
@@ -96,7 +96,7 @@ Indien de hoofdzaak valt onder een compartiment, maar bij de compartiment/zaak d
 
 ### EmailnaarBAGBeheerder
 
-Met het afsluiten van de zaak kan automatisch een [mail naar de BagBeheerder](/docs/probleemoplossing/programmablokken/email_bag-beheerder.md) worden gestuurd. Dit is het geval indien:
+Met het afsluiten van de zaak kan automatisch een [mail naar de BagBeheerder](/probleemoplossing/programmablokken/email_bag-beheerder.md) worden gestuurd. Dit is het geval indien:
 
 - Vanuit module handhaving:
   - als een initiërende mail naar de BAG-beheerder is gestuurd (op detailscherm in blok _Keten_)
@@ -131,9 +131,9 @@ DAN wordt automatisch een nieuwe zaak aangemaakt op:
 - met hetzelfde bevoegd gezag
 - met dezelfde contactpersonen
 
-De begindatum van de nieuwe cyclische toezicht zaak is gebaseerd op de einddatum of begindatum van de te kopiëren zaak met daarbij opgeteld de cyclus zoals vastgelegd bij de gekoppelde inrichting. Zie: [Cyclische Toezicht: controle frequentie](/docs/probleemoplossing/programmablokken/cyclische_inspecties.md).
+De begindatum van de nieuwe cyclische toezicht zaak is gebaseerd op de einddatum of begindatum van de te kopiëren zaak met daarbij opgeteld de cyclus zoals vastgelegd bij de gekoppelde inrichting. Zie: [Cyclische Toezicht: controle frequentie](/probleemoplossing/programmablokken/cyclische_inspecties.md).
 
-Het kan zo ingesteld staan dat bij deze nieuwe cyclisch toezichtzaak automatisch ook een nieuw inspectietraject moet worden gemaakt. Zie het kopje **Automatisch aanmaken inspectietraject** bij [Aanmaken van nieuwe zaak](/docs/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
+Het kan zo ingesteld staan dat bij deze nieuwe cyclisch toezichtzaak automatisch ook een nieuw inspectietraject moet worden gemaakt. Zie het kopje **Automatisch aanmaken inspectietraject** bij [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
 
 ### ActualiseerZaakstatus indien gekoppeld aan extern zaak/DMS
 

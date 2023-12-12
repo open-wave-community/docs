@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor een detailscherm van het Product bij een Horecazaak (zie: [Producten Klanten en Werkpakketten](/docs/instellen_inrichten/producten_klanten_werkpakketten.md)).
+De tegel is een trigger voor een detailscherm van het Product bij een Horecazaak (zie: [Producten Klanten en Werkpakketten](/instellen_inrichten/producten_klanten_werkpakketten.md)).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -14,12 +14,12 @@ De tegel is een trigger voor een detailscherm van het Product bij een Horecazaak
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing (codering _horeca_prod_)
-- indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _horecadetail_
 - Kolom: _Overig_

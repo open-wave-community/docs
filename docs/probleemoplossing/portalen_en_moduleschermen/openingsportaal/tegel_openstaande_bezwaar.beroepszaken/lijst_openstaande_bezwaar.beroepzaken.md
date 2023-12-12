@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_getOpenBezwaarBeroepZakenList.xml (voor Vaarwegzaken is dit: MDLC_getOpenBezwaarBeroepZakenVaarwegList.xml).
 
-Zie ook [Tegel Openstaande Bezwaar/beroepszaken](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_openstaande_bezwaar.beroepszaken.md)
+Zie ook [Tegel Openstaande Bezwaar/beroepszaken](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_openstaande_bezwaar.beroepszaken.md)
 
 ## Welke gegevens worden getoond
 

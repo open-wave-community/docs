@@ -1,6 +1,6 @@
 # Sectie REV
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: REV_ (registratie externe veiligheid) gerangschikt op item. Zie ook _Sectie Inrichtingen en Item: REVNamespaceIdentificatie_.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: REV_ (registratie externe veiligheid) gerangschikt op item. Zie ook _Sectie Inrichtingen en Item: REVNamespaceIdentificatie_.
 
 ## Items Configuratietabel
 

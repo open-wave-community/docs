@@ -20,4 +20,4 @@
   - minimaal 1024&times;768 (gebruik modus 'volledig scherm' (F11) in sommige situaties)
   - aangeraden wordt 1152&times;864 of hoger
 
-Zie [Technische Documentatie](/docs/techniek.md) voor andere vereisten
+Zie [Technische Documentatie](/techniek.md) voor andere vereisten

@@ -14,6 +14,6 @@ De ordening van het beheerportaal is vernieuwd sinds 1.24. Er zijn drie beheerpo
 
 Zie voor een overzicht van de tegels ook de Dokuwiki-pagina’s van de verschillende portalen:
 
-- [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
-- [Zaakbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
-- [Inrichtingenbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)
+- [Beheerportaal - NIEUW](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
+- [Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
+- [Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)

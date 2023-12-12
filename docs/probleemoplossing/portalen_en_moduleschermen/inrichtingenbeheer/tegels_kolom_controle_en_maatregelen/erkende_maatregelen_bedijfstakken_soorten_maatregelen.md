@@ -11,7 +11,7 @@ De tegel is een trigger voor het tonen van het _Overzicht van bedrijfstakken en 
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Controle en Maatregelen_

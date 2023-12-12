@@ -1,6 +1,6 @@
 # Sectie OWB
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: OWB_ gerangschikt op item. Een verandering in een van deze instellingen wordt pas geeffectueerd nadat opnieuw is ingelogd.
+Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: OWB_ gerangschikt op item. Een verandering in een van deze instellingen wordt pas geeffectueerd nadat opnieuw is ingelogd.
 
 ## Items Configuratietabel
 

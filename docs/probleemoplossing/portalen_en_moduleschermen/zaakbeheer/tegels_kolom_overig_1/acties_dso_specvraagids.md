@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor een mappingslijst van Vraagid's uit de DSO activiteitspecificaties naar andere tabellen in OpenWave. Zie onder kopje: *Mapping antwoorden uit specificaties op grond van vraagid* uit [Verwerking DSO STAM berichten](/docs/probleemoplossing/programmablokken/verwerking_dso_stam_berichten.md)
+De tegel is een trigger voor een mappingslijst van Vraagid's uit de DSO activiteitspecificaties naar andere tabellen in OpenWave. Zie onder kopje: *Mapping antwoorden uit specificaties op grond van vraagid* uit [Verwerking DSO STAM berichten](/probleemoplossing/programmablokken/verwerking_dso_stam_berichten.md)
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger voor een mappingslijst van Vraagid's uit de DSO activite
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Zaakbeheer*
 - Kolom: *Overig 1*

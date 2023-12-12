@@ -13,7 +13,7 @@ Een voorbeeld:
 
 ## Verwerken OLO-bijlagen
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/olodso_bijlages.png){ class="media" loading="lazy" alt="" width="700" }
+![](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/olodso_bijlages.png){ class="media" loading="lazy" alt="" width="700" }
 
 De olo_upload.php-luisterservice plaatst de binnengekomen file op een andere map op de webserver.
 Deze map is gedefinieerd in kolom _Tekst_ van de instelling: _Sectie: OWB Item: TussenMapOloUploadfiles_.
@@ -51,7 +51,7 @@ Indien:
 kan het zijn dat er extra controle nodig is om ervoor te zorgen dat de bijlages niet bij de verkeerde zaak terechtkomen.
 OpenWave kan die extra check doen indien bijlages ook worden geregistreerd in tbcorrespondentie (indien dus _Sectie: Documentregisteren en Item: AlleOLODSOUploads_ is aangevinkt). OpenWave kijkt - indien ook de instelling _Sectie: Koppeling OLO en Item: CheckOpDubbeleDocumentnaam_ is aangevinkt - in dat geval of de documentnaam reeds voorkomt in de geregistreerde documenten bij de gevonden zaak (kolom dvdocfilenaam). Zo ja, dan wordt het document niet geplaatst en wel een kaart gemaakt in tabel mislukte OLO/DSO-bijlages.
 
-Het daadwerkelijk plaatsen van de file (op fileshare, of cmis of Stuf zaak/DMS) gaat gelijk aan het beschrevene in het lemma [Upload document(en)](/docs/probleemoplossing/programmablokken/upload_document.md), waarbij het volgende extra geldt:
+Het daadwerkelijk plaatsen van de file (op fileshare, of cmis of Stuf zaak/DMS) gaat gelijk aan het beschrevene in het lemma [Upload document(en)](/probleemoplossing/programmablokken/upload_document.md), waarbij het volgende extra geldt:
 
 - bij plaatsing via CMIS of fileshare kijkt het programma naar de unieke map gedefinieerd door _Sectie: AanmaakMappen_ en _Item begint met 'Omgeving\__' EN _Getal2_ = 1
 - bij plaatsing via STUF Zaken kijkt het programma wat betreft het documenttype indien er GEEN compartiment van toepassing is naar kolom _Tekst_ van instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: OloDocType_ (defaultwaarde 'OLO'), indien er WEL compartiment van toepassing is naar de tekst in het veld OLO/DSO documenttype in het detailscherm van de compartimentsrechten in het beheerportaal-Nieuw
@@ -113,4 +113,4 @@ In het beheerportaal _Operations_ is een tegel gekomen: _Verwerken Mislukte OLO-
 
 ### Zelf ophalen uit FTP-site
 
-Zie knop **Ophalen ontbrekende OLO-documenten van FTPS-site** bij [OLO/DSO/AIM Bijlage verwijzingen](/docs/probleemoplossing/module_overstijgende_schermen/olo-aim_bijlage_verwijzingen.md).
+Zie knop **Ophalen ontbrekende OLO-documenten van FTPS-site** bij [OLO/DSO/AIM Bijlage verwijzingen](/probleemoplossing/module_overstijgende_schermen/olo-aim_bijlage_verwijzingen.md).

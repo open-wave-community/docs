@@ -1,6 +1,6 @@
 # Scherminformatie voor filterblokken op lijstschermen
 
-Bij de definitie van een [standaardlijst](/docs/instellen_inrichten/standardlist_standarddetail.md) (beheerapplicatie tabellen standaardapi) kan een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de filteropties die van toepassing zijn op het betrokken standaardlijstscherm.
+Bij de definitie van een [standaardlijst](/instellen_inrichten/standardlist_standarddetail.md) (beheerapplicatie tabellen standaardapi) kan een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de filteropties die van toepassing zijn op het betrokken standaardlijstscherm.
 
 De kaart met de filterinformatie in tbscreencolumns heeft dezelfde naam (dvscreenfilename) als het bijbehorende lijstscherm, waarbij de prefix echter niet _MDLC_ maar _MDFC_ is. Dus als de lijst MDLC_getxxxList.xml als dvscreenfilename heeft, dan heeft de kaart met de filterinformatie MDFC_getxxxList.xml als naam. De kolommen dvclassname en dvviewname hebben bij de filterkaart dezelfde waardes als die van de bijbehorende lijst.
 

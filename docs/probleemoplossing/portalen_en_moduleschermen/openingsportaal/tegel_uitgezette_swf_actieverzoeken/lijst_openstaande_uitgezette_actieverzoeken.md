@@ -6,7 +6,7 @@ Schermidentifier: MDLC_getUitgezetteSWFActieverzoekenList.xml (sysstandard).
 
 De rijen uit de view vwfrmswfopenuitgaandeacties bestaan uit alle in SWF bestaande openstaande uitgezette actieverzoeken (dluitgaand is T(rue)).
 
-Zie: [Samenwerkingsfunctionaliteit](/docs/instellen_inrichten/samenwerkingsfunctionaliteit.md).
+Zie: [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md).
 
 ## Rechten
 

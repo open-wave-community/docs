@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het nieuwe [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md).
+De tegel is een trigger voor het nieuwe [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md).
 
   * De tegel is alleen zichtbaar voor inlogger wanneer:
     * deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger voor het nieuwe [Beheerportaal](/docs/probleemoplossing/
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   * Portaal: *Opening*
   * Kolom: *Beheer*

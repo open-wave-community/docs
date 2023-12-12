@@ -1,6 +1,6 @@
 # Database functies
 
-Op veel plekken in OpenWave kan de applicatiebeheerder SQL-statements definiëren. Bijvoorbeeld in [rapportages](/docs/instellen_inrichten/rapportages.md), [queries](/docs/instellen_inrichten/queries.md) op tegels en [documentsjablonen](/docs/instellen_inrichten/documentsjablonen.md). Om ingewikkelde statements te vermijden heeft OpenWave zelf een aantal functies op de database gedefinieerd om veel voorkomende problemen op te lossen. Deze functies kunnen opgenomen worden in de query's op dezelfde manier als de inheemse Postgres functies.
+Op veel plekken in OpenWave kan de applicatiebeheerder SQL-statements definiëren. Bijvoorbeeld in [rapportages](/instellen_inrichten/rapportages.md), [queries](/instellen_inrichten/queries.md) op tegels en [documentsjablonen](/instellen_inrichten/documentsjablonen.md). Om ingewikkelde statements te vermijden heeft OpenWave zelf een aantal functies op de database gedefinieerd om veel voorkomende problemen op te lossen. Deze functies kunnen opgenomen worden in de query's op dezelfde manier als de inheemse Postgres functies.
 
 - **fn_bedrag(p_bedrag)** retourneert een string waarbij p_bedrag (een float) is omgezet in een string met een komma voor de decimale punt en een punt voor de duizendtallen. Voorbeeld: fn_bedrag(1234.56) retourneert '1.234,56' (indien fn_bedrag(0) dan retourneert deze functie 'null' of te wel een lege waarde)
 - **fn_bedragn(p_bedrag)** retourneert een string waarbij p_bedrag (een float) is omgezet in een string met een komma voor de decimale punt en een punt voor de duizendtallen. Lijkt op fn_bedrag maar zal indien de waarde van p_bedrag 0 OF null is, als resultaat **0,00** retourneren Voorbeeld: fn_bedrag(1234.56) retourneert '1.234,56' en fn_bedrag(0) retourneert dus '0,00'
@@ -35,4 +35,4 @@ De parameter _p_module_ éen letter namelijk (B)ouw/sloop, hore(C)a, mili(E)/geb
 
 In de parameter _p_dnkey_ dient de primary key doorgegeven te worden die hoort bij de module en die verwijst naar een rij waarvoor de compartimentcheck moet worden gedaan. OpenWave zoekt de dnkeywaarde op in vwfrmomgvergunningen c.q. vwfrmhandhavingen etcetera en evalueert daar of de kolom dnkeycompartiment overeenkomt met die van de medewerker.
 
-Zie voor voorbeeld met betrekking tot gebruik van de functies _fn_rechtenkolom en fn_iscompartimentok_: onder kopje _De kolommen van de tabel tbsysstandardtable_ bij [Standaard Lijst- en Detailschermen](/docs/instellen_inrichten/standardlist_standarddetail.md)
+Zie voor voorbeeld met betrekking tot gebruik van de functies _fn_rechtenkolom en fn_iscompartimentok_: onder kopje _De kolommen van de tabel tbsysstandardtable_ bij [Standaard Lijst- en Detailschermen](/instellen_inrichten/standardlist_standarddetail.md)

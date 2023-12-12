@@ -14,7 +14,7 @@ De rijen uit de view vwfrmomgorkestrator_insp, dat zijn inspectiebezoeken:
 Boven op deze where clausules van de view is de volgende extra restrictie van kracht:
 
 - indien de de kolom _alleen gemeentes_ (zie beheertegel _Medewerkers_) bij de kaart van de inlogger gevuld is, dan worden alleen die inspectiebezoeken getoond waarvan de id van de locatie-gemeente (bedoeld wordt de locatie waaraan de bovenliggende zaak of inrichting is verbonden) voorkomt in die kolom _alleen gemeentes_
-- indien de inlogger lid is van een [compartiment](/docs/instellen_inrichten/compartimenten.md) ziet hij/zij alleen bezoeken van zaken die gelokaliseerd zijn in de aan het compartiment toegekende gemeentes.
+- indien de inlogger lid is van een [compartiment](/instellen_inrichten/compartimenten.md) ziet hij/zij alleen bezoeken van zaken die gelokaliseerd zijn in de aan het compartiment toegekende gemeentes.
 
 ## Problemen
 
@@ -37,4 +37,4 @@ Welke zijn van toepassing op deze lijst?
   - rood indien de geplande bezoekdatum < = vandaag
   - wit in alle andere gevallen.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/docs/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).

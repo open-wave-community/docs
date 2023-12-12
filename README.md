@@ -8,14 +8,14 @@ Met de ingang [Technische specificaties](/docs/techniek/index.md) kan de organis
 
 ## Applicatiebeheer
 
-De ingang [Applicatiebeheer](/docs/index.md) is de ingang voor functioneel beheerders en voor de OpenWave supportafdeling van REM zelf. Het onderdeel applicatiebeheer is dus niet gericht op eindgebruikers. De belangrijkste functie is dat alle instellingen die het gedrag van OpenWave kunnen beïnvloeden, gevonden kunnen worden, waarbij voor de meeste instellingen er diverse toegangswegen zijn.
+De ingang [Applicatiebeheer](/README.md) is de ingang voor functioneel beheerders en voor de OpenWave supportafdeling van REM zelf. Het onderdeel applicatiebeheer is dus niet gericht op eindgebruikers. De belangrijkste functie is dat alle instellingen die het gedrag van OpenWave kunnen beïnvloeden, gevonden kunnen worden, waarbij voor de meeste instellingen er diverse toegangswegen zijn.
 
 ## Begrippen met betrekking tot userinterface
 
 ### Vormgeving
 
 Het kleurthema van OpenWave is instelbaar en kijkt naar de waarde van kolom _Tekst_ van configuratie instelling _Sectie: PreInlog, Item: ApplicationColor_ voor het bepalen van de kleuren van de OpenWave omgeving. Default is de kleur blauw (kolom _Tekst_ heeft waarde blue). Andere opties zijn groen, rood, paars of oranje.
-Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (_Sectie: PreInlog, Item: ApplicationLegacy_ is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](/docs/instellen_inrichten/configuratie/sectie_prelog.md).
+Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (_Sectie: PreInlog, Item: ApplicationLegacy_ is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](//instellen_inrichten/configuratie/sectie_prelog.md).
 
 ### Portaal
 
@@ -49,12 +49,12 @@ Achter een tegel of met een knop kan een zogenaamde wizard worden gestart. Deze 
 
 De Dokuwiki-handleiding onder deze ingang applicatiebeheer is als volgt ingedeeld:
 
-- [Functionaliteiten](/docs/functionaliteiten.md)
-- [Instellen/inrichting](/docs/instellen_inrichten.md)
-- [Probleemoplossing](/docs/probleemoplossing.md)
-  - [portalen en moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen.md)
-  - [module overstijgende schermen](/docs/probleemoplossing/module_overstijgende_schermen.md)
-  - [programmablokken](/docs/probleemoplossing/programmablokken.md)
+- [Functionaliteiten](docs/functionaliteiten/README.md)
+- [Instellen/inrichting](docs/instellen_inrichten/README.md)
+- [Probleemoplossing](docs/probleemoplossing/README.md)
+  - [portalen en moduleschermen](docs/probleemoplossing/portalen_en_moduleschermen/README.md)
+  - [module overstijgende schermen](docs/probleemoplossing/module_overstijgende_schermen/README.md)
+  - [programmablokken](docs/probleemoplossing/programmablokken/README.md)
 
 ### Functionaliteiten
 
@@ -103,7 +103,7 @@ De oude benamingen dekken dus niet altijd de nieuwe lading. De module omgevingsz
 
 De zaken die in de hoofdtabellen van de genoemde modules geregistreerd zijn noemen we de hoofdzaken.
 
-![](/img/hoofdzaken.png){ width=800 class="media" loading="lazy" }
+![](docs/img/hoofdzaken.png){ width=800 class="media" loading="lazy" }
 
 - De module omgevingszaken heeft als hoofdtabel tbomgvergunning. Deze tabel was gericht op zaken die via de OLO binnenkomen (WABO), maar is geëvolueerd naar een tabel waarin ook onder meer toezichtzaken en klachten en APV zaken kunnen worden geregistreerd.
 - De module handhavingszaken heeft als hoofdtabel tbhandhavingen. Deze tabel is gericht op zaken die te maken hebben met bestuursdwang.
@@ -122,7 +122,7 @@ Bij elke hoofdzaak worden gegevens genoteerd in een 1 op n situatie. Bijvoorbeel
 
 Een aantal van deze tabellen wordt gedeeld door meerdere hoofdzaken. Zij delen in dat geval dezelfde schermen: de module-overstijgende schermen. Een greep uit de mogelijkheden:
 
-![deelzaken](/img/deelzaken.png){ width=800 class="media" loading="lazy" }
+![deelzaken](docs/img/deelzaken.png){ width=800 class="media" loading="lazy" }
 
 ### Deelzaken
 

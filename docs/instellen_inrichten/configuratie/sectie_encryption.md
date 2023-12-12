@@ -1,6 +1,6 @@
 # Sectie Encryption
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de *Sectie: Encryption* gerangschikt op item. Zie [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de *Sectie: Encryption* gerangschikt op item. Zie [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
 
 ## Items Configuratietabel
 

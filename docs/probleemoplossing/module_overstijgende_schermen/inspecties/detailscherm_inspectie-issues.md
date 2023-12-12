@@ -9,7 +9,7 @@ Dit scherm kan worden aangeroepen vanuit de Lijst Inspectie-overtreding bij een 
 Het scherm geeft een foutmelding, indien:
 
 - er mogelijk een zelf gedefinieerde schermindeling gebruikt is die niet valide is
-- de inlogger geen kijkrechten heeft op de [inspecties](/docs/probleemoplossing/module_overstijgende_schermen/inspecties/lijst_inspectiebezoeken.md) bij betreffende hoofdzaak.
+- de inlogger geen kijkrechten heeft op de [inspecties](/probleemoplossing/module_overstijgende_schermen/inspecties/lijst_inspectiebezoeken.md) bij betreffende hoofdzaak.
 
 ## Muteren
 

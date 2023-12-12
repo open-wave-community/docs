@@ -11,7 +11,7 @@ De tegel is een trigger voor de view van mogelijke *Energieverbruik-categorieën
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 * Portaal: *Beheer*
 * Kolom: *Inrichtingen II*

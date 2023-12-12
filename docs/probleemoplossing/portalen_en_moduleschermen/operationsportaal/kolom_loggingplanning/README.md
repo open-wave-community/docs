@@ -2,7 +2,7 @@
 
 ## Inhoudsopgave
 
-  - [Operationslog](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/operationslog.md)
-  - [Taskscheduler](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/taskscheduler.md)
-  - [Download Serverlog](/docs/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/download_serverlog.md)
+  - [Operationslog](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/operationslog.md)
+  - [Taskscheduler](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/taskscheduler.md)
+  - [Download Serverlog](/probleemoplossing/portalen_en_moduleschermen/operationsportaal/kolom_loggingplanning/download_serverlog.md)
 

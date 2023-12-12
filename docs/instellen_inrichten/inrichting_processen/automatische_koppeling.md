@@ -1,6 +1,6 @@
 # Automatische koppeling van processen aan zaaktypes
 
-In het detailscherm van een zaaktype in de codetabel *Zaaktypes Omgeving* (als het een Omgevingszaak betreft, bij andere zaaktypen uiteraard andere codetabellen) kan enerzijds ingesteld worden welke [processen](/docs/instellen_inrichten/inrichting_processen.md) van toepassing zijn bij het aanmaken van een zaak en anderzijds of die processen al automatisch moeten worden toegevoegd.
+In het detailscherm van een zaaktype in de codetabel *Zaaktypes Omgeving* (als het een Omgevingszaak betreft, bij andere zaaktypen uiteraard andere codetabellen) kan enerzijds ingesteld worden welke [processen](/instellen_inrichten/inrichting_processen.md) van toepassing zijn bij het aanmaken van een zaak en anderzijds of die processen al automatisch moeten worden toegevoegd.
 
 Wanneer geen processen zijn gekoppeld aan een zaaktype, dan kan de gebruiker bij dat zaaktype uit alle termijnbewakingsprocessen kiezen (met dezelfde module). Wanneer er wel regels zijn ingevoerd, dan betekent dat dat de gebruiker bij dat zaaktype alleen kan kiezen uit die gekoppelde processen.
 

@@ -2,7 +2,7 @@
 
 Schermidentifier: [https://api.open-wave.nl/RemMethods/getRemMethod/509](https://api.open-wave.nl/RemMethods/getRemMethod/509.md).
 
-Zie ook [Tegel Openstaande Klachten](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_openstaande_klachten.md)
+Zie ook [Tegel Openstaande Klachten](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_openstaande_klachten.md)
 
 ## Welke gegevens worden getoond
 

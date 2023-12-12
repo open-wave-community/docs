@@ -8,12 +8,12 @@
 
 ### Algemene Kaart
 
-De algemene kaart is een interne kaart oproepbaar vanuit de tegel _Kaart_ op het openingsscherm ([Tegel Kaart](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_kaart.md)).
+De algemene kaart is een interne kaart oproepbaar vanuit de tegel _Kaart_ op het openingsscherm ([Tegel Kaart](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_kaart.md)).
 
 De kaart wordt gecentreerd rond de ingestelde Map_def_Lon en Map_def_lat (zie hierboven verplichte instellingen).
 
 Op deze kaart kunnen externe WMS/WFS lagen getoond worden, waaronder kaartlagen die met OpenWave Rapportages zijn gemaakt. Zie:
-[Geo-WMS/WFS lagen](/docs/instellen_inrichten/geowms-lagen.md) en [Rapportage als WMS-laag](/docs/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
+[Geo-WMS/WFS lagen](/instellen_inrichten/geowms-lagen.md) en [Rapportage als WMS-laag](/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
 
 De punten op deze kaart kunnen worden geselecteerd (aangewezen met de muis) waarna in een box de informatie die bij het punt hoort zichtbaar wordt.
 
@@ -74,30 +74,30 @@ De kleuren moeten opgegeven worden conform de CSS benamingen. Zie `[http://www.w
   - Indien vanuit tabel:
     - tbmilopslag
       *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de opslag/voorz. kaart is gekoppeld. Default: Purple.
-      * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de opslag/voorz. kaart is gekoppeld. Default: Purple.
+      - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de opslag/voorz. kaart is gekoppeld. Default: Purple.
     - tbmilemwater
       *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de waterlozingskaart via de codetabel tbmilsrtlozing (*Inrichtingenbeheer, tegel: Soort waterlozing*) is gekoppeld. Default: Aqua.
-      * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de waterlozingskaart is gekoppeld. Default: Aqua.
+      - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de waterlozingskaart is gekoppeld. Default: Aqua.
     - tbmilstal
       *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de stal is gekoppeld. Met de kolom *Tekst* van de instelling *Sectie: Inrichtingen en Item: DefaultCodeRubriekStal* kan een default rubriek worden toegekend aan een stal. De *Tekst* verwijst hier naar de kolom dvcode van tbmilrubriek. Defaultkleur: Green.
-      * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de stalkaart is gekoppeld. Default: Green.
+      - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de stalkaart is gekoppeld. Default: Green.
     - tbmilemlucht
-      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de luchtemissiekaart is gekoppeld. Met de kolom *Tekst* van de instelling *Sectie: Inrichtingen en Item: DefaultCodeRubriekLucht* kan een default rubriek worden toegekend aan een luchtemissiepunt. De *Tekst* verwijst hier naar de kolom dvcode van tbmilrubriek. Defaultkleur: Blue.  
-       * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de luchtemissiekaart is gekoppeld. Default: Blue.
+      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de luchtemissiekaart is gekoppeld. Met de kolom *Tekst* van de instelling *Sectie: Inrichtingen en Item: DefaultCodeRubriekLucht* kan een default rubriek worden toegekend aan een luchtemissiepunt. De *Tekst* verwijst hier naar de kolom dvcode van tbmilrubriek. Defaultkleur: Blue.
+       - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de luchtemissiekaart is gekoppeld. Default: Blue.
     - tbhorontheffingen (mist dddatum groter of gelijk vandaag)
-      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de ontheffingskaart is gekoppeld. Defaultkleur: Purple.  
-       * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de ontheffingskaart is gekoppeld. Default: Purple.
+      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de ontheffingskaart is gekoppeld. Defaultkleur: Purple.
+       - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de ontheffingskaart is gekoppeld. Default: Purple.
     - tbmilasbest
-      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de asbestkaart is gekoppeld. Met de kolom *Tekst* van de instelling *Sectie: Inrichtingen en Item: DefaultCodeRubrieAsbest* kan een default rubriek worden toegekend aan de asbestkaart. De *Tekst* verwijst hier naar de kolom dvcode van tbmilrubriek. Defaultkleur: Goldenrod.  
-       * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de asbestkaart is gekoppeld. Default: Goldenrod.
+      *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de asbestkaart is gekoppeld. Met de kolom *Tekst* van de instelling *Sectie: Inrichtingen en Item: DefaultCodeRubrieAsbest* kan een default rubriek worden toegekend aan de asbestkaart. De *Tekst* verwijst hier naar de kolom dvcode van tbmilrubriek. Defaultkleur: Goldenrod.
+       - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de asbestkaart is gekoppeld. Default: Goldenrod.
     - tbmildiversen
       *vlak en punt met de kleur gedefinieerd in tbmilrubriek (*beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieurubrieken*) waaraan de diversen-kaart via de codetabel tbmilsrtdivers (*Inrichtingenbeheer, tegel: Milieu gegevenssoort*) is gekoppeld. Default: Purple.
-      * gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de diversen-kaart is gekoppeld. Default: Purple.
+      - gevaar/hindercirkel met de kleur gedefinieerd in tbmilomsradius (_beheer: Inrichtingenbeheer, kolom: Kenmerken, tegel: Milieucirkels_) waaraan de diversen-kaart is gekoppeld. Default: Purple.
     - tbmilopslagevcontour (REV: kan gevuld zijn indien de bovenliggende opslagkaart een REV: referentiecontour is).
     - vlak en punt met de kleur gedefinieerd in tbrevevcontour (_beheer: Inrichtingenbeheer, kolom: REV, tegel: ev-contouren_) waaraan de evcontour-kaart is gekoppeld. Default: Purple.
     - gevaar/hindercirkel idem dito. Default: Purple.
     - tbmilbklkwetsbgebloc (REV: kan gevuld zijn indien de bovenliggende inrichting een REV: locatieactiviteit is).
-      * vlak (alleen vlak, geen punt of cirkel) met de kleur gedefinieerd in tbrevkwestbgebloc (*beheer: Inrichtingenbeheer, kolom: REV, tegel: Kwetsbare gebouwen/locaties\*) waaraan de gebouw/locatie-kaart is gekoppeld. Default: Silver.
+      - vlak (alleen vlak, geen punt of cirkel) met de kleur gedefinieerd in tbrevkwestbgebloc (*beheer: Inrichtingenbeheer, kolom: REV, tegel: Kwetsbare gebouwen/locaties\*) waaraan de gebouw/locatie-kaart is gekoppeld. Default: Silver.
 
 **LAYER 2** (staat default NIET aangevinkt): alle punten en vlakken (lijnen) van opslag/voorz- en stal- en kwetsbare gebouwen bij de geselecteerde inrichting.
 
@@ -116,7 +116,7 @@ Polygonen worden op drie manieren ondersteund (LET OP: de kaart wordt altijd gec
 
 - Invoer als multi-point in paren van x-y coördinaten (rijksdriehoek), waarbij x en y worden gescheiden door een komma. Het scheidingsteken tussen twee paren is een spatie (bijvoorbeeld: 145601,424980 145594,424975 145601,424980). Begin- en eindpaar zijn gelijk.
 - Invoer als PosList van LineairRing x-y-z coördinaten (rijksdriehoek). Alle waarden gescheiden door spatie (bijv. 145601.935 424980.489 0.0 145594.922 424975.594 0.0 145601.935 424980.489 0.0). Begin- en eindpaar zijn gelijk.
-  Naast de Geo-gegevens uit OpenWave zelf kunnen ook lagen uit andere Geo-gegevensbronnen als lagen op de kaart worden geprojecteerd. Deze lagen moeten worden gedefinieerd in de beheertabel tbgeowms zie [Geowms-lagen](/docs/instellen_inrichten/geowms-lagen.md).
+  Naast de Geo-gegevens uit OpenWave zelf kunnen ook lagen uit andere Geo-gegevensbronnen als lagen op de kaart worden geprojecteerd. Deze lagen moeten worden gedefinieerd in de beheertabel tbgeowms zie [Geowms-lagen](/instellen_inrichten/geowms-lagen.md).
 
 #### Facultatieve instellingen bij standaardkaart
 

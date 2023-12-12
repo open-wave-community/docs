@@ -1,6 +1,6 @@
 # ContactenLijst bij zaak
 
-Voor de algemene lijst met adressen (adresboek op openingsportaal) zie: [Lijst alle contactadressen](/docs/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_adresboek/lijst_alle_contactadressen.md).
+Voor de algemene lijst met adressen (adresboek op openingsportaal) zie: [Lijst alle contactadressen](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_adresboek/lijst_alle_contactadressen.md).
 
 De schermidentifier is:
 
@@ -21,7 +21,7 @@ De basis van dit scherm is de view indien:
 
 ## Probleem
 
-Het scherm geeft een foutmelding: er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
+Het scherm geeft een foutmelding: er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ## Rechten
 
@@ -45,7 +45,7 @@ Indien de contactenlijst wordt aangeroepen vanuit een hoofdzaak dan is het compa
 
 ### Triggers
 
-In het scherm: dubbel klikken op een regel opent het [Contactadres](/docs/probleemoplossing/module_overstijgende_schermen/contact_adres.md)-detailscherm. Altijd enabled.
+In het scherm: dubbel klikken op een regel opent het [Contactadres](/probleemoplossing/module_overstijgende_schermen/contact_adres.md)-detailscherm. Altijd enabled.
 
 - knop linksonder **Nieuw contact**:
   - de knop is zichtbaar indien:

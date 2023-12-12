@@ -66,4 +66,4 @@ Welke zijn van toepassing op deze lijst?
   \*leeg indien het koppelen van een inrichting niet verplicht is bij de zaak (of er is al een inrichting gekoppeld)
   - rood indien er geen inrichting is gekoppeld terwijl dit wel verplicht is.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/docs/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).

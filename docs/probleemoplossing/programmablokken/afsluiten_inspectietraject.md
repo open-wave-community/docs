@@ -33,7 +33,7 @@ Indien de inrichting niet gekoppeld is aan een urgentieklasse of die klasse heef
 #### Bepaling termijn Cyclische inspecties via SBI code/branche bij inrichting
 
 Ook bij iedere SBI-code kan de urgentieklasse van een inrichting opgegeven worden. Dat is het veld _Code Controlefrequentie_.
-Er kunnen altijd SBI-coderingen toegevoegd/verwijderd worden. De hoofd-SBI is bepalend voor onder welke branche de inrichting valt en daarmee welke controle frequentie aan de inrichting gekoppeld is. Zie verder bij [Cyclische Toezicht: controle frequentie](/docs/probleemoplossing/programmablokken/cyclische_inspecties.md).
+Er kunnen altijd SBI-coderingen toegevoegd/verwijderd worden. De hoofd-SBI is bepalend voor onder welke branche de inrichting valt en daarmee welke controle frequentie aan de inrichting gekoppeld is. Zie verder bij [Cyclische Toezicht: controle frequentie](/probleemoplossing/programmablokken/cyclische_inspecties.md).
 
 #### Bepaling termijn Niet cyclische inspecties of inspecties bij zaken
 
@@ -58,7 +58,7 @@ Indien het resultaat via de koppeltabel uit tbaardbesluit komt, is het inspectie
 ### Actualiseer zaakstatus in externe zaaksysteem
 
 Het kan zijn dat het vullen of wijzigen van de afgehandeld datum gevolgd moet worden door een statuswijzigingbericht StUf zaak/DMS.
-Zie hiervoor [Wijzig Status zaak/dms](/docs/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms.md) bij de kopjes:
+Zie hiervoor [Wijzig Status zaak/dms](/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms.md) bij de kopjes:
 
 - Vullen van een lege afgehandeld datum bij inspecties
 - Leegmaken van een gevulde afgehandeld datum bij inspecties

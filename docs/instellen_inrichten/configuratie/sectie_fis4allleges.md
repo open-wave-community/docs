@@ -1,6 +1,6 @@
 # Sectie Fis4AllLeges
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: Fis4AllLeges_ gerangschikt op item. Voor al deze items geldt dat deze per gemeente aan te maken zijn door achter de _Sectie: Fis4AllLeges_ het gemeenteid te zetten; Fis4AllLeges_gemeenteid. **Let op:** alleen van belang indien de export per gemeente wordt gedraaid. Zie voor meer uitleg: [Fis export](/docs/probleemoplossing/programmablokken/financiele_export/README.md).
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: Fis4AllLeges_ gerangschikt op item. Voor al deze items geldt dat deze per gemeente aan te maken zijn door achter de _Sectie: Fis4AllLeges_ het gemeenteid te zetten; Fis4AllLeges_gemeenteid. **Let op:** alleen van belang indien de export per gemeente wordt gedraaid. Zie voor meer uitleg: [Fis export](/probleemoplossing/programmablokken/financiele_export/README.md).
 
 ## Items Configuratietabel
 

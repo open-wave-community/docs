@@ -1,6 +1,6 @@
 s# Aanmaken inspectie/toezicht in bulk
 
-Zie ook [Bulk aanmaken van inspecties/toezichtzaken](/docs/probleemoplossing/programmablokken/bulkinspzaken.md).
+Zie ook [Bulk aanmaken van inspecties/toezichtzaken](/probleemoplossing/programmablokken/bulkinspzaken.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het in bulk aanmaken van inspecties d
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Operations*
 - Kolom: *Import*
