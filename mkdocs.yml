@@ -1,6 +1,6 @@
 site_name: "OpenWave docs"
-site_url: "https://ow-community.github.io/docs.open-wave.nl"
-repo_url: "https://github.com/ow-community/docs.open-wave.nl"
+site_url: "https://open-wave-community.github.io/docs"
+repo_url: "https://github.com/open-wave-community/docs.open-wave.nl"
 edit_uri: blob/main/docs/
 use_directory_urls: false
 
