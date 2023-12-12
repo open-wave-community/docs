@@ -1,0 +1,50 @@
+site_name: "OpenWave docs"
+site_url: "https://ow-community.github.io/docs.open-wave.nl"
+repo_url: "https://github.com/ow-community/docs.open-wave.nl"
+edit_uri: blob/main/docs/
+use_directory_urls: false
+
+theme:
+  name: material
+  features:
+    - content.action.edit
+    - navigation.tabs
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    primary: blue
+    accent: orange
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: "¤"
+
+watch:
+  - mkdocs_gen_files
+
+plugins:
+  - search
+  - gen-files:
+      scripts:
+        - docs/gen_credits.py
+        - docs/gen_doc_stubs.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - section-index
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  nav:
+    absolute_links: ignore
