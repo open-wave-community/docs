@@ -71,7 +71,7 @@ Indien de gebruiker uit alle groepen kan kiezen is de actie: _getFlexList(myRepo
 
 ### Tegel waarbij de gebruiker kies uit de rapportages van één rapportagegroep
 
-Hieronder een voorbeeld waarbij de gebruiker kan kiezen uit de rapportages van een specifieke groep met primary key (tbrapportgroep.dnkey of id) = x. In het voorbeeld 581  
+Hieronder een voorbeeld waarbij de gebruiker kan kiezen uit de rapportages van een specifieke groep met primary key (tbrapportgroep.dnkey of id) = x. In het voorbeeld 581
 (en waarvoor geldt dat de gebruiker kijkrechten heeft: het rapportniveau van de medewerkerskaart van die gebruiker moet groter of gelijk zijn aan het vereist rapportageniveau bij de rapportdefinitie). De tegel zelf is wederom arbitrair ingedeeld in een kolom met de naam Zaken. Het opschrift op de tegel kan gelijk zijn aan de rapportagegroepsnaam.
 
 - Portaal: _Rapportage_

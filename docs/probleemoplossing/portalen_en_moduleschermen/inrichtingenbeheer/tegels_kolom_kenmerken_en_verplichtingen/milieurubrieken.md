@@ -16,9 +16,9 @@ De onderliggende tabel is tbmilrubriek. De tabel wordt onder meer gebruikt voor 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
-- Kolom: \*Kenmerken en Verplichtingen/
+- Kolom: _Kenmerken en Verplichtingen_
 - Kopregel: _Milieurubrieken_
-- Actie: \*getFlexList(SysStandardList,nil,nil,G,beheer_tbmilrubriek)
+- Actie: `getFlexList(SysStandardList,nil,nil,G,beheer_tbmilrubriek)`
 
 ## Gebruik milieurubrieken
 

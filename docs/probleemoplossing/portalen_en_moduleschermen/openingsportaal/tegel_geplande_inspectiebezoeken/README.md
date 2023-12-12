@@ -27,7 +27,7 @@ De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/inst
 - Kopregel:_Geplande;inspectiebezoeken_
 - Vast Opschrift:
 - Dynamisch tegelopschrift
-- Actie: \*geefFlexList(OPENINSPBEZOEKEN,nil,nil,**_0_**,nil)* of *geefFlexList(OPENINSPBEZOEKEN,nil,nil,**_3_**,nil)\*
+- Actie: \*geefFlexList(OPENINSPBEZOEKEN,nil,nil,**_0_**,nil)*of*geefFlexList(OPENINSPBEZOEKEN,nil,nil,**_3_**,nil)\*
 
 De parameter 0 geeft aan dat alle geplande/lopende inspectiebezoeken moeten worden getoond, waarbij:
 

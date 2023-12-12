@@ -2,10 +2,10 @@
 
 Zoeken kan in Openwave op vier manieren:
 
-* via [Zaken/Inrichtingen/Locaties](/docs/probleemoplossing/module_overstijgende_schermen/zaken_inrichtingen_locaties.md) op zaken, inrichtingen of locaties. Vanuit deze drie tegels zijn alle gegevens in OpenWave te benaderen
-* via het [Zoekportaal](/docs/probleemoplossing/portalen_en_moduleschermen/zoekportaal.md). Hierin wordt een aantal zoekwizards aangeboden waarmee op o.a. op zaaknummers, datums, betreft, adres, contact gezocht kan worden
-* via zelfgemaakte [Rapportages](/docs/instellen_inrichten/rapportages.md). Met standaard SQL kan de hele database bevraagd worden
-* door middel van de zoekbox onderaan de meeste lijstschermen.
+- via [Zaken/Inrichtingen/Locaties](/docs/probleemoplossing/module_overstijgende_schermen/zaken_inrichtingen_locaties.md) op zaken, inrichtingen of locaties. Vanuit deze drie tegels zijn alle gegevens in OpenWave te benaderen
+- via het [Zoekportaal](/docs/probleemoplossing/portalen_en_moduleschermen/zoekportaal.md). Hierin wordt een aantal zoekwizards aangeboden waarmee op o.a. op zaaknummers, datums, betreft, adres, contact gezocht kan worden
+- via zelfgemaakte [Rapportages](/docs/instellen_inrichten/rapportages.md). Met standaard SQL kan de hele database bevraagd worden
+- door middel van de zoekbox onderaan de meeste lijstschermen.
 
 ### ad 4. Zoekbox onderaan lijstscherm
 
