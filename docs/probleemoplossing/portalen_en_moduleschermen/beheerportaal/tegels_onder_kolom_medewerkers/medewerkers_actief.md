@@ -14,6 +14,6 @@ De tegel is een trigger voor een lijst met *Actieve medewerkers*, zie [Medewerke
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
-- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers.md)
+- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
 - Kopregel: *Medewerkers (actief)*
 - Actie: *getFlexList(TBMEDEWERKERS,nil,nil,2,nil)*

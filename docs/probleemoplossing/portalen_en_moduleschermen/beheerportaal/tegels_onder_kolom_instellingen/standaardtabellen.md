@@ -13,7 +13,7 @@ De tegel is een trigger voor een lijst met metadata over een andere view of tabe
 
 De tegel is standaard als volgt gedefinieerd: [Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal.md)
-- Kolom: [Tegels onder kolom Instellingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen.md)
+- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+- Kolom: [Tegels onder kolom Instellingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen/README.md)
 - Kopregel: _Standaardtabellen_
 - Actie: _getFlexList(StandardList,nil,nil,vwfrmsysstandardtable;dnkey, nil,nil,nil,nil,insertStandardRow([dvcode;Geef codering van tabel;string;300]);deleteStandardRow)_

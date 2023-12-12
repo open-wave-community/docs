@@ -14,6 +14,6 @@ De tegel is een trigger voor het doorkiesscherm naar naar een tabel met *Soorten
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
-- Kolom: [Tegels onder kolom Instellingen II](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii.md)
+- Kolom: [Tegels onder kolom Instellingen II](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
 - Kopregel: *Inspectietrajectsoorten*
 - Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbinspaanleiding)*

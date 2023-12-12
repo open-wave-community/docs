@@ -8,7 +8,7 @@ Dit scherm kan worden aangeroepen vanuit het zaakportaal van Omgeving, Handhavin
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger geen kijkrechten heeft op de adviezen bij betreffende hoofdzaak.
 
 ## Muteerrechten

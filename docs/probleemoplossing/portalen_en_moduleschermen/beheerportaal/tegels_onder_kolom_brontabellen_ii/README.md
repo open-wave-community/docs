@@ -5,7 +5,7 @@
 1) Het scherm ziet er raar uit (al of niet met een foutmelding) of reageert niet:
 
 - inlogger heeft geen kijkrechten
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 2) Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -14,11 +14,11 @@ kan alleen indien aan medewerkers a andere tegels zijn toegekend dan aan medewer
 
 ### Triggers
 
-Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md)).
+Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)).
 
 ## Index
 
-- [Tegels onder kolom Brontabellen II](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen.md)
+- [Tegels onder kolom Brontabellen II](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen/README.md)
   - [Aanhoudingsgronden](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen_ii/aanhoudingsgronden.md)
   - [Acties DSO Spec. Vraagid&#039;s](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen_ii/acties_dso_spec_vraagid.md)
   - [Besluittypes](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen_ii/besluittypes.md)

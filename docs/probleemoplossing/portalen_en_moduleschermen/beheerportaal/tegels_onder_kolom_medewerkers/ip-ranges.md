@@ -13,7 +13,7 @@ De tegel is een trigger voor een lijst van gegevens van de *IP-ranges*.
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal.md)
+- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
 - Kolom: *Brontabellen*
 - Kopregel: *IP-ranges*
 - Actie: *getFlexList(StandardList,nil,nil,tbipranges;dnkey, nil,nil,nil,nil,insertStandardRow([dviprange;ip-range;string;200][dvomschrijving;omschrijving;string;200]);deleteStandardRow)*

@@ -23,7 +23,7 @@ De lijst is zichtbaar indien de inlogger lid is van een rechtengroep die op over
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger heeft geen recht om CBS te exporteren (tbrechten.dlcextcbs11disk).
 
 ![](/img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1000" }

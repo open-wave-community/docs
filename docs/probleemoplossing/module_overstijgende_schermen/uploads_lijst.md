@@ -15,7 +15,7 @@ Uploads gedaan door automatische processen, zoals de bijlagen bij een DSO-berich
 
 ## Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ### Trigger
 

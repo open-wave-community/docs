@@ -2,7 +2,7 @@
 
 Onder deze kolom vindt men de tegels die vallen onder het zogenaamde Dieper beheer: de configuratie instellingen, messagelog, audit bekijken etc.
 
-Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
+Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
 
 ## Tegels
 

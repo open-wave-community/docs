@@ -10,7 +10,7 @@ Schermtype portal.
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbhandhavingen.dnkey
 - inlogger heeft geen kijkrechten voor Handhavingszaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _Handhavingen Zichtbaar_ niet is aangevinkt)
 - de variabele x uit de aanroep verwijst naar een zaak van een gemeente waarvoor de inlogger geen kijkrechten rechten (zie instelling medewerker: alleen gemeentes en/of medewerker is lid van compartiment en de locatie van de zaak valt niet onder de aan het compartiment toegekende gemeentes)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
   2)Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -37,7 +37,7 @@ Knop is zichtbaar en enabled indien:
 
 ### Docs
 
-- Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbhhrechten.dlchahcorregvsb)_ heeft.
+- Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbhhrechten.dlchahcorregvsb)_ heeft.
   - Anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlchahcorvsb)_ heeft.
 
 ### Kaart
@@ -61,7 +61,7 @@ Knop is altijd zichtbaar en enabled.
 Klikken op tegel opent een vervolgscherm.
 
 Indien niet klikbaar dan is de tegel ingesteld als disabled (zie
-[Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md)).
+[Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)).
 
 ## Gerelateerde Pagina's
 

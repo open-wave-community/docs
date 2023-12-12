@@ -7,8 +7,8 @@ Dit hoofdstuk bestaat uit de volgende subhoofdstukken:
 
 - [configuratietabel](/docs/instellen_inrichten/configuratie/README.md)
 - [Inrichten Processen](/docs/instellen_inrichten/inrichting_processen.md)
-- [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md)
-- [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)
+- [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)
+- [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)
 
 en de volgende pagina's:
 

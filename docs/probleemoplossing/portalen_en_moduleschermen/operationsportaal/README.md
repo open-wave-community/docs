@@ -7,7 +7,7 @@ Het portaal wordt aangeroepen vanuit het beheerportaal-Nieuw met de tegel _Opera
 
 ### Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname _Operations_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie.md))
+- er zijn geen tegels gedefinieerd onder portalname _Operations_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger
 

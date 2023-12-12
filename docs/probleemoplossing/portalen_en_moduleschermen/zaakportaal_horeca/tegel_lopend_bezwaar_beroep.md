@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm van lopende bezwaar/beroepzaken bij een Horecazaak ([Bezwaar en beroep](/docs/probleemoplossing/module_overstijgende_schermen/bezwaar_beroep.md)).
+De tegel is een trigger voor het lijstscherm van lopende bezwaar/beroepzaken bij een Horecazaak ([Bezwaar en beroep](/docs/probleemoplossing/module_overstijgende_schermen/bezwaar_beroep/README.md)).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend

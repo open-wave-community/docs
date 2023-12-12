@@ -2,7 +2,7 @@
 
 Onder deze kolom vindt men de tegels waaronder men de instellingen van de gebruikers van de OpenWave omgeving kan beheren.
 
-Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
+Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
 
 ## Tegels
 

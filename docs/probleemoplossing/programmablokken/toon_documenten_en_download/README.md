@@ -1,6 +1,6 @@
 # Toon documenten en bewerk/download
 
-Met de knop _Docs_ op de detail- en portalschermen van omgeving, inrichting, APV/overig, bouw/sloop, horeca, infoaanvragen en handhaving alsmede vanuit de advies, bezwaarberoep en inspectie detailschermen kan een lijst getoond worden van documenten bij een zaak. Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt zal de lijst bestaan uit de geregistreerde documenten (uit tbcorrespondentie) zie: [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md).
+Met de knop _Docs_ op de detail- en portalschermen van omgeving, inrichting, APV/overig, bouw/sloop, horeca, infoaanvragen en handhaving alsmede vanuit de advies, bezwaarberoep en inspectie detailschermen kan een lijst getoond worden van documenten bij een zaak. Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt zal de lijst bestaan uit de geregistreerde documenten (uit tbcorrespondentie) zie: [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 Staat deze instelling uit dan worden alle documenten bij de zaak getoond worden die op dat moment worden aangetroffen in het DMS of op de fileserver.
 
 ## Rechten

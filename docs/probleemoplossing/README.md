@@ -19,6 +19,6 @@ Verder wordt er regelmatig verwezen naar een module of module-letter. Dit zijn d
 
 ## Index
 
-- [Module overstijgende schermen](/docs/probleemoplossing/module_overstijgende_schermen.md)
-- [Portalen en Moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen.md)
+- [Module overstijgende schermen](/docs/probleemoplossing/module_overstijgende_schermen/README.md)
+- [Portalen en Moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen/README.md)
 - [Programmablokken](/docs/probleemoplossing/programmablokken.md)

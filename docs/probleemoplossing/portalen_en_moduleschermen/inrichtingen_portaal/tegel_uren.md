@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm met een overzicht van het totaal aantal *Geregistreerde uren* bij een inrichting ([Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie.md)).
+De tegel is een trigger voor het lijstscherm met een overzicht van het totaal aantal *Geregistreerde uren* bij een inrichting ([Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/README.md)).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend

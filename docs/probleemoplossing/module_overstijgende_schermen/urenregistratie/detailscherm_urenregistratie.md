@@ -41,4 +41,4 @@ Aan deze lijst worden toegevoegd - maar alleen indien de inlogger zelf de eigens
 
 Qua urenaantal kan een waarde tussen de 0 en 100 worden ingevoerd.
 
-[Volledige overzicht van Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie.md)
+[Volledige overzicht van Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/README.md)

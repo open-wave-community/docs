@@ -13,7 +13,7 @@ De tegel is een trigger voor een lijst van alle in OpenWave verrichte handelinge
 
 De tegel is standaard als volgt gedefinieerd ([Portaltegel](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal.md)
-- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers.md)
+- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
 - Kopregel: *Audit*
 - Actie: *getFlexList(tbaudit)*

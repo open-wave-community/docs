@@ -2,10 +2,10 @@
 
 ## Trigger
 
-De tegel is een trigger voor het lijstscherm met een overzicht van het *Totaal aantal geregistreerde uren* bij een omgevingszaak([Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie.md)).
+De tegel is een trigger voor het lijstscherm met een overzicht van het *Totaal aantal geregistreerde uren* bij een omgevingszaak([Urenregistratie](/docs/probleemoplossing/module_overstijgende_schermen/urenregistratie/README.md)).
 
-  * De tegel is alleen zichtbaar voor inlogger wanneer: 
-    * deze aan hem/haar is toegekend 
+  * De tegel is alleen zichtbaar voor inlogger wanneer:
+    * deze aan hem/haar is toegekend
     * de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert.
   * Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
@@ -13,9 +13,9 @@ De tegel is een trigger voor het lijstscherm met een overzicht van het *Totaal a
 
 Het dynamische opschrift op tegels is niet zichtbaar:
 
-  * indien foutieve queryverwijzing (codering *omgeving_uren*) 
+  * indien foutieve queryverwijzing (codering *omgeving_uren*)
   * indien query zelf niet correct (zie [Queries](/docs/instellen_inrichten/queries.md))
-  * indien inlogger geen recht heeft om query uit te voeren 
+  * indien inlogger geen recht heeft om query uit te voeren
   * indien de kolom *altijd verversen* (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie

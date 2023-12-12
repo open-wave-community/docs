@@ -17,7 +17,7 @@ In de beheer- bij de definitie van de processen kunnen twee soorten termijnstapp
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak.
 
 ## Disabled/enabled - Chronologisch afhandelen
@@ -90,10 +90,10 @@ De kolom _Ja/nee_ (de eerste kolom) is altijd muteerbaar. Het gaat hier om de af
 
 - **Toon alle stappen** (Klikken op deze knop betekent een resfresh van het scherm waardoor alle processtappen getoond worden (dus zowel de openstaande als de afgehandelde processtappen):
   - alleen zichtbaar als op het lijstscherm de OPENSTAANDE processtappen worden getoond
-  - dit betekent dat OF de tegel die de lijst oproept is gestart met aanroep \*getFlexList(TBTERMIJNBEWSTAPPEN,TBOMGVERGUNNING,{id},**_O_**,W)*, OF er is net op de knop *Toon openstaande stappen\* geklikt.
+  - dit betekent dat OF de tegel die de lijst oproept is gestart met aanroep \*getFlexList(TBTERMIJNBEWSTAPPEN,TBOMGVERGUNNING,{id},**_O_**,W)*, OF er is net op de knop*Toon openstaande stappen\* geklikt.
 - **Toon openstaande stappen** (Klikken op deze knop betekent een resfresh van het scherm waardoor alleen nog de openstaande processtappen getoond worden:
   - alleen zichtbaar als op het lijstscherm ALLE processtappen worden getoond
-  - dit betekent dat OF de tegel die de lijst oproept is gestart met aanroep \*getFlexList(TBTERMIJNBEWSTAPPEN,TBOMGVERGUNNING,{id},**_nil_**,W)*, OF er is net op de knop *Toon openstaande stappen\* geklikt.
+  - dit betekent dat OF de tegel die de lijst oproept is gestart met aanroep \*getFlexList(TBTERMIJNBEWSTAPPEN,TBOMGVERGUNNING,{id},**_nil_**,W)*, OF er is net op de knop*Toon openstaande stappen\* geklikt.
 - Voor beide knoppen geldt dat deze NIET zichtbaar zijn als het lijstscherm gestart is met de actie voor het tonen van de Afgehandelde processtappen: \*getFlexList(TBTERMIJNBEWSTAPPEN,TBOMGVERGUNNING,{id},**_A_**,W)\*.
 
 N.b. De aanroepen zijn hier als voorbeeld uitgeschreven voor de module W (omgeving).

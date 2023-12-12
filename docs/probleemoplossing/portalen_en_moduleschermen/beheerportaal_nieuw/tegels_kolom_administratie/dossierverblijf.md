@@ -7,7 +7,7 @@ De tegel is een trigger voor een lijst met mogelijke *Verblijfplaatsen van dossi
     - de evaluatie van het *SQL statement onzichtbaar* bij de tegeldefinitie een waarde ongelijk aan 0 oplevert
   - Een tegel is disabled indien zo aangevinkt bij de tegeldefinitie.
 
-Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
+Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
 
 ## Probleem
 

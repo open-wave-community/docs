@@ -1,6 +1,6 @@
 # Tegels onder kolom Werkbeheer
 
-Onder deze kolom vindt men de tegels die vallen onder het zogenaamde Werkbeheer: het inrichten van de processen, rapportages en documenten/e-mails. Zie [Beheerportaal Nieuw](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
+Onder deze kolom vindt men de tegels die vallen onder het zogenaamde Werkbeheer: het inrichten van de processen, rapportages en documenten/e-mails. Zie [Beheerportaal Nieuw](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
 
 ## Tegels
 

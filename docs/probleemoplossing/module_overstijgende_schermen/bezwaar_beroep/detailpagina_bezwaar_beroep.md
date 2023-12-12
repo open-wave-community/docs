@@ -95,7 +95,7 @@ Achter einddatum/blokkeerdatum van zaak/DMS nummer in het blok _Keten_.
 
 ### Toon geregistreerde documenten (bij dit bezwaarberoep)
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md).
+Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt
@@ -153,7 +153,7 @@ Zie [Toon documenten en download](/docs/probleemoplossing/programmablokken/toon_
   - OF de programma-instelling _Sectie: Documenten en Item: OphalenViaDMS_ is aangevinkt
     - en de instelling _Sectie: KoppelingDOCNAARDMS en Item: Methode en Tekst: StUF-ZAKEN 310_ en aangevinkt en de kolom externe zaak/dms nummer (dvintzaakcode) is leeg MAAR de instelling _Sectie: KoppelingDOCNAARDMS en Item: Ontvangstadres_cmis_ is gevuld (bijzondere instelling in hybride situatie dat zowel via Stuf Zaak/DMS als via CMIS documenten opgehaald moeten kunnen worden).
 
-Indien de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt wordt met de knop de lijst met geregistreerde documenten geopend zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md). Anders wordt de algemene documentenlijst geopend.
+Indien de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt wordt met de knop de lijst met geregistreerde documenten geopend zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md). Anders wordt de algemene documentenlijst geopend.
 
 ### Upload document(en)
 

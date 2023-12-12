@@ -13,7 +13,7 @@ De tegel is een trigger voor het lijstscherm *Wettelijke basis*.
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal.md)
-- Kolom: [Tegels onder kolom Instellingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen.md)
+- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+- Kolom: [Tegels onder kolom Instellingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen/README.md)
 - Kopregel: *Wetten/Overtredingen*
 - Actie: *getFlexList(SysStandardList,nil,nil,G,beheer_tbhandhwetbasis)*

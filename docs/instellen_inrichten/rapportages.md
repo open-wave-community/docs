@@ -97,7 +97,7 @@ Zie verdere informatie over action: [Actions](/docs/instellen_inrichten/actions.
 
 #### Triggers
 
-In het menu opties rechtsboven. Zie ook [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md):
+In het menu opties rechtsboven. Zie ook [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md):
 
   - Maak schermdefinitie:
     - Zichtbaar en enabled indien er GEEN kaart bestaat in tbscreencolumns (beheertegel *Schermkolomdefinitie*) met *identifier rapport* (dnreportkey) = ID van het rapport. De trigger maakt een schermkolomdefinitie voor het rapport op basis van de SQL en opent deze pagina ter aanpassing.

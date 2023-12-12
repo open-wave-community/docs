@@ -13,8 +13,8 @@ De tegel is een trigger voor een lijst waarin de _Gegevens van gebruikers_ staan
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal.md)
-- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers.md)
+- Portaal: [Beheerportaal](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+- Kolom: [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
 - Actie: _getFlexList(SysStandardList,nil,nil,nil,beheer_vwfrmgebruikersinformatie)_
 
 Indien de instelling _Sectie: Preinlog en Item: GebruikersinformatieOpslaan_ aangevinkt is, worden een aantal browser- en device gegevens van de inlogger anoniem (met one way gecrypte username) opgeslagen in de tabel tbgebruikersinformatie.

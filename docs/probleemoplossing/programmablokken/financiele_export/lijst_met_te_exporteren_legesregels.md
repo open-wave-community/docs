@@ -18,7 +18,7 @@ De lijst is zichtbaar indien de inlogger het recht _Mag legesregels exporteren (
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger heeft geen recht om leges te exporteren (tbmedewerkers.dlmaglegesexporteren).
 
 ![](/img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }

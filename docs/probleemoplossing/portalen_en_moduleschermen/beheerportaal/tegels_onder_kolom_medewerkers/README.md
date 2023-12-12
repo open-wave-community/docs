@@ -5,7 +5,7 @@
 1) Het scherm ziet er raar uit (al of niet met een foutmelding) of reageert niet:
 
 * inlogger heeft geen kijkrechten
-* alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md))
+* alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 * geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 2) Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -16,11 +16,11 @@ kan alleen indien aan medewerkers a andere tegels zijn toegekend dan aan medewer
 
 Klikken op tegel opent een vervolgscherm.
 
-Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md)).
+Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)).
 
 ## Gerelateerde pagina's
 
-* [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers.md)
+* [Tegels onder kolom Medewerkers](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
   * [Afdelingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/afdelingen.md)
   * [Audit](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/audit.md)
   * [Compartimentsrechten](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/compartimentsrechten.md)

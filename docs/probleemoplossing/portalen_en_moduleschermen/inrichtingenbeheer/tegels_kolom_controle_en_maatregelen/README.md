@@ -1,6 +1,6 @@
 # Tegels onder kolom Controle en Maatregelen
 
-Onder deze kolom vindt men de tegels waaronder men de [inrichting](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer.md) kan doen voor cyclische inspecties, erkende maatregelen en andere energie gerelateerde zaken.
+Onder deze kolom vindt men de tegels waaronder men de [inrichting](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md) kan doen voor cyclische inspecties, erkende maatregelen en andere energie gerelateerde zaken.
 
 ## Tegels
 

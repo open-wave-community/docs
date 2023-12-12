@@ -10,7 +10,7 @@ Kan worden aangeroepen vanuit de tegel _Locaties_ op het openingsportaal en met 
 
 Het scherm geeft een foutmelding indien:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger behoort tot een rechtengroep die geen kijkrechten heeft op locaties (locatieadressen zichtbaar bij hoofdrechtengroep).
 
 ### Muteren

@@ -11,7 +11,7 @@ De hieronder besproken voorbeelden van rapportagetegels kunnen ook op andere por
 
 ### Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie.md))
+- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 

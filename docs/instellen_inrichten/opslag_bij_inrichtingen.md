@@ -6,7 +6,7 @@ Wat betreft de benadering van de tabel tbmilopslag via één of meer tegels is d
 
 ## Rubricering
 
-De inrichtingstabel tbmilopslag kan onder verschillende tegels op het inrichtingsportaal benaderd worden. De aanroep op de [tegeldefinitie](/docs/instellen_inrichten/portaldefinitie.md) bepaalt hoe de achterliggende lijst van opslagkaarten gefilterd wordt op rubriek.
+De inrichtingstabel tbmilopslag kan onder verschillende tegels op het inrichtingsportaal benaderd worden. De aanroep op de [tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md) bepaalt hoe de achterliggende lijst van opslagkaarten gefilterd wordt op rubriek.
 
 Een van de attributen van deze tbmilopslag-tabel is de kolom dnrubriek. Dit is een foreign key naar tbmilrubriek (portaal Inrichtingenbeheer, tegel Milieurubrieken onder kolom Kenmerken en verplichtingen): Zie ook: [Milieurubrieken](/docs/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_kenmerken_en_verplichtingen/milieurubrieken.md). In deze tabel kunnen rubrieken worden gedefinieerd waarbij aangeven kan worden of deze rubrieken van toepassing zijn op de tabel tbmilopslag. De tabel tbmilrubriek wordt gevuld aangeleverd en daarop zijn onderstaande voorbeelden van toepassing; de functioneel beheerder kan echter zelf coderingen aanpassen en of toevoegen.
 

@@ -2,7 +2,7 @@
 
 ## LET OP: DEPRECATED
 
-Ga terug naar [Portalen en Moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen.md)
+Ga terug naar [Portalen en Moduleschermen](/docs/probleemoplossing/portalen_en_moduleschermen/README.md)
 
 ## Alternatief: de tegels op het openingsportaal
 
