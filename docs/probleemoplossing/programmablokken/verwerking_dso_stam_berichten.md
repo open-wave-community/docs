@@ -96,7 +96,7 @@ De volgende types kunnen worden aangeleverd in het verzoekbericht:
 
 Het is raadzaam hier zaaktypes voor te definiëren (of bestaande te hergebruiken) in de beheertabel _Zaaktypes omgeving_ (tbsoortomgverg). Daartoe is de kolom _Verzoektype_ (dvdsotype) in het blok _DSO-type_. OpenWave zal eerst proberen vast te stellen of het DSO verzoekbericht voor een compartiment is bedoeld op grond van de locatie, uitvoerende instantie en bevoegd gezag.
 
-![](applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
 
 Indien de uitvoerende instantie (behandeldienst) in het verzoekbericht is gevuld dan is het verzoekbericht sowieso niet voor een compartiment.
 

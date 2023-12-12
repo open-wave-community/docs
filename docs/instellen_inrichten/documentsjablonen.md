@@ -238,7 +238,7 @@ Het aantal regels dat de tabel uiteindelijk in het te genereren document gaat in
 
 Het eenvoudige .docx voorbeeld van een ontvangstbevestiging is hieronder uitgebreid met een tabel waarin het de bedoeling is dat daar de onderdelen van de omgevingszaak worden opgesomd:
 
-![](applicatiebeheer/instellen_inrichten/sjabloonmettabel.png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/sjabloonmettabel.png){ class="media" loading="lazy" alt="" width="600" }
 
 De childquery-1 kan er als volgt uitzien:
 
@@ -256,7 +256,7 @@ select
 
 In de tabellen mogen meerdere merge-coderingen per cel gebruikt worden al of niet in combinatie met tekst:
 
-![](applicatiebeheer/instellen_inrichten/tabelmettekstencodering.png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/tabelmettekstencodering.png){ class="media" loading="lazy" alt="" width="600" }
 
 LET OOK OP: Indien in het sjabloon een tabel is opgenomen in de header of footer dan geldt het volgende:
 
@@ -464,11 +464,11 @@ LET HIER OP DAT:
 
 Er zijn dus 5 invoerparameters:
 
-![](applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
 
 Dat resulteert bij het genereren van het document tot een invoerscherm:
 
-![](applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
+![](/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
 
 En het te genereren document ziet er dan zo uit:
 

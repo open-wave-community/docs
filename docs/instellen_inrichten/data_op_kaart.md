@@ -16,7 +16,7 @@ Die flexibele properties zijn gegroepeerd per thema/subthema. Thema’s zijn bij
 
 Voorbeeld van één featuretype (= inrichting) binnen de WFS-file met twee verschillende flexibele properties:
 
-![](applicatiebeheer/instellen_inrichten/dataopkaartswfexport.png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/dataopkaartswfexport.png){ class="media" loading="lazy" alt="" width="600" }
 
 Thema en subthema zijn in de WFS-file onderdeel van de (flexibele) propertynaam. De drie entiteiten zijn hierin gescheiden door een underscore. Thema is verplicht, subthema is niet verplicht. In bovenstaand voorbeeld is de property *amvb-types* alleen gekoppeld aan het thema *inrichtingsindelingen*. De property *nooitbezocht* is ingedeeld onder het subthema *bezoeken* binnen het thema *toezicht*.
 
@@ -33,7 +33,7 @@ Ook in het *inrichtingenbeheerportaal* onder de kolom *Overig* de tegel *SQL exp
 
 Een voorbeeld van een indeling:
 
-![](applicatiebeheer/instellen_inrichten/dataopkaart-lijst..png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/dataopkaart-lijst..png){ class="media" loading="lazy" alt="" width="600" }
 
 Achter elke gedefinieerde property is een SQL-statement gedefinieerd dat bij de export naar de WFS-file voor elke inrichting wordt geëvalueerd. Elke inrichting krijgt bij elke property bij de evaluatie van de SQL dus een propertywaarde toegekend.
 

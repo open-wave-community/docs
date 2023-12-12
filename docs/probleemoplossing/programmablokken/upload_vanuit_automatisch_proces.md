@@ -13,7 +13,7 @@ Een voorbeeld:
 
 ## Verwerken OLO-bijlagen
 
-![](applicatiebeheer/probleemoplossing/programmablokken/olodso_bijlages.png){ class="media" loading="lazy" alt="" width="700" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/olodso_bijlages.png){ class="media" loading="lazy" alt="" width="700" }
 
 De olo_upload.php-luisterservice plaatst de binnengekomen file op een andere map op de webserver.
 Deze map is gedefinieerd in kolom _Tekst_ van de instelling: _Sectie: OWB Item: TussenMapOloUploadfiles_.

@@ -3,7 +3,7 @@
 Onder een omgevingszaak is de tegel *Samenwerkingsruimtes* zichtbaar en benaderbaar voor die medewerkers die (beheertegel *Functionele rechten*) geautoriseerd zijn om de samenwerkingsruimte te zien (tbomgrechten.dlcomgswfvsb).
 De tegel geeft toegang tot de tabellen tbswfruimte, tbswfoinpartners, tbswfdocumenten, tbswfactieverzoeken en tbswfnotificaties.
 
-![](applicatiebeheer/instellen_inrichten/samenwerkingfunctionaliteitinopenwave.png){ class="media" loading="lazy" alt="" width="800" }
+![](/img/applicatiebeheer/instellen_inrichten/samenwerkingfunctionaliteitinopenwave.png){ class="media" loading="lazy" alt="" width="800" }
 
 ## Inregelen landelijke samenwerkingsruimte
 

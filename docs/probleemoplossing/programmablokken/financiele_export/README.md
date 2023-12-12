@@ -14,7 +14,7 @@ Het exporteren van de legesgegevens kan voor alle gemeentes samen (default inste
 
 **Let op:** de eigenschap **Opnemen in keuzelijst maken legesexportlijst** dient aangevinkt te zijn voor de gewenste gemeente(s). Dit kan men in het beheerportaal-Nieuw via de tegel *OIN* beheren. Bij het opstellen van de legesexportlijst kan er alleen gekozen worden uit gemeentes waarvoor deze eigenschap van toepassing is.
 
-![](applicatiebeheer/probleemoplossing/programmablokken/oin_detail.png){ class="media" loading="lazy" alt="" width="500" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/oin_detail.png){ class="media" loading="lazy" alt="" width="500" }
 
 ## Werking
 
@@ -31,7 +31,7 @@ De volgende stappen dienen te worden doorlopen voor het verzamelen van de te exp
 ### Samenstellen van de lijst met de te exporteren legesregels op basis van een gekozen conditie
 
 Allereerst dienen de te exporteren legesgegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren legesregels* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld en daarna op welke conditie (alleen indien instelling *Fis4AllLeges: ExportPerGemeente* aangevinkt staat! anders gelijk door naar Opties bij het maken van de legesexportlijst). Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren legesregels](/docs/probleemoplossing/programmablokken/financiele_export/lijst_met_te_exporteren_legesregels.md)
-![](applicatiebeheer/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
 
 #### Operationslog Aanmaken lijst legesexportregels
 

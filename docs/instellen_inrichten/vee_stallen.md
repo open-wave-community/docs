@@ -1,6 +1,6 @@
 # Vee / Stallen
 
-![](applicatiebeheer/instellen_inrichten/stallenenvee.png){ class="media" loading="lazy" alt="" width="900" }
+![](/img/applicatiebeheer/instellen_inrichten/stallenenvee.png){ class="media" loading="lazy" alt="" width="900" }
 
 De bruingekleurde blokken slaan op tabellen die via het beheerportaal *Inrichtingenbeheer* kunnen worden benaderd.
 
