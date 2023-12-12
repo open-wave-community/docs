@@ -98,7 +98,7 @@ Zie hieronder _triggers in lijstscherm_ voor het starten van de hyperlink vanuit
 
 In alle andere gevallen zal OpenWave door te klikken op een actieve regel volgens onderstaand schema te werk gaan:
 
-[<img src="/_media/img/applicatiebeheer/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/openenopgeslagendocument.png?w=600&amp;tok=765b86" class="media" loading="lazy" alt="" width="600" />](/_detail/img/applicatiebeheer/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/openenopgeslagendocument.png?id=docs%3Aapplicatiebeheer%3Aprobleemoplossing%3Amodule_overstijgende_schermen%3Ageregistreerde_documenten%3Alijst_geregistreerde_documenten_bij_zaak.md)
+![Openen opgeslagen document](/img/applicatiebeheer/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/openenopgeslagendocument.png){ class="media" loading="lazy" alt="" width="600" }
 
 **Ad 1. Check op bestaan en vertrouwelijkheid**
 

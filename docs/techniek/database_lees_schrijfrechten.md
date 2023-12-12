@@ -31,11 +31,11 @@ In principe mag op alle tabellen en views van OpenWave data gelezen worden via s
 
 ```sql
 select * from tbmedewerkers;
- select * from tb33gemeente;
- select * from tbcompartiment;
- select * from tbgeowms;
- select * from tbinitialisatie;
- select * from tbexportcontainer;
+select * from tb33gemeente;
+select * from tbcompartiment;
+select * from tbgeowms;
+select * from tbinitialisatie;
+select * from tbexportcontainer;
 ```
 
 Indien men voor deze tabellen toch de data wil zien kan men of select \* op de views doen, of dus select op aparte velden van de tabel doen. Uitzondering: tbinitialisatie is niet te bevragen. In deze tabel staan alle configuratie instellingen en wachtwoorden en is niet toegankelijk voor het schrijfaccount.
@@ -44,15 +44,15 @@ Indien men voor deze tabellen toch de data wil zien kan men of select \* op de v
 
 ```sql
 select * from vwfrmmedewerkers;
- select * from vwfrmlokaties;
- select * from vwfrmgeowms;
- select * from vwfrminitialisatie;
- select * from vwfrmexportcontainer;
- select dvcode from tbmedewerkers;
- select dvomschrijving from tb33gemeente;
- select dvomschrijving from tbcompartiment;
- select dvlaagnaam from tbgeowms;
- select dvomschrijving from tbexportcontainer;
+select * from vwfrmlokaties;
+select * from vwfrmgeowms;
+select * from vwfrminitialisatie;
+select * from vwfrmexportcontainer;
+select dvcode from tbmedewerkers;
+select dvomschrijving from tb33gemeente;
+select dvomschrijving from tbcompartiment;
+select dvlaagnaam from tbgeowms;
+select dvomschrijving from tbexportcontainer;
 ```
 
 ### Update statements

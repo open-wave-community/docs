@@ -29,7 +29,7 @@ Vanuit het adviesdetailscherm met de knop achter de kolom _email verstuurd_ of m
 
 ## Voorbeeld
 
-![Email vanuit advies](media/openwave/applicatiebeheer/probleemoplossing/kaart/emailvanuitadvies.png.md){ class="media" loading="lazy" width="800" }
+![Email vanuit advies](/img/applicatiebeheer/probleemoplossing/kaart/emailvanuitadvies.png){ class="media" loading="lazy" width="800" }
 
 Het resultaat van bovenstaand voorbeeld in de body van een email:
 
