@@ -8,11 +8,11 @@ Dit scherm kan worden aangeroepen vanuit:
 * het zaakportaal milieu/gebruik (tegel *Installaties*). De lijst toont de installaties die toegekend zijn aan de Milieu/Gebruikszaak
 * het zaakportaal bouw/sloop (tegel *Installaties*). De lijst toont de installaties die toegekend zijn aan de Bouwsloopzaak.
 
-De bron van de lijst is de tabel tbomgbwinstallaties.  
+De bron van de lijst is de tabel tbomgbwinstallaties.
 
 ## Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ## Rechten
 

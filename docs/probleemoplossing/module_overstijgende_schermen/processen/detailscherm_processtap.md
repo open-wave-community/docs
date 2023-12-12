@@ -8,7 +8,7 @@ Dit scherm kan worden aangeroepen vanuit de lijst met _Processtappen_, mits door
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak (bijvoorbeeld zichtbaar-rechten op proces/checklijst bij omgeving).
 
 ## Disabled/enabled
@@ -86,7 +86,7 @@ startWizard(maakDocument,8890,tbdocumenten;;tbomgvergunning;85842,W)
 
 ### Blok extra invoerkolommen
 
-Het blok _Extra invoerkolommen_ is zichtbaar indien bij de processtap minimaal één extra invoerkolom is gedefinieerd (beheertegel [Processen](/docs/probleemoplossing/module_overstijgende_schermen/processen.md) ), zie definitie [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md). Per processtap kan aldaar gedefinieerd worden of er extra invoerkolommen bij de stap actief worden. Er zijn 5 mogelijkheden: een datum, een string (max lengte 200), een dropdown (max lengte 100), een geheel getal of een decimaal getal. Bij de definitie van deze kolommen kan per kolom aangegeven worden dat het wijzigen van een waarde tot gevolg heeft dat de afgehandeld datum van de stap wordt gevuld (met de systeemdatum).
+Het blok _Extra invoerkolommen_ is zichtbaar indien bij de processtap minimaal één extra invoerkolom is gedefinieerd (beheertegel [Processen](/docs/probleemoplossing/module_overstijgende_schermen/processen/README.md) ), zie definitie [Termijnstappen](/docs/instellen_inrichten/inrichting_processen/termijnstappen.md). Per processtap kan aldaar gedefinieerd worden of er extra invoerkolommen bij de stap actief worden. Er zijn 5 mogelijkheden: een datum, een string (max lengte 200), een dropdown (max lengte 100), een geheel getal of een decimaal getal. Bij de definitie van deze kolommen kan per kolom aangegeven worden dat het wijzigen van een waarde tot gevolg heeft dat de afgehandeld datum van de stap wordt gevuld (met de systeemdatum).
 
 ### Checklistitems
 

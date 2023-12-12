@@ -24,7 +24,7 @@ LET OP: De kolom *dflegesvastgroeb* is een berekend veld in de view vwfrmtoestem
 De lijst met berekende bedragen op grond van de ROEB-lijsten in **het blok ROEB** van het detailscherm bij onderdelen/activiteiten is alleen zichtbaar indien
 de instelling *Sectie: Programma en Item: Roeb* aangevinkt is. Indien echter de zaak speelt in een compartiment, dan wordt i.p.v. naar deze instelling, gekeken naar de kolom dlroeb van het compartiment.
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/roeb.png?w=600&amp;tok=80f636" class="media" loading="lazy" alt="" width="600" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/roeb.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Aroeb_berekening_vastg._kosten)
+![](/img/applicatiebeheer/instellen_inrichten/roeb.png){ class="media" loading="lazy" alt="" width="600" }
 
 ## Vullen van ROEB-lijsten in het Zaakbeheer
 
@@ -45,7 +45,7 @@ Naar welke periode OpenWave moet kijken is afhankelijk van de ontvangstdatum van
 
 Onder de tegel ROEB-staffel kunnen de staffels opgegeven worden bij seriebouw met de kolommen *aantalvanaf* en *rekenen met* (wederom per periode). Er moet minimaal één kaart aanwezig zijn met aantalvanaf = 1 en bijgevolg rekenenmet = 1. Bijvoorbeeld:
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/roebstafel.png?w=400&amp;tok=c314c9" class="media" loading="lazy" alt="" width="400" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/roebstafel.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Aroeb_berekening_vastg._kosten)
+![](/img/applicatiebeheer/instellen_inrichten/roebstafel.png){ class="media" loading="lazy" alt="" width="400" }
 
 Bovenstaand gefingeerd voorbeeld laat zien dat indien het opgegeven serieaantal tussen 41 en 51 ligt, dat dan in de periode vanaf 1-1-1980 tot 1-6-2018 gerekend moet worden met 12, maar vanaf 1-6-2018 met 13.
 
@@ -89,7 +89,7 @@ In de view die over het onderdelen/activiteitenscherm heen ligt: vwfrmtoestemmin
 
 ### Wijzigen en deleten
 
-Alleen de kolom *aantaleenheden* kan de gebruiker wijzigen in het [lijstscherm](/docs/applicatiebeheer/instellen_inrichten/standardlist_standarddetail) mits:
+Alleen de kolom *aantaleenheden* kan de gebruiker wijzigen in het [lijstscherm](/docs/instellen_inrichten/standardlist_standarddetail.md) mits:
 
   - de gebruiker het recht heeft om een onderdeel/activiteit te wijzigen (tbomgrechten.dlcomgtstedt)
   - de omgevingszaak nog niet is geblokkeerd

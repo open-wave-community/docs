@@ -210,7 +210,7 @@ Indien:
 - _Getal1_ van _Sectie: Documenten Item: Documentregistratie_ de waarde 1 heeft
 - en het document is na creatie automatisch opgeslagen
 
-dan wordt automatisch een regel aangemaakt of - indien de registratie al bestond: overschreven - in tbcorrespondentie ([Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md)).
+dan wordt automatisch een regel aangemaakt of - indien de registratie al bestond: overschreven - in tbcorrespondentie ([Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md)).
 
 Indien:
 
@@ -234,7 +234,7 @@ De KIX bevat het bestemmingsadres bestaande uit de postcode in combinatie met he
 
 De expressie in de query bij een brief is bij een Omgevingsvergunning:
 
-![kix-query](/img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg){ width=500px loading=lazy class="media" }
+![kix-query](/img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg.md){ width=500px loading=lazy class="media" }
 
 ### Briefnummer en gecrypte waardes
 

@@ -11,7 +11,7 @@ De hieronder besproken voorbeelden van rapportagetegels kunnen ook op andere por
 
 ### Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie.md))
+- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](/docs/instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 
@@ -71,7 +71,7 @@ Indien de gebruiker uit alle groepen kan kiezen is de actie: _getFlexList(myRepo
 
 ### Tegel waarbij de gebruiker kies uit de rapportages van één rapportagegroep
 
-Hieronder een voorbeeld waarbij de gebruiker kan kiezen uit de rapportages van een specifieke groep met primary key (tbrapportgroep.dnkey of id) = x. In het voorbeeld 581  
+Hieronder een voorbeeld waarbij de gebruiker kan kiezen uit de rapportages van een specifieke groep met primary key (tbrapportgroep.dnkey of id) = x. In het voorbeeld 581
 (en waarvoor geldt dat de gebruiker kijkrechten heeft: het rapportniveau van de medewerkerskaart van die gebruiker moet groter of gelijk zijn aan het vereist rapportageniveau bij de rapportdefinitie). De tegel zelf is wederom arbitrair ingedeeld in een kolom met de naam Zaken. Het opschrift op de tegel kan gelijk zijn aan de rapportagegroepsnaam.
 
 - Portaal: _Rapportage_

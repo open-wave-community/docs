@@ -5,10 +5,10 @@ Hier en daar zal dit een overlap geven met hetgeen al eerder bij de triggers en 
 
 Dit hoofdstuk bestaat uit de volgende subhoofdstukken:
 
-- [Configuratietabel](/docs/instellen_inrichten/configuratie.md)
+- [configuratietabel](/docs/instellen_inrichten/configuratie/README.md)
 - [Inrichten Processen](/docs/instellen_inrichten/inrichting_processen.md)
-- [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie.md)
-- [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)
+- [Portaldefinitie](/docs/instellen_inrichten/portaldefinitie/README.md)
+- [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)
 
 en de volgende pagina's:
 
@@ -61,3 +61,4 @@ en de volgende pagina's:
 - [Wachtwoordcomplexiteit](/docs/instellen_inrichten/wachtwoordcomplexiteit.md)
 - [Zaakstatussen](/docs/instellen_inrichten/zaakstatussen.md)
 - [Zaaktypes](/docs/instellen_inrichten/zaaktypes.md)
+- [Zwemwater](/docs/instellen_inrichten/zwemwater.md)

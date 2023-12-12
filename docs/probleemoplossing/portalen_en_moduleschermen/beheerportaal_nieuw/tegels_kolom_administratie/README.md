@@ -2,7 +2,7 @@
 
 Onder deze kolom vindt men de tegels waaronder men de administratieve algemene beheerinstellingen kan vinden zoals contactpersoon rollen, vertrouwelijkheidsniveaus en gemeentes.
 
-Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
+Dit hoofdstuk is onderdeel van [Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
 
 ## Tegels
 

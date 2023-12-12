@@ -33,15 +33,15 @@ Zie schema [Schema Upload naar welke mappen/endpoints](/docs/probleemoplossing/p
 Onderstaande gegevens zijn vooralsnog alleen zinvol bij opslag in een DMS met StUF-ZAKEN 310 (zaak/DMS koppeling).
 
 - Indien de zaak/inrichting, waarbij de upload plaatsvindt, NIET valt onder een compartiment dan:
-  *het verplichten per uploaddocument van een documenttype is afhankelijk van het aangevinkt zijn van de instelling *Sectie: KoppelingDOCNAARDMS* en *Item: DocumenttypeVerplicht\*
+  *het verplichten per uploaddocument van een documenttype is afhankelijk van het aangevinkt zijn van de instelling *Sectie: KoppelingDOCNAARDMS* en*Item: DocumenttypeVerplicht\*
   - het verplichten per uploaddocument van een **Titel** is afhankelijk van het aangevinkt zijn van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: TitelVerplicht_
-    *het verplichten per uploaddocument van een **Status** is afhankelijk van het aangevinkt zijn van de instelling *Sectie: KoppelingDOCNAARDMS* en *Item: StatusVerplicht\*
+    *het verplichten per uploaddocument van een **Status** is afhankelijk van het aangevinkt zijn van de instelling *Sectie: KoppelingDOCNAARDMS* en*Item: StatusVerplicht\*
   - het verplichten per uploaddocument van een **Vertrouwelijkheidsduiding** is afhankelijk van het aangevinkt zijn van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: VertrouwelijkheidVerplicht_
   - het verplichten per uploaddocument van een **Auteur** is afhankelijk van het aangevinkt zijn van de instelling _Sectie: KoppelingDOCNAARDMS_ en _Item: AuteurVerplicht_.
 - Indien de zaak/inrichting, waarbij de upload plaatsvindt, WEL valt onder een compartiment dan:
-  *het verplichten per uploaddocument van een **Documenttype** is afhankelijk van het aangevinkt zijn van de kolom *Documenttype verplicht bij upload\* op de betreffende compartimentskaart (beheerportaal-Nieuw)
+  *het verplichten per uploaddocument van een **Documenttype** is afhankelijk van het aangevinkt zijn van de kolom*Documenttype verplicht bij upload\* op de betreffende compartimentskaart (beheerportaal-Nieuw)
   - het verplichten per uploaddocument van een **Titel** is afhankelijk van het aangevinkt zijn van de kolom _Titel verplicht bij upload_ op de betreffende compartimentskaart (beheerportaal-Nieuw)
-    *het verplichten per uploaddocument van een **Status** is afhankelijk van het aangevinkt zijn van de kolom *Status verplicht bij upload\* op de betreffende compartimentskaart (beheerportaal-Nieuw)
+    *het verplichten per uploaddocument van een **Status** is afhankelijk van het aangevinkt zijn van de kolom*Status verplicht bij upload\* op de betreffende compartimentskaart (beheerportaal-Nieuw)
   - het verplichten per uploaddocument van een **Vertrouwelijkheidsduiding** is afhankelijk van het aangevinkt zijn van de kolom _Vertrouwelijkheid verplicht bij upload_ op de betreffende compartimentskaart (beheerportaal-Nieuw)
   - het verplichten per uploaddocument van een **Auteur** is afhankelijk van het aangevinkt zijn van de kolom _Auteur verplicht bij upload_ op de betreffende compartimentskaart (beheerportaal-Nieuw).
 - **Er kan eventueel een richting worden meegegeven in het stuf bericht naar DMS** (wordt niet naar compartiment gekeken). Indien zo ingesteld, zal een blok extraElementen worden toegevoegd met attribuutnaam Richting en als waarde uitgaand of inkomend of intern:

@@ -5,8 +5,8 @@ Het portaal wordt aangeroepen vanuit het beheerportaal-Nieuw met de tegel *Servi
 
 ## Onderwerpen binnen Servicecentrum
 
-  * [Kolom Acties](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_acties.md)
-  * [Kolom Informatie](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_informatie.md)
-  * [Kolom Logs](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_logs.md)
-  * [Kolom Notificaties](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_notificaties.md)
+  - [Kolom Acties](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_acties.md)
+  - [Kolom Informatie](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_informatie.md)
+  - [Kolom Logs](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_logs.md)
+  - [Kolom Notificaties](/docs/probleemoplossing/portalen_en_moduleschermen/servicecentrum/kolom_notificaties.md)
 

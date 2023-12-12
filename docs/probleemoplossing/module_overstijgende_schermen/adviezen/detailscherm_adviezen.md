@@ -180,7 +180,7 @@ Achter eind/blokkeerdatum van zaak/DMS nummer indien eind/blokkeerdatum is gevul
 
 #### Toon geregistreerde documenten (bij dit advies)
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md).
+Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt

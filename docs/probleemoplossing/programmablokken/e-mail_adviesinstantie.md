@@ -7,7 +7,7 @@ Vanuit het adviesdetailscherm met de knop achter de kolom _email verstuurd_ of m
 - De bovenliggende hoofdzaak (dus bijvoorbeeld de omgevingszaak waar het advies aan gekoppeld is) mag niet geblokkeerd zijn
 - EN de kolom **email (dvemail) van de bijbehorende adviesinstantie** (beheertegel _Adviesinstanties_) moet gevuld zijn met een valide emailadres (de ontvanger van de email)
 - EN de kolom **email van de inlogger** bij de medewerkerstabel moet gevuld zijn met een valide emailadres
-- EN de **webmailinstellingen** moeten kloppen: zie bij Instellen/Inrichten [Email](/docs/applicatiebeheer/instellen_inrichten/email)
+- EN de **webmailinstellingen** moeten kloppen: zie bij Instellen/Inrichten [Email](/docs/instellen_inrichten/email.md)
 - EN de kolom _Tekst_ van instelling _Sectie: Adviezen_ en _Item: StandaardEmailTekstAanhef_ moet gevuld zijn
 - EN de kolom _Info_ van instelling _Sectie: Adviezen_ en _Item: StandaardEmailTekstBody_ MAG gevuld zijn, maar hoeft niet en wordt geplakt aan de kolom _Tekst_
 - EN de kolom _Tekst_ van instelling _Sectie: Adviezen_ en _Item: StandaardEmailTekstBody_ moet gevuld zijn, waarbij de variabelen in kolom _Tekst_ of _Info_ van _StandaardEmailTekstBody_ als volgt worden gevuld:
@@ -29,7 +29,7 @@ Vanuit het adviesdetailscherm met de knop achter de kolom _email verstuurd_ of m
 
 ## Voorbeeld
 
-![Email vanuit advies](media/openwave/applicatiebeheer/probleemoplossing/kaart/emailvanuitadvies.png){ class="media" loading="lazy" width="800" }
+![Email vanuit advies](/img/applicatiebeheer/probleemoplossing/kaart/emailvanuitadvies.png){ class="media" loading="lazy" width="800" }
 
 Het resultaat van bovenstaand voorbeeld in de body van een email:
 

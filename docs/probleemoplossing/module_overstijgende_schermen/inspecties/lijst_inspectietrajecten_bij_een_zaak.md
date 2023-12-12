@@ -8,7 +8,7 @@ Dit scherm kan worden aangeroepen vanuit het zaakportaal van Omgeving, Handhavin
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de inspecties bij de betreffende hoofdzaak of inrichting.
 
 ## Muteerrechten
@@ -18,7 +18,7 @@ Een kolom in de inspectietrajectenlijst kan worden gemuteerd indien:
 - de inlogger lid is van een rechtengroep die wijzigrechten heeft op de inspecties van de betrokken module
 - en de bovenliggende zaak niet is geblokkeerd (zie onder aan pagina voor uitzondering)
 - en in de schermkolomdefinitie (beheer) is de eigenschap _lijst automatisch in editmode_ aangevinkt
-- en de kolom heeft de tag <edit> op true staan in de schermkolomdefinitie
+- en de kolom heeft de tag`<edit>`op true staan in de schermkolomdefinitie
 - en - indien de inlogger lid is van een compartiment - dan moet het betreffende compartiment het zaaktype van de bovenliggende zaak bevatten en de gemeente waar die zaak speelt, waarbij de eigenschap _inclusief inspecties_ is aangevinkt
 - en - indien de inlogger GEEN lid is van een compartiment,
   - dan mag de combinatie van het zaaktype van de bovenliggende zaak en de gemeente waar die zaak speelt in geen enkel compartiment voorkomen

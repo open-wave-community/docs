@@ -20,8 +20,8 @@ Het dynamische opschrift op tegels is niet zichtbaar:
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/docs/instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: docs:[Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw.md)
-- Kolom: [Tegels onder kolom Scherm- en Tegelbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer.md)
+- Portaal: docs:[Beheerportaal - NIEUW](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/README.md)
+- Kolom: [Tegels onder kolom Scherm- en Tegelbeheer](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md)
 - Kopregel: _Tabellen Standaardapi_
 - Dynamisch tegelopschrift:
 - Actie: _getFlexList(tbsysstandardtable)_

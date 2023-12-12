@@ -22,7 +22,7 @@ Kan worden aangeroepen vanuit de lijsten Contactpersonen bij een zaak (tegels _C
 
 Het scherm geeft een foutmelding indien:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger behoort tot een rechtengroep die geen kijkrechten heeft op contactadressen (contactadressen zichtbaar bij hoofdrechtengroep).
 
 ### Filteropties

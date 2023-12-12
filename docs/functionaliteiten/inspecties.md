@@ -3,7 +3,7 @@
 Op deze pagina bevinden doorverwijzingen naar de pagina's met informatie over de Inspecties in OpenWave.
 
 - [Sectie Inspecties](/docs/instellen_inrichten/configuratie/sectie_inspecties.md). Benodigde **instellingen in de Configuratie**.
-- [Inspecties](/docs/probleemoplossing/module_overstijgende_schermen/inspecties.md). Een overzicht van **de schermen en lijsten van de inspecties** in OpenWave.
+- [Inspecties](/docs/probleemoplossing/module_overstijgende_schermen/inspecties/README.md). Een overzicht van **de schermen en lijsten van de inspecties** in OpenWave.
 - [Cyclische Toezicht: controle frequentie](/docs/probleemoplossing/programmablokken/cyclische_inspecties.md). Dit lemma geeft weer hoe **cyclische toezichtzaken** ingericht kunnen worden in OpenWave.
 - [Sluiten en Nieuw aanmaken Inspectietraject](/docs/probleemoplossing/programmablokken/afsluiten_inspectietraject.md). **Het proces** dat automatisch gestart wordt **na het sluiten van een inspectietraject**.
 

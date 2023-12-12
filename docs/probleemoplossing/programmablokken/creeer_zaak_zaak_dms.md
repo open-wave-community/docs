@@ -303,7 +303,7 @@ Dit gebeurt met attribuut naam="isDeelzaakVan"
     \*\*Getal1* heeft de waarde 3 dan wordt de gemeente-id van de zaak + de vaste waarde kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: Behandelaardoorgeven_ gebruikt \*_Getal1_ is anders dan blijft de identificatie leeg.
 - heeft (STT)
   - Wordt gevuld met de externe code en omschrijving van de tabel tbzaakstatus (beheer) voor de kaart met wavecode = 'StatusInBehandeling'
-  - isGezetDoor wordt gevuld met de medewerker gegevens van de inlogger (kan hier dus ook een robot zijn). Het programma kijkt hier naar _Getal1_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: BehandelaarDoorgeven_. De tag <identficatie> wordt gevuld met Indien
+  - isGezetDoor wordt gevuld met de medewerker gegevens van de inlogger (kan hier dus ook een robot zijn). Het programma kijkt hier naar _Getal1_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: BehandelaarDoorgeven_. De tag`<identficatie>`wordt gevuld met Indien
     **Getal1\* heeft de waarde <> 2 en ook <> 3 dan wordt de gemeente-id van de zaak + de medewerkerscode van de dossierbehandelaar als identificatie van de medewerker gebruikt
     **Getal1* heeft de waarde 2 dan wordt de gemeente-id van de zaak + de loginnaam van de dossierbehandelaar als identificatie van de medewerker gebruikt
     \*\*Getal1* heeft de waarde 3 dan wordt de gemeente-id van de zaak + de vaste waarde kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: Behandelaardoorgeven_ gebruikt.

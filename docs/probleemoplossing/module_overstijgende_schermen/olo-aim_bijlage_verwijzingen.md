@@ -8,7 +8,7 @@ Dit (lijst) scherm kan worden aangeroepen vanuit:
 - het omgevingsportaal (tegel _OLO/DSO/AIM-bijlagen_)
 - vanuit een DSO-specificatie (onder een activiteit/onderdeel bij een omgevingzaak)
 
-De bron van de lijst is de view vwfrmoloberichten (op basis van de tabel tbomgoloberichten) die gevuld wordt bij het automatisch verwerken van OLO/DSO/AIM-berichten, zie  
+De bron van de lijst is de view vwfrmoloberichten (op basis van de tabel tbomgoloberichten) die gevuld wordt bij het automatisch verwerken van OLO/DSO/AIM-berichten, zie
 [Verwerking van StuF OLO / AIM berichten](/docs/probleemoplossing/programmablokken/olo_verwerking.md).
 
 - De lijst toont een verwijzing naar de documenten die de aanvrager, conform de aanvraag/verzoek of een wijziging/aanvulling daarop, zou moeten aanleveren in het OLO-loket of DSO-loket of AIM-loket.
@@ -30,7 +30,7 @@ De kolom **omschrijving** wordt bij het inlezen van DSO-documenten gevuld met de
 
 ### Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ### Muteren
 

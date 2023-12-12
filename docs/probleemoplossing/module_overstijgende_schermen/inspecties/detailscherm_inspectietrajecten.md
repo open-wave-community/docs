@@ -212,7 +212,7 @@ Het report.pdf uit Digitale checklisten wordt default geüpload onder de naam: D
 
 #### Toon geregistreerde documenten bij dit traject
 
-Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md).
+Zie [Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md).
 
 - Zichtbaar en enabled indien:
   - de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt

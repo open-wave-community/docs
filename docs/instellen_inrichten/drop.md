@@ -12,11 +12,11 @@ Bij een combinatie van zaaktype, publicatietype en gemeente kunnen ook één of 
 
 ### Instellingen configuratietabel
 
-Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/docs/applicatiebeheer/instellen_inrichten/configuratie/sectie_droppubliceren).
+Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/docs/instellen_inrichten/configuratie/sectie_droppubliceren.md).
 
 ### Instellingen gemeentetabel
 
-Voor elke gemeente waarvoor de OpenWave implementatie kan publiceren moet in de beheertabel tb33gemeente in het blok *DROP-publicatie* het endpoint bij de digi-koppelaar worden weergegeven: bijvoorbeeld `[https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas](https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas)`.
+Voor elke gemeente waarvoor de OpenWave implementatie kan publiceren moet in de beheertabel tb33gemeente in het blok *DROP-publicatie* het endpoint bij de digi-koppelaar worden weergegeven: bijvoorbeeld `https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas](https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas`.
 
 Indien zo ingeregeld dat het benodigde certificaat tussen OpenWave en de digi-koppelaar wordt geplaatst, dan dient hier certificaatnaam, type en password opgegeven te worden. Het certificaat wordt dan op de server van OpenWave geplaatst. Indien zo ingeregeld dat het benodigde certificaat tussen de digi-koppelaar en KOOP wordt geplaatst dan hoeft hier alleen het endpoint te worden opgegeven.
 
@@ -24,10 +24,10 @@ Indien zo ingeregeld dat het benodigde certificaat tussen OpenWave en de digi-ko
 
 Het publiceren voor overige bevoegde gezagen (provincies/waterschappen) gaat als volgt:
 
-  * Voer het gezag op in de beheertabel *Gemeentes*,
-  * Voer een dummy gemeenteID op bij het gezag,
-  * Koppel het gemeenteID aan het bevoegde gezag in de beheertabel *OIN-nummers*,
-  * Vul het bevoegde gezag op bij de zaak die gepubliceerd moet worden.
+  - Voer het gezag op in de beheertabel *Gemeentes*,
+  - Voer een dummy gemeenteID op bij het gezag,
+  - Koppel het gemeenteID aan het bevoegde gezag in de beheertabel *OIN-nummers*,
+  - Vul het bevoegde gezag op bij de zaak die gepubliceerd moet worden.
 
 ### Koppelen van de gemeente(s) aan een zaaktype, een publicatiedoel en gewenste medium
 
@@ -35,28 +35,28 @@ In het beheerportaal *Zaakbeheer*, onder de kolom *Zaaktypes* kunnen zaaktypes w
 
 Let op: de zaaktypes die gekozen kunnen worden vallen binnen de modules:
 
-  * Omgeving
-  * APV/overig
-  * Horeca
-  * Milieu/gebruik
+  - Omgeving
+  - APV/overig
+  - Horeca
+  - Milieu/gebruik
 
 In het detailscherm van een gekozen zaaktype, kunnen in het blok *DROP publiceren* gemeente(s) worden gekoppeld aan dat zaaktype. Per gemeente kan aangevinkt worden welke publicatiedoelen aan de orde zijn voor het betreffende zaaktype:
 
-  * Aanvraag. Mogelijk voor alle modules en wordt getriggerd door de aanvraagdatum mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag (dus tot en met gisteren).
-  * Ontwerpbesluit. Alleen mogelijk voor omgevingszaken en wordt getriggerd door de ontwerpbesluitdatum (ddontwerpbesldatum) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
-  * Verlengen (verdagen). Alleen mogelijk voor omgevingszaken en wordt getriggerd door de verdaagdvanafdatum (tbomgvergunning.ddverdaagdvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddverdaagdvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
-  * Opschorten. Alleen mogelijk voor omgevingszaken en wordt getriggerd door de opschortenvanafdatum (tbomgvergunning.ddopschortingvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddopschortingvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
-  * Besluit. Mogelijk voor alle modules en wordt getriggerd door de besluit/afgehandelddatum mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
-  * Ingetrokken. Ingetrokken door aanvrager tijdens behandeling. Mogelijk voor alle modules en wordt getriggerd door de ingetrokkendatum (ddingetrokken) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
-  * Verlengen (verlengd2). Alleen mogelijk voor omgevingszaken en wordt getriggerd door de verlengdvanafdatum (tbomgvergunning.ddverlengdvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddverlengdvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
+  - Aanvraag. Mogelijk voor alle modules en wordt getriggerd door de aanvraagdatum mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag (dus tot en met gisteren).
+  - Ontwerpbesluit. Alleen mogelijk voor omgevingszaken en wordt getriggerd door de ontwerpbesluitdatum (ddontwerpbesldatum) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
+  - Verlengen (verdagen). Alleen mogelijk voor omgevingszaken en wordt getriggerd door de verdaagdvanafdatum (tbomgvergunning.ddverdaagdvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddverdaagdvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
+  - Opschorten. Alleen mogelijk voor omgevingszaken en wordt getriggerd door de opschortenvanafdatum (tbomgvergunning.ddopschortingvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddopschortingvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
+  - Besluit. Mogelijk voor alle modules en wordt getriggerd door de besluit/afgehandelddatum mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
+  - Ingetrokken. Ingetrokken door aanvrager tijdens behandeling. Mogelijk voor alle modules en wordt getriggerd door de ingetrokkendatum (ddingetrokken) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag.
+  - Verlengen (verlengd2). Alleen mogelijk voor omgevingszaken en wordt getriggerd door de verlengdvanafdatum (tbomgvergunning.ddverlengdvanaf) mits groter dan hier opgegeven de publicatiedatum vanaf en kleiner dan vandaag. Let op: de kolom ddverlengdvanaf is alleen zichtbaar indien bij het betreffende zaaktype de kolom Verlengen/Opschorten via blokken in detail(tbsoortomgverg.dlblokkenopschort) is aangevinkt.
 
 Op dezelfde regel kunnen voor de combinatie zaaktype/ gemeente en publicatietypes één of meer media (publicatiedoelen) worden opgegeven:
 
-  * gemeenteblad. In de regel zal alleen dit medium worden gebruikt.
-  * gemeenschapsblad
-  * waterschapsblad
-  * provincieblad
-  * Staatscourant
+  - gemeenteblad. In de regel zal alleen dit medium worden gebruikt.
+  - gemeenschapsblad
+  - waterschapsblad
+  - provincieblad
+  - Staatscourant
 
 Indien geen medium wordt opgegeven dan wordt er alleen online gepubliceerd, hetgeen betekent dat de zaak onder het publicatietype wordt klaargezet in DROP, waarna een medewerker van het bevoegd gezag deze zaak in de DROP-omgeving alsnog kan publiceren in één of meer bladen.
 
@@ -64,21 +64,21 @@ Indien geen medium wordt opgegeven dan wordt er alleen online gepubliceerd, hetg
 
 De publicatieberichten - elke combinatie van zaak, publicatietype en publicatiedoel is een zelfstandig xml-bericht - richting KOOP bevatten een onderdeel (de tag inhoud.zip) waarmee de opmaak van de publicatie is te beïnvloeden. Deze tag inhoud.zip wordt gevuld met een xml-string (en vervolgens gezipt en gebased64). De xml-string heeft de naam inhoud.xml en deze moet opgenomen worden bij de OpenWave document-sjabloondefinities bij de groep met
 
-  * Codering: *DROP*
-  * Groepsnaam: *DROP xml sjablonen*
-  * Van toepassing op modules: leeglaten (dus niks invullen)
+  - Codering: *DROP*
+  - Groepsnaam: *DROP xml sjablonen*
+  - Van toepassing op modules: leeglaten (dus niks invullen)
 
 In deze groep DROP kunnen één of meer sjablonen worden gedefinieerd. In ieder geval één voor elk gedefinieerd publicatietype. Deze zullen fungeren als de standaardsjablonen voor de publicaties.
 
 De Naam/Omschrijving van de default sjablonen moeten de volgende zijn:
 
-  * Default_Aanvraag
-  * Default_Ontwerp
-  * Default_Besluit
-  * Default_Verlenging    (van toepassing bij verdagen op grond van tbomgvergunning.ddverdaagdvanaf)
-  * Default_Ingetrokken
-  * Default_Opschorten
-  * Default_Verlengd2     (van toepassing bij verlengen op grond van tbomgvergunning.ddverlengdvanaf)
+  - Default_Aanvraag
+  - Default_Ontwerp
+  - Default_Besluit
+  - Default_Verlenging    (van toepassing bij verdagen op grond van tbomgvergunning.ddverdaagdvanaf)
+  - Default_Ingetrokken
+  - Default_Opschorten
+  - Default_Verlengd2     (van toepassing bij verlengen op grond van tbomgvergunning.ddverlengdvanaf)
 
 Dus indien het publicatiedoel Opschorten is aangevinkt bij een bepaald omgevingszaaktype voor één of meer gemeentes, dan MOET er een sjabloon zijn met de naam *Default_Opschorten* waarbij het sjabloon zelf (een xml-file met de naam inhoud.xml) is geüpload.
 
@@ -98,53 +98,53 @@ Deze inhoud.xml moet conform het volgende voorbeeld opgemaakt zijn:
   </inhoud>
 ```
 
-Dus een blok <inhoud> waarbinnen één of meer regels <al> kunnen zijn opgenomen.\
+Dus een blok`<inhoud>`waarbinnen één of meer regels`<al>`kunnen zijn opgenomen.\
 
-OpenWave zal binnen een regel <al> de variabelen ingesloten door %% vervangen -door de variabele-naam op te zoeken in de view vwfrmzakentepubliceren- door de achterliggende waarde uit de database.
+OpenWave zal binnen een regel`<al>`de variabelen ingesloten door %% vervangen -door de variabele-naam op te zoeken in de view vwfrmzakentepubliceren- door de achterliggende waarde uit de database.
 
 De regel `<al><nadruk type="vet">Locatie: </nadruk>%dvobjadres%, %dvobjplaats%</al>` zal OpenWave voor publicatie omzetten in bijv. `<al><nadruk type="vet">Locatie: </nadruk>'t Boske 301 , Aalten</al>`.
 
 De mogelijke te gebruiken variabelen zijn:
 
-  * dvmodule. W indien de te publiceren zaak uit tbomgvergunning komt, E indien uit tbmilvergunningen, C indien uit tbhorecavergunningen en O indien uit tbovvergunningen.
-  * dnkeyverg. Primary key van de zaak in tbomgvergunning bij dvmodule = W, in tbmilvergunningen bij dvmodule = E, in tbhorecavergunningen bij dvmodule = C, in tbovvergunningen bij dvmodule = O.
-  * ddstartdatum. Aanvraagdatum van te publiceren zaak.
-  * ddbesluitdatum. Besluit/afhandeldatum van onderliggende zaak.
-  * ddontwerpbesldatum. Datum ontwerpbesluit van onderliggende zaak (alleen bij omgevingszaken).
-  * ddfataledatum. Uiterlijke datum dat zaak behandeld moet zijn.
-  * ddpublexport. Laatste datum dat een poging gedaan is om de zaak onder het publicatietype te publiceren.
-  * dvpublfout. Foutcode die door DROP is geretourneerd bij de laatste keer dat een poging gedaan is om de zaak onder het publicatietype te publiceren.
-  * dvzaakcode. De OpenWave zaakcode.
-  * dvzaaktypeoms. Zaaktype omschrijving.
-  * dvgemeenteid. De gemeente-id van de locatie waar de zaak aan gekoppeld is.
-  * dvbetreft. Korte omschrijving van de zaak. Zie ook hieronder bij tag <titel>.
-  * dvgemeentenaam. De gemeentenaam van de locatie waar de zaak aan gekoppeld is.
-  * dvobjplaats. Woonplaatsnaam van de locatie waar de zaak aan gekoppeld is.
-  * dvobjstraat. Straatnaam van de locatie waar de zaak aan gekoppeld is.
-  * dvobjhuisnummer. Huisnummer van de locatie waar de zaak aan gekoppeld is.
-  * dvobjhuisletter. Huisletter van de locatie waar de zaak aan gekoppeld is.
-  * dvobjhuisnrtoevoeg. Huisnummertoevoeging van de locatie waar de zaak aan gekoppeld is.
-  * dnxcoordinaat. x-coördinaat van de locatie waar de zaak aan gekoppeld is, tenzij null, dan de eerste x van dvgmlpolygoon van dvbron.
-  * dnycoordinaat. y-coördinaat van de locatie waar de zaak aan gekoppeld is, tenzij null, dan de eerste y van dvgmlpolygoon van dvbron.
-  * dnkeycompartiment. De primary key van tbcompartiment indien de combinatie gemeente/zaaktype daaraan gekoppeld is.
-  * dvbron. tbomgvergunning, tbovvergunningen, tbhorecavergunningen of tbmilvergunningen.
-  * dvaardbesluit. De resultaat-omschrijving van het besluit bijv. verleend, gedeeltelijk geweigerd, afgehandeld.
-  * dvid. DvModule | | dnkeyverg. Dus unieke waarde voor elke rij.
-  * dvobjadres. Samengestelde kolom van straat en huisnummergegevens.
-  * dvlvoaanvraagnr. OLO of DSO-nummer van de zaak (alleen omgevingszaak en milieu/gebruik).
-  * ddverzenddatum. Verzenddatum (alleen omgevingszaak en APV/Overig).
-  * dvzaakdomeinoms. Domeinomschrijving, (alleen omgevingszaak).
-  * dvaanvraagoms. Nadere omschrijving van de zaak.
-  * ddingetrokken. Intrekdatum tijdens behandeling van de zaak.
-  * ddopschortingvanaf. Opschortingsdatum vanaf artikel 415 (alleen omgevingszaak).
-  * ddverdaagdvanaf. Verlengingsdatum vanaf bij verdagen  (alleen omgevingszaak).
-  * dvonderdelen. Bestaat uit een opsomming in een string van de - niet ingetrokken - onderdelen uit tbtoestemmingen (alleen omgevingszaak).
-  * ddverlengdvanaf. Alleen bij omgevingszaken.
-  * dnverlengddagen. Alleen bij omgevingszaken: aantal dagen verlengd met ingang van ddverlengdvanaf.
+  - dvmodule. W indien de te publiceren zaak uit tbomgvergunning komt, E indien uit tbmilvergunningen, C indien uit tbhorecavergunningen en O indien uit tbovvergunningen.
+  - dnkeyverg. Primary key van de zaak in tbomgvergunning bij dvmodule = W, in tbmilvergunningen bij dvmodule = E, in tbhorecavergunningen bij dvmodule = C, in tbovvergunningen bij dvmodule = O.
+  - ddstartdatum. Aanvraagdatum van te publiceren zaak.
+  - ddbesluitdatum. Besluit/afhandeldatum van onderliggende zaak.
+  - ddontwerpbesldatum. Datum ontwerpbesluit van onderliggende zaak (alleen bij omgevingszaken).
+  - ddfataledatum. Uiterlijke datum dat zaak behandeld moet zijn.
+  - ddpublexport. Laatste datum dat een poging gedaan is om de zaak onder het publicatietype te publiceren.
+  - dvpublfout. Foutcode die door DROP is geretourneerd bij de laatste keer dat een poging gedaan is om de zaak onder het publicatietype te publiceren.
+  - dvzaakcode. De OpenWave zaakcode.
+  - dvzaaktypeoms. Zaaktype omschrijving.
+  - dvgemeenteid. De gemeente-id van de locatie waar de zaak aan gekoppeld is.
+  - dvbetreft. Korte omschrijving van de zaak. Zie ook hieronder bij tag <titel>.
+  - dvgemeentenaam. De gemeentenaam van de locatie waar de zaak aan gekoppeld is.
+  - dvobjplaats. Woonplaatsnaam van de locatie waar de zaak aan gekoppeld is.
+  - dvobjstraat. Straatnaam van de locatie waar de zaak aan gekoppeld is.
+  - dvobjhuisnummer. Huisnummer van de locatie waar de zaak aan gekoppeld is.
+  - dvobjhuisletter. Huisletter van de locatie waar de zaak aan gekoppeld is.
+  - dvobjhuisnrtoevoeg. Huisnummertoevoeging van de locatie waar de zaak aan gekoppeld is.
+  - dnxcoordinaat. x-coördinaat van de locatie waar de zaak aan gekoppeld is, tenzij null, dan de eerste x van dvgmlpolygoon van dvbron.
+  - dnycoordinaat. y-coördinaat van de locatie waar de zaak aan gekoppeld is, tenzij null, dan de eerste y van dvgmlpolygoon van dvbron.
+  - dnkeycompartiment. De primary key van tbcompartiment indien de combinatie gemeente/zaaktype daaraan gekoppeld is.
+  - dvbron. tbomgvergunning, tbovvergunningen, tbhorecavergunningen of tbmilvergunningen.
+  - dvaardbesluit. De resultaat-omschrijving van het besluit bijv. verleend, gedeeltelijk geweigerd, afgehandeld.
+  - dvid. DvModule | | dnkeyverg. Dus unieke waarde voor elke rij.
+  - dvobjadres. Samengestelde kolom van straat en huisnummergegevens.
+  - dvlvoaanvraagnr. OLO of DSO-nummer van de zaak (alleen omgevingszaak en milieu/gebruik).
+  - ddverzenddatum. Verzenddatum (alleen omgevingszaak en APV/Overig).
+  - dvzaakdomeinoms. Domeinomschrijving, (alleen omgevingszaak).
+  - dvaanvraagoms. Nadere omschrijving van de zaak.
+  - ddingetrokken. Intrekdatum tijdens behandeling van de zaak.
+  - ddopschortingvanaf. Opschortingsdatum vanaf artikel 415 (alleen omgevingszaak).
+  - ddverdaagdvanaf. Verlengingsdatum vanaf bij verdagen  (alleen omgevingszaak).
+  - dvonderdelen. Bestaat uit een opsomming in een string van de - niet ingetrokken - onderdelen uit tbtoestemmingen (alleen omgevingszaak).
+  - ddverlengdvanaf. Alleen bij omgevingszaken.
+  - dnverlengddagen. Alleen bij omgevingszaken: aantal dagen verlengd met ingang van ddverlengdvanaf.
 
 ### Titel
 
-De tag <titel> van de publicatie wordt default gevuld met de inhoud van de kolom dvbetreft. Daarvan wordt afgeweken indien de eerste query van het sjabloon (dvformquery) een goede waarde oplevert. De query kan gebruik maken van bovengenoemde kolommen van de vwfrmzakentepubliceren. Om de juiste rij te bepalen luistert OpenWave naar de constructie `where dvid = :idzakentepubliceren`.
+De tag`<titel>`van de publicatie wordt default gevuld met de inhoud van de kolom dvbetreft. Daarvan wordt afgeweken indien de eerste query van het sjabloon (dvformquery) een goede waarde oplevert. De query kan gebruik maken van bovengenoemde kolommen van de vwfrmzakentepubliceren. Om de juiste rij te bepalen luistert OpenWave naar de constructie `where dvid = :idzakentepubliceren`.
 
 Een voorbeeld van een query die in de kolom dvformquery moet worden geplaatst om de titel te bepalen is:
 
@@ -152,15 +152,15 @@ Een voorbeeld van een query die in de kolom dvformquery moet worden geplaatst om
 select dvbetreft | | ' in ' | | dvobjstraat | | ' te ' | | dvgemeentenaam from vwfrmzakentepubliceren where dvid = :idzakentepubliceren
 ```
 
-![Formquery DROP titel](/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png){ class="media" loading="lazy" alt="" width="700" }
+![Formquery DROP titel](/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png.md){ class="media" loading="lazy" alt="" width="700" }
 
 **Velden buiten de view vwfrmzakentepubliceren**
 
 Het is ook mogelijk om data op te nemen van velden buiten de view vwfrmzakentepubliceren. Dit doet men door queries op te nemen in het inhoud.xml sjabloon.
 Dit kan op twee manieren:
 
-  * %query(codevanquery)%
-  * %query(codevanquery, :idzakentepubliceren)%
+  - %query(codevanquery)%
+  - %query(codevanquery, :idzakentepubliceren)%
 
 Er geldt dat er per query één waarde kan worden meegegeven. Dit betekent dat het niet mogelijk is om meerdere velden op te nemen in één query. Wel kunnen er meerdere queries opgenomen worden in het sjabloon.
 
@@ -196,18 +196,18 @@ Stel dat de te publiceren zaak gaat om het publicatietype Aanvraag en dat het ga
 
 dan redeneert OpenWave bij het publiceren als volgt:
 
-  * Eerst wordt gezocht naar het documentsjabloon (in de groep DROP) met de naam: Aalten_Aanvraag_100.
-  * Indien niet gevonden dan wordt gezocht naar Aalten_Aanvraag
-  * Indien niet gevonden dan wordt gezocht naar Default_Aanvraag_100
-  * en tenslotte naar de verplicht aanwezige Default_Aanvraag
+  - Eerst wordt gezocht naar het documentsjabloon (in de groep DROP) met de naam: Aalten_Aanvraag_100.
+  - Indien niet gevonden dan wordt gezocht naar Aalten_Aanvraag
+  - Indien niet gevonden dan wordt gezocht naar Default_Aanvraag_100
+  - en tenslotte naar de verplicht aanwezige Default_Aanvraag
 
 ### Tegel Te publiceren zaken (DROP) openingsportaal
 
 De tegel is als volgt gedefinieerd:
 
-  * Vast opschrift: Te publiceren zaken (DROP)
-    * Actie: getFlexList(SysStandardList,nil,nil,G,opening_drop)
-    * Actief: aangevinkt
+  - Vast opschrift: Te publiceren zaken (DROP)
+    - Actie: getFlexList(SysStandardList,nil,nil,G,opening_drop)
+    - Actief: aangevinkt
 
 #### Lijstscherm Te publiceren zaken
 
@@ -219,13 +219,13 @@ Elke zaak heeft default een kolom dltepubliceren met de waarde T. Op zaakniveau 
 
 Onderaan de lijst vier knoppen:
 
-  * Ga naar zaakportaal
-  * Deze zaak niet publiceren (haal uit lijst). Deze knop zet de kolom dltepubliceren van de betreffende zaak (dus die van de gele balk) op F, waardoor de zaak uit de lijst valt en niet meetelt voor publicaties. Deze kolom is ook te muteren op de detailpagina van de betreffende zaak.
-  * Publiceer lijst in DROP. Met deze knop worden alle zaken van de lijst per publicatiedoel/medium aangeboden aan DROP ter publicatie. Dit gebeurt onder water. Als deze knop gestart wordt vanuit het detailscherm (dubbel klik op regel) dan zal alleen die ene zaak worden gepubliceerd.
-  * Refresh. De lijst wordt opnieuw uitgeschreven. Met de refreshknop:
-    * worden nieuwe zaken opgehaald die gepubliceerd kunnen worden
-    * worden succesvol gepubliceerde zaken uit de lijst gehaald
-    * worden zaken waarvoor een publicatie mislukt is voorzien van een foutcode
+  - Ga naar zaakportaal
+  - Deze zaak niet publiceren (haal uit lijst). Deze knop zet de kolom dltepubliceren van de betreffende zaak (dus die van de gele balk) op F, waardoor de zaak uit de lijst valt en niet meetelt voor publicaties. Deze kolom is ook te muteren op de detailpagina van de betreffende zaak.
+  - Publiceer lijst in DROP. Met deze knop worden alle zaken van de lijst per publicatiedoel/medium aangeboden aan DROP ter publicatie. Dit gebeurt onder water. Als deze knop gestart wordt vanuit het detailscherm (dubbel klik op regel) dan zal alleen die ene zaak worden gepubliceerd.
+  - Refresh. De lijst wordt opnieuw uitgeschreven. Met de refreshknop:
+    - worden nieuwe zaken opgehaald die gepubliceerd kunnen worden
+    - worden succesvol gepubliceerde zaken uit de lijst gehaald
+    - worden zaken waarvoor een publicatie mislukt is voorzien van een foutcode
 
 Indien de instelling *Sectie: Droppublicaties en Item: Messagelog* is aangevinkt worden alle dropberichten en antwoord (succes of fout) gelogd in de Messagelogtabel (beheerportaal-Nieuw).
 
@@ -235,10 +235,10 @@ Dubbel klikken op een item van de lijst laat een detailscherm zien van de betref
 
 Onderaan het detailscherm is een lijst opgenomen van de klaargezette publicatietypes en publicatiedoelen bij de betreffende zaak. Elke regel van dit lijstje is een zelfstandige publicatie in DROP. Dit lijstje is gebaseerd op de views:
 
-  * vwfrmmilvergdetailstepubliceren indien de zaak valt onder de module milieu/gebruik
-  * vwfrmomgdetailstepubliceren indien de zaak valt onder de module omgeving
-  * vwfrmovdetailstepubliceren indien de zaak valt onder de module APV/overig
-  * vwfrmhordetailstepubliceren indien de zaak valt onder de module horeca
+  - vwfrmmilvergdetailstepubliceren indien de zaak valt onder de module milieu/gebruik
+  - vwfrmomgdetailstepubliceren indien de zaak valt onder de module omgeving
+  - vwfrmovdetailstepubliceren indien de zaak valt onder de module APV/overig
+  - vwfrmhordetailstepubliceren indien de zaak valt onder de module horeca
 
 De knop Publiceer zaak in DROP triggert de aanmaak van droppublicaties voor die ene zaak. Resultaat wordt altijd in de messagelog opgenomen ongeacht de instelling.
 
@@ -252,9 +252,9 @@ In dit publicatielijstje bij een zaak is per publicatietype en publicatiedoel te
 
 Voor het testen van een verbinding met DROP moet (indien deze nog niet bestaat) een tegel worden gemaakt (in servicecentrum-portaal onder kolom Informatie) met de action *startWizard(isalive,DropPublicaties)*. Bijvoorbeeld:
 
-  * Vast opschrift: isAliveDrop
-  * Actie: startWizard(isalive,DropPublicaties)
-  * Actief: aangevinkt
+  - Vast opschrift: isAliveDrop
+  - Actie: startWizard(isalive,DropPublicaties)
+  - Actief: aangevinkt
 
 De actie triggert een bericht naar DROP om te zien of een verbinding open staat. Dat wordt gedaan op het endpoint gedefinieerd in de kolom *Tekst* van de instelling *Sectie: DropPublicaties Item: Endpoint_isAlive*.
 Let op: ook hiervoor heeft de inlogger het recht nodig om te mogen publiceren (tbmedewerkers.dlmagpubliceren).
@@ -350,8 +350,8 @@ Het ministerie van Binnenlandse Zaken en Koninkrijksrelaties heeft opdracht gege
 
 Indien het configuratie-item:
 
-  * Sectie: *DROPPUBLICATIES*,
-  * Item: *ToonDROPPreview* is aangevinkt,
+  - Sectie: *DROPPUBLICATIES*,
+  - Item: *ToonDROPPreview* is aangevinkt,
 
 dan zal bij het publiceren van een enkele zaak vanuit het publicatiedetailscherm eerst een preview getoond worden. De wizard waarmee men het publiceren van de zaak start, zal uitgebreid zijn met een tweede scherm waar de preview te zien is.
 
@@ -365,6 +365,6 @@ Open wave vult bij de publicatie bij de geodata op; grond van punt of vlak of li
 
 Onderstaande tekening toont een stroomschema van het algoritme. Wanneer het sluitpaar van een polygoon ongelijk is aan het beginpaar wordt het vlak als lijn (linestring) behandeld.
 
-![Polygoonenvlak in DROP](/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png) { class="media" loading="lazy" alt="" width="800" }
+![Polygoonenvlak in DROP](/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png.md) { class="media" loading="lazy" alt="" width="800" }
 
 Overigens is het polygoon op hoofdzaakniveau (bijv. tbomgvergunning.dvgmlpolygoon) alleen zichtbaar en muteerbaar indien de instelling *Sectie: Programma en Item: VlakNietOpZaakniveau* NIET aangevinkt is. Indien wel aangevinkt dan is zowel het blok onzichtbaar als de menu optie teken vlak op kaart.

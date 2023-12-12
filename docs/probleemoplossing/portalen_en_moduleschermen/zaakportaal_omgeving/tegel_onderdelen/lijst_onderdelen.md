@@ -6,7 +6,7 @@ De schermidentifier is: MDLC_geefOmgActiviteitenOverzicht.xml. Dit scherm kan wo
 
 Het scherm geeft een foutmelding:
 
-  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
   * de inlogger moet kijkrechten hebben op de activiteiten/onderdelen bij de omgevingszaak.
 
 ## Triggers
@@ -15,11 +15,11 @@ In het scherm: dubbel klikken op een regel opent het detailscherm van een Onderd
 
 Welke triggers in *scherm linksonder*
 
-  * insertknop: 
+  * insertknop:
     * zichtbaar indien:
       * inlogger insert-rechten heeft op de activiteiten/onderdelen bij de omgevingszaak
       * enabled indien de bovenliggende omgevingszaak niet is geblokkeerd.
-  * deleteknop: 
+  * deleteknop:
     * zichtbaar indien inlogger verwijderrechten heeft op de activiteiten/onderdelen bij de omgevingszaak
     * enabled indien de bovenliggende omgevingszaak niet is geblokkeerd.
 

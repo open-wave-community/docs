@@ -13,7 +13,7 @@ De lijst is zichtbaar indien de inlogger lid is van een rechtengroep die op over
 ## Bijzondere kolommen
 
 - de eerste kolom is een kleurbol die aangeeft of de onderliggende zaak van de CBS-regel wel een **Verleende vergunning** betreft. Indien de kleurbol wit is dan betekent het dat de zaak een gevulde besluitdatum heeft en status _Verleend_. Is de kleurbol oranje dan is aan een van deze condities niet voldaan. Dit kan voorkomen indien de instelling aan staat (of aan heeft gestaan) _Sectie: Programma Item: CBSZichtbaarNegeerZaakstatus_. Is dat het geval dan mogen namelijk ook CBS-regels worden aangemaakt in OpenWave voor vergunningen waarvan de besluitdatum nog niet gevuld is en/of het aardbesluit niet verleend is. Er kan bij de export aangegeven worden of men de oranje regels toch mee wilt nemen in het exportbestand (default worden alleen de witte (en dus valide) CBS-regels meegenomen in de export)
-- de kolom **Gem.nr** (tbcbsexport.dvgemeentevolgnr) bevat het door de programmatuur samengestelde Gemeentenummer. Dit is het viercijferige gemeenteid van de gekozen gemeente waarop de lijst gebaseerd is, aangevuld met voorloopnullen en/OF aangevuld met de waarde van kolom _Tekst_ (waarde mag maximaal twee cijfers zijn) van instelling _Sectie: CBS en Item: <gemeentecode> (bijvoorbeeld '0228')_ tot 6 cijfers. Het Gemeentenummer van iedere CBS-exportregel dient volgens de handleiding van het CBS uit 6 cijfers te bestaan, vandaar dat de programmatuur deze gaat berekenen. Indien men bijvoorbeeld gekozen heeft voor gemeente Ede (gemeenteid = 0228) bij het opstellen van de exportlijst, dan zal het Gemeentenummer default de waarde _000228_ hebben. Bestaat er echter de instelling _Sectie: CBS en Item: 0228_ met _Tekst_ = 02 (fictief voorbeeld), dan is het Gemeentenummer _022802_
+- de kolom **Gem.nr** (tbcbsexport.dvgemeentevolgnr) bevat het door de programmatuur samengestelde Gemeentenummer. Dit is het viercijferige gemeenteid van de gekozen gemeente waarop de lijst gebaseerd is, aangevuld met voorloopnullen en/OF aangevuld met de waarde van kolom _Tekst_ (waarde mag maximaal twee cijfers zijn) van instelling _Sectie: CBS en Item:`<gemeentecode>`(bijvoorbeeld '0228')_ tot 6 cijfers. Het Gemeentenummer van iedere CBS-exportregel dient volgens de handleiding van het CBS uit 6 cijfers te bestaan, vandaar dat de programmatuur deze gaat berekenen. Indien men bijvoorbeeld gekozen heeft voor gemeente Ede (gemeenteid = 0228) bij het opstellen van de exportlijst, dan zal het Gemeentenummer default de waarde _000228_ hebben. Bestaat er echter de instelling _Sectie: CBS en Item: 0228_ met _Tekst_ = 02 (fictief voorbeeld), dan is het Gemeentenummer _022802_
 - de kolom **Uw volgnr** bevat de waarde van:
   - indien instelling _Sectie: CBS Item: DMScode_ aangevinkt staat en er is een gevulde DMS zaakcode voor de onderliggende omgevingszaak van de CBS regel, dan de DMS zaakcode (tbomgvergunning.dvintzaakcode)
   - anders de door Openwave gegenereerde wavezaakcode van de onderliggende omgevingszaak van de CBS regel (tbomgvergunning.dvzaakcode). In het daadwerkelijke exportbestand mag deze waarde maar 20 tekens lang zijn van het CBS: is het volgnummer langer dan wordt het afgekapt in het exportbestand om aan de toegestane limiet te voldoen
@@ -23,10 +23,10 @@ De lijst is zichtbaar indien de inlogger lid is van een rechtengroep die op over
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/docs/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger heeft geen recht om CBS te exporteren (tbrechten.dlcextcbs11disk).
 
-![](/img/openwave/applicatiebeheer/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1000" }
+![](/img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1000" }
 
 ### Triggers
 
@@ -34,7 +34,7 @@ Dubbel klikken op een regel opent het detailscherm van de CBS-exportregel. Altij
 
 ### Vraagtekenknop: Is er een proces bezig?
 
-De knop ![](/img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een CBS-exportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportCBS_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
+De knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een CBS-exportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportCBS_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
 
 ### Verversknop
 
@@ -42,7 +42,7 @@ Zowel het samenstellen van de lijst als het opstellen van het exportbestand gebe
 
 ### Wizard: Genereer nieuwe exportlijst
 
-Met de knop ![](/img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond waarbij de gemeente gekozen moet worden waarvoor men de CBS-gegevens wilt exporteren. Er kan gekozen worden uit gemeentes waarvoor in beheer bij de _OIN-tabel_ de eigenschap **Opnemen in keuzelijst maken CBS-exportlijst** aangevinkt staat.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond waarbij de gemeente gekozen moet worden waarvoor men de CBS-gegevens wilt exporteren. Er kan gekozen worden uit gemeentes waarvoor in beheer bij de _OIN-tabel_ de eigenschap **Opnemen in keuzelijst maken CBS-exportlijst** aangevinkt staat.
 
 Het programma zal de CBS regels (tbcbs_gegevens_w011) doorlopen en toevoegen aan de lijst met te exporteren CBS-gegevens (tbcbsexport). Op de te doorlopen CBS regels zijn de volgende condities van toepassing:
 
@@ -55,11 +55,11 @@ Het programma zal de CBS regels (tbcbs_gegevens_w011) doorlopen en toevoegen aan
 
 ### Verwijderknop
 
-Met de knop ![](/img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" "width="20" } kan de inlogger de actieve CBS-exportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende CBS-regel verwijderd wordt! Alleen de regel in tbcbsexport.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" "width="20" } kan de inlogger de actieve CBS-exportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende CBS-regel verwijderd wordt! Alleen de regel in tbcbsexport.
 
 ### Wizard: Exporteer items in deze lijst (exportbestand wordt gemaakt)
 
-Met de knop ![](/img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren CBS-gegevens, een exportbestand opgesteld waarvoor geldt dat:
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren CBS-gegevens, een exportbestand opgesteld waarvoor geldt dat:
 
 - het compartiment overeenkomt met dat van de inlogger
 - de kleurbol van de regel wit is (tenzij in de wizard gekozen voor ook meenemen van de niet Verleende vergunningen: dan worden de regels met oranje kleurbol ook meegenomen in de export).
@@ -68,4 +68,4 @@ Na het genereren van het exportbestand wordt de lijst met te exporteren CBS-rege
 
 ### Lijstknop: Exportbestanden (via deze lijst kan gewenste exportbestand gedownload worden)
 
-Met de knop ![](/img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel. Men kan ook doorklikken naar het detailscherm van de logging en daar het bestand downloaden.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel. Men kan ook doorklikken naar het detailscherm van de logging en daar het bestand downloaden.

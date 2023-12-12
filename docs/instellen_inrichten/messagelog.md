@@ -7,15 +7,7 @@ Screenidentifiers:
 - MDLC_getMessageLogList.xml
 - MDDLC_getMessageLogDetail.xml
 
-In deze tabel tbmessagelog worden de verzonden en ontvangen berichten gelogd.
-
-Deze lijst wordt alleen gevuld indien de instelling aangevinkt is van _Sectie: OWB_ en _Item: MessageLog_.
-
-In kolom _Getal1_ van deze instelling staat het aantal dagen dat de loggingskaarten bewaard moeten blijven. Default is dat 31.
-
-Om de lijst te kunnen zien moet de inlogger beheerrechten hebben: tbmedewerker.dnbeheerniveau = 99. Alle knoppen zijn dan enabled.
-
-De items van deze lijst kunnen niet gemuteerd worden!
+In deze tabel tbmessagelog worden de verzonden en ontvangen berichten gelogd. Deze lijst wordt alleen gevuld indien de instelling aangevinkt is van _Sectie: OWB_ en _Item: MessageLog_. In kolom _Getal1_ van deze instelling staat het aantal dagen dat de loggingskaarten bewaard moeten blijven. Default is dat 31. Om de lijst te kunnen zien moet de inlogger beheerrechten hebben: tbmedewerker.dnbeheerniveau = 99. Alle knoppen zijn dan enabled. De items van deze lijst kunnen niet gemuteerd worden!
 
 ## Triggers
 

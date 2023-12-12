@@ -1,6 +1,6 @@
 # Sectie DocumentRegistreren
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: DocumentRegistreren_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: DocumentRegistreren_ gerangschikt op item.
 
 [Lijst Geregistreerde Documenten bij een zaak](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)
 

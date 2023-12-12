@@ -1,7 +1,7 @@
 # Teams
 
 Teams worden in het beheerportaal-Nieuw gedefinieerd vanuit de tegel *Medewerkers* of vanuit de tegel *Teams*.
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/teams.png?w=500&amp;tok=32f4c1" class="media" loading="lazy" alt="" width="500" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/teams.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Ateams)
+![](/img/applicatiebeheer/instellen_inrichten/teams.png){ class="media" loading="lazy" alt="" width="500" }
 
 Teams kunnen worden toegekend aan hoofdzaken en/of aan processtappen en/of aan adviezen.
 

@@ -117,7 +117,7 @@ Indien:
 - _Getal1_ van _Sectie: Documenten Item: Documentregistratie_ de waarde 1 heeft
 - en het document is na creatie automatisch opgeslagen
 
-dan wordt automatisch een regel aangemaakt of - indien de registratie al bestond: overschreven - in tbcorrespondentie ([Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten.md)).
+dan wordt automatisch een regel aangemaakt of - indien de registratie al bestond: overschreven - in tbcorrespondentie ([Geregistreerde Documenten](/docs/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md)).
 
 Indien:
 

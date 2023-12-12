@@ -14,7 +14,8 @@ Indien men nog geen toegang heeft tot gebruik van lees- dan wel schrijfaccount d
 
 Het leesaccount (de zogenaamde wavewreader001) wordt alleen geactiveerd voor de klant na contractovereenkomst en zal daarna altijd toegankelijk zijn. Met het leesaccount kan de database bevraagd worden om gegevens op te halen via zogenaamde **select statements** (het is niet mogelijk om gegevens in de database te wijzigen, data aan te maken of data te verwijderen. Voor deze acties is het schrijfaccount benodigd). Met het leesaccount kan men via tools als Pgadmin een connectie maken met de database en vervolgens select statements maken/de database bevragen. Het is ook mogelijk om zogenaamde BI tools toegang te geven tot het leesaccount. Zo kunnen deze tools de benodigde rapportages maken met de gegevens uit de OpenWave database.
 
-**LET OP:** in principe mag men (bijna) alle databasevelden opvragen met de select statements maar er gelden uitzonderingen. Denk aan wachtwoorden die in OpenWave staan opgeslagen: velden waarin deze ongecrypt liggen opgeslagen mogen niet benaderd worden door het leesaccount.
+> [!WARNING]
+> **LET OP:** in principe mag men (bijna) alle databasevelden opvragen met de select statements maar er gelden uitzonderingen. Denk aan wachtwoorden die in OpenWave staan opgeslagen: velden waarin deze ongecrypt liggen opgeslagen mogen niet benaderd worden door het leesaccount.
 
 Welke select statements niet mogen worden uitgevoerd zijn gelijk voor zowel het lees- als schrijfaccount en staan beschreven bij kopje _Select statements_ op deze pagina.
 
@@ -30,11 +31,11 @@ In principe mag op alle tabellen en views van OpenWave data gelezen worden via s
 
 ```sql
 select * from tbmedewerkers;
- select * from tb33gemeente;
- select * from tbcompartiment;
- select * from tbgeowms;
- select * from tbinitialisatie;
- select * from tbexportcontainer;
+select * from tb33gemeente;
+select * from tbcompartiment;
+select * from tbgeowms;
+select * from tbinitialisatie;
+select * from tbexportcontainer;
 ```
 
 Indien men voor deze tabellen toch de data wil zien kan men of select \* op de views doen, of dus select op aparte velden van de tabel doen. Uitzondering: tbinitialisatie is niet te bevragen. In deze tabel staan alle configuratie instellingen en wachtwoorden en is niet toegankelijk voor het schrijfaccount.
@@ -43,15 +44,15 @@ Indien men voor deze tabellen toch de data wil zien kan men of select \* op de v
 
 ```sql
 select * from vwfrmmedewerkers;
- select * from vwfrmlokaties;
- select * from vwfrmgeowms;
- select * from vwfrminitialisatie;
- select * from vwfrmexportcontainer;
- select dvcode from tbmedewerkers;
- select dvomschrijving from tb33gemeente;
- select dvomschrijving from tbcompartiment;
- select dvlaagnaam from tbgeowms;
- select dvomschrijving from tbexportcontainer;
+select * from vwfrmlokaties;
+select * from vwfrmgeowms;
+select * from vwfrminitialisatie;
+select * from vwfrmexportcontainer;
+select dvcode from tbmedewerkers;
+select dvomschrijving from tb33gemeente;
+select dvomschrijving from tbcompartiment;
+select dvlaagnaam from tbgeowms;
+select dvomschrijving from tbexportcontainer;
 ```
 
 ### Update statements
