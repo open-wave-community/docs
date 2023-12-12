@@ -2,6 +2,7 @@ site_name: "OpenWave docs"
 site_url: "https://open-wave-community.github.io/docs"
 repo_url: "https://github.com/open-wave-community/docs.open-wave.nl"
 edit_uri: blob/main/docs/
+docs_dir: docs/
 
 theme:
   name: material
@@ -57,6 +58,8 @@ plugins:
       scripts:
         - docs/gen_doc_stubs.py
   - literate-nav:
+      implicit_index: false
+      tab_length: 4
       nav_file: SUMMARY.md
 
 validation:
