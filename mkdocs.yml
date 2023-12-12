@@ -50,9 +50,6 @@ markdown_extensions:
   - toc:
       permalink: "¤"
 
-watch:
-  - mkdocs_gen_files
-
 plugins:
   - search
   - gen-files:
