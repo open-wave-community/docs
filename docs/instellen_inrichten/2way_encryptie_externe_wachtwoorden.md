@@ -23,7 +23,8 @@ Indien de encryptie methode:
 
 Doordat het geëncrypte wachtwoord voorafgegaan wordt door de prefix 01*, 02* of 03*weet OpenWave hoe het geëncrypte wachtwoord ontsleuteld moet worden. Indien de prefix 01*, 02*of 03* ontbreekt dan wordt er uiteraard helemaal niets gedecrypt.
 
-**LET OP:** het wijzigen van de encryptiemethode betekent niet dat bestaande versleutelingen automatisch aangepast worden. De plain-versie van het te crypten wachtwoord zal opnieuw over de bestaande (al of niet gecrypte) versie heen geschreven moeten worden, waarna het programma de ingevoerde waarde encrypt volgens de op dat moment ingestelde methode.
+> [!WARNING]
+> **LET OP:** het wijzigen van de encryptiemethode betekent niet dat bestaande versleutelingen automatisch aangepast worden. De plain-versie van het te crypten wachtwoord zal opnieuw over de bestaande (al of niet gecrypte) versie heen geschreven moeten worden, waarna het programma de ingevoerde waarde encrypt volgens de op dat moment ingestelde methode.
 
 ## Welke methode wanneer
 

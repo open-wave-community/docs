@@ -61,3 +61,4 @@ en de volgende pagina's:
 - [Wachtwoordcomplexiteit](/docs/instellen_inrichten/wachtwoordcomplexiteit.md)
 - [Zaakstatussen](/docs/instellen_inrichten/zaakstatussen.md)
 - [Zaaktypes](/docs/instellen_inrichten/zaaktypes.md)
+- [Zwemwater](/docs/instellen_inrichten/zwemwater.md)

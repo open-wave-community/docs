@@ -81,7 +81,7 @@ De query met dvcode = _omgeving_milalertmuteren_ kan dan als volgt gedefinieerd 
 
 select case when (fn_iscompartimentok(:keyaccount, 'W',{id}) = 1)
 and (fn_rechtenkolom('tbomgrechten.dlbomgmemoedt',:keyaccount) = 'T' )
-then 'true'  
+then 'true'
  else 'false'
 end
 De query maakt gebruik van twee OpenWave functies:

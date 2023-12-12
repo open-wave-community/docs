@@ -2,7 +2,7 @@
 
 Bij de definitie van een [standaardlijst](/docs/instellen_inrichten/standardlist_standarddetail.md) (beheerapplicatie tabellen standaardapi) kan een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de filteropties die van toepassing zijn op het betrokken standaardlijstscherm.
 
-De kaart met de filterinformatie in tbscreencolumns heeft dezelfde naam (dvscreenfilename) als het bijbehorende lijstscherm, waarbij de prefix echter niet _MDLC\__ maar _MDFC\__ is. Dus als de lijst MDLC_getxxxList.xml als dvscreenfilename heeft, dan heeft de kaart met de filterinformatie MDFC_getxxxList.xml als naam. De kolommen dvclassname en dvviewname hebben bij de filterkaart dezelfde waardes als die van de bijbehorende lijst.
+De kaart met de filterinformatie in tbscreencolumns heeft dezelfde naam (dvscreenfilename) als het bijbehorende lijstscherm, waarbij de prefix echter niet _MDLC_ maar _MDFC_ is. Dus als de lijst MDLC_getxxxList.xml als dvscreenfilename heeft, dan heeft de kaart met de filterinformatie MDFC_getxxxList.xml als naam. De kolommen dvclassname en dvviewname hebben bij de filterkaart dezelfde waardes als die van de bijbehorende lijst.
 
 De plaats en inhoud van de filterkolommen worden, net als bij een lijst- of detailscherm, geregeld in het text-veld dvscreenxml met een xml-opmaak.
 
@@ -102,38 +102,39 @@ Hieronder een voorbeeld van een filterdefinitie voor twee dropdownboxen. De eers
 
 ## Beschrijving tags
 
-- **`<filter>`**. Het blok filter kan dus één of meer keer voorkomen teneinde de filteropties te kunnen groeperen.
-  - **`<screenwidth>`** geeft de breedte in pixels van de filterbox aan. De waarde moet groter of gelijk zijn aan de hoogste waarde van de tag <divwidth> bij de onderliggende columns
-  - **`<label>`**. Het gaat hier om de naam waaronder de filterbox in het lijstscherm te zien is.
-  - **`<columns>`**. Het blok columns moet één keer voorkomen binnen het blok `<filter>`.
-    - **`<blok>`**. Het blok `<blok>` moet één keer voorkomen binnen het blok `<columns>`.
-      **\*`<label>`** moet één keer voorkomen binnen het blok `<blok>` maar het programma kijkt niet naar de waarde van deze tags, mag dus leeg blijven. \* **`<width>`** en **`<height>`** moeten één keer voorkomen binnen het blok `<blok>` en een gevulde waarde hebben (bijv. 10) maar die waarde heeft geen invloed op het beeld.
-      **\*`<column>`**. Het blok column kan 1 of meer keer voorkomen binnen het blok `<blok>`. Binnen dit blok `<column>` wordt een filteroptie geregeld. \* **`<regel>`**. Integer. Kan gevuld worden met de volgorde van het blok `<column>`. Wordt echter niet ondersteund.
-      **\*`<tagnaam>`** Moet verwijzen naam een kolomnaam uit de view/tabel die aan het lijstscherm ten grondslag ligt. Een tagnaam mag maar één keer in de filterdefinitie voorkomen. \* **`<label>`**. De naam die in de filterbox boven de filteroptie-regel komt.
-      **\*`<wavetype>`**. Het type invoer/aanwijsveld voor de filteroptie. Mogelijkheden zijn: \* **string**: de gebruiker kan een tekst string invoeren als filterwaarde
-      **\*integer**: de gebruiker kan een geheel getal invoeren als filterwaarde \* **boolean**: de gebruiker kan een aanvinkvakje aankruisen of leeg laten. Aankruisen wil zeggen dat gefilterd wordt op de waarde T en leeg wil zeggen dat gefilterd wordt op de waarde F. Het gaat hierbij dus om de situatie dat de tagnaam alleen een waarde F of T kan bevatten.
-      **\*keuzelijst**: de gebruiker kan kiezen voor één item uit een vooraf gedefinieerde lijstje (zie hieronder bij source en filter) als filterwaarde
-      _ **multikeuzecheckbox**. De gebruiker kan een of meer items aanvinken van een vooraf gedefinieerde lijst (zie hieronder bij source en filter) die gelden als filterwaarde (de operator wordt _'IN'\*)
-      **\*datum**: de gebruiker kan een datum kiezen uit een kalender
-      _ **keuzeboolean**: de gebruiker kan aanvinken of de achterliggende waarde van de tagnaam gevuld (operator is dan _!= null* ) of juist niet gevuld moet zijn (operator is dan *= null\*). LET OP: de zogenaamde boolean velden in OpenWave (kolomnaam begint met dl en type is char(1)) hebben bijna altijd een defaultwaarde F, dus zijn in dat geval nooit leeg,
-      **\*`<dvwidth>`**. De breedte in pixels van het invoer/aanwijsveld voor de filteroptie.
-      * **`<source>`**. Moet alleen gevuld worden bij wavetype = *keuzelijst* OF bij wavetype = *multikeuzecheckbox*. De gebruikelijke waarde = *Generalwithoutemptyline* waarmee bij wavetype keuzelijst wordt aangegeven dat de gebruiker één optie uit de dropdownlijst (zonder lege regel) die wordt gedefinieerde in de tag <filter> kan kiezen en bij wavetype = *multikeuzecheckbox\* dat de gebruiker een of meer opties uit de resultaat set van de tag <filter> kan aanvinken.
-      **\*`<filter>`**. SQL-statement. Moet alleen gevuld worden bij wavetype = _keuzelijst_ of bij wavetype = _multikeuzecheckbox_ beide met de source = _Generalwithoutemptyline_. De resultaat set moet altijd bestaan uit twee kolommen met de naam **id** en **omschrijving**. De waarde van de kolom id (die de eindgebruiker kiest uit deze lijst) is bepalend voor de filteroptie.
-      _ **`<operator>`** kan de waardes:
-      \*\*=_ (is gelijk aan)  
-       _ of _!=* (is niet gelijk aan) bij wavetype keuzeboolean
-      *of _&gt;_ (is groter dan)
-      _ of _&lt;* (is kleiner dan)
-      *of _&gt;=_ (is groter of gelijk aan)  
-       _ of _&lt;=* (is kleiner of gelijk aan)
-      *of _IN_ bij wavetype = _multikeuzecheckbox_
-      * of LIKE (waarbij de eindgebruiker met behulp van het %-symbool de gewenste waarde kan opgeven).
-      *dvachternaam LIKE jansen betekent de lower(dvachternaam) moet gelijk zijn aan lower('jansen')
-      * dvachternaam LIKE jansen% betekent de lower(dvachternaam) moet beginnen met lower('jansen')
-      *dvachternaam LIKE %jansen betekent de lower(dvachternaam) moet eindigen met lower('jansen') \* dvachternaam LIKE %jansen% betekent dat lower(dvachternaam) de subsring lower('jansen') moet bevatten
-      **\*`<default_value>`**. Optioneel. Kan gevuld zijn met een opstartwaarde indien deze filteroptie bij het starten van de lijst direct van toepassing moet zijn. In dat geval moet ook de tag <default_active> de waarde _true_ hebben. De waarde van <default_value> kan eventueel opgehaald worden uit een query. In dat geval moet bij de tag bijv. als volgt worden gedefinieerd: _<default_value>%query(querynaam)%</default_value>_.
-      * **`<default_active>`**. Optioneel. true of false. Indien de waarde *true* dan wordt verwacht dat <default_value> een gevulde waarde heeft. De waarde true of false kan via een query-aanroep worden opgehaald: bijv. *<default_active>%query(querynaam)%</default_active>_.
-      _ **`<visible>`** Optioneel. true of false. Indien de waarde _false_ dan is de filteroptie niet zichtbaar in de filterbox. Kan van toepassing zijn om een zelfde filterdefinitie in meerder gevallen te kunnen gebruiken. De waarde true of false kan via een query-aanroep worden opgehaald: bijv. _<visible>%query(querynaam)%</visible>_. Wanneer de query aanroep gevolgd wordt door %paramtype% bijvoorbeeld _<visible>%query(querynaam,%paramtype%)%</visible>_ dan zal de string {id} van de query worden vervangen met de negende parameter van de bijbehorende lijstaanroep (bijv. de 1 in de aanroep getFlexlist(SysstandardList,nil,nil,nil,omgeving_docreg,nil,nil,nil,1).
+- `<filter>`. Het blok filter kan dus één of meer keer voorkomen teneinde de filteropties te kunnen groeperen.
+  - `<screenwidth>` geeft de breedte in pixels van de filterbox aan. De waarde moet groter of gelijk zijn aan de hoogste waarde van de tag <divwidth> bij de onderliggende columns
+  - `<label>`. Het gaat hier om de naam waaronder de filterbox in het lijstscherm te zien is.
+  - `<columns>`. Het blok columns moet één keer voorkomen binnen het blok `<filter>`.
+    - `<blok>`. Het blok `<blok>` moet één keer voorkomen binnen het blok `<columns>`.
+      - `<label>` moet één keer voorkomen binnen het blok `<blok>` maar het programma kijkt niet naar de waarde van deze tags, mag dus leeg blijven. \* `<width>` en `<height>` moeten één keer voorkomen binnen het blok `<blok>` en een gevulde waarde hebben (bijv. 10) maar die waarde heeft geen invloed op het beeld.
+      - `<column>`. Het blok column kan 1 of meer keer voorkomen binnen het blok `<blok>`. Binnen dit blok `<column>` wordt een filteroptie geregeld. \* `<regel>`. Integer. Kan gevuld worden met de volgorde van het blok `<column>`. Wordt echter niet ondersteund.
+      - `<tagnaam>` Moet verwijzen naam een kolomnaam uit de view/tabel die aan het lijstscherm ten grondslag ligt. Een tagnaam mag maar één keer in de filterdefinitie voorkomen. \* `<label>`. De naam die in de filterbox boven de filteroptie-regel komt.
+      - `<wavetype>`. Het type invoer/aanwijsveld voor de filteroptie. Mogelijkheden zijn: \* **string**: de gebruiker kan een tekst string invoeren als filterwaarde
+      - **integer**: de gebruiker kan een geheel getal invoeren als filterwaarde \* **boolean**: de gebruiker kan een aanvinkvakje aankruisen of leeg laten. Aankruisen wil zeggen dat gefilterd wordt op de waarde T en leeg wil zeggen dat gefilterd wordt op de waarde F. Het gaat hierbij dus om de situatie dat de tagnaam alleen een waarde F of T kan bevatten.
+      - **keuzelijst**: de gebruiker kan kiezen voor één item uit een vooraf gedefinieerde lijstje (zie hieronder bij source en filter) als filterwaarde
+      - **multikeuzecheckbox**. De gebruiker kan een of meer items aanvinken van een vooraf gedefinieerde lijst (zie hieronder bij source en filter) die gelden als filterwaarde (de operator wordt_'IN'\*)
+      - **datum**: de gebruiker kan een datum kiezen uit een kalender
+      - **keuzeboolean**: de gebruiker kan aanvinken of de achterliggende waarde van de tagnaam gevuld (operator is dan_!= null*) of juist niet gevuld moet zijn (operator is dan*= null\*). LET OP: de zogenaamde boolean velden in OpenWave (kolomnaam begint met dl en type is char(1)) hebben bijna altijd een defaultwaarde F, dus zijn in dat geval nooit leeg,
+      - `<dvwidth>`. De breedte in pixels van het invoer/aanwijsveld voor de filteroptie.
+      - `<source>`. Moet alleen gevuld worden bij wavetype = *keuzelijst* OF bij wavetype = *multikeuzecheckbox*. De gebruikelijke waarde = *Generalwithoutemptyline* waarmee bij wavetype keuzelijst wordt aangegeven dat de gebruiker één optie uit de dropdownlijst (zonder lege regel) die wordt gedefinieerde in de tag `<filter>` kan kiezen en bij wavetype = *multikeuzecheckbox* dat de gebruiker een of meer opties uit de resultaat set van de tag `<filter>` kan aanvinken.
+      - `<filter>`. SQL-statement. Moet alleen gevuld worden bij wavetype = _keuzelijst_ of bij wavetype = _multikeuzecheckbox_ beide met de source = _Generalwithoutemptyline_. De resultaat set moet altijd bestaan uit twee kolommen met de naam **id** en **omschrijving**. De waarde van de kolom id (die de eindgebruiker kiest uit deze lijst) is bepalend voor de filteroptie.
+      - `<operator>` kan de waardes:
+        - _=_(is gelijk aan)
+        - _!=_(is niet gelijk aan) bij wavetype keuzeboolean
+        - _&gt;_ (is groter dan)
+        - _&lt;_ (is kleiner dan)
+        - _&gt;=_ (is groter of gelijk aan)
+        - _&lt;_ (is kleiner of gelijk aan)
+        - _IN_ bij wavetype = _multikeuzecheckbox_
+        - of LIKE (waarbij de eindgebruiker met behulp van het %-symbool de gewenste waarde kan opgeven).
+        - `dvachternaam LIKE jansen` betekent de `lower(dvachternaam)` moet gelijk zijn aan `lower('jansen')`
+        - `dvachternaam LIKE jansen%` betekent de `lower(dvachternaam)` moet beginnen met `lower('jansen')`
+        - `dvachternaam LIKE %jansen` betekent de `lower(dvachternaam)` moet eindigen met `lower('jansen')`
+        - `dvachternaam LIKE %jansen%` betekent dat `lower(dvachternaam)` de subsring `lower('jansen')` moet bevatten
+      - `<default_value>` (optioneel) kan gevuld zijn met een opstartwaarde indien deze filteroptie bij het starten van de lijst direct van toepassing moet zijn. In dat geval moet ook de tag `<default_active>` de waarde _true_ hebben. De waarde van `<default_value>` kan eventueel opgehaald worden uit een query. In dat geval moet bij de tag bijv. als volgt worden gedefinieerd: `<default_value>%query(querynaam)%</default_value>`.
+      - `<default_active>`. Optioneel. true of false. Indien de waarde *true* dan wordt verwacht dat `<default_value>` een gevulde waarde heeft. De waarde true of false kan via een query-aanroep worden opgehaald: bijv. `<default_active>%query(querynaam)%</default_active>`.
+      - `<visible>` (optioneel) true of false. Indien de waarde _false_ dan is de filteroptie niet zichtbaar in de filterbox. Kan van toepassing zijn om een zelfde filterdefinitie in meerder gevallen te kunnen gebruiken. De waarde true of false kan via een query-aanroep worden opgehaald: bijv. `<visible>%query(querynaam)%</visible>`. Wanneer de query aanroep gevolgd wordt door `%paramtype%` bijvoorbeeld `<visible>%query(querynaam,%paramtype%)%</visible>` dan zal de string {id} van de query worden vervangen met de negende parameter van de bijbehorende lijstaanroep (bijv. de 1 in de aanroep getFlexlist(SysstandardList,nil,nil,nil,omgeving_docreg,nil,nil,nil,1).
 
 ## Getrapt keuzes bij filter
 
@@ -268,7 +269,7 @@ Het voorbeeld is gebaseerd op de view vwfrmalleaanvragen en komt voor in de filt
     <wavetype>multikeuzecheckbox</wavetype>
     <divwidth>290</divwidth>
     <source>GeneralWithoutEmptyLine</source>
-    <filter> select dvomschrijving id, dvomschrijving | | ' (omg)' omschrijving from
+   `<filter>`select dvomschrijving id, dvomschrijving | | ' (omg)' omschrijving from
      tbsoortomgverg where ddvervaldatum is null or ddvervaldatum > fn_vandaag(0)
      union all select dvomschrijving id, dvomschrijving | | ' (hah)' omschrijving from
      tbsoorthhzaak where ddvervaldatum is null or ddvervaldatum > fn_vandaag(0)
