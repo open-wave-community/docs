@@ -1,6 +1,6 @@
 # Sectie SingleSignOn
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: SingleSignOn_ gerangschikt op item. Zie pagina [Single Sign-On](/docs/instellen_inrichten/singlesignon.md) voor de volledige beschrijving instellen van Single Sign-On.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: SingleSignOn_ gerangschikt op item. Zie pagina [Single Sign-On](/docs/instellen_inrichten/singlesignon.md) voor de volledige beschrijving instellen van Single Sign-On.
 
 ## Items Configuratietabel
 

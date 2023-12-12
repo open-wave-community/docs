@@ -1,6 +1,6 @@
 # Sectie Leges
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de *Sectie: Leges* gerangschikt op item. Zie [Leges](/docs/probleemoplossing/module_overstijgende_schermen/leges?s[]=leges.md).
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de *Sectie: Leges* gerangschikt op item. Zie [Leges](/docs/probleemoplossing/module_overstijgende_schermen/leges?s[]=leges.md).
 
 ## Items Configuratietabel
 

@@ -58,7 +58,7 @@ Voor het zien en wijzigen van een product/dienst bij een inspectietraject gelden
 
 ## Definitie producten/klanten/werkpakketten
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/productendienstenklantenwerkpakketten.jpg?w=800&amp;tok=b0b821" class="media" loading="lazy" alt="" width="800" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/productendienstenklantenwerkpakketten.jpg?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Aproducten_klanten_werkpakketten)
+[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/productendienstenklantenwerkpakketten.jpg?w=800&amp;tok=b0b821" class="media" loading="lazy" alt="" width="800" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/productendienstenklantenwerkpakketten.jpg?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Aproducten_klanten_werkpakketten.md)
 
 De producten worden in het zaakbeheer-portaal gedefinieerd achter de tegel *Productdefinitie* (tbproductdef) onder de kolom *Financiele afhandeling*. Een product kan via de koppeltabel tbproducten toegekend worden aan één of meer zaaktypes zoals onder tegel *Zaaktypes omgeving* (tbsoortomgverg). Binnen het detailscherm van een zaaktype kunnen dan meerdere producten worden gekozen.
 

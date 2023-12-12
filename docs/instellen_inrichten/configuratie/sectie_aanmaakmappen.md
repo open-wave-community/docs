@@ -1,6 +1,6 @@
 # Sectie Aanmaakmappen
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) configuratietabel (tbinitialisatie) van de _Sectie: Aanmaakmappen_ gerangschikt op item. Deze instellingen zijn alleen van belang indien gebruik gemaakt wordt van de fileserver of van een DMS via CMIS voor het opslaan en ophalen van documenten.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) configuratietabel (tbinitialisatie) van de _Sectie: Aanmaakmappen_ gerangschikt op item. Deze instellingen zijn alleen van belang indien gebruik gemaakt wordt van de fileserver of van een DMS via CMIS voor het opslaan en ophalen van documenten.
 
 - Fileserver indien _Sectie: Documenten en Item: ophalenviafileserver_ is aangevinkt.\
 - DMS via CMIS indien _Sectie: Documenten en Item: ophalenviadms_ is aangevinkt en kolom _Tekst_ van _Sectie: KoppelingDOCNAARDMS Item: methode_ de waarde 'CMIS 1.0' heeft.

@@ -29,7 +29,7 @@ tbSysStandardtable tabelidentifiers  (Beheertegel *Tabellen Standaardapi*)
 
 Met het compartimenteren kan worden bewerkstelligd dat een kleine organisatie de verantwoordelijkheid neemt voor het afhandelen van bepaalde zaaktypes binnen een grotere OpenWave installatie (hierna: de Gastheer). Bijvoorbeeld een samenwerkingsverband Z behandelt alleen de reguliere omgevingsprocedures van gemeente X en Y  alsmede de APV’s van gemeente X en Y binnen de OpenWave installatie van hun omgevingsdienst. Die omgevingsdienst behandelt dan per definitie alle overige gedefinieerde zaken voor de gemeentes X en Y, maar ook de APV’s en reguliere omgevingsprocedures buiten de gemeentes X en Y.
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/compartiment.png?w=400&amp;tok=ec6afd" class="media" loading="lazy" alt="" width="400" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/compartiment.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Acompartimenten)
+![](applicatiebeheer/instellen_inrichten/compartiment.png.png){ class="media" loading="lazy" alt="" width="400" }
 
 De cirkelsectoren in bovenstaande tekening staan voor gemeentes of combinatie van één of meer gemeentes, die in de OpenWave installatie zijn gedefinieerd met woonplaatsen en adressen.
 
@@ -115,7 +115,7 @@ Het detailscherm van een compartiment bestaat uit 3 delen:
   - **Zaaktype DMS adviezen** (dvdmszaaktypeadvies). Dit zaaktype wordt gebruikt bij een stuf/zaak creeerzaakbericht in het geval dat de deelzaak advies een eigen zaak is in het externe zaaksysteem van het compartiment. Dit is het geval wanneer deze kolom een gevulde waarde heeft (EN kolom dldms en dnkeyorganisatie) EN de instelling *Sectie: Adviezen en Item: AdviesIsZaak* aangevinkt is.
   - **Zaaktype DMS inspecties**  (dvdmszaaktypeinspecties). Dit zaaktype wordt gebruikt bij een stuf/zaak creeerzaakbericht in het geval dat de deelzaak inspectie een eigen zaak is in het externe zaaksysteem van het compartiment. Dit is het geval wanneer deze kolom een gevulde waarde heeft (EN kolom dldms en dnkeyorganisatie) EN de moduleletter van de inspectiezaak komt NIET voor in de kolom *Info* van de aangevinkte instelling *Sectie: Koppeling Zaak en Item: ZaaktypeInspectietraject* (maar de instelling bestaat wel).
   - **Automatisch zaak aanmaken in DMS** (dlautozaakdmsomgeving, dlautozaakdmsapvoverg, dlautozaakdmshandhaving, dlautozaakdmsmilieugebruik, dlautozaakdmshoreca, dlautozaakdmsinfoaanvraag). Indien aangevinkt dan zal bij het creëren van een hoofdzaak in de betreffende module in OpenWave automatisch een stuf/zaak creeerzaakbericht uitgaan mits een DMS-zaaktype aan het compartimentzaaktype is toegevoegd (zie hieronder). En natuurlijk indien dvdmsmethode = StUF-ZAKEN 310.
-  - **Wijziging zaakomschrijving of bevoegdgezag doorgeven in updatezaakbericht zaak/dms** (dldmsupdatezaakbericht). Zie [UpdateZaak-bericht wijzigen metadata(StUF)](/docs/applicatiebeheer/probleemoplossing/programmablokken/wijzigen_omschrijvingdata_zaak_dms).
+  - **Wijziging zaakomschrijving of bevoegdgezag doorgeven in updatezaakbericht zaak/dms** (dldmsupdatezaakbericht). Zie [UpdateZaak-bericht wijzigen metadata(StUF)](/docs/probleemoplossing/programmablokken/wijzigen_omschrijvingdata_zaak_dms.md).
   - **Wijziging documentnaam e.a. metadata doorgeven in zaak/dms**(dldmsupdatemetazaakdoc). Indien aangevinkt kan een wijziging in de documentnaam of type of vertrouwelijkheid van een document via een Stuf updateZaakDocument_Di02 worden doorgegeven aan het DMS.
   - **Zaakomschrijving bij creeerzaakbericht i.p.v. zaaktypeomschrijving in zaak/dms** (dlaanvrgnmipvzaaktype). Indien aangevinkt zal bij het naken van een Stuf creeerzaak_Lk01- bericht de zaaknaam uit de kaart zelf komen en anders uit de zaaktypeomschrijving (beheer bijv. tbsoortomgverg).
   - **Afsluiten zaak in DMS via UpdateZaak-bericht i.p.v. actualiseerZaakstatus** (dldmssfsluitenmetupdatezaak). Indien aangevinkt dan wordt het afsluiten van een zaak (einddatum en resultaat) doorgegeven aan DMS met updatezaakbercht ipv actualiseerzaakbericht.
@@ -155,7 +155,7 @@ https://xxxx:yyyy/services/nl.rem.satellite.published.Fileserver.nl.rem.satellit
   - **Domein** (dvsateldomain). Bedoeld wordt het domein van de server waar de satellite draait.
   - **Authenticatie**. Indien de kolom: dvhttpauthenticatienaam gevuld is dan gaat de berichten van de Cloud naar de satellite onder httpsauthenticatie.
     - De usernaam voor htttps-authenticatie staat in deze kolom **HTTPSAuthenticatieNaam** (dvhttpauthenticatienaam).
-    - Het Password staat in kolom **HTTPSAuthenticatiePass** (dvhttpauthenticatiepass) (zie ook: [2-way encryptie van externe wachtwoorden](/docs/applicatiebeheer/instellen_inrichten/2way_encryptie_externe_wachtwoorden)).
+    - Het Password staat in kolom **HTTPSAuthenticatiePass** (dvhttpauthenticatiepass) (zie ook: [2-way encryptie van externe wachtwoorden](/docs/instellen_inrichten/2way_encryptie_externe_wachtwoorden).md).
     - Het Type versleuteling staat in kolom **HTTPSAuthenticatieType** (dvhttpauthenticatietype) (vooralsnog alleen Basic).
     - De inhoud van de kolom **username toegang satellite-ini** (dvsatelfileserveruser) wordt vergeleken met de *api-name* van de satellite ini-file. In die ini-file staat de echte toegangsnaam voor de fileserver die aan de satellite is verbonden.
     - De inhoud van de gecrypte kolom **password toegang satellite-ini** (dvsatelfileserverpass) wordt vergeleken met de *api-pass* van de satellite ini-file. In die ini-file staat de echte toegangspass voor de fileserver die aan de satellite is verbonden.
@@ -178,7 +178,7 @@ https://xxxx:yyyy/services/nl.rem.satellite.published.Fileserver.nl.rem.satellit
 ### Blok SWF
 
   - **OINnummer t.b.v. importeren actieverzoeken (dvswfoinzender)**. Hierin kan opgesomd worden voor welke OIN-nummers bij het compartiment actieverzoeken kunnen worden opgehaald. Indien meer dan één dan de OIN-nummer, scheiden met een puntkomma.
-  - **ID uit tbperceeladressen** (dnkeyswfdummyadres)- t.b.v. dummy locatie nieuwe zaak bij behandeling van  actieverzoek (dnkeyswfdummyadres). Deze kolom wordt echter ook gebruikt voor binnenkomende DSO-verzoeken die voor een compartiment bedoeld zijn: zie schema bij [Verwerking DSO STAM berichten](/docs/applicatiebeheer/probleemoplossing/programmablokken/verwerking_dso_stam_berichten).
+  - **ID uit tbperceeladressen** (dnkeyswfdummyadres)- t.b.v. dummy locatie nieuwe zaak bij behandeling van  actieverzoek (dnkeyswfdummyadres). Deze kolom wordt echter ook gebruikt voor binnenkomende DSO-verzoeken die voor een compartiment bedoeld zijn: zie schema bij [Verwerking DSO STAM berichten](/docs/probleemoplossing/programmablokken/verwerking_dso_stam_berichten.md).
   - **Altijd nieuwe zaak bij binnenkomende actieverzoeken** (dlswfactieverzoeknwezaak). Aangevinkt betekent dus ook dat een actieverzoek op een bestaande SWF-id toch leidt tot een nieuwe (compartimentszaak). Een SWF-id kan in dat geval aan meerdere zaken zijn toegekend.
 
 ## Gemeentes van compartiment

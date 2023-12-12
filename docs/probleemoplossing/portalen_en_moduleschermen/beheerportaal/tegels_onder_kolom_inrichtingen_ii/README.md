@@ -25,7 +25,7 @@ Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefiniti
   - [BWL coderingen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/bwl-coderingen.md)
   - [Codering Dieren](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/codering_dieren.md)
   - [Codering
- Stallen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/codering_stallen)
+ Stallen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/codering_stallen.md)
   - [Combinatie stal/dier](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/combinatie_stal_dier.md)
   - [Energieverbruik categorie](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/energieverbruikcat.md)
   - [Erkende Maatregelen;Bedrijfstakken,Soorten Maatregelen](/docs/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/erkende_maatregelen_bedrijfstakken_soorten_maatregelen.md)

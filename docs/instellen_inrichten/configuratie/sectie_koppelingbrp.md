@@ -1,6 +1,6 @@
 # Sectie Koppeling BRP
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: KoppelingBRP_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: KoppelingBRP_ gerangschikt op item.
 Zie [BRP (GBA) bevraging](/docs/probleemoplossing/programmablokken/bpr_bevraging.md).
 
 ## Items Configuratietabel

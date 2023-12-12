@@ -1,6 +1,6 @@
 # Sectie Takenlijst
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: Takenlijst_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Takenlijst_ gerangschikt op item.
 
 ## Items Configuratietabel
 

@@ -1,6 +1,6 @@
  Sectie Inrichtingen
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: Inrichtingen_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Inrichtingen_ gerangschikt op item.
 
 ## Items Configuratietabel
 

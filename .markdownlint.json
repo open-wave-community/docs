@@ -6,12 +6,7 @@
   "emphasis-style": false,
   "heading-start-left": false,
   "hr-style": false,
-  "line-length": {
-    "line_length": 120,
-    "tables": true,
-    "code_block_line_length": 120,
-    "code_blocks": true
-  },
+  "line-length": false,
   "list-indent": false,
   "list-marker-space": false,
   "no-blanks-blockquote": false,

@@ -4,12 +4,12 @@ Portal Zaakbeheer. Tegel *Zaakstatussen*.
 
 API(s):
 
-  - getStandardList: [https://api.open-wave.nl/RemMethods/getRemMethod/415/](https://api.open-wave.nl/RemMethods/getRemMethod/415/)
-  - getStandardDetail: [https://api.open-wave.nl/RemMethods/getRemMethod/416](https://api.open-wave.nl/RemMethods/getRemMethod/416)
+  - getStandardList: [https://api.open-wave.nl/RemMethods/getRemMethod/415/](https://api.open-wave.nl/RemMethods/getRemMethod/415/.md)
+  - getStandardDetail: [https://api.open-wave.nl/RemMethods/getRemMethod/416](https://api.open-wave.nl/RemMethods/getRemMethod/416.md)
 
 Screenidentifiers: MDLC_getTbZaakStatusList.xml en MDDC_getTbZaakStatusDetail.xml.
 
-Deze tabel wordt gebruikt als mapping voor zaak statussen en - gedeeltelijk - voor resultaatomschrijvingen, indien er sprake is van StUF berichtenuitwisseling met een extern zaaksysteem (zaak/DMS koppeling). Het gaat hierbij om de berichten **creeerZaak** ([Creëer zaak zaak/dms](/docs/applicatiebeheer/probleemoplossing/programmablokken/creeer_zaak_zaak_dms)) en **actualiseerZaakstatus** ([Wijzigen Status externe zaak met Zaak/dms](/docs/applicatiebeheer/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms)). Binnen deze berichten gaat het m.b.t. de status om het blok *<heeft stuf:entiteittype="ZAKSTT">*, en m.b.t. het resultaat om de tag *<omschrijving>* in het blok <resultaat>.
+Deze tabel wordt gebruikt als mapping voor zaak statussen en - gedeeltelijk - voor resultaatomschrijvingen, indien er sprake is van StUF berichtenuitwisseling met een extern zaaksysteem (zaak/DMS koppeling). Het gaat hierbij om de berichten **creeerZaak** ([Creëer zaak zaak/dms](/docs/probleemoplossing/programmablokken/creeer_zaak_zaak_dms)) en **actualiseerZaakstatus** ([Wijzigen Status externe zaak met Zaak/dms](/docs/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms).md). Binnen deze berichten gaat het m.b.t. de status om het blok *<heeft stuf:entiteittype="ZAKSTT">*, en m.b.t. het resultaat om de tag *<omschrijving>* in het blok <resultaat>.
 
 In deze zaakstatussen-tabel kunnen geen kaarten worden verwijderd of aangemaakt. Alleen de kolommen *statusmapping* en *resultaatmapping* kunnen worden gewijzigd door een inlogger die beheerrechten heeft (tbmedewerkers.dnbeheernveau >= 99).
 
@@ -23,11 +23,11 @@ OpenWave onderscheidt 5 statussen van een zaak (het aantal rijen van deze tabel)
 
 Een typische beeld indien StatusGeblokkeerd **WEL** een aparte mapping heeft:
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/grid_zaakstatsusmetblokkering.png?w=700&amp;tok=c38df9" class="media" loading="lazy" alt="" width="700" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/grid_zaakstatsusmetblokkering.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Azaakstatussen)
+![](applicatiebeheer/instellen_inrichten/grid_zaakstatsusmetblokkering.png.png){ class="media" loading="lazy" alt="" width="700" }
 
 Een typische beeld indien StatusGeBlokkeerd **GEEN**  aparte mapping heeft:
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/grid_zaakstatsuszonderblokkering.png?w=700&amp;tok=93fdb2" class="media" loading="lazy" alt="" width="700" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/grid_zaakstatsuszonderblokkering.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Azaakstatussen)
+![](applicatiebeheer/instellen_inrichten/grid_zaakstatsuszonderblokkering.png.png){ class="media" loading="lazy" alt="" width="700" }
 
 ## StatusInbehandeling
 

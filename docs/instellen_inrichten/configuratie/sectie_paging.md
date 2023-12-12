@@ -1,6 +1,6 @@
 # Sectie Paging
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: Paging_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Paging_ gerangschikt op item.
 
 Het is ook mogelijk om de paginanummering van overzichtsschermen aan te passen met de instelling _Sectie: OWB, Item: PageNumberCount._ Zie [Sectie OWB](/docs/instellen_inrichten/configuratie/sectie_owb.md).
 

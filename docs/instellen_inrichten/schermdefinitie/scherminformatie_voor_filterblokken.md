@@ -103,7 +103,7 @@ Hieronder een voorbeeld van een filterdefinitie voor twee dropdownboxen. De eers
 ## Beschrijving tags
 
 - `<filter>`. Het blok filter kan dus één of meer keer voorkomen teneinde de filteropties te kunnen groeperen.
-  - `<screenwidth>` geeft de breedte in pixels van de filterbox aan. De waarde moet groter of gelijk zijn aan de hoogste waarde van de tag <divwidth> bij de onderliggende columns
+  - `<screenwidth>` geeft de breedte in pixels van de filterbox aan. De waarde moet groter of gelijk zijn aan de hoogste waarde van de tag`<divwidth>`bij de onderliggende columns
   - `<label>`. Het gaat hier om de naam waaronder de filterbox in het lijstscherm te zien is.
   - `<columns>`. Het blok columns moet één keer voorkomen binnen het blok `<filter>`.
     - `<blok>`. Het blok `<blok>` moet één keer voorkomen binnen het blok `<columns>`.

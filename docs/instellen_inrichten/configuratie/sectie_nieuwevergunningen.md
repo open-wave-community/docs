@@ -1,6 +1,6 @@
 # Sectie NieuweVergunningen
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de *Sectie: NieuweVergunningen* gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de *Sectie: NieuweVergunningen* gerangschikt op item.
 
 ## Items Configuratietabel
 

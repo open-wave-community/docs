@@ -1,6 +1,6 @@
 # Sectie KoppelingNHR
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: koppelingNHR_ gerangschikt op item. Zie [NHR bevraging](/docs/probleemoplossing/programmablokken/nhr_bevraging.md).
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: koppelingNHR_ gerangschikt op item. Zie [NHR bevraging](/docs/probleemoplossing/programmablokken/nhr_bevraging.md).
 
 ## Items Configuratietabel
 

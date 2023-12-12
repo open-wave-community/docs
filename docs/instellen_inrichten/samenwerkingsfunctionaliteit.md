@@ -3,7 +3,7 @@
 Onder een omgevingszaak is de tegel *Samenwerkingsruimtes* zichtbaar en benaderbaar voor die medewerkers die (beheertegel *Functionele rechten*) geautoriseerd zijn om de samenwerkingsruimte te zien (tbomgrechten.dlcomgswfvsb).
 De tegel geeft toegang tot de tabellen tbswfruimte, tbswfoinpartners, tbswfdocumenten, tbswfactieverzoeken en tbswfnotificaties.
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/samenwerkingfunctionaliteitinopenwave.png?w=800&amp;tok=2d6182" class="media" loading="lazy" alt="" width="800" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/samenwerkingfunctionaliteitinopenwave.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Asamenwerkingsfunctionaliteit)
+![](applicatiebeheer/instellen_inrichten/samenwerkingfunctionaliteitinopenwave.png.png){ class="media" loading="lazy" alt="" width="800" }
 
 ## Inregelen landelijke samenwerkingsruimte
 
@@ -11,7 +11,7 @@ OpenWave verzorgt het berichtenverkeer van en naar de landelijke samenwerkingsfu
 
 ## Noodzakelijke instellingen
 
-  - **Endpoint**. In de kolom *Tekst* van de instelling *Sectie: SWF en Item: AlgemeenEndpoint* dient het algemene gedeelte van het endpoint van de landelijke samenwerkingsfunctionaliteit te staan bijvoorbeeld `[https://service.pre.omgevingswet.overheid.nl/overheid/samenwerken/api/behandelen/v4/](https://service.pre.omgevingswet.overheid.nl/overheid/samenwerken/api/behandelen/v4/)`.
+  - **Endpoint**. In de kolom *Tekst* van de instelling *Sectie: SWF en Item: AlgemeenEndpoint* dient het algemene gedeelte van het endpoint van de landelijke samenwerkingsfunctionaliteit te staan bijvoorbeeld `[https://service.pre.omgevingswet.overheid.nl/overheid/samenwerken/api/behandelen/v4/](https://service.pre.omgevingswet.overheid.nl/overheid/samenwerken/api/behandelen/v4/.md)`.
   - **CertificaatPassword**. In de kolom *Tekst* van de instelling *Sectie: SWF en Item: CertificaatPassword* dient het password van het certificaat gecrypt opgeslagen te worden. Deze gecrypte waarde wordt door REM aangeleverd (en kan niet via userinterface van OpenWave gedecrypt worden). Wordt door Rem geregeld.
   - **CertificaatType**. In de kolom *Tekst* van de instelling *Sectie: SWF en Item: CertificaatType* dient het type van het certificaat te staan namelijk *PKCS12*. Wordt door Rem geregeld.
   - **ClientCertificaatNaam**. In de kolom *Tekst* van de instelling *Sectie: SWF en Item: ClientCertificaatNaam* dient de naam van het certificaat te staan namelijk *digikoppeling.open-wave.nl_20210624.p12*. Wordt door Rem geregeld.
@@ -39,7 +39,7 @@ Om deze redenen is de volgende logica van toepassing bij het bepalen van OIN van
 
 Zie ook schematisch weergeven de logica met als voorbeeld SWF-ruimte aanmaken:
 
-[<img src="/_media/docs/applicatiebeheer/instellen_inrichten/stroomschema_swfruimte_aanmaken.jpg?w=800&amp;tok=8e8c3c" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/docs/applicatiebeheer/instellen_inrichten/stroomschema_swfruimte_aanmaken.jpg?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Asamenwerkingsfunctionaliteit)
+[<img src="/_media/docs/applicatiebeheer/instellen_inrichten/stroomschema_swfruimte_aanmaken.jpg?w=800&amp;tok=8e8c3c" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/docs/applicatiebeheer/instellen_inrichten/stroomschema_swfruimte_aanmaken.jpg?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Asamenwerkingsfunctionaliteit.md)
 
 #### Belangrijk voor ALLE organisaties
 
@@ -117,7 +117,7 @@ In het blok *Ketenpartners* is de knop *Wijzig ketenpartner privilege* zichtbaar
   - men de aanmaker van de samenwerkingsruimte is: de aanmaker van de samenwerkingsruimte (tbswf.dvaangemaaktdooroinin) moet dezelfde zijn als de door programmatuur bepaalde OIN van zender (zie kopje *Bepalen OIN van zender aanmaken en muteren van samenwerkingsruimtes*).
 
 De knop start een wizard waarmee het gewenste privilege opgegeven kan worden voor de ketenpartner. Bij uitvoeren van de wizard zal aan het SWF dit nieuw opgegeven privilege worden doorgegeven.
-Let op: er is helaas geen verversactie voor de Ketenpartnerlijst bij een SWF-ruimte. Het aanpassen van het privilege zal pas voor de medewerker zichtbaar zijn na draaien van Task *SynchroniseerOpenSWFRuimtes*. Voor het instellen van de task scheduler zie pagina [Taskscheduler](/docs/applicatiebeheer/instellen_inrichten/taskscheduler).
+Let op: er is helaas geen verversactie voor de Ketenpartnerlijst bij een SWF-ruimte. Het aanpassen van het privilege zal pas voor de medewerker zichtbaar zijn na draaien van Task *SynchroniseerOpenSWFRuimtes*. Voor het instellen van de task scheduler zie pagina [Taskscheduler](/docs/instellen_inrichten/taskscheduler.md).
 
 ## Uploaden en downloaden en synchroniseren van documenten
 
@@ -225,7 +225,7 @@ Indien de inlogger:
     - EN naar de OIN-nummers (gescheiden door puntkomma) gedefinieerd in kolom *Info* van de instelling *Sectie: SWF en Item: OINvanZender*. Bedoeld voor de situatie van een samenwerkingsverband, zoals de BEL-combinatie, die zowel een overkoepelend OIN-nummer hebben als individuele gemeentelijke OIN-nummers. <wrap important>**LET OP**: alle OIN-nummers moeten op de whitelist geplaatst worden.</WRAP>
   - WEL lid van een compartiment is dan worden de berichten opgehaald die verzonden zijn naar de OIN-nummers (gescheiden door puntkomma) gedefinieerd in kolom tbcompartiment.dvswfoinzender van het betreffende compartiment. Bedoeld voor die situatie waarbij een compartiment uit een samenwerkingsverband bestaat (Over-Gemeente).
 
-De actie achter de tegel kan ook gescheduled aangeroepen worden (zie:[Taskscheduler](/docs/applicatiebeheer/instellen_inrichten/taskscheduler)).
+De actie achter de tegel kan ook gescheduled aangeroepen worden (zie:[Taskscheduler](/docs/instellen_inrichten/taskscheduler).md).
 De robot haalt in dat geval alle berichten op die verzonden zijn naar:
 
   - het OIN-nummer gedefinieerd in kolom *Tekst* van de instelling *Sectie: SWF en Item: OINvanZender*

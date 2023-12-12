@@ -1,6 +1,6 @@
 # CBS Export
 
-Zie ook [CBS export](/docs/probleemoplossing/programmablokken/cbs_export.md).
+Zie ook [CBS export](/docs/probleemoplossing/programmablokken/cbs_export/README.md).
 
 ## Trigger
 

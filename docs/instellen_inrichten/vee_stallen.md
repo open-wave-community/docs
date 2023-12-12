@@ -1,6 +1,6 @@
 # Vee / Stallen
 
-[<img src="/_media/openwave/applicatiebeheer/instellen_inrichten/stallenenvee.png?w=900&amp;tok=833169" class="media" loading="lazy" alt="" width="900" />](/_detail/openwave/applicatiebeheer/instellen_inrichten/stallenenvee.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Avee_stallen)
+![](applicatiebeheer/instellen_inrichten/stallenenvee.png.png){ class="media" loading="lazy" alt="" width="900" }
 
 De bruingekleurde blokken slaan op tabellen die via het beheerportaal *Inrichtingenbeheer* kunnen worden benaderd.
 

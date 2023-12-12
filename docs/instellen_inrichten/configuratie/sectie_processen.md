@@ -1,6 +1,6 @@
 # Sectie Processen
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: Processen_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Processen_ gerangschikt op item.
 Kijk ook bij secties: _[Termijnbewaking](/docs/instellen_inrichten/configuratie/sectie_termijnbewaking.md) en [Procedures](/docs/instellen_inrichten/configuratie/sectie_procedures.md)_.
 
 ## Items Configuratietabel

@@ -12,11 +12,11 @@ Bij een combinatie van zaaktype, publicatietype en gemeente kunnen ook één of 
 
 ### Instellingen configuratietabel
 
-Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/docs/applicatiebeheer/instellen_inrichten/configuratie/sectie_droppubliceren).
+Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/docs/instellen_inrichten/configuratie/sectie_droppubliceren.md).
 
 ### Instellingen gemeentetabel
 
-Voor elke gemeente waarvoor de OpenWave implementatie kan publiceren moet in de beheertabel tb33gemeente in het blok *DROP-publicatie* het endpoint bij de digi-koppelaar worden weergegeven: bijvoorbeeld `[https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas](https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas)`.
+Voor elke gemeente waarvoor de OpenWave implementatie kan publiceren moet in de beheertabel tb33gemeente in het blok *DROP-publicatie* het endpoint bij de digi-koppelaar worden weergegeven: bijvoorbeeld `https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas](https://acceptatie.overheidsservicebus.com/opentunnel/00000099130854102053/drop/3epas`.
 
 Indien zo ingeregeld dat het benodigde certificaat tussen OpenWave en de digi-koppelaar wordt geplaatst, dan dient hier certificaatnaam, type en password opgegeven te worden. Het certificaat wordt dan op de server van OpenWave geplaatst. Indien zo ingeregeld dat het benodigde certificaat tussen de digi-koppelaar en KOOP wordt geplaatst dan hoeft hier alleen het endpoint te worden opgegeven.
 
@@ -98,9 +98,9 @@ Deze inhoud.xml moet conform het volgende voorbeeld opgemaakt zijn:
   </inhoud>
 ```
 
-Dus een blok <inhoud> waarbinnen één of meer regels <al> kunnen zijn opgenomen.\
+Dus een blok`<inhoud>`waarbinnen één of meer regels`<al>`kunnen zijn opgenomen.\
 
-OpenWave zal binnen een regel <al> de variabelen ingesloten door %% vervangen -door de variabele-naam op te zoeken in de view vwfrmzakentepubliceren- door de achterliggende waarde uit de database.
+OpenWave zal binnen een regel`<al>`de variabelen ingesloten door %% vervangen -door de variabele-naam op te zoeken in de view vwfrmzakentepubliceren- door de achterliggende waarde uit de database.
 
 De regel `<al><nadruk type="vet">Locatie: </nadruk>%dvobjadres%, %dvobjplaats%</al>` zal OpenWave voor publicatie omzetten in bijv. `<al><nadruk type="vet">Locatie: </nadruk>'t Boske 301 , Aalten</al>`.
 
@@ -144,7 +144,7 @@ De mogelijke te gebruiken variabelen zijn:
 
 ### Titel
 
-De tag <titel> van de publicatie wordt default gevuld met de inhoud van de kolom dvbetreft. Daarvan wordt afgeweken indien de eerste query van het sjabloon (dvformquery) een goede waarde oplevert. De query kan gebruik maken van bovengenoemde kolommen van de vwfrmzakentepubliceren. Om de juiste rij te bepalen luistert OpenWave naar de constructie `where dvid = :idzakentepubliceren`.
+De tag`<titel>`van de publicatie wordt default gevuld met de inhoud van de kolom dvbetreft. Daarvan wordt afgeweken indien de eerste query van het sjabloon (dvformquery) een goede waarde oplevert. De query kan gebruik maken van bovengenoemde kolommen van de vwfrmzakentepubliceren. Om de juiste rij te bepalen luistert OpenWave naar de constructie `where dvid = :idzakentepubliceren`.
 
 Een voorbeeld van een query die in de kolom dvformquery moet worden geplaatst om de titel te bepalen is:
 
@@ -152,7 +152,7 @@ Een voorbeeld van een query die in de kolom dvformquery moet worden geplaatst om
 select dvbetreft | | ' in ' | | dvobjstraat | | ' te ' | | dvgemeentenaam from vwfrmzakentepubliceren where dvid = :idzakentepubliceren
 ```
 
-![Formquery DROP titel](/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png){ class="media" loading="lazy" alt="" width="700" }
+![Formquery DROP titel](/img/applicatiebeheer/instellen_inrichten/formquery_1_droptitel.png.md){ class="media" loading="lazy" alt="" width="700" }
 
 **Velden buiten de view vwfrmzakentepubliceren**
 
@@ -365,6 +365,6 @@ Open wave vult bij de publicatie bij de geodata op; grond van punt of vlak of li
 
 Onderstaande tekening toont een stroomschema van het algoritme. Wanneer het sluitpaar van een polygoon ongelijk is aan het beginpaar wordt het vlak als lijn (linestring) behandeld.
 
-![Polygoonenvlak in DROP](/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png) { class="media" loading="lazy" alt="" width="800" }
+![Polygoonenvlak in DROP](/img/applicatiebeheer/instellen_inrichten/polygoonenvlakindrop.png.md) { class="media" loading="lazy" alt="" width="800" }
 
 Overigens is het polygoon op hoofdzaakniveau (bijv. tbomgvergunning.dvgmlpolygoon) alleen zichtbaar en muteerbaar indien de instelling *Sectie: Programma en Item: VlakNietOpZaakniveau* NIET aangevinkt is. Indien wel aangevinkt dan is zowel het blok onzichtbaar als de menu optie teken vlak op kaart.
