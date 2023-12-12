@@ -24,11 +24,12 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
       - run: pip install mkdocs
+      - run: pip install mkdocs-material
       - run: pip install mkdocs-gen-files
       - run: pip install mkdocs-literate-nav
       - run: pip install mkdocstrings
       - run: pip install mkdocstrings-python
-# - pymdown-extensions
+      - run: pip install mkdocs-gen-files
+      - run: pip install pymdown-extensions
       - run: mkdocs gh-deploy --force
