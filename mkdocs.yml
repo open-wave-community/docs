@@ -52,6 +52,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - abs-to-rel
   - gen-files:
       scripts:
         - docs/gen_doc_stubs.py
