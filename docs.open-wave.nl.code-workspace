@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "vs-code-prettier-eslint.prettierLast": false,
+    "prettier.configPath": "C:\\Users\\karsg\\,config\\prettier.json",
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnSave": true
+  }
+}
