@@ -5,5 +5,5 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 ## Items Configuratietabel
 
 | Item | Kolom | Omschrijving |
-|---|---|---|
-| Afzender | Tekst |Hier geeft u de afzender op van de activeringscode-email voor de wachtwoord vergeten functionaliteit. Dit moet een valide email zijn, bijvoorbeeld: *<noreply@openwave.nl>*. |
+| ---- | ----- | ------------ |
+| Afzender | Tekst |Hier geeft u de afzender op van de activeringscode-email voor de wachtwoord vergeten functionaliteit. Dit moet een valide email zijn, bijvoorbeeld: `<noreply@openwave.nl>`. |

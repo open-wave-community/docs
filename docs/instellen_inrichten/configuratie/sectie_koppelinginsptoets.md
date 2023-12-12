@@ -4,18 +4,18 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item | Kolom | Omschrijving |
-| ----------------------------- | ------------ | --------- |
-| charset | Tekst | Charset in de transport header van de REST-berichten. Default UTF-8 |
-| DMSzaakcodeverplicht | Aanvinkvakje | Indien aangevinkt dan moet de kolom _externe zaakcode_ (dvintzaakcode) op de inspectiekaart gevuld zijn voordat een nieuwe checklist aangemaakt kan worden vanuit die inspectiekaart. |
-| DocMapIncDocroot_B_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Bouw/Sloop moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DocMapIncDocroot_C_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Horeca moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DocMapIncDocroot_O_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module APV/Overig moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DocMapIncDocroot_H_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module handhaving moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DocMapIncDocroot_V_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder een inrichting moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DocMapIncDocroot_W_InspDigChk | Tekst | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module omgeving moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
-| DoctypeReport.pdf | Tekst | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom _Tekst_ worden gevuld met een valide documenttype (als tekst, dus geen keyverwijzing). |
-| DossierOpLocatieEnOrganisatie | Getal1 | geeft aan op welke manier checklijsten aan een dossier worden gekoppeld: |
+| Item                          | Kolom        | Omschrijving                                                          |
+|-------------------------------|--------------|-----------------------------------------------------------------------|
+| charset                       | Tekst        | Charset in de transport header van de REST-berichten. Default UTF-8   |
+| DMSzaakcodeverplicht          | Aanvinkvakje | Indien aangevinkt dan moet de kolom _externe zaakcode_ (dvintzaakcode) op de inspectiekaart gevuld zijn voordat een nieuwe checklist aangemaakt kan worden vanuit die inspectiekaart. |
+| DocMapIncDocroot_B_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Bouw/Sloop moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_C_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module Horeca moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_O_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module APV/Overig moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_H_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module handhaving moet deze instelling bestaan en de kolom *Tekst*gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_V_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder een inrichting moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DocMapIncDocroot_W_InspDigChk | Tekst        | Voor het uploaden van een report.pdf naar de fileshare bij een inspectietraject onder module omgeving moet deze instelling bestaan en de kolom _Tekst_ gevuld worden met de mapverwijzing. Dezelfde logica als voor definiëren van _Aanmaakmappen_ kan hier worden gebruikt. |
+| DoctypeReport.pdf             | Tekst        | Voor het uploaden van een report.pdf uit Dig checklisten moet de kolom _Tekst_ worden gevuld met een valide documenttype (als tekst, dus geen keyverwijzing). |
+| DossierOpLocatieEnOrganisatie | Getal1       | geeft aan op welke manier checklijsten aan een dossier worden gekoppeld: |
 1: dan alle inspecties/omgevingszaken op locatie-dossier (tbperceeladressen)
 2: Alleen inspecties direct gekoppeld aan inrichtingen op Organisatie-dossier (tbmilinrichtingen), andere inspectie dus op locatie-dossier (als deze instelling een feit is en er wordt vanuit omgevingszaak een dig. checklist aangemaakt, dan geldt vanzelf optie 3)
 3: Alle inspecties/omgevingszaken die te relateren zijn aan een inrichting op Organisatie-dossier, de rest op locatie-dossier. |

@@ -7,11 +7,11 @@ LET OP: de eerste vier items bestaan uit twee woorden gescheiden door een spatie
 
 ## Items Configuratietabel
 
-| Item | Kolom | Omschrijving |
-|---|---|---|
-|welstandnota positief| Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze welstandnota positief |
-|welstandnota negatief| Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze welstandnota negatief |
-|beeldkwaliteit positief| Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze beeldkwaliteit positief |
-|beeldkwaliteit negatief| Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze beeldkwaliteit negatief |
-|niet ontvankelijk| Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze niet ontvankelijk |
-| Onbekend | Tekst |De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij een andere keuze dan de bovenstaande|
+| Item                    | Kolom | Omschrijving                                                                       |
+|-------------------------|-------|------------------------------------------------------------------------------------|
+| welstandnota positief   | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze welstandnota positief |
+| welstandnota negatief   | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze welstandnota negatief |
+| beeldkwaliteit positief | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze beeldkwaliteit positief |
+| beeldkwaliteit negatief | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze beeldkwaliteit negatief |
+| niet ontvankelijk       | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij de keuze niet ontvankelijk |
+| Onbekend                | Tekst | De hier ingevoerde tekst is de default waarde voor de kolom *conclusietekst* op de speciale welstandspagina bij een andere keuze dan de bovenstaande |

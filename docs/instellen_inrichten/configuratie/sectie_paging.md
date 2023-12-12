@@ -6,8 +6,8 @@ Het is ook mogelijk om de paginanummering van overzichtsschermen aan te passen m
 
 ## Items Configuratietabel
 
-| Item           | Kolom  | Omschrijving  |
-| -------------- | ------ | ------------- |
+| Item           | Kolom  | Omschrijving                                                                               |
+|----------------|--------|--------------------------------------------------------------------------------------------|
 | Page_Size      | Getal1 | Met _Getal1_ kan bepaald worden hoeveel regels er maximaal worden opgehaald bij overzichtslijsten, waarvan de API de paramoffset parameter bezit. Default waarde = 100. |
 | Page_Size_ZI   | Getal1 | Met _Getal1_ kan bepaald worden hoeveel regels er maximaal worden opgehaald bij de lijsten van het ZI-scherm (zaken en inrichtingen), waarvan de API de paramoffset parameter bezit. Default waarde = 100. |
 | Page_Size_Rest | Getal1 | Met _Getal1_ kan bepaald worden hoeveel regels er maximaal worden opgehaald bij de aanroep van een rapport via Rest flexfunctie. |

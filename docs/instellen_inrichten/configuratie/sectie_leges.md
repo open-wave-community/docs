@@ -4,7 +4,7 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item | Kolom | Omschrijving |
-|---|---|---|
-| DagenTerug_OpenLegesLijst | Getal2 |Geeft aantal dagen terug dat de view vwfrmopenlegesregels maximaal terugkijkt naar de kolom ddlegesverzonden (mag verzonden worden vanaf). |
-| OmgLegesHandmMetWizardRegels | Aanvinkvakje |Indien aangevinkt dan zal het programma bij een omgevingszaak de extra informatie bij de legessoort zoals *is legessoort bedoeld voor teruggave-bedrag bij intrekking* of *is legessoort voor korting vanwege digitale indiening*, gebruiken. Zie lemma *legesberekening*. |
+| Item                         | Kolom        | Omschrijving                                                           |
+|------------------------------|--------------|------------------------------------------------------------------------|
+| DagenTerug_OpenLegesLijst    | Getal2       | Geeft aantal dagen terug dat de view vwfrmopenlegesregels maximaal terugkijkt naar de kolom ddlegesverzonden (mag verzonden worden vanaf). |
+| OmgLegesHandmMetWizardRegels | Aanvinkvakje | Indien aangevinkt dan zal het programma bij een omgevingszaak de extra informatie bij de legessoort zoals *is legessoort bedoeld voor teruggave-bedrag bij intrekking* of *is legessoort voor korting vanwege digitale indiening*, gebruiken. Zie lemma *legesberekening*. |

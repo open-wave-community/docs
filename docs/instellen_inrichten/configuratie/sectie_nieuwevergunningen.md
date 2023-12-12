@@ -4,7 +4,7 @@ Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/c
 
 ## Items Configuratietabel
 
-| Item | Kolom | Omschrijving |
-|---|---|---|
-|Milieu-inrichtingen| Getal2 | De lengte van het automatische ophoogdeel van een nieuw inrichtingnummer. |
-| | Tekst| Het vaste deel van een nieuw inrichtingnummer. |
+| Item                | Kolom  | Omschrijving                                                              |
+|---------------------|--------|---------------------------------------------------------------------------|
+| Milieu-inrichtingen | Getal2 | De lengte van het automatische ophoogdeel van een nieuw inrichtingnummer. |
+|                     | Tekst  | Het vaste deel van een nieuw inrichtingnummer.                            |

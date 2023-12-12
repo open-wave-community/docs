@@ -6,8 +6,8 @@ Kijk ook bij secties: _Processen en Procedures_.
 
 ## Items Configuratietabel
 
-| Item                          | Kolom        | Omschrijving |
-| ----------------------------- | ------------ | ------------ |
+| Item                          | Kolom        | Omschrijving                                                          |
+|-------------------------------|--------------|-----------------------------------------------------------------------|
 | AfgehandeldStapNietMuteerbaar | Aanvinkvakje | Indien aangevinkt is een processtap niet meer te muteren indien de afgehandeld datum van die stap gevuld is. In het detailscherm van een stap kan een persoon met processtappen verwijderrechten de afgehandeld datum leeg maken. |
 | APVOverig_BerOpschAanvProces  | Aanvinkvakje | Indien aangevinkt wordt bij een wijziging in tbtermijnbewstappen die van invloed is op het moment van indiening aanvullende gegevens, de opschortende werking daarvan doorberekend (via de hulpkolom tbovvergunningen.dndagenopschwerking) in de APV/Overige hoofdzaak. |
 | Omgeving_BerOpschAanvProces   | Aanvinkvakje | Indien aangevinkt wordt bij een wijziging in tbtermijnbewstappen die van invloed is op het moment van indiening aanvullende gegevens, de opschortende werking daarvan doorberekend (via de hulpkolom tbomgvergunning.dndagenopschwerking) in de omgeving hoofdzaak. |
