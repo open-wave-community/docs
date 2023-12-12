@@ -1,6 +1,6 @@
 # Sectie Adviezen
 
-Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie.md) (tbinitialisatie) van de _Sectie: Adviezen_ gerangschikt op item. Zie [Adviezen](/docs/probleemoplossing/module_overstijgende_schermen/adviezen.md).
+Hieronder de instellingen uit de [configuratietabel](/docs/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Adviezen_ gerangschikt op item. Zie [Adviezen](/docs/probleemoplossing/module_overstijgende_schermen/adviezen/README.md).
 
 ## Items Configuratietabel
 

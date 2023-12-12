@@ -77,7 +77,7 @@ Eerste kolom (vwfrmadviezen.dvkleurresultaat):
 
 De tweede kolom is het aantal rappeldagen vanaf de systeemdatum tot aan de ingevulde rappeldatum van een advies. Roodgekleurd indien negatief (= te laat). Deze wordt alleen berekend voor adviezen waarvoor zowel de vervaldatum als de adviesretourdatum (ddadviesdatum) en de dateringadvies (dddateringadvies) leeg zijn.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](https://doc.open-wave.nl/doku.php/docs:applicatiebeheer:instellen_inrichten:configuratie:sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](../../../instellen_inrichten/configuratie/sectie_owb.md).
 
 ## Triggers
 
