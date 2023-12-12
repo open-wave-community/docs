@@ -1,6 +1,6 @@
 # Duurzaamheid
 
-![](applicatiebeheer/probleemoplossing/programmablokken/kolommen.png.png){ class="media" loading="lazy" alt="" width="200" }
+![](applicatiebeheer/probleemoplossing/programmablokken/kolommen.png){ class="media" loading="lazy" alt="" width="200" }
 
 Aan een milieu-inrichting kunnen gegevens omtrent duurzaamheid worden geregistreerd. Naast het registreren van energie gegevens, is er ook de mogelijkheid aan te geven aan welke projecten de inrichting deelneemt, welke vervoerders van toepassing zijn en is de afvalregistratie vernieuwd.
 
@@ -8,7 +8,7 @@ Aan een milieu-inrichting kunnen gegevens omtrent duurzaamheid worden geregistre
 
 Het registreren van energiegegevens is uitgebreid met de volgende attributen: exact verbruik, of het om een grootverbruiker gaat en het formaat van de aansluiting. In het geval dat er een koppeling met Erkende maatregelen is, zal de energie registratie aangemaakt worden met de gegevens van de binnengekomen XML. Dit was al zo maar vanaf deze versie wordt ook het exact energie verbruik overgenomen uit het bericht.
 
-![](applicatiebeheer/probleemoplossing/programmablokken/detailscherm_energie.png.png){ class="media" loading="lazy" alt="" width="400" }
+![](applicatiebeheer/probleemoplossing/programmablokken/detailscherm_energie.png){ class="media" loading="lazy" alt="" width="400" }
 
 ## Vervoer
 
@@ -22,7 +22,7 @@ Onder de tegels _Projecten energie_, _Projecten vervoer_ en _Projecten duurzaamh
 
 ## Afvalstoffen
 
-![](1.29/applicatiebeheer/probleemoplossing/programmablokken/afvalstofdetail1.21.png.png){ class="mediaright" loading="lazy" alt="" width="400" }
+![](1.29/applicatiebeheer/probleemoplossing/programmablokken/afvalstofdetail1.21.png){ class="mediaright" loading="lazy" alt="" width="400" }
 
 In versies ouder dan 1.20 vond het registreren van afvalstoffen bij een inrichting plaats onder de kolom _Bodem_.
 Dit resulteerde in een registratie in tabel tbmildiversen met als rubriek _afvalstoffen_. Deze manier van registreren blijft nog mogelijk en oude registraties zijn nog in te zien onder de tegel _Afvalstoffen_ onder kolom _Bodem_. Er kan gekozen worden om op de nieuwe manier afvalstoffen te registreren onder kolom _Duurzaamheid_ en na verloop van tijd de tegel _Afvalstoffen_ onder kolom _Bodem_ uit te zetten/inactief te maken.
@@ -36,4 +36,4 @@ Eerder werd de vervoerder gekozen uit de gekoppelde vervoerders bij de inrichtin
 Er wordt dus ook niet meer gekozen uit de gekoppelde vervoerders bij de inrichting, maar uit de opgegeven vervoerders in beheer (tegel _Vervoerders_) met indicatie afvalstof. Daarnaast is het mogelijk om de rol van de vervoerder toe te kennen. Er zijn vier mogelijke rollen: _Vervoerder (V)_, _Inzamelaar (I)_, _Handelaar (H)_ en _Bemiddelaar (B)_.
 Er kan alleen gekozen worden uit de rollen zoals opgegeven bij de vervoerder in de beheertabel. Een vervoerder kan meerdere malen worden opgevoerd bij de afvalstofregistratie, maar niet meerdere malen met dezelfde rol (combinatie moet uniek zijn).
 
-![](applicatiebeheer/probleemoplossing/programmablokken/beheer_vervoerders_1.21.png.png){ class="media" loading="lazy" alt="" width="500" }
+![](applicatiebeheer/probleemoplossing/programmablokken/beheer_vervoerders_1.21.png){ class="media" loading="lazy" alt="" width="500" }

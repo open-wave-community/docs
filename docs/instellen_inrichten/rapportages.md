@@ -22,7 +22,7 @@ Screenidentifiers:
   - MDLC_getReportParamsList.xml (tbrapportparameters)
   - MDDC_getReportParamsDetail.xml (tbrapportprameters)
 
-#### Definiëren van rapportages
+## Definiëren van rapportages
 
 De inlogger moet beheerrechten hebben: tbmedewerker.dnbeheerniveau = 99 (of hoger). Alle kolommen en knoppen op de schermen zijn dan toegankelijk.
 
@@ -168,14 +168,14 @@ Zie: [OpenWave database functies](/docs/instellen_inrichten/openwave_database-fu
 
 De rapportages kunnen worden geëxporteerd naar Excel. Dit kan in alleen in xlsx formaat.
 
-<wrap important>**LET OP:** In de rapportnaam mogen geen komma's voorkomen.</WRAP>
-Indien er geen scherminformatie aan het rapport is gekoppeld zullen alle kolommen van het rapport standaard type Tekst hebben: ook in Excel.
+> [!WARNING]
+> **LET OP:** In de rapportnaam mogen geen komma's voorkomen. Indien er geen scherminformatie aan het rapport is gekoppeld zullen alle kolommen van het rapport standaard type Tekst hebben: ook in Excel.
 
 Met scherminformatie kan bijvoorbeeld een datumkolom (wavetype datum) in het rapport ook door Excel als datumkolom worden opgepakt (met default excelformat: dd-mm-jjjj). De kolommen met numerieke waardes worden door Excel als Getal gezien indien het wavetype float of integer is.
 
-Indien de kolom met numerieke waardes is gedefinieerd als wavetype string (bijvoorbeeld door de functie fn_bedrag) dan kan OpenWave deze toch als Excelgetal doorgeven mits aan de schermkolomdefinitie wordt toegevoegd de tag <exceltype>float</exceltype>.
+Indien de kolom met numerieke waardes is gedefinieerd als wavetype string (bijvoorbeeld door de functie fn_bedrag) dan kan OpenWave deze toch als Excelgetal doorgeven mits aan de schermkolomdefinitie wordt toegevoegd de tag `<exceltype>float</exceltype>`.
 
-Het gewenste formaat kan - en dit geldt overigens voor alle kolommen - doorgegeven worden met de tag <excelformat>#,#0.00</excelformat>. Het voorbeeld >#,#0.00 is van toepassing op een Getal, waarbij de decimaalscheidingstekens (met twee decimalen) als een komma moeten worden gerepresenteerd en een punt verwacht wordt voor de duizendtallen. Het format wordt dus door Excel gedefinieerd (Excel geeft ook foutmelding als dit niet goed is gedaan).
+Het gewenste formaat kan - en dit geldt overigens voor alle kolommen - doorgegeven worden met de tag `<excelformat>#,#0.00</excelformat>`. Het voorbeeld >#,#0.00 is van toepassing op een Getal, waarbij de decimaalscheidingstekens (met twee decimalen) als een komma moeten worden gerepresenteerd en een punt verwacht wordt voor de duizendtallen. Het format wordt dus door Excel gedefinieerd (Excel geeft ook foutmelding als dit niet goed is gedaan).
 
 Zie [Scherminformatie voor lijstschermen en (dus ook) rapportages](/docs/instellen_inrichten/schermdefinitie/scherminformatie_voor_lijstschermen_en_rapportages.md) voor de juiste volgordeplek van de tags exceltype en excelformat binnen een schermkolomdefinitie.
 
@@ -194,11 +194,11 @@ Zie onderstaand uitgewerkt voorbeeld.
 Onderstaand voorbeeld is een rapport dat lopende verleende APV/Overige vergunningen van soort HOR of EXP of SLU of SPE of TER opsomt bij een inrichting.
 Het rapport wordt met een klik op de tegel gestart op het portaal van een inrichting:
 
-![](applicatiebeheer/instellen_inrichting/acthortegel.png.png){ class="media" loading="lazy" alt="" width="300" }
+![](applicatiebeheer/instellen_inrichting/acthortegel.png){ class="media" loading="lazy" alt="" width="300" }
 
 Klikken op de tegel (mits geautoriseerd) laat de rapportagelijst zien:
 
-![](applicatiebeheer/instellen_inrichting/acthorlijst.png.png){ class="media" loading="lazy" alt="" width="500" }
+![](applicatiebeheer/instellen_inrichting/acthorlijst.png){ class="media" loading="lazy" alt="" width="500" }
 
 **De rapportdefinitie**
 Eerst kolom SQL-1:
@@ -229,13 +229,13 @@ dnkeymilinrichtingen = %portalid%
 
 Omdat in de resultset van de SQL ook de primary key van de APV/Overige is opgenomen onder de alias 'key' kan de gebruiker ook doorklikken naar de detailschermen van die APV/Overige zaken in de lijst. Dat komt door de action definitie bij het rapport:
 
-![](applicatiebeheer/instellen_inrichting/rapportaction.png.png){ class="media" loading="lazy" alt="" width="600" }
+![](applicatiebeheer/instellen_inrichting/rapportaction.png){ class="media" loading="lazy" alt="" width="600" }
 
 **De rapportparameter**
 
 De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
-![](applicatiebeheer/instellen_inrichting/rapportparameter.png.png){ class="media" loading="lazy" alt="" width="600" }
+![](applicatiebeheer/instellen_inrichting/rapportparameter.png){ class="media" loading="lazy" alt="" width="600" }
 
 (de kolom label is hier overigens zinloos ingevuld, want het is een automatische parameter)
 
@@ -243,7 +243,7 @@ De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
 Stel dat de dnkey van de rapportdefinitie (kolom ID) de waarde 3041 heeft dan krijgt de tegel die geplaatst wordt op het inrichtingsportaal de actionaanroep: startWizard(startReport,3041,{id}).
 
-![](applicatiebeheer/instellen_inrichting/acthorportaltile.png.png){ class="media" loading="lazy" alt="" width="600" }
+![](applicatiebeheer/instellen_inrichting/acthorportaltile.png){ class="media" loading="lazy" alt="" width="600" }
 
 De tegel nog wel even toekennen aan de gewenste personen…. en het rapportniveau van de medewerkerskaart van die personen moet nog steeds groter of gelijk zijn aan het vereist rapportageniveau bij de rapportdefinitie EN die personen moeten *Interne medewerkers* zijn.
 

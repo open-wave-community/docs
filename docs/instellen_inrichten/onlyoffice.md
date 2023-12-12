@@ -77,7 +77,7 @@ De kolom *Tekst* van de instelling *Sectie: KoppelingDOCNAAMDMS Item: HTTPSoapAc
 
 Indien OnlyOffice geïnstalleerd en instellingen OK, dan redeneert OpenWave als volgt bij het openen van een document:
 
-![](applicatiebeheer/instellen_inrichten/onlyoffice.png.png){ class="media" loading="lazy" alt="" width="700" }
+![](applicatiebeheer/instellen_inrichten/onlyoffice.png){ class="media" loading="lazy" alt="" width="700" }
 
 ## Logging door OpenOffice
 

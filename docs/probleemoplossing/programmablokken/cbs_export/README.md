@@ -28,7 +28,7 @@ De volgende stappen dienen te worden doorlopen voor het verzamelen van de te exp
 
 Allereerst dienen de te exporteren CBS-gegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren CBS-gegevens* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld. Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren CBS-gegevens](/docs/probleemoplossing/programmablokken/cbs_export/lijst_met_te_exporteren_cbsgegevens.md)
 
-![](applicatiebeheer/probleemoplossing/programmablokken/cbslijstexportgegevens.png.png){ class="media" loading="lazy" alt="" width="1400" }
+![](applicatiebeheer/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1400" }
 
 #### Operationslog: Aanmaken lijst CBS exportregels
 

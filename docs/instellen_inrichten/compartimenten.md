@@ -29,7 +29,7 @@ tbSysStandardtable tabelidentifiers  (Beheertegel *Tabellen Standaardapi*)
 
 Met het compartimenteren kan worden bewerkstelligd dat een kleine organisatie de verantwoordelijkheid neemt voor het afhandelen van bepaalde zaaktypes binnen een grotere OpenWave installatie (hierna: de Gastheer). Bijvoorbeeld een samenwerkingsverband Z behandelt alleen de reguliere omgevingsprocedures van gemeente X en Y  alsmede de APV’s van gemeente X en Y binnen de OpenWave installatie van hun omgevingsdienst. Die omgevingsdienst behandelt dan per definitie alle overige gedefinieerde zaken voor de gemeentes X en Y, maar ook de APV’s en reguliere omgevingsprocedures buiten de gemeentes X en Y.
 
-![](applicatiebeheer/instellen_inrichten/compartiment.png.png){ class="media" loading="lazy" alt="" width="400" }
+![](applicatiebeheer/instellen_inrichten/compartiment.png){ class="media" loading="lazy" alt="" width="400" }
 
 De cirkelsectoren in bovenstaande tekening staan voor gemeentes of combinatie van één of meer gemeentes, die in de OpenWave installatie zijn gedefinieerd met woonplaatsen en adressen.
 
