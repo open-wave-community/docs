@@ -89,7 +89,7 @@ In de view die over het onderdelen/activiteitenscherm heen ligt: vwfrmtoestemmin
 
 ### Wijzigen en deleten
 
-Alleen de kolom *aantaleenheden* kan de gebruiker wijzigen in het [lijstscherm](/instellen_inrichten/standardlist_standarddetail.md) mits:
+Alleen de kolom *aantaleenheden* kan de gebruiker wijzigen in het [lijstscherm](./standardlist_standarddetail.md) mits:
 
   - de gebruiker het recht heeft om een onderdeel/activiteit te wijzigen (tbomgrechten.dlcomgtstedt)
   - de omgevingszaak nog niet is geblokkeerd

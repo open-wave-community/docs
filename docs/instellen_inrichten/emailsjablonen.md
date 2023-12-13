@@ -53,7 +53,7 @@ Per sjabloongroep kunnen emailsjablonen verwijderd (inclusief parameters), nieuw
   - **Naam/beschrijving** (dvomschrijving). Vrij in te voeren naam voor het sjabloon, zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard *MaakEmail* aanroept.
   - **Is sjabloon voor standaardmail naar adviesinstantie?**. Indien aangevinkt dan zal dit sjabloon gebruikt worden bij de standaard email naar adviesinstantie bij een advies. Kan alleen aangevinkt worden als veld **Benaderbaar vanuit tabel** waarde *tbadviezen* heeft. Ook mag er per module maar 1 adviessjabloon zijn. Indien er al een sjabloon is met dit vinkje aan EN zelfde waarde voor veld *Voor module*, dan zal bij aanvinken in ander sjabloon het vinkje automatisch uitgezet worden bij het eerste sjabloon. Indien men gebruik wilt maken van sjablonen voor de standaard email aan adviesinstanties zal men dus per module een sjabloon moeten maken. Indien er geen sjabloon is met vinkje aan dan zal het programma terugvallen op de configuratie instelling voor standaard mail aan adviesinstantie.
   - **Is sjabloon voor standaardmail naar collegiale toetser?**. Dit vinkje is alleen zichtbaar wanneer de instelling Sectie: Documenten, Item: CtMail aan staat. Indien aangevinkt dan zal dit sjabloon gebruikt worden bij de eenmalige email naar de collegiale toetser bij een geregistreerd document. Hiervoor moet het veld **Benaderbaar vanuit tabel** de waarde *tbcorrespcollegtoets* hebben. Ook mag er per module maar 1 sjabloon voor de mail naar collegiale toetser zijn.
-  - **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
+  - **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](./compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
   - **Bijlagen toevoegen?** (dlbijlagesregdoc). Indien aangevinkt dan zal in de wizard die het maken van de uitgaande email regelt een extra pagina worden toegevoegd die de gebruiker laat kiezen uit één of meer geregistreerde documenten, die vervolgens als bijlagen aan de email worden toegevoegd. De lijst van geregistreerde documenten wordt beperkt tot de documenten die als plaats (S)erver hebben: dat wil zeggen dat zij NIET op dat moment lokaal bewerkt worden.
   - Met het **Volgordenummer** kan de volgorde van de sjabloonnamen bepaald worden zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard *MaakEmail* aanroept.
   - **Vervaldatum**. Vervallen mailsjablonen zijn niet zichtbaar voor de gebruiker bij de wizard *Maakemail*.
@@ -208,7 +208,7 @@ Select
 #### OpenWave database functies
 
 OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei query's.
-Zie:[OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
+Zie:[OpenWave database functies](./openwave_database-functies.md).
 
 #### Childquery
 
@@ -301,7 +301,7 @@ select case when (select dvsoortproc from vwfrmomgvergunningen where dnkeyomgver
 
 Hetgeen wil zeggen dat indien het zaaktype van de omgevingszaak waar je op staat van het type M (melding) is, druk dan de waarde van de kolom dvtekstblok van de tabel tbtekstblokken af waarbij dvcode = *tkstblk_1*. Anders, is het type anders dan M, druk dan niets af. Die kolom dvtekstblok kan gevuld zijn met een tekst van maximaal 4000 tekens.
 
-In de tabel tbtekstblokken (beheertegel *Tekstblokken*) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen. Zie ook: [Queries](/instellen_inrichten/queries.md).
+In de tabel tbtekstblokken (beheertegel *Tekstblokken*) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen. Zie ook: [Queries](./queries.md).
 
 ### Tonen Wave briefnummer
 
@@ -312,7 +312,7 @@ Voorbeeld: stel de instellingen zijn als volgt WaveBriefnummer staat aan, *Getal
 
 ### Tonen gecrypte versie van een kolomwaarde
 
-Verder kan de encryptiemethode worden aangeroepen vanuit het emailsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een email als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in de email opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
+Verder kan de encryptiemethode worden aangeroepen vanuit het emailsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een email als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](./2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in de email opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
 
 ## Sjabloon-parameters
 
@@ -415,8 +415,8 @@ Rommeldam, 01 mei 2017
 
 ## formquery en childquery-verwijzingen naar tbqueries
 
-De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/instellen_inrichten/queries.md)
+De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](./queries.md)
 
 Hierdoor hoeft een query die in meerdere sjablonen gebruikt wordt maar eenmalig te worden gedefinieerd.  De opmaak van de sjablonen wijzigt hierdoor niet.
-Zie voorbeeld onder het kopje *formquery en childquery-verwijzingen naar tbqueries* bij [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md)
+Zie voorbeeld onder het kopje *formquery en childquery-verwijzingen naar tbqueries* bij [Documentsjablonen en Sjabloongroepen](./documentsjablonen.md)
 

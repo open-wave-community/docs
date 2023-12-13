@@ -90,7 +90,7 @@ _fn_iscompartimentok_ kijkt op grond van de inlogger, de module en de dnkey van 
 
 _fn_rechtenkolom_ kijkt op grond van de aangegeven rechtenkolom (rechtentabel gevolgd door een punt gevolgd door de kolomnaam) of de inlogger (_:keyaccount_) wijzigrechten heeft volgens die rechtenkolom .
 
-Zie ook [Database functies](/instellen_inrichten/openwave_database-functies.md)
+Zie ook [Database functies](./openwave_database-functies.md)
 
 - **Module/schermgroepcode** (dvmodulescreengroup). Vrij te gebruiken. Alleen indien een vervolgaction van een standaardapi-lijst of detail een interne OW-API aanroept, met een verplichte parameter dvmodule, dan is een waarde in deze kolom ook verplicht (dvmodulescreengroup is dan B,C,E,H,I,O,V of W). Dit is bijvoorbeeld het geval bij een wijziging op een kolom (met de interne API-aanroep setcolumnvalue) op een detail of lijstscherm van een (dochter)tabel van tbomgvergunning (W), tbhandhavingen (H), tbinfoaanvragen (I), tbovvergunningen (O) en tbmilinrichtingen (V)en tbmilvergunnngen (E) en tbhorecavergunningen (C) en tbbouwvergunningen (B), Bij beheertabellen kan deze kolom dus leeg blijven.
 - **Datumkolomnaam box vervallen** (dvvervallenboxfieldname). Indien gevuld met een datumkolomnaam van de hoofdtabelview dan zal onderaan in de lijstweergave van die tabel/view een aanvinkbox _vervallen kaarten onzichtbaar_ zijn. Indien onzichtbaar aangevinkt dan zal de lijst gefilterd worden op deze kolom is null.
@@ -340,7 +340,7 @@ Dit zijn schermen die niet met implementatie en updates van OpenWave zijn aangel
 
 ## Filterdefinitie bij lijstscherm
 
-Zie: [Scherminformatie voor filterblokken op lijstschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_filterblokken.md).
+Zie: [Scherminformatie voor filterblokken op lijstschermen](./schermdefinitie/scherminformatie_voor_filterblokken.md).
 Indien er gewenst is dat het lijstscherm gefilterd kan worden zal er een filter xml moeten worden gedefinieerd. De naam van de xml moet beginnen net 'MDFC*' en de rest van de naam moet gelijk zijn als de xml-naam van het lijstscherm (zonder de prefix MDDLC*).
 
 Ga naar gewenste kaart in tbsysstandardtable (beheertegel: _Tabellen standaardAPI_):
@@ -352,7 +352,7 @@ Ga naar gewenste kaart in tbsysstandardtable (beheertegel: _Tabellen standaardAP
 ## Knoppen op lijst- en detailschermen
 
 Knoppen die binnen een detailscherm dat door tbsysstandardtable wordt gedefinieerd- bijv. achter een specifieke kolom - moeten verschijnen, worden in de xml van dat detailscherm gedefinieerd inclusief de actions die aan die knoppen verbonden moeten zijn: dus - in bovenstaand voorbeeld - in de MDFC_getTest_MWPerRechtengroepList.xml. Zie
-[Scherminformatie voor detailschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md).
+[Scherminformatie voor detailschermen](./schermdefinitie/scherminformatie_voor_detailschermen.md).
 
 De knoppen die linksonder op het gedefinieerde lijst- of detailscherm moeten komen, kunnen binnen de detailkaart van tbSysStandardTable in het blok _Knoppen_ worden gedefinieerd. Deze informatie wordt in de tabel tbSysstandardButton opgeslagen: een dochtertabel van tbsysstandardtable.
 
@@ -364,7 +364,7 @@ Per knop zijn de volgende kolommen beschikbaar:
   - **Hint**. Deze tekst verschijnt als hint bij de knop, of als omschrijving van de knop indien onderdeel van itemlist.
   - **Lijst of Detail**. Een L of een D. Indien L dan is de knop zichtbaar op het gedefinieerde lijstscherm. Bij D dus alleen op het detailscherm.
   - **Linksonder of Itemlijst**. Een L of een I. Indien L dan verschijnt de knop met een icoon linksonder aan de pagina. Indien I dan verschijnt de knop als item met als omschrijving de Hint in een itemlijst rechtsboven aan de pagina.
-  - **Icoonnummer** Alleen van toepassing indien (L)inksonder. Hier moet een nummer komen uit de lijst:[Iconenlijst](/instellen_inrichten/schermdefinitie/iconenlijst.md).
+  - **Icoonnummer** Alleen van toepassing indien (L)inksonder. Hier moet een nummer komen uit de lijst:[Iconenlijst](./schermdefinitie/iconenlijst.md).
   - **Volgorde**. Met deze numerieke waarde kan de volgorde van de knoppen van links naar rechts of - indien itemlist- van boven naar beneden bepaald worden.
   - **Refresh**. Indien aangevinkt dan zal het scherm na het uitvoeren van de action bij de knop opnieuw worden uitgeschreven.
 - Blok Rechten:
@@ -388,7 +388,7 @@ Om een knop te maken met als doel een standaard insert op een tabel moet bij de 
 - de derde parameter is LEEG indien de tabel waarop een insert plaatsvindt GEEN parenttabel heeft. Indien deze tabel echter wel een parenttabel heeft dan moet deze parameter gevuld worden met de tekst %keyparent%. De tekst %keyparent% wordt door OpenWave 'on the fly' vervangen met de primary key van de parenttabel
 - als vierde parameter een verwijzing naar de unieke codering van de kaart uit tbsysstandardtabel waar deze knopdefinitie bij hoort.
 
-Voor de opmaak van het insertscherm (de xml) zie: [Scherminformatie voor standaard insert- en kopieer](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md).
+Voor de opmaak van het insertscherm (de xml) zie: [Scherminformatie voor standaard insert- en kopieer](./schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md).
 
 ### Voorbeeld knop Standaard verwijderen van een kaart
 
@@ -410,4 +410,4 @@ Voor verwijderacties op de hoofdtabellen houdt OpenWave rekening met compartimen
 
 OpenWave waarschuwt ook met naam en toenaam dat een verwijderactie niet plaats kan vinden indien er een foreign key in de weg zit.
 
-Zie verder over het gebruik en mogelijkheden van actions: [Actions](/instellen_inrichten/actions.md).
+Zie verder over het gebruik en mogelijkheden van actions: [Actions](./actions.md).

@@ -81,7 +81,7 @@ Bovenstaand voorbeeld levert dus per een inrichting een resultaatset op met als 
 
 Door een kaart in de tabel tbtaskscheduler op te nemen (portaal *Service centrum*, kolom *Acties*) kan de samenstelling van de WFS-export en verzending daarvan geschedulded worden gestart.
 
-De aanroep (de taak) is *exportInrichtingenWFS*  (zie:  [Taskscheduler](/instellen_inrichten/taskscheduler).md).
+De aanroep (de taak) is *exportInrichtingenWFS*  (zie:  [Taskscheduler](./taskscheduler).md).
 
 Het samenstellen van de file kan geruimte tijd duren: voor elke inrichting worden evenzoveel SQL's geëvalueerd als er opgenomen zijn in de tabel tbexportinrkrt_sql (40 SQL's voor 10.000 inrichtingen duurt ongeveer een uur).
 

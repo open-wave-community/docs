@@ -15,7 +15,7 @@ De ingang [Applicatiebeheer](/README.md) is de ingang voor functioneel beheerder
 ### Vormgeving
 
 Het kleurthema van OpenWave is instelbaar en kijkt naar de waarde van kolom _Tekst_ van configuratie instelling _Sectie: PreInlog, Item: ApplicationColor_ voor het bepalen van de kleuren van de OpenWave omgeving. Default is de kleur blauw (kolom _Tekst_ heeft waarde blue). Andere opties zijn groen, rood, paars of oranje.
-Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (_Sectie: PreInlog, Item: ApplicationLegacy_ is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](/instellen_inrichten/configuratie/sectie_prelog.md).
+Vanaf 1.29 is staat OpenWave qua vormgeving in de zogenaamde legacy modus (_Sectie: PreInlog, Item: ApplicationLegacy_ is aangevinkt). Dit is de vormgeving van OpenWave zoals de gebruiker gewend is. Het uitvinken van de legacy modus resulteert in weergave van OpenWave in de nieuwe vormgeving. In versie 1.29 worden de puntjes op de i gezet voor de nieuwe vormgeving, vandaar dat default nog de huidige vormgeving aan staat. Voor de kleurinstellingen en het kunnen switchen tussen legacy modus en nieuwe vormgeving zie pagina [Sectie PreInlog](instellen_inrichten/configuratie/sectie_prelog.md).
 
 ### Portaal
 
@@ -50,7 +50,7 @@ Achter een tegel of met een knop kan een zogenaamde wizard worden gestart. Deze 
 De Dokuwiki-handleiding onder deze ingang applicatiebeheer is als volgt ingedeeld:
 
 - [Functionaliteiten](/functionaliteiten/README.md)
-- [Instellen/inrichting](/instellen_inrichten/README.md)
+- [Instellen/inrichting](instellen_inrichten/README.md)
 - [Probleemoplossing](/probleemoplossing/README.md)
   - [portalen en moduleschermen](/probleemoplossing/portalen_en_moduleschermen/README.md)
   - [module overstijgende schermen](/probleemoplossing/module_overstijgende_schermen/README.md)

@@ -28,7 +28,7 @@ Voor een succesvolle integratie van OpenWave binnen de SSO omgeving dient men de
 
 ## Koppeling OpenWave met Single Sign-On
 
-Voor de koppeling tussen OpenWave en een SSO server zijn verschillende gegevens nodig. Deze gegevens moeten in de instellingen in OpenWave worden ingevuld en zijn afkomstig van de SSO server. Mocht OpenWave nog niet als applicatie zijn geregistreerd op de SSO server dan moet dit eerst gebeuren door uw ICT-afdeling. De instellingen voor OpenWave staan beschreven op de volgende pagina: [Configuratie instellingen Single Sign-On](/instellen_inrichten/configuratie/sectie_singlesignon.md).
+Voor de koppeling tussen OpenWave en een SSO server zijn verschillende gegevens nodig. Deze gegevens moeten in de instellingen in OpenWave worden ingevuld en zijn afkomstig van de SSO server. Mocht OpenWave nog niet als applicatie zijn geregistreerd op de SSO server dan moet dit eerst gebeuren door uw ICT-afdeling. De instellingen voor OpenWave staan beschreven op de volgende pagina: [Configuratie instellingen Single Sign-On](./configuratie/sectie_singlesignon.md).
 
 ### Toelichting bij instellen van EndpointAuthorize
 

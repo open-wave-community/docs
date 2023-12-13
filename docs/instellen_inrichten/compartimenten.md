@@ -155,7 +155,7 @@ https://xxxx:yyyy/services/nl.rem.satellite.published.Fileserver.nl.rem.satellit
   - **Domein** (dvsateldomain). Bedoeld wordt het domein van de server waar de satellite draait.
   - **Authenticatie**. Indien de kolom: dvhttpauthenticatienaam gevuld is dan gaat de berichten van de Cloud naar de satellite onder httpsauthenticatie.
     - De usernaam voor htttps-authenticatie staat in deze kolom **HTTPSAuthenticatieNaam** (dvhttpauthenticatienaam).
-    - Het Password staat in kolom **HTTPSAuthenticatiePass** (dvhttpauthenticatiepass) (zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden).md).
+    - Het Password staat in kolom **HTTPSAuthenticatiePass** (dvhttpauthenticatiepass) (zie ook: [2-way encryptie van externe wachtwoorden](./2way_encryptie_externe_wachtwoorden).md).
     - Het Type versleuteling staat in kolom **HTTPSAuthenticatieType** (dvhttpauthenticatietype) (vooralsnog alleen Basic).
     - De inhoud van de kolom **username toegang satellite-ini** (dvsatelfileserveruser) wordt vergeleken met de *api-name* van de satellite ini-file. In die ini-file staat de echte toegangsnaam voor de fileserver die aan de satellite is verbonden.
     - De inhoud van de gecrypte kolom **password toegang satellite-ini** (dvsatelfileserverpass) wordt vergeleken met de *api-pass* van de satellite ini-file. In die ini-file staat de echte toegangspass voor de fileserver die aan de satellite is verbonden.

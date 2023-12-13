@@ -12,7 +12,7 @@ Bij een combinatie van zaaktype, publicatietype en gemeente kunnen ook één of 
 
 ### Instellingen configuratietabel
 
-Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](/instellen_inrichten/configuratie/sectie_droppubliceren.md).
+Noodzakelijke instellingen: zie [Sectie DROPPUBLICATIES](./configuratie/sectie_droppubliceren.md).
 
 ### Instellingen gemeentetabel
 

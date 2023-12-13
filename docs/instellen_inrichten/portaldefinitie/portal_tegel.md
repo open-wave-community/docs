@@ -10,7 +10,7 @@ Screenidentifiers: MDLC_getPortalTilesList.xml en MDDC_getPortalTilesDetail.xml
 
 Toepassing is bijvoorbeeld om aan te geven hoeveel kaarten de lijst achter de tegel bevat. De inhoud van deze kolom is altijd in de vorm van: getTileContent(codering) OF getTileContent(codering,{id}) bijvoorbeeld: _getTileContent(omgeving_chklist,{id})_. Bij tegels op zaakportalen moet de tweede vorm gebruikt worden, waarbij dynamisch {id} zal worden vervangen door de primary key van het betreffende zaakportaal (de identifier die opgenomen is in de URL van de portaalpagina).
 
-De eerste parameter - de codering (in het voorbeeld: omgeving_chklist,) - verwijst naar een kaart in de tabel tbqueries met dezelfde codering. Het resultaat van die query wordt dus op de tegel geplaatst. Indien de gebruiker geen rechten heeft op de query of indien de query niet goed is gedefinieerd, dan blijft het dynamische opschrift op de tegel leeg of er komt te staan: _fout:xml_. Zie ook bij [Queries](/instellen_inrichten/queries.md).
+De eerste parameter - de codering (in het voorbeeld: omgeving_chklist,) - verwijst naar een kaart in de tabel tbqueries met dezelfde codering. Het resultaat van die query wordt dus op de tegel geplaatst. Indien de gebruiker geen rechten heeft op de query of indien de query niet goed is gedefinieerd, dan blijft het dynamische opschrift op de tegel leeg of er komt te staan: _fout:xml_. Zie ook bij [Queries](../queries.md).
 
 Toevoeging: indien er in de naam van de query haakjes voorkomen dan kan het programma deze niet interpreteren. Dit is als volgt op te lossen: stel de naam van de query is _test(kopie)_ dan zal het veld tegelopschrift gevuld moeten worden met: _getTileContent(beginarg(test(kopie))endarg)_
 
@@ -65,4 +65,4 @@ Omgekeerd kunnen vanuit medewerkers-detailscherm één of meer tegels toegekend 
 
 ## Mogelijkheden van kolom actie
 
-Zie: [Actions](/instellen_inrichten/actions.md).
+Zie: [Actions](../actions.md).

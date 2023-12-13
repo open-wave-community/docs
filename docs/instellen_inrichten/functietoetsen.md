@@ -15,7 +15,7 @@ Bijvoorbeeld bij Openstaande processtappen waarbij veel datumvelden zo makkelijk
 #### Editor op maat
 
 Kolommen waarin SQL of xml of html of Json code ingegeven moet worden (of alleen wordt getoond) kunnen van nu af aan met een speciale editor worden getoond ten behoeve van de leesbaarheid. Door het kleurgebruik is direct zichtbaar dat je met een dergelijke kolom van doen hebt. Als de cursor in de kolom staat kan met de F11 toets getoggled worden naar groot/klein scherm. Met de Escape bent u weer terug in het kleine scherm.
-Zie bijvoorbeeld bij schermkolominformatie [Schermdefinitie](/instellen_inrichten/schermdefinitie/README.md).
+Zie bijvoorbeeld bij schermkolominformatie [Schermdefinitie](./schermdefinitie/README.md).
 
 #### Werking in opmerking/toelichting kolommen
 

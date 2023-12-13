@@ -117,7 +117,7 @@ In het blok *Ketenpartners* is de knop *Wijzig ketenpartner privilege* zichtbaar
   - men de aanmaker van de samenwerkingsruimte is: de aanmaker van de samenwerkingsruimte (tbswf.dvaangemaaktdooroinin) moet dezelfde zijn als de door programmatuur bepaalde OIN van zender (zie kopje *Bepalen OIN van zender aanmaken en muteren van samenwerkingsruimtes*).
 
 De knop start een wizard waarmee het gewenste privilege opgegeven kan worden voor de ketenpartner. Bij uitvoeren van de wizard zal aan het SWF dit nieuw opgegeven privilege worden doorgegeven.
-Let op: er is helaas geen verversactie voor de Ketenpartnerlijst bij een SWF-ruimte. Het aanpassen van het privilege zal pas voor de medewerker zichtbaar zijn na draaien van Task *SynchroniseerOpenSWFRuimtes*. Voor het instellen van de task scheduler zie pagina [Taskscheduler](/instellen_inrichten/taskscheduler.md).
+Let op: er is helaas geen verversactie voor de Ketenpartnerlijst bij een SWF-ruimte. Het aanpassen van het privilege zal pas voor de medewerker zichtbaar zijn na draaien van Task *SynchroniseerOpenSWFRuimtes*. Voor het instellen van de task scheduler zie pagina [Taskscheduler](./taskscheduler.md).
 
 ## Uploaden en downloaden en synchroniseren van documenten
 
@@ -225,7 +225,7 @@ Indien de inlogger:
     - EN naar de OIN-nummers (gescheiden door puntkomma) gedefinieerd in kolom *Info* van de instelling *Sectie: SWF en Item: OINvanZender*. Bedoeld voor de situatie van een samenwerkingsverband, zoals de BEL-combinatie, die zowel een overkoepelend OIN-nummer hebben als individuele gemeentelijke OIN-nummers. <wrap important>**LET OP**: alle OIN-nummers moeten op de whitelist geplaatst worden.</WRAP>
   - WEL lid van een compartiment is dan worden de berichten opgehaald die verzonden zijn naar de OIN-nummers (gescheiden door puntkomma) gedefinieerd in kolom tbcompartiment.dvswfoinzender van het betreffende compartiment. Bedoeld voor die situatie waarbij een compartiment uit een samenwerkingsverband bestaat (Over-Gemeente).
 
-De actie achter de tegel kan ook gescheduled aangeroepen worden (zie:[Taskscheduler](/instellen_inrichten/taskscheduler).md).
+De actie achter de tegel kan ook gescheduled aangeroepen worden (zie:[Taskscheduler](./taskscheduler).md).
 De robot haalt in dat geval alle berichten op die verzonden zijn naar:
 
   - het OIN-nummer gedefinieerd in kolom *Tekst* van de instelling *Sectie: SWF en Item: OINvanZender*

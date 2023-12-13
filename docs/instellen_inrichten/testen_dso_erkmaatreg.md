@@ -55,4 +55,4 @@ Indien:
 
 dan wordt altijd een kaart in tbmessagelog aangemaakt.
 
-De foutmeldingen komen echter in de tabel tbmissingconfiguration (beheertegel _Ontbrekende [configuratie-items](/instellen_inrichten/configuratie/README.md)_). Deze tabel wordt gevuld met de omissies indien het bericht niet konden worden verwerkt vanwege ontbrekende instellingen.
+De foutmeldingen komen echter in de tabel tbmissingconfiguration (beheertegel _Ontbrekende [configuratie-items](./configuratie/README.md)_). Deze tabel wordt gevuld met de omissies indien het bericht niet konden worden verwerkt vanwege ontbrekende instellingen.

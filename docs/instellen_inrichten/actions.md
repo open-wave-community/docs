@@ -63,7 +63,7 @@ Voor de onderstreepte items geldt dat de substring _{id}_ of _{kolomnaam}_ in de
 
 ### getFlexList
 
-- Wat doet het?: In een modal venster wordt een standaard lijstscherm over een view of tabel getoond. Zie:[Standaard Lijst- en Detailschermen](/instellen_inrichten/standardlist_standarddetail.md)
+- Wat doet het?: In een modal venster wordt een standaard lijstscherm over een view of tabel getoond. Zie:[Standaard Lijst- en Detailschermen](./standardlist_standarddetail.md)
 - aanroep: geefFlexList(param1, param2,param3,param4,param5):
   - param1: De eerste parameter moet de waarde _SysStandardList_ bevatten. Er zijn andere mogelijkheden maar die worden hier niet besproken
   - param2: De tweede parameter kan leeg blijven
@@ -76,7 +76,7 @@ Voor de onderstreepte items geldt dat de substring _{id}_ of _{kolomnaam}_ in de
 
 ### getFlexDetail
 
-- Wat doet het?: In een modal venster wordt een standaard detailscherm over een view of tabel getoond. Zie:[Standaard Lijst- en Detailschermen](/instellen_inrichten/standardlist_standarddetail.md)
+- Wat doet het?: In een modal venster wordt een standaard detailscherm over een view of tabel getoond. Zie:[Standaard Lijst- en Detailschermen](./standardlist_standarddetail.md)
 - aanroep: geefFlexDetail(param1, param2,param3):
   - param1: De eerste parameter moet de waarde _SysStandardDetail_ bevatten. Er zijn andere mogelijkheden maar die worden hier niet besproken
   - param2: De tweede parameter bevat de dnkey van de kaart waarvan het detailscherm wordt opgeroepen
@@ -126,7 +126,7 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
 - aanroep: getFlexBalloon(param1, param2):
   - param1: Een gecrypte tekst of een niet gecrypte tekst of een evalueerbare query. Afhankelijk van param2
   - param2:
-  - D dan wordt de tekst in param1 in twee regels getoond in het ballonnetje. Eerste regel is param1 voorafgegaan door 'encrypt:". De tweede regel is de gedecrypte versie van param1 voorafgegaan door 'decrypt'. (Zie [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md))
+  - D dan wordt de tekst in param1 in twee regels getoond in het ballonnetje. Eerste regel is param1 voorafgegaan door 'encrypt:". De tweede regel is de gedecrypte versie van param1 voorafgegaan door 'decrypt'. (Zie [2-way encryptie van externe wachtwoorden](./2way_encryptie_externe_wachtwoorden.md))
   - P dan wordt param1 ongewijzigd in de tekstballon getoond. Een semicolon (;) wordt daarbij geïnterpreteerd als harde return
   - QD dan bevat param1 een evalueerbare query die één regel en één kolom als resultaat teruggeeft, bijvoorbeeld: _select dvpass from tabelA where dnkey = %keypointer%_. De query moet beginnen met select en mag geen semicolons bevatten. De variabele %keypointer% wordt hierbij vervangen door de ID (dnkey) van de tabelkaart waar de gebruiker op staat. Nadat de query is geëvalueerd wordt het resultaat getoond als bij param1 = 'D'
   - QP dan bevat param1 een evalueerbare query die één regel en één kolom als resultaat teruggeeft, bijvoorbeeld: _select 'Let OP:' | | dvnaam from tabelA where dnkey = %keypointer%_. De query moet beginnen met select en mag geen semicolons bevatten. De variabele %keypointer% wordt hierbij vervangen door de ID (dnkey) van de tabelkaart waar de gebruiker op staat. Nadat de query is geëvalueerd wordt het resultaat getoond als bij param1 = 'P'
@@ -167,14 +167,14 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
   - Voorbeeld: startwizard(insertSysStandardRow,MDWC_insertTbMwTeams.xml,%keyparent%,beheer_tbmwteams)
   - Aanroep van een standaard insertactie van een kaart van een tabel die gedefinieerd is in tbsysstandardtable (beheertegel _Tabellen Standaardapi_). Deze action kan bijv. aan een insertknop onder aan een lijst gekoppeld worden. De functie houdt rekening met de in de tbsysstandardbutton gedefinieerde rechten bij die knop en met het al of niet gevuld zijn van de in de tbsysstandardtable gedefinieerde blokkeringsvelden
   - param1: insertSysStandardRow
-  - param2: De naam van de screen.xml waarin de opmaak van het insertscherm is geregeld. De naam moet beginnen 'MDWC\_'. De xml moet aan een aantal voorwaarden voldoen. Zie: [Scherminformatie voor standaard insert- en kopieer](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
+  - param2: De naam van de screen.xml waarin de opmaak van het insertscherm is geregeld. De naam moet beginnen 'MDWC\_'. De xml moet aan een aantal voorwaarden voldoen. Zie: [Scherminformatie voor standaard insert- en kopieer](./schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md)
   - param3: Alleen gevuld indien de tabel waarop een insert wordt uitgevoerd een parenttabel heeft. Hier wordt de betreffende keywaarde van die parenttabel ingevuld. De waarde %keyparent% betekent dat OpenWave dit zelf onder water regelt
   - param4: de code uit tbsysstandardtable die verwijst naar de kaart waar de betreffende tabel in is gedefinieerd.
 - **startwizard(kopieerSysStandardRow,param2,param3,param4)**
   - Voorbeeld: startwizard(kopieerSysStandardRow,MDWC_insertTbMwTeams.xml,{id},beheer_tbmwteams)
   - Aanroep van een standaard insertactie van een kaart van een tabel die gedefinieerd is in tbsysstandardtable (beheertegel _Tabellen Standaardapi_). Deze action kan bijv. aan een insertknop onder aan een lijst gekoppeld worden. De functie houdt rekening met de in de tbsysstandardbutton gedefinieerde rechten bij die knop en met het al of niet gevuld zijn van de in de tbsysstandardtable gedefinieerde blokkeringsvelden
   - param1: kopieerSysStandardRow
-  - param2: De naam van de screen.xml waarin de opmaak van het insertscherm is geregeld. De naam moet beginnen 'MDWC\_'. De xml moet aan een aantal voorwaarden voldoen. Zie: [Scherminformatie voor standaard insert- en kopieer](/instellen_inrichten/schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md). Kan in veel gevallen dus gelijk zijn aan het scherm dat hoort bij de insertStandardRow
+  - param2: De naam van de screen.xml waarin de opmaak van het insertscherm is geregeld. De naam moet beginnen 'MDWC\_'. De xml moet aan een aantal voorwaarden voldoen. Zie: [Scherminformatie voor standaard insert- en kopieer](./schermdefinitie/scherminfomatie_voor_standaard_insertschermen.md). Kan in veel gevallen dus gelijk zijn aan het scherm dat hoort bij de insertStandardRow
   - param3: Wordt gevuld met de dnkey van de rij waar je op staat. Indien de kopieerknop onderaan een lijst staat kan {id} worden gebruikt, en anders, op een detailscherm, %keypointer%
   - param4: de code uit tbsysstandardtable die verwijst naar de kaart waar de betreffende tabel in is gedefinieerd.
 - **startWizard(selecteerTaak,param2)** waarbij een wizard wordt gestart om een selectie te maken van openstaande taken op medewerker(s), modules en taaksoorten. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.
@@ -190,7 +190,7 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
   - param3: de koptekst. Mag leeg zijn
   - param4: hoogte van tekstvak in pixles. Indien leeg dan is de default 120.
 - **startwizard(sluitZaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een hoofdzaak af te sluiten. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en het lemma [Sluiten van zaak](/probleemoplossing/programmablokken/sluiten_zaak.md).
-- **startwizard(startreport,param2,param3)** waarbij een bepaald rapport wordt gestart (tbrapporten.dnkey = param2 ). Param3 mag een lege waarde hebben, maar indien gevuld dan moet het rapport aangeroepen worden vanuit een zaakportaal, waarbij param3 de id is van die hoofdzaak (dus bijv. een dnkey uit tbomgvergunning). Zie voorbeeld voor het gebruik van deze param3 identifier van zaakportal (nportalid) in [Rapportages](/instellen_inrichten/rapportages.md).
+- **startwizard(startreport,param2,param3)** waarbij een bepaald rapport wordt gestart (tbrapporten.dnkey = param2 ). Param3 mag een lege waarde hebben, maar indien gevuld dan moet het rapport aangeroepen worden vanuit een zaakportaal, waarbij param3 de id is van die hoofdzaak (dus bijv. een dnkey uit tbomgvergunning). Zie voorbeeld voor het gebruik van deze param3 identifier van zaakportal (nportalid) in [Rapportages](./rapportages.md).
 - **startWizard(zoekInrichtingopNaam,param2)** waarbij een wizard wordt gestart teneinde een inrichting te zoeken. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan. Bij 0 wordt de wizard gesloten.
 - **startWizard(ZoekZaakViaZaaknummer,param2)** waarbij een wizard wordt gestart teneinde een zaak te zoeken op zaakcodering. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.
 - **startWizard(ZoekZaakViaAdres,param2)** waarbij een wizard wordt gestart teneinde een zaak te zoeken op adres. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.

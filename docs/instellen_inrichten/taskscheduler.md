@@ -44,15 +44,15 @@ In dat geval dient deze waarde handmatig op null gezet te worden. OpenWave doet 
 
 ## Welke callables zijn in te stellen
 
-- **importSWFOpenActieverzoeken** (zie voorwaarde en noodzakelijke instellingen bij [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md)).
+- **importSWFOpenActieverzoeken** (zie voorwaarde en noodzakelijke instellingen bij [Samenwerkingsfunctionaliteit](./samenwerkingsfunctionaliteit.md)).
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: ImportSWFOpenActieverzoeken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportReportContainer** met als parameter een dvcode uit de tabel tbexportcontainer (tegel _Container exportrapportages_ onder kolom _Werkbeheer_ van beheerportaal _Inrichtingenbeheer_) dus bijvoorbeeld exportReportContainer(inspectieview) zie: [Export Report Container](/instellen_inrichten/export_report_container.md).
+- **exportReportContainer** met als parameter een dvcode uit de tabel tbexportcontainer (tegel _Container exportrapportages_ onder kolom _Werkbeheer_ van beheerportaal _Inrichtingenbeheer_) dus bijvoorbeeld exportReportContainer(inspectieview) zie: [Export Report Container](./export_report_container.md).
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: ExportReportContainer_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportREV** (zie [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md)) bij kopje _Export Naar REV_
+- **exportREV** (zie [Register Externe Veiligheid](./register_exrterne_veiligheid.md)) bij kopje _Export Naar REV_
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: ExportREV_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
@@ -68,7 +68,7 @@ Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: synchroniseerOpenSWFRuimtes_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **exportInrichtingenWFS** (zie [Data Op Kaart / Export Inrichtingen als WFS](/instellen_inrichten/data_op_kaart.md))
+- **exportInrichtingenWFS** (zie [Data Op Kaart / Export Inrichtingen als WFS](./data_op_kaart.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: exportInrichtingenWFS_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 

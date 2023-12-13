@@ -61,7 +61,7 @@ Indien de status van deze regel in operationslog de waarde KLAAR heeft, dan is d
 ## Aanroep van de export via Taskscheduler
 
 Door een kaart in de tabel tbtaskscheduler op te nemen (portaal _Service centrum_, kolom _Acties_) kan de export ook geschedulded worden gestart.
-De aanroep (de taak) is dan exportReportContainer(paramcodering). _Paramcodering_ staat dan voor een dvcode uit de tabel tbexportcontainer. Zie: [Taskscheduler](/instellen_inrichten/taskscheduler.md).
+De aanroep (de taak) is dan exportReportContainer(paramcodering). _Paramcodering_ staat dan voor een dvcode uit de tabel tbexportcontainer. Zie: [Taskscheduler](./taskscheduler.md).
 
 ## Meest voorkomende foutmeldingen bij gebruik type endpoint: FTPS-LFTP
 

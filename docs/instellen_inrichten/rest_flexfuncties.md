@@ -64,7 +64,7 @@ Een aanvrager kan via een ontvangstbevestiging een track and trace link krijgen.
 
 - De URL van de derde partij. Bijvoorbeeld: REST-rommeldam.open-wave.nl/
 - Als het om een omgevingsvergunning gaat, de code: TrackNTraceOmgBasis/ (zie onder)
-- De geëncrypte key van de gevraagde omgevingszaak (zie [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md) onder kopje Tonen gecrypte versie van een kolomwaarde).
+- De geëncrypte key van de gevraagde omgevingszaak (zie [Documentsjablonen en Sjabloongroepen](./documentsjablonen.md) onder kopje Tonen gecrypte versie van een kolomwaarde).
 
 Dit maakt dat de link die bijgeleverd wordt in de brief naar de aanvrager er als volgt uit zal zien:
 REST-rommeldam.open-wave.nl/TrackNTraceOmgBasis/02_RT125678J

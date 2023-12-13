@@ -73,7 +73,7 @@ Voor bestaande sjablonen kan via het detailscherm op dezelfde manier de koppelin
 - De kolom **ID** (dnkey) geeft de automatisch gegenereerde primary key weer van het sjabloon in de tabel tbdocumenten.
 - **Naam/beschrijving** (dvomschrijving). Vrij in te voeren naam voor het sjabloon, zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard _Maakdocument_ aanroept.
 - **Naam van sjabloon in Xential** (dvnaaminexternsjablprog). Moet alleen gevuld worden indien het OpenWave sjabloon doorgeefluik is naar een Xentail-sjabloon. Zie: [Xential](/probleemoplossing/programmablokken/xential.md).
-- **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](/instellen_inrichten/compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
+- **Compartiment** (dnkeycompartiment). Indien het sjabloon hier wordt toegekend aan een [compartiment](./compartimenten.md) kan dit sjabloon alleen worden gebruikt door iemand die lid is van dat compartiment. Omgekeerd: de inloggers die geen lid zijn van een compartiment zien enkel sjablonen die ook niet zijn toegekend aan een compartiment.
 - Met het **Volgordenummer** kan de volgorde van de sjabloonnamen bepaald worden zoals die voor gebruikers zichtbaar worden in een lijst, wanneer de gebruiker de wizard _Maakdocument_ aanroept via optie _Creëer document_.
 - **Vervaldatum**. Vervallen documentsjablonen zijn niet zichtbaar voor de gebruiker bij de wizard _Maakdocument_.
 - **Te genereren documentnaam** (dvtemplate). Bij het samenvoegen in de wizard _Maakdocument_ van sjabloon en databasevelden wordt een nieuw document gecreëerd. Hier kan de gewenste documentnaam worden ingevuld (zonder extensie). Indien deze kolom is gevuld dan geldt het volgende: de nieuwe documentnaam is de waarde van deze kolom met het extensiegedeelte (inclusief punt) uit de kolom _(uncpad) + naam sjabloon_ (dvdocumentnaam) waarbij de extensie .dotx wordt omgezet naar .docx. De variabelen:
@@ -228,7 +228,7 @@ Select
 #### OpenWave database functies
 
 OpenWave heeft zelf een aantal functies op de database gedefinieerd - zoals fn_ddmaandjjjj() - die gebruikt kunnen worden in allerlei queries.
-Zie:[OpenWave database functies](/instellen_inrichten/openwave_database-functies.md).
+Zie:[OpenWave database functies](./openwave_database-functies.md).
 
 ### Childquery
 
@@ -333,7 +333,7 @@ Hetgeen wil zeggen dat indien het zaaktype van de omgevingszaak waar je op staat
 Die kolom dvtekstblok kan gevuld zijn met een tekst van maximaal 4000 tekens.
 
 In de tabel tbtekstblokken (beheertegel _Tekstblokken_) kunnen deze tekstblokken gedefinieerd worden die op bovenstaande wijze in meerdere sjablonen op conditie kunnen worden aangeroepen.
-Zie ook: [Queries](/instellen_inrichten/queries.md).
+Zie ook: [Queries](./queries.md).
 
 ### Invoegen plaatje op basis van een query-aanroep naar tbqueries die verwijst naar tbimages
 
@@ -382,7 +382,7 @@ De string <%ExtDocIdent%> (let op kamelennotatie) zal worden vervangen door de e
 
 ## Tonen gecrypte versie van een kolomwaarde
 
-Verder kan de encryptiemethode worden aangeroepen vanuit het documentsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een document als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in het document opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
+Verder kan de encryptiemethode worden aangeroepen vanuit het documentsjabloon. De string <%strEncrypt(:columnname)%> in een sjabloon wordt bij het creëren van een document als volgt geïnterpreteerd. Het programma zal columnname interpreteren als een kolomnaam uit de hoofdtabel van het sjabloon. De waarde van die kolom wordt gecrypt volgens de ingestelde methode (zie: [2-way encryptie van externe wachtwoorden](./2way_encryptie_externe_wachtwoorden)) en deze gecrypte waarde wordt in het document opgenomen op de betreffende plaats. Voorbeeld: <%strEncrypt(:dnkey.md)%>.
 
 ## Sjabloon-parameters
 
@@ -485,7 +485,7 @@ Rommeldam, 01 mei 2017
 
 ## formquery en childquery-verwijzingen naar tbqueries
 
-De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](/instellen_inrichten/queries.md)
+De inhoud van de kolommen van de formqueries en childqueries kan ook bestaan uit een verwijzing naar een query in de beheertabel tbqueries. Zie: [Queries](./queries.md)
 
 Hierdoor hoeft een query die in meerdere sjablonen gebruikt wordt maar eenmalig te worden gedefinieerd. De opmaak van de sjablonen wijzigt hierdoor niet.
 

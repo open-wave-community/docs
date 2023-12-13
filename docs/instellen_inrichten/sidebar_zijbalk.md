@@ -34,7 +34,7 @@ Na een tweede klik zal het slotje wederom een pijltje worden en zal de zijbalk w
 
 ### Opschriften en hint configureren
 
-De opschriften en de hint op de zijbalk zijn als volgt te beïnvloeden via het detailscherm van de [portalnames](/instellen_inrichten/portaldefinitie/portalnaam.md):
+De opschriften en de hint op de zijbalk zijn als volgt te beïnvloeden via het detailscherm van de [portalnames](./portaldefinitie/portalnaam.md):
 
 ![sidebar](../img/applicatiebeheer/instellen_inrichten/sidebar.png)class="media" loading="lazy" alt="" width="200"
 

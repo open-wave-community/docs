@@ -23,7 +23,7 @@ De zaaktypes worden gedefinieerd in het portaal *Zaakbeheer* onder de tegels van
     - **Identifier** (dnkey). De unieke primary key van de tabel. Bij de definitie van sommige instellingen, zoals een aantal dat valt onder de *Sectie: Koppeling OLO*, kan naar deze identifier verwezen worden om het inlezen van OLO en/of DSO berichten aan het gewenste zaaktype te kunnen koppelen.
     - **Vervaldatum** (ddvervaldatum). Indien gevuld kan na die datum het betrokken zaaktype niet meer worden gekozen bij het handmatig opvoeren van een nieuwe zaak.
     - **Volgnummer** (dnvolgnr). Hiermee kan de volgorde van de keuzelijst zaaktype-omschrijvingen beïnvloed worden bij het bij het handmatig opvoeren van een nieuwe zaak.
-    - **Publiceren** (dlpubliceren). Wordt niet door de interne programmatuur van OpenWave gebruikt. Kan desgewenst gebruikt worden voor rapportagedoeleinden.  Voor automatisch publiceren gebruikt OpenWave alle instellingen voor [DROP](/instellen_inrichten/drop.md).
+    - **Publiceren** (dlpubliceren). Wordt niet door de interne programmatuur van OpenWave gebruikt. Kan desgewenst gebruikt worden voor rapportagedoeleinden.  Voor automatisch publiceren gebruikt OpenWave alle instellingen voor [DROP](./drop.md).
     - **Verspreidbaar als complex** (dlmagverspreiden). Indien aangevinkt kan een zaak onder dit type over meerdere adressen gaan, waarmee mogelijk de optie [Complex Verspreiden](/probleemoplossing/programmablokken/complex_zaak/complex_verspreiden.md) zichtbaar wordt bij de zaak.
     - **Zaaktype** (dvomschrijving). De naam waaronder het zaaktype in OpenWave bekend is.
     - **Wetsartikel** (dvwetsartikel). Wordt niet door de interne programmatuur van OpenWave gebruikt.
@@ -46,11 +46,11 @@ De zaaktypes worden gedefinieerd in het portaal *Zaakbeheer* onder de tegels van
     - **Ontvangstmail initieel (tbemailsjabloon.dnkey)**. Vrij invoerveld voor id van mailsjabloon (tbemailsjabloon.dnkey) die als basis geldt voor de ontvangstbevestigingsmail op DSO STAM-berichten met als doel *Initieel*. Zie voor volledige functionaliteit beschrijving: [DSO Ontvangstbevestiging sturen](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md).
     - **Ontvangstmail aanvulling (tbemailsjabloon.dnkey)**. Vrij invoerveld voor id van mailsjabloon (tbemailsjabloon.dnkey) die als basis geldt voor de ontvangstbevestigingsmail op DSO STAM-berichten met als doel *Aanvullen*. Zie voor volledige functionaliteit beschrijving: [DSO Ontvangstbevestiging sturen](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md).
     - **Is zaaktype vooroverleg dso** (dlisdsovooroverleg). Zie hierboven. Indien aangevinkt worden DSO-verzoekberichten met doel vooroverleg en overeenkomstige type aan dit zaaktype gekoppeld.
-    - **Is zaaktype actieverzoek SamenwerkingsFunctionaliteit** (dlswfactieverzoek). Indien aangevinkt dan worden nieuwe binnenkomende open actieverzoeken, waarvoor een nieuwe zaak moet worden aangemaakt, onder dit zaaktype met een nieuwe samenwerkingsruimte geplaatst. Er mag maar één (niet vervallen) zaaktype zijn dat deze waarde aangevinkt heeft staan. Zie [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md).
+    - **Is zaaktype actieverzoek SamenwerkingsFunctionaliteit** (dlswfactieverzoek). Indien aangevinkt dan worden nieuwe binnenkomende open actieverzoeken, waarvoor een nieuwe zaak moet worden aangemaakt, onder dit zaaktype met een nieuwe samenwerkingsruimte geplaatst. Er mag maar één (niet vervallen) zaaktype zijn dat deze waarde aangevinkt heeft staan. Zie [Samenwerkingsfunctionaliteit](./samenwerkingsfunctionaliteit.md).
   - **Blok Actoren**
     - **Default dossierbehandelaar** (dvcodedefbehandelaar). Zie voor de werking onder kopje *actoren en actieve behandelaar* bij [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
     - **Dossierbehandelaar verplicht** (dlbehandelaarverpl). Wordt niet door de interne programmatuur van OpenWave gebruikt.
-    - **Verplichte adressoort (rol)** (dvadressoortverpl). Zie kopje *Adresrollen en (hoofd) Zaaktypes* bij [Adresrollen](/instellen_inrichten/adresrollen.md).
+    - **Verplichte adressoort (rol)** (dvadressoortverpl). Zie kopje *Adresrollen en (hoofd) Zaaktypes* bij [Adresrollen](./adresrollen.md).
     - **Default zaakverantwoordelijk team** (dnkeyteamsdefverantw). Zie voor de werking onder kopje *actoren en zaakverantwoordelijk team* bij [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
   - **Blok Masker** (compartiment kan eigen masker hebben)
     - **Masker Vast gedeelte zaakcode** (dvmasker). OpenWave genereert bij elke nieuwe zaak een eigen codering: de OpenWave zaakcode. Bij omgevingszaken is dit de kolom tbomgvergunning.dvzaakcode. Deze wave zaakcode begint met dit vaste gedeelte en daaraan  wordt een teller vastgeplakt. <wrap important>**LET OP:** voor compartimentszaken wordt het masker en lengte gepakt zoals opgegeven bij het compartimentsdetailscherm voor de zaaktype-lijsten. Indien deze niet gevuld zijn dan valt het programma voor compartimentszaken terug op masker en lengte gedefinieerd bij de oorspronkelijke definitie van het zaaktype.<wrap>
@@ -107,11 +107,11 @@ Is de koppeltabel leeg voor het betrokken zaaktype dan zal de gebruiker uit de v
 
 ## Zaaktype en koppeling met producten/diensten
 
-In de koppeltabel TbProducten wordt geregeld welke Product definities (beheertegel *Productdefinities* (tbproductdef)) bij het zaaktype van toepassing zijn. Zie kopje *Definitie producten/klanten/werkpakketten* bij [Producten Klanten en Werkpakketten](/instellen_inrichten/producten_klanten_werkpakketten.md).
+In de koppeltabel TbProducten wordt geregeld welke Product definities (beheertegel *Productdefinities* (tbproductdef)) bij het zaaktype van toepassing zijn. Zie kopje *Definitie producten/klanten/werkpakketten* bij [Producten Klanten en Werkpakketten](./producten_klanten_werkpakketten.md).
 
 ## Zaaktype en DROP
 
-In de koppeltabel TbKopPublGemZaak wordt geregeld welke gemeentes voor welke bladen op welke momenten bij het betreffende zaaktype een DROP-publicatie moeten aanmaken. Zie: [Drop](/instellen_inrichten/drop.md).
+In de koppeltabel TbKopPublGemZaak wordt geregeld welke gemeentes voor welke bladen op welke momenten bij het betreffende zaaktype een DROP-publicatie moeten aanmaken. Zie: [Drop](./drop.md).
 
 ## Zaaktype en koppeling met legessoorten
 

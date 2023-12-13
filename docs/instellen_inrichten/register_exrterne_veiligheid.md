@@ -220,7 +220,7 @@ Om een **bestaande tbmilOpslagkaart als referentiecontour te koppelen** aan een 
 
 Om direct een **nieuwe opslagkaart met referentiecontour** toe te voegen kan de insertknop worden gebruikt onderaan het lijstje van gekoppelde referentiecontouren in het detailscherm van de EV-activiteit. Ook hier wordt de keuze van de mogelijke referentiecontouren beperkt door de *koppeltabel activiteit/referentiecontour*.
 
-De opslagkaart kent van oudsher een aantal verplichte kolommen die bij een insert moeten worden gevuld. Een aantal daarvan is eigenlijk dubbelop met betrekking tot de REV-data. Onder het kopje *Nieuwe Opslagkaart* van [Opslagtabel bij inrichtingen](/instellen_inrichten/opslag_bij_inrichtingen.md) wordt uitgelegd hoe hiertoe defaultwaardes in te stellen.
+De opslagkaart kent van oudsher een aantal verplichte kolommen die bij een insert moeten worden gevuld. Een aantal daarvan is eigenlijk dubbelop met betrekking tot de REV-data. Onder het kopje *Nieuwe Opslagkaart* van [Opslagtabel bij inrichtingen](./opslag_bij_inrichtingen.md) wordt uitgelegd hoe hiertoe defaultwaardes in te stellen.
 
 De **geometrie** van de referentiecontour is vastgelegd in een punt (in het blok *geometrie punt*) of door een vlak of lijn (in het blok *geometrie lijn of vlak*). Zie ook hieronder bij attribuut geometrie.
 
@@ -342,7 +342,7 @@ Het attribuut *geometrie* geeft aan welke type geometrie van toepassing is op he
 
 Endpoint en APIkey en bronhouderscode dienen gevuld te zijn (respectievelijk kolom *Tekst* van *Sectie: REV en Item: AlgemeenEndpoint* en kolom *Tekst* van *Sectie: REV en Item: Apikey* en kolom *Tekst* van *Sectie: REV en Item: Bronhouder*). Bronhouderscode en ApiKey worden door Geodan uitgegeven.
 
-De export wordt gescheduled verzorgd door de [Taskscheduler](/instellen_inrichten/taskscheduler). In deze tabel (*beheer: Service centrum-portaal, tegel: Taskscheduler*) moet een kaart aangemaakt worden met als Action: *ExportREV*, aangevinkt, een geplande startdatum/tijd en bijvoorbeeld een ophoging van 1440 minuten (= dagelijks.md).
+De export wordt gescheduled verzorgd door de [Taskscheduler](./taskscheduler). In deze tabel (*beheer: Service centrum-portaal, tegel: Taskscheduler*) moet een kaart aangemaakt worden met als Action: *ExportREV*, aangevinkt, een geplande startdatum/tijd en bijvoorbeeld een ophoging van 1440 minuten (= dagelijks.md).
 
 Wanneer de taak gaat draaien wordt eerst een kaart aangemaakt in tboperationslog met code = ExportREV en begintijd = timestamp en als medewerker het robotaccount dat geïnstalleerd is bij de implementatie van de cronjob (vaak *TASKS*).
 
