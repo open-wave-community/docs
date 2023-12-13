@@ -57,6 +57,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - minify:
+      minify_html: true
   - callouts
   - gen-files:
       scripts:
