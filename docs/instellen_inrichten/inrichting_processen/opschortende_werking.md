@@ -8,7 +8,7 @@ In het kort komt het hierop neer dat één bepaalde processtap wordt aangewezen 
 
 Dit aantal op te schorten dagen wordt sowieso opgeteld bij de fatale datum op het basisscherm van de vergunningsaanvraag mits de instelling _Sectie: Termijnbewaking en Item: Omgeving_BerOpschAanvProces_ (bij omgevingszaken) aangevinkt is. Voor APV/Overige zaken is dit de instelling _Sectie: Termijnbewaking en Item: APVOverig_BerOpschAanvProces_.
 De opschortende werking van aanvullende gegevens kan ook via de aparte tabel tbopschorten worden geregeld.
-Zie hiervoor: [Opschorten/Verlengen](/probleemoplossing/module_overstijgende_schermen/opschorten_verlengen.md).
+Zie hiervoor: [Opschorten/Verlengen](../../probleemoplossing/module_overstijgende_schermen/opschorten_verlengen.md).
 
 Daarnaast kan dit aantal op te schorten dagen ook opgeteld worden bij de streefdatums van de processtappen die na de indiening aanvullende gegevens komen. Hiertoe moet de processtap aangewezen worden waar vanaf de opschortende werking moet worden meegeteld.
 

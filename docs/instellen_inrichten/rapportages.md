@@ -48,7 +48,7 @@ Deze moduleletters kunnen gebruikt worden om tegels te definiëren waarmee door 
 
 *getFlexList(myReportGroupList)* toont een doorkieslijst van alle rapportagegroepen (met dezelfde autorisatie-restrictie).
 
-Tegels met rapportgroepen kunnen makkelijk worden ingedeeld in het daartoe bestemde portaal [Rapportageportaal](/probleemoplossing/portalen_en_moduleschermen/rapportageportaal.md). Maar ze kunnen ook op andere portalen worden geplaatst…
+Tegels met rapportgroepen kunnen makkelijk worden ingedeeld in het daartoe bestemde portaal [Rapportageportaal](../probleemoplossing/portalen_en_moduleschermen/rapportageportaal.md). Maar ze kunnen ook op andere portalen worden geplaatst…
 
 Het doorklikken op een item van een groepslijst door de gebruiker opent een lijst van rapporten die de gebruiker kan openen (getMyreportList).
 

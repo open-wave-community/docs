@@ -1,6 +1,6 @@
 # Sectie Xential
 
-Hieronder de instellingen uit de configuratietabel configuratietabel (tbinitialisatie) van de _Sectie: Xential_ gerangschikt op item. Deze instellingen zijn alleen van belang indien gebruik gemaakt wordt van Xential als sjabloongenerator. Zie: [Xential](/probleemoplossing/programmablokken/xential.md)
+Hieronder de instellingen uit de configuratietabel configuratietabel (tbinitialisatie) van de _Sectie: Xential_ gerangschikt op item. Deze instellingen zijn alleen van belang indien gebruik gemaakt wordt van Xential als sjabloongenerator. Zie: [Xential](../../probleemoplossing/programmablokken/xential.md)
 
 | Item                        | Kolom        | Omschrijving                                                            |
 |-----------------------------|--------------|-------------------------------------------------------------------------|

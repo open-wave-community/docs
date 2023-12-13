@@ -64,7 +64,7 @@ Met deze knop wordt de inhoud van de kolom dvhyperlink in het klembord geplaatst
 
 #### verplaats mappen/documenten
 
-Met deze knop (alleen zichtbaar indien de gebruiker het recht _verplaatsen documenten in documentenTree_ (bijv. tbomgrechten.dlcomgcorverplaats) heeft) kan de gebruiker binnen een flexTree scherm van OpenWave, mappen en documenten vanaf de hyperlink beheren. Zie [Verplaatsen van bestanden in OpenWave (fileshare)](/probleemoplossing/programmablokken/verplaatsen_bestanden_fileshare.md).
+Met deze knop (alleen zichtbaar indien de gebruiker het recht _verplaatsen documenten in documentenTree_ (bijv. tbomgrechten.dlcomgcorverplaats) heeft) kan de gebruiker binnen een flexTree scherm van OpenWave, mappen en documenten vanaf de hyperlink beheren. Zie [Verplaatsen van bestanden in OpenWave (fileshare)](../probleemoplossing/programmablokken/verplaatsen_bestanden_fileshare.md).
 
 ### Daadwerkelijk aanmaken van mappen op de fileserver
 

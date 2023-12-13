@@ -1,6 +1,6 @@
 # Sectie Logon
 
-Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Logon_ gerangschikt op item. Zie [Inloggen](/probleemoplossing/programmablokken/inloggen?s%5b%5d=device.md). Zie ook de instellingen bij _Sectie: Inloggegevens_ voor instellingen m.b.t. wachtwoord vergeten.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Logon_ gerangschikt op item. Zie [Inloggen](../../probleemoplossing/programmablokken/inloggen?s%5b%5d=device.md). Zie ook de instellingen bij _Sectie: Inloggegevens_ voor instellingen m.b.t. wachtwoord vergeten.
 
 ## Items Configuratietabel
 

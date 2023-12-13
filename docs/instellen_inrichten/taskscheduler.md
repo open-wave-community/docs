@@ -56,15 +56,15 @@ Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en I
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: ExportREV_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importDSOGerelateerdeZaken** (zie [DSO Gerelateerde Zaken](/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md))
+- **importDSOGerelateerdeZaken** (zie [DSO Gerelateerde Zaken](../probleemoplossing/programmablokken/dso_gerelateerde_zaken.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: importDSOGerelateerdeZaken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importDSOGemisteVerzoeken** (zie [DSO Gemiste Verzoeken](/probleemoplossing/programmablokken/dso_gemiste_verzoeken.md))
+- **importDSOGemisteVerzoeken** (zie [DSO Gemiste Verzoeken](../probleemoplossing/programmablokken/dso_gemiste_verzoeken.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: importDSOGemisteVerzoeken_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **SynchroniseerOpenSWFRuimtes** (zie [Synchroniseer Open SWF ruimtes](/probleemoplossing/programmablokken/synchroniseer_open_swfruimtes.md))
+- **SynchroniseerOpenSWFRuimtes** (zie [Synchroniseer Open SWF ruimtes](../probleemoplossing/programmablokken/synchroniseer_open_swfruimtes.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item: synchroniseerOpenSWFRuimtes_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
@@ -72,7 +72,7 @@ Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations Item
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: exportInrichtingenWFS_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 
-- **importmaandKadasterBAG** (zie [Automatisch inlezen BAG- mutaties](/probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md))
+- **importmaandKadasterBAG** (zie [Automatisch inlezen BAG- mutaties](../probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md))
 
 Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en Item: Inlezenbag_ op 1 gezet. Indien klaar wordt _Getal1_ op null gezet.
 

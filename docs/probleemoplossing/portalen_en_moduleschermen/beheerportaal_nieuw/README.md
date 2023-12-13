@@ -6,7 +6,7 @@ Dit portaal is bedoeld voor alle algemene/ dagelijkse beheerwerkzaamheden. Men v
 
 Vanaf dit portaal kan men navigeren naar de overige beheerportalen:
 
-_[Servicecentrum](/probleemoplossing/portalen_en_moduleschermen/servicecentrum.md)
+_[Servicecentrum](../servicecentrum/README.md)
 _[Operationsportaal](/probleemoplossing/portalen_en_moduleschermen/operationsportaal.md)
 _[Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
 _[Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)

@@ -3,7 +3,7 @@
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Wase-publicatielijst_ gerangschikt op item.
 
 > [!WARNING] **Let op:**
-> er zijn meer instellingen van de _Sectie: Wase-publicatielijst_ die gebruikt worden door de (deprecated) publicatielijst van Rem: een aparte installatie die aangevraagde en afgehandelde zaken publiceert op een kaart met doorverwijzing naar Open-Wave portal. Zie [Kaart](/probleemoplossing/module_overstijgende_schermen/kaart.md).
+> er zijn meer instellingen van de _Sectie: Wase-publicatielijst_ die gebruikt worden door de (deprecated) publicatielijst van Rem: een aparte installatie die aangevraagde en afgehandelde zaken publiceert op een kaart met doorverwijzing naar Open-Wave portal. Zie [Kaart](../../probleemoplossing/module_overstijgende_schermen/kaart.md).
 
 ## Items Configuratietabel
 

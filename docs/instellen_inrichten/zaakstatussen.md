@@ -9,7 +9,7 @@ API(s):
 
 Screenidentifiers: MDLC_getTbZaakStatusList.xml en MDDC_getTbZaakStatusDetail.xml.
 
-Deze tabel wordt gebruikt als mapping voor zaak statussen en - gedeeltelijk - voor resultaatomschrijvingen, indien er sprake is van StUF berichtenuitwisseling met een extern zaaksysteem (zaak/DMS koppeling). Het gaat hierbij om de berichten **creeerZaak** ([Creëer zaak zaak/dms](/probleemoplossing/programmablokken/creeer_zaak_zaak_dms)) en **actualiseerZaakstatus** ([Wijzigen Status externe zaak met Zaak/dms](/probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms).md). Binnen deze berichten gaat het m.b.t. de status om het blok *<heeft stuf:entiteittype="ZAKSTT">*, en m.b.t. het resultaat om de tag *<omschrijving>* in het blok <resultaat>.
+Deze tabel wordt gebruikt als mapping voor zaak statussen en - gedeeltelijk - voor resultaatomschrijvingen, indien er sprake is van StUF berichtenuitwisseling met een extern zaaksysteem (zaak/DMS koppeling). Het gaat hierbij om de berichten **creeerZaak** ([Creëer zaak zaak/dms](../probleemoplossing/programmablokken/creeer_zaak_zaak_dms)) en **actualiseerZaakstatus** ([Wijzigen Status externe zaak met Zaak/dms](../probleemoplossing/programmablokken/wijzig_status_zaak_zaak_dms).md). Binnen deze berichten gaat het m.b.t. de status om het blok *<heeft stuf:entiteittype="ZAKSTT">*, en m.b.t. het resultaat om de tag *<omschrijving>* in het blok <resultaat>.
 
 In deze zaakstatussen-tabel kunnen geen kaarten worden verwijderd of aangemaakt. Alleen de kolommen *statusmapping* en *resultaatmapping* kunnen worden gewijzigd door een inlogger die beheerrechten heeft (tbmedewerkers.dnbeheernveau >= 99).
 

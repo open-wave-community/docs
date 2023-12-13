@@ -2,7 +2,7 @@
 
 Vanuit OpenWave kunnen gegevens periodiek worden aangeleverd aan het Register Externe Veiligheid (REV). Daartoe is het Informatiemodel Externe Veiligheid (IMEV) ingepast in de OpenWave database.
 
-Zie voor synchronisatie van gegevens uit het REV naar OpenWave: [REV-synchroniseren](/probleemoplossing/programmablokken/rev_synchroniseren.md)
+Zie voor synchronisatie van gegevens uit het REV naar OpenWave: [REV-synchroniseren](../probleemoplossing/programmablokken/rev_synchroniseren.md)
 
 ## Beheer
 
@@ -134,7 +134,7 @@ De REV **identificatiecode** van de locatie EV-activiteit wordt automatisch bere
 
 Alleen indien de datum ExportnaarREV nog leeg is EN de inlogger het recht *Wijzigen van REV-identificatiecode van tbmilinrichtingen* (tbmilrechten.dlbmilinrrevidedt) heeft, kan de inlogger hier zelf een code toekennen.
 
-De kolom **OW-identificatie** (dvrevbronobjectid) kan gebruikt worden om de locatie-EVactiviteit zowel in het REV als in OpenWave met een eigen codering te vullen. Toepassing: zie [REV-synchroniseren](/probleemoplossing/programmablokken/rev_synchroniseren.md).
+De kolom **OW-identificatie** (dvrevbronobjectid) kan gebruikt worden om de locatie-EVactiviteit zowel in het REV als in OpenWave met een eigen codering te vullen. Toepassing: zie [REV-synchroniseren](../probleemoplossing/programmablokken/rev_synchroniseren.md).
 
 De **beginGeldigheid** slaat hier op de begin geldigheid van de Locatie-EVactiviteit. Een wijziging op beginGeldigheid wordt niet geaccepteerd indien de datum ExportNaarREV reeds is gevuld. Een beginGeldigheid moet - op het moment van export - kleiner zijn dan vandaag. Indien de Locatie-EVactiviteit voor het eerst wordt geëxporteerd (met een POST, wanneer de exportdatum dus nog leeg is) dan moet deze kleiner of gelijk zijn - dus eerder gestart zijn - dan de beginGeldigheid van de onderliggende EV-activiteiten (in tbmilbklactiviteiten). Bij een succesvol geaccepteerd wijzigingsbericht (een PUT), wanneer een of meer attributen van waarde zijn veranderd, zal de beginGeldigheid automatisch met de datum van de export worden vervangen.
 

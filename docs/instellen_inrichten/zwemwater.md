@@ -14,7 +14,7 @@ De kolommen van tbmilzwemcodetabel:
   - dvomschrijving is de omschrijving van het item, dus datgeen wat je in de keuzelijst ziet.
   - ddvervaldatum is vervaldatum van de codering. Vanaf die dag kan het desbetreffende keuzelijstitem niet meer gekozen worden.
 
-Tegeldefinitie [Zwemcodetabel](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_overig/zwemcodetabel.md).
+Tegeldefinitie [Zwemcodetabel](../probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_overig/zwemcodetabel.md).
 
 ## Blok Zwemgelegenheid in het inrichting detailscherm
 
@@ -26,7 +26,7 @@ Deze *dvbedrijfsrtcode* is aan te maken vanuit het inrichtingenbeheer-portaal bi
 
 Tabellen tbmilzweminstallatie, tbmilzwemplaats en tbmilzwemanalyse.
 
-Er zijn twee zwemwater-tegels in het inrichtingenportaal: (Zuiverings) Installatie ([Tegeldefinitie (Zuiverings) Installatie](/probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_zuiverings_installatie)) en Zwemplaats ([Tegeldefinitie Zwemplaats](/probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_zwemplaats)). Deze tegels zijn alleen zichtbaar mits deze aan de inlogger zijn toegekend, en de inlogger de juiste rechten heeft. Het inzien, wijzigen, aanmaken en verwijderen van gegevens is gekoppeld aan de Zwemwater-rechten bij een inrichting (*dlcmilinrzwwvsb, dlcmilinrzwwedt, dlcmilinrzwwins* en *dlcmilinrzwwdel* in tbmilrechten.md).
+Er zijn twee zwemwater-tegels in het inrichtingenportaal: (Zuiverings) Installatie ([Tegeldefinitie (Zuiverings) Installatie](../probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_zuiverings_installatie)) en Zwemplaats ([Tegeldefinitie Zwemplaats](../probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_zwemplaats)). Deze tegels zijn alleen zichtbaar mits deze aan de inlogger zijn toegekend, en de inlogger de juiste rechten heeft. Het inzien, wijzigen, aanmaken en verwijderen van gegevens is gekoppeld aan de Zwemwater-rechten bij een inrichting (*dlcmilinrzwwvsb, dlcmilinrzwwedt, dlcmilinrzwwins* en *dlcmilinrzwwdel* in tbmilrechten.md).
 
 Er kunnen bij een zwemgelegenheid meerdere (zuiverings) installaties en meerdere zwemplaatsen toegevoegd worden. Per (zuiverings) installatie en zwemplaats kan een *Analyse Vragenlijst* toegevoegd worden. Deze is te benaderen vanuit het detailscherm van de installatie of zwemplaats. In het analyse vragenlijst detailscherm kunnen gegevens genoteerd worden die tijdens de analyse van de installatie of zwemplaats naar voren zijn gekomen.
 

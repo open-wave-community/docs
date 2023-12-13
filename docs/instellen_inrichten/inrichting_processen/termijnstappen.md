@@ -322,14 +322,14 @@ _startwizard(maaknieuwezaak,,W;%keypointer%,%keyparent%)_
 
 `startWizard(StuurDSOOntvangstbevestiging,%keyparent%,tbomgvergunning)`
 
-- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
+- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](../../probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
 - _%keyparent%_ wordt on the fly automatisch vervangen met de dnkey van de kaart uit de hoofdzaak van de module (dus de dnkey van de zaak waar je op staat)
 
 **Automatisch aanroep wizard StuurDSOOntvangstbevestiging **met** vullen van afgehandeld datum van stap**
 
 `startWizard(StuurDSOOntvangstbevestiging,%keyparent%,tbomgvergunning,%keypointer%)`
 
-- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](/probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
+- Door deze wizard aan te roepen wordt de mail _DSO ontvangstbevestiging initieel_ verstuurd naar de gemachtigde en/of aanvrager. Deze actie is alleen te gebruiken bij DSO zaken (tbomgvergunning.dlisdso is T). Na uitvoeren van de actie zal in het detailscherm van de omgevingszaak bij het blok _DSO_ de verstuurdatum gevuld zijn. Voor gehele informatie over werking van DSO ontvangstbevestiging sturen zie [DSO ontvangstbevestiging](../../probleemoplossing/programmablokken/dso_ontvangstbevestiging.md)
 - _%keyparent%_ wordt on the fly automatisch vervangen met de dnkey van de kaart uit de hoofdzaak van de module (dus de dnkey van de zaak waar je op staat)
 - _%keypointer%_ wordt on the fly automatisch vervangen met de dnkey van de stap (termijnbewstappen) teneinde op de juiste plek de afhandeldatum te kunnen vullen.
 

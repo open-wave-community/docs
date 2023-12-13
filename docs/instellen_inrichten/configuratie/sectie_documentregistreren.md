@@ -2,7 +2,7 @@
 
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: DocumentRegistreren_ gerangschikt op item.
 
-[Lijst Geregistreerde Documenten bij een zaak](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)
+[Lijst Geregistreerde Documenten bij een zaak](../../probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)
 
 ## Items Configuratietabel
 

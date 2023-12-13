@@ -2,7 +2,7 @@
 
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Inloggegevens_ gerangschikt op item. Het gaat hier om de instellingen m.b.t. wachtwoord/gebruikersnaam vergeten.
 
-Zie ook de instellingen bij _Sectie: Logon_ voor instellingen m.b.t. normaal inloggen. Zie [Inloggen](/probleemoplossing/programmablokken/inloggen.md).
+Zie ook de instellingen bij _Sectie: Logon_ voor instellingen m.b.t. normaal inloggen. Zie [Inloggen](../../probleemoplossing/programmablokken/inloggen.md).
 Zie ook _Sectie: PreInlog_.
 
 ## Items Configuratietabel

@@ -11,7 +11,7 @@ Wanneer de gebruiker vraagt om een lijst van beschikbare mappen, of om een lijst
 
 Dit is het geval wanneer documenten up-of gedownload worden bij een zaak die NIET onder een compartiment valt.
 
-Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
+Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](../probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](../probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
 
 - **Aan/uit**. de kolom _Tekst_ van _Sectie: Documenten, Item: OphalenViaFileserver_ moet gevuld zijn met de waarde _Satellite_.
 - Het **endpoint** van de satellite staat in kolom _Tekst_ van _Sectie: Satellite_ en _Item: Endpoint_fileserver_. Moet zijn:
@@ -31,7 +31,7 @@ Op de plaats van de xxxx en de yyyy ip.nummer en poort.
 
 Dit is het geval wanneer documenten up-of gedownload worden bij een zaak die WEL onder een compartiment valt.
 
-Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](/probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
+Dit zijn extra instellingen i.v.m. satellite gebruik. De instellingen zoals beschreven in [Upload documenten naar fileshare](../probleemoplossing/programmablokken/upload_document/upload_naar_fileshare.md) en [Ophalen van fileshare](../probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md) zijn dus ook noodzakelijk.
 
 - **Aan/uit**. de kolom _Satellite (dlsatellite)_ van de betreffende compartimentskaart moet aangevinkt zijn.
 - Het **endpoint** van de satellite staat in kolom _endpoint_ van blok satellite op de compartimentskaart. Moet zijn:

@@ -1,6 +1,6 @@
 # Sectie KadasterBAG
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: kadaserBAG_ gerangschikt op item. Zie [Automatisch inlezen BAG- mutaties](/probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md)
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: kadaserBAG_ gerangschikt op item. Zie [Automatisch inlezen BAG- mutaties](../../probleemoplossing/programmablokken/automatisch_inlezen_bag_-mutaties.md)
 
 ## Items Configuratietabel
 

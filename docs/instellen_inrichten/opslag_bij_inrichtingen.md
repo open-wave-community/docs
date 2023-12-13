@@ -8,7 +8,7 @@ Wat betreft de benadering van de tabel tbmilopslag via één of meer tegels is d
 
 De inrichtingstabel tbmilopslag kan onder verschillende tegels op het inrichtingsportaal benaderd worden. De aanroep op de [tegeldefinitie](./portaldefinitie/README.md) bepaalt hoe de achterliggende lijst van opslagkaarten gefilterd wordt op rubriek.
 
-Een van de attributen van deze tbmilopslag-tabel is de kolom dnrubriek. Dit is een foreign key naar tbmilrubriek (portaal Inrichtingenbeheer, tegel Milieurubrieken onder kolom Kenmerken en verplichtingen): Zie ook: [Milieurubrieken](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_kenmerken_en_verplichtingen/milieurubrieken.md). In deze tabel kunnen rubrieken worden gedefinieerd waarbij aangeven kan worden of deze rubrieken van toepassing zijn op de tabel tbmilopslag. De tabel tbmilrubriek wordt gevuld aangeleverd en daarop zijn onderstaande voorbeelden van toepassing; de functioneel beheerder kan echter zelf coderingen aanpassen en of toevoegen.
+Een van de attributen van deze tbmilopslag-tabel is de kolom dnrubriek. Dit is een foreign key naar tbmilrubriek (portaal Inrichtingenbeheer, tegel Milieurubrieken onder kolom Kenmerken en verplichtingen): Zie ook: [Milieurubrieken](../probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/tegels_kolom_kenmerken_en_verplichtingen/milieurubrieken.md). In deze tabel kunnen rubrieken worden gedefinieerd waarbij aangeven kan worden of deze rubrieken van toepassing zijn op de tabel tbmilopslag. De tabel tbmilrubriek wordt gevuld aangeleverd en daarop zijn onderstaande voorbeelden van toepassing; de functioneel beheerder kan echter zelf coderingen aanpassen en of toevoegen.
 
 Met behulp van die rubrieken kunnen de opslagkaarten verdeeld worden over één of meer tegels. Zo kunnen de opslagkaarten die gekoppeld zijn aan de rubriek met dvcode 3 (bodem) exclusief zichtbaar gemaakt worden via de tegeldefinitie Bodem (inrichtingportaal kolom Bodem: tegel: Bodem/opslagvoorz.). De actionaanroep op de tegel is in dit geval _getFlexList(tbmilopslag,tbmilinrichtingen,{id},3,V)_. Zo zijn er ook tegels die opslagkaarten tonen met tbmilrubriek.dvcode = 10 (tanks): _getFlexList(tbmilopslag,tbmilinrichtingen,{id},10,V)_.
 
@@ -33,7 +33,7 @@ Bij de standaarduitlevering is de opslagtabel verdeeld over de tegels:
 Een nieuwe opslagkaart kan worden aangemaakt
 
 - vanuit de lijsten achter de opslagtegels (zie hierboven)
-- vanuit de lijst met EV-activiteiten per inrichting ([Tegel REV BKL Activiteiten](/probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_rev_bkl_activiteiten.md))
+- vanuit de lijst met EV-activiteiten per inrichting ([Tegel REV BKL Activiteiten](../probleemoplossing/portalen_en_moduleschermen/inrichtingen_portaal/tegel_rev_bkl_activiteiten.md))
 
 In beide gevallen kan OpenWave in de wizard - naast de verplichte benaming (dvnaamopslag) - vragen om:
 

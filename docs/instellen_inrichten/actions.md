@@ -55,7 +55,7 @@ Voor de onderstreepte items geldt dat de substring _{id}_ of _{kolomnaam}_ in de
   - Indien:
   - param1 begint met de substring (http) dan wordt geacht dat param1 een URL bevat bijvoorbeeld <https://www.open-wave.nl/>.. Let op dat een ampersand-teken (&) in de URL geschreven moet worden als &amp; (5 karakters)
   - param1 bedoeld is een specifiek portaal binnen het domein van OpenWave te openen moet de portaalnaam en de dnkey worden doorgegeven bijv. openTabPage(#omgevingdetail/x) waarbij de x staat voor een specifieke dnkey van de hoofdtabel van het portaal. Naast omgevingdetail kunnen hier de portaalnamen handhavingdetail, apvoverigdetail, infodetail, horecadetail en inrichtingdetail en milieugebruikdetail worden gebruikt.
-  - param1 de waarde _#kaartoverzicht_ heeft, dan zal OpenWave de interne kaart openen met de gedefinieerde kaartlagen uit de beheertabel _GEO kaartlagen_. Zie o.a. voor centrering [Kaart](/probleemoplossing/module_overstijgende_schermen/kaart.md)
+  - param1 de waarde _#kaartoverzicht_ heeft, dan zal OpenWave de interne kaart openen met de gedefinieerde kaartlagen uit de beheertabel _GEO kaartlagen_. Zie o.a. voor centrering [Kaart](../probleemoplossing/module_overstijgende_schermen/kaart.md)
   - param1 opgebouwd is als URI-aanroep voor openen of bewerken van een fileserver-document via een Microsoft-office pakket, dan zal OpenWave deze aanroep doorzetten in de URL-balk (met de juiste slashes) b.v. ms-word:ofe| u |file:/oxygen/users/pdeboer/LocalFileLinksTest.docx.
 
 > [!WARNING]
@@ -99,7 +99,7 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
 
 ### geefGeoVanLokatie
 
-- Wat doet het?: In een modal venster wordt een kaart getoond getoond op basis van de coördinaatgegevens van een detailkaart. Zie [Kaart](/probleemoplossing/module_overstijgende_schermen/kaart.md)
+- Wat doet het?: In een modal venster wordt een kaart getoond getoond op basis van de coördinaatgegevens van een detailkaart. Zie [Kaart](../probleemoplossing/module_overstijgende_schermen/kaart.md)
 - aanroep: geefgeovanLokatie(param1, param2):
   - param1: De eerste parameter moet de een primary key zijn van een tabel die hoort bij de tweede parameter. Met uitzondering indien param2 = _AlgemeneKaart_. In dat laatste geval kan param1 een lege waarde hebben
   - param2: De tweede parameter is OF een tabelnaam OF de waarde _AlgemeneKaart_. De tabelnaam moet één van volgende zijn: tbperceeladressen, tbmilinrichtingen, tbmildiversen, tbmilemlucht, tbmilemwater, tbmilopslag, tbhorontheffingen, tbhandhavingen, tbovvergunningen, tbomgvergunning, tbmilasbest, tbmilvergunningen, tbbouwvergunningen, tbinfoaanveragen, tbhorecavergunningen, tbmilstal of tbzaakkadperc of tbmilafvalstoffen
@@ -182,14 +182,14 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
 - **startWizard(maakEmail,param2,param3,param4)** Idem als documentsjabloon, maar dan voor e-mails.
 - **startWizard(maaknieuweInrichting,param2)** waarbij een wizard wordt gestart teneinde een nieuwe inrichting te definiëren. Param2 kan leeg zijn. In dat geval wordt de wizard geopend, waarbij de gebruiker eerst gemeente, woonplaats en straat moet kiezen. Als parma2 gevuld is verwacht OpenWave dat dit een dnkey uit de tabel TbOpenBareRuimte is. De inlogger zal dan alleen het adres binnen die straat moeten kiezen.
 - **startWizard(maaknieuwproces,param2,param3)** waarbij een wizard wordt gestart teneinde een vervolgproces te kiezen vanuit de procesbewaking. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md).
-- **startWizard(maaknieuwezaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een nieuwe hoofdzaak te definiëren. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en bij lemma [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
+- **startWizard(maaknieuwezaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een nieuwe hoofdzaak te definiëren. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en bij lemma [Aanmaken van nieuwe zaak](../probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
 - **startwizard(showTekst,param2,param3,param4)** waarbij een wizard wordt gestart van één scherm met alleen een sluitknop die de tekst uit param2 toont.
   - Voorbeeld: startWizard(showTekst, dit is een tekst,dit is de koptekst,400)
   - param1: showTekst
   - param2: de tekst die getoond wordt in het wizardscherm. Mag een lange tekst zijn
   - param3: de koptekst. Mag leeg zijn
   - param4: hoogte van tekstvak in pixles. Indien leeg dan is de default 120.
-- **startwizard(sluitZaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een hoofdzaak af te sluiten. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en het lemma [Sluiten van zaak](/probleemoplossing/programmablokken/sluiten_zaak.md).
+- **startwizard(sluitZaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een hoofdzaak af te sluiten. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en het lemma [Sluiten van zaak](../probleemoplossing/programmablokken/sluiten_zaak.md).
 - **startwizard(startreport,param2,param3)** waarbij een bepaald rapport wordt gestart (tbrapporten.dnkey = param2 ). Param3 mag een lege waarde hebben, maar indien gevuld dan moet het rapport aangeroepen worden vanuit een zaakportaal, waarbij param3 de id is van die hoofdzaak (dus bijv. een dnkey uit tbomgvergunning). Zie voorbeeld voor het gebruik van deze param3 identifier van zaakportal (nportalid) in [Rapportages](./rapportages.md).
 - **startWizard(zoekInrichtingopNaam,param2)** waarbij een wizard wordt gestart teneinde een inrichting te zoeken. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan. Bij 0 wordt de wizard gesloten.
 - **startWizard(ZoekZaakViaZaaknummer,param2)** waarbij een wizard wordt gestart teneinde een zaak te zoeken op zaakcodering. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.

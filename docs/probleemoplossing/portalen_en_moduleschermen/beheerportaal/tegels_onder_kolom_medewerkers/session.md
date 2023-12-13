@@ -13,7 +13,7 @@ De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instell
 
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
+- Portaal: [Beheerportaal](../../portalen_en_moduleschermen/beheerportaal.md)
 - Kolom: [Tegels onder kolom Medewerkers](tegels_onder_kolom_medewerkers/README.md)
 - Kopregel: *Session*
 - Actie: *getFlexList(StandardList,nil,nil,vwfrmsession;dnkeysession)*
