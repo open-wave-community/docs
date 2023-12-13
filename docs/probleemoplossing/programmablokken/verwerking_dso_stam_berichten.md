@@ -96,7 +96,7 @@ De volgende types kunnen worden aangeleverd in het verzoekbericht:
 
 Het is raadzaam hier zaaktypes voor te definiëren (of bestaande te hergebruiken) in de beheertabel _Zaaktypes omgeving_ (tbsoortomgverg). Daartoe is de kolom _Verzoektype_ (dvdsotype) in het blok _DSO-type_. OpenWave zal eerst proberen vast te stellen of het DSO verzoekbericht voor een compartiment is bedoeld op grond van de locatie, uitvoerende instantie en bevoegd gezag.
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
+![](../../img/applicatiebeheer/probleemoplossing/programmablokken/dsointierenbepalingzaaktypedummyadres.png){ class="media" loading="lazy" alt="" width="800" }
 
 Indien de uitvoerende instantie (behandeldienst) in het verzoekbericht is gevuld dan is het verzoekbericht sowieso niet voor een compartiment.
 
@@ -353,7 +353,7 @@ Bij het verwerken van STAM-bericht wordt eerst deze voorcheck gedaan: Indien
 Dan gaat het om een kopiebericht dat moet worden genegeerd. In de messagelog wordt het bericht wel opgenomen met de reden waarom genegeerd.
 
 Indien het kopiebericht toch moet worden opgeslagen (de instelling _Sectie: DSO en Item: KopieberichtenOpslaan_ is **WEL** aangevinkt, dan krijgt het verzoeknummer de postfix `_KCV`.
-![DSO zwarte gaten en kopieberichten](/img/applicatiebeheer/probleemoplossing/programmablokken/dsozwartegatenenkopieberichten.png){class="media" loading="lazy" width="800" }
+![DSO zwarte gaten en kopieberichten](../../img/applicatiebeheer/probleemoplossing/programmablokken/dsozwartegatenenkopieberichten.png){class="media" loading="lazy" width="800" }
 
 ## Vervolgacties na verwerken verzoekbericht
 

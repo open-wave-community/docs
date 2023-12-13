@@ -23,11 +23,11 @@ OpenWave onderscheidt 5 statussen van een zaak (het aantal rijen van deze tabel)
 
 Een typische beeld indien StatusGeblokkeerd **WEL** een aparte mapping heeft:
 
-![](/img/applicatiebeheer/instellen_inrichten/grid_zaakstatsusmetblokkering.png){ class="media" loading="lazy" alt="" width="700" }
+![](../img/applicatiebeheer/instellen_inrichten/grid_zaakstatsusmetblokkering.png){ class="media" loading="lazy" alt="" width="700" }
 
 Een typische beeld indien StatusGeBlokkeerd **GEEN**  aparte mapping heeft:
 
-![](/img/applicatiebeheer/instellen_inrichten/grid_zaakstatsuszonderblokkering.png){ class="media" loading="lazy" alt="" width="700" }
+![](../img/applicatiebeheer/instellen_inrichten/grid_zaakstatsuszonderblokkering.png){ class="media" loading="lazy" alt="" width="700" }
 
 ## StatusInbehandeling
 

@@ -194,11 +194,11 @@ Zie onderstaand uitgewerkt voorbeeld.
 Onderstaand voorbeeld is een rapport dat lopende verleende APV/Overige vergunningen van soort HOR of EXP of SLU of SPE of TER opsomt bij een inrichting.
 Het rapport wordt met een klik op de tegel gestart op het portaal van een inrichting:
 
-![](/img/applicatiebeheer/instellen_inrichting/acthortegel.png){ class="media" loading="lazy" alt="" width="300" }
+![](../img/applicatiebeheer/instellen_inrichting/acthortegel.png){ class="media" loading="lazy" alt="" width="300" }
 
 Klikken op de tegel (mits geautoriseerd) laat de rapportagelijst zien:
 
-![](/img/applicatiebeheer/instellen_inrichting/acthorlijst.png){ class="media" loading="lazy" alt="" width="500" }
+![](../img/applicatiebeheer/instellen_inrichting/acthorlijst.png){ class="media" loading="lazy" alt="" width="500" }
 
 **De rapportdefinitie**
 Eerst kolom SQL-1:
@@ -229,13 +229,13 @@ dnkeymilinrichtingen = %portalid%
 
 Omdat in de resultset van de SQL ook de primary key van de APV/Overige is opgenomen onder de alias 'key' kan de gebruiker ook doorklikken naar de detailschermen van die APV/Overige zaken in de lijst. Dat komt door de action definitie bij het rapport:
 
-![](/img/applicatiebeheer/instellen_inrichting/rapportaction.png){ class="media" loading="lazy" alt="" width="600" }
+![](../img/applicatiebeheer/instellen_inrichting/rapportaction.png){ class="media" loading="lazy" alt="" width="600" }
 
 **De rapportparameter**
 
 De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
-![](/img/applicatiebeheer/instellen_inrichting/rapportparameter.png){ class="media" loading="lazy" alt="" width="600" }
+![](../img/applicatiebeheer/instellen_inrichting/rapportparameter.png){ class="media" loading="lazy" alt="" width="600" }
 
 (de kolom label is hier overigens zinloos ingevuld, want het is een automatische parameter)
 
@@ -243,7 +243,7 @@ De parameter %portalid% uit SQL-2 is als volgt gedefinieerd:
 
 Stel dat de dnkey van de rapportdefinitie (kolom ID) de waarde 3041 heeft dan krijgt de tegel die geplaatst wordt op het inrichtingsportaal de actionaanroep: startWizard(startReport,3041,{id}).
 
-![](/img/applicatiebeheer/instellen_inrichting/acthorportaltile.png){ class="media" loading="lazy" alt="" width="600" }
+![](../img/applicatiebeheer/instellen_inrichting/acthorportaltile.png){ class="media" loading="lazy" alt="" width="600" }
 
 De tegel nog wel even toekennen aan de gewenste personen…. en het rapportniveau van de medewerkerskaart van die personen moet nog steeds groter of gelijk zijn aan het vereist rapportageniveau bij de rapportdefinitie EN die personen moeten *Interne medewerkers* zijn.
 

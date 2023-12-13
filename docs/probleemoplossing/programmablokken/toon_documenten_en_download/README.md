@@ -103,7 +103,7 @@ Indien CMIS 1.0 zie verder bij [Ophalen met CMIS](toon_documenten_en_download/op
 
 Door te klikken op een actieve regel zal OpenWave volgens onderstaand schema te werk gaan:
 
-[<img src="/_media/img/applicatiebeheer/probleemoplossing/programmablokken/openenopgeslagendocument.png?w=600&amp;tok=9523b3" class="media" loading="lazy" alt="" width="600" />](/_detail/img/applicatiebeheer/probleemoplossing/programmablokken/openenopgeslagendocument.png?id=docs%3Aapplicatiebeheer%3Aprobleemoplossing%3Aprogrammablokken%3Atoon_documenten_en_download.md)
+[<img src="/_media../../img/applicatiebeheer/probleemoplossing/programmablokken/openenopgeslagendocument.png?w=600&amp;tok=9523b3" class="media" loading="lazy" alt="" width="600" />](/_detail../../img/applicatiebeheer/probleemoplossing/programmablokken/openenopgeslagendocument.png?id=docs%3Aapplicatiebeheer%3Aprobleemoplossing%3Aprogrammablokken%3Atoon_documenten_en_download.md)
 
 **Ad 1. Check op registratie en vertrouwelijkheid**
 

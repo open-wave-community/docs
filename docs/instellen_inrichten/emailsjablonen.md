@@ -394,11 +394,11 @@ Select
 
 Er zijn dus 5 invoerparameters:
 
-![](/img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
+![](../img/applicatiebeheer/instellen_inrichten/invoerparameters2.png){ class="media" loading="lazy" alt="" width="600" }
 
 Dat resulteert bij het genereren van de email tot een invoerscherm:
 
-![](/img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
+![](../img/applicatiebeheer/instellen_inrichten/parameters2.png){ class="media" loading="lazy" alt="" width="400" }
 
 En de te genereren email ziet er dan zo uit:
 

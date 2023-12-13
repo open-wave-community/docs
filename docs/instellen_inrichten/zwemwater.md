@@ -1,6 +1,6 @@
 # Zwemwater bij inrichtingen
 
-[<img src="/_media/img/applicatiebeheer/instellen_inrichten/zwemwater_schema.png?w=600&amp;tok=b62f1c" class="media" loading="lazy" alt="" width="600" />](/_detail/img/applicatiebeheer/instellen_inrichten/zwemwater_schema.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Azwemwater.md)
+[<img src="/_media../img/applicatiebeheer/instellen_inrichten/zwemwater_schema.png?w=600&amp;tok=b62f1c" class="media" loading="lazy" alt="" width="600" />](/_detail../img/applicatiebeheer/instellen_inrichten/zwemwater_schema.png?id=docs%3Aapplicatiebeheer%3Ainstellen_inrichten%3Azwemwater.md)
 
 ## Codetabel Zwemwater
 

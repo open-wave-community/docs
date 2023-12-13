@@ -8,7 +8,7 @@ Zie voor synchronisatie van gegevens uit het REV naar OpenWave: [REV-synchronise
 
 Aan de beheerkant van OpenWave is het IMEV zichtbaar in de volgende structuur:
 
-![](/img/applicatiebeheer/instellen_inrichten/ow_rev_structuur_beheer.png){ class="media" loading="lazy" alt="" width="800" }
+![](../img/applicatiebeheer/instellen_inrichten/ow_rev_structuur_beheer.png){ class="media" loading="lazy" alt="" width="800" }
 
 Via beheerportaal *Inrichtingenbeheer* zijn onder de kolom *Registratie en Veiligheid* deze tabellen terug te vinden, waarbij datatypes in OpenWave vertaald zijn naar (D): string op basis van Doorkieslijst, (I)nteger, (F)loat, (S)tring op basis van invoer en (B)oolean.
 
@@ -76,7 +76,7 @@ Deze tabel met voorbeelden van Json exportdefinities per EV-activiteit wordt gev
 
 Deze tabel is gevuld. Niet op grond van IMEV, naar op grond van aangeleverde regels van een omgevingsdienst. De bedoeling van deze tabel is vast te leggen welke EV-contouren bij een bepaalde referentiecontour (die op zijn beurt - per definitie - gekoppeld is aan een EV-activiteit) automatisch kunnen worden aangemaakt op grond van de ingevulde attributen bij de activiteit en of referentiecontour.
 
-![](/img/applicatiebeheer/instellen_inrichten/revafstanden.png){ class="media" loading="lazy" alt="" width="800" }
+![](../img/applicatiebeheer/instellen_inrichten/revafstanden.png){ class="media" loading="lazy" alt="" width="800" }
 
 Bovenstaand voorbeeld betekent dat indien bij een referentiecontour (tbmilopslag)  met de definitie *OpslagReferentie* waarbij:
 
@@ -97,7 +97,7 @@ Voor alle aangemaakte EV-contour-kaarten geldt bovendien dat de beginGeldigheid 
 
 ## Activiteiten, contouren, kwetsbare gebouwen/locaties bij een inrichting
 
-![](/img/applicatiebeheer/instellen_inrichten/ow_rev_structuur_inrichting.png){ class="media" loading="lazy" alt="" width="800" }
+![](../img/applicatiebeheer/instellen_inrichten/ow_rev_structuur_inrichting.png){ class="media" loading="lazy" alt="" width="800" }
 
 De groene blokken slaan op tabellen van de OpenWave database die ook buiten het REV om bestaan: Er zijn veel inrichtingen die geen Locatie-EVactiviteit zijn (dus geen EV-activiteiten hebben) en een tbmilopslagkaart hoeft geen referentiecontour te zijn (dat wil zeggen hoeft niet gekoppeld te zijn aan een EV-activiteit).
 

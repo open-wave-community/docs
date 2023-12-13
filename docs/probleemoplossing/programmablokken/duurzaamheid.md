@@ -1,6 +1,6 @@
 # Duurzaamheid
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/kolommen.png){ class="media" loading="lazy" alt="" width="200" }
+![](../../img/applicatiebeheer/probleemoplossing/programmablokken/kolommen.png){ class="media" loading="lazy" alt="" width="200" }
 
 Aan een milieu-inrichting kunnen gegevens omtrent duurzaamheid worden geregistreerd. Naast het registreren van energie gegevens, is er ook de mogelijkheid aan te geven aan welke projecten de inrichting deelneemt, welke vervoerders van toepassing zijn en is de afvalregistratie vernieuwd.
 
@@ -8,7 +8,7 @@ Aan een milieu-inrichting kunnen gegevens omtrent duurzaamheid worden geregistre
 
 Het registreren van energiegegevens is uitgebreid met de volgende attributen: exact verbruik, of het om een grootverbruiker gaat en het formaat van de aansluiting. In het geval dat er een koppeling met Erkende maatregelen is, zal de energie registratie aangemaakt worden met de gegevens van de binnengekomen XML. Dit was al zo maar vanaf deze versie wordt ook het exact energie verbruik overgenomen uit het bericht.
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/detailscherm_energie.png){ class="media" loading="lazy" alt="" width="400" }
+![](../../img/applicatiebeheer/probleemoplossing/programmablokken/detailscherm_energie.png){ class="media" loading="lazy" alt="" width="400" }
 
 ## Vervoer
 
@@ -36,4 +36,4 @@ Eerder werd de vervoerder gekozen uit de gekoppelde vervoerders bij de inrichtin
 Er wordt dus ook niet meer gekozen uit de gekoppelde vervoerders bij de inrichting, maar uit de opgegeven vervoerders in beheer (tegel _Vervoerders_) met indicatie afvalstof. Daarnaast is het mogelijk om de rol van de vervoerder toe te kennen. Er zijn vier mogelijke rollen: _Vervoerder (V)_, _Inzamelaar (I)_, _Handelaar (H)_ en _Bemiddelaar (B)_.
 Er kan alleen gekozen worden uit de rollen zoals opgegeven bij de vervoerder in de beheertabel. Een vervoerder kan meerdere malen worden opgevoerd bij de afvalstofregistratie, maar niet meerdere malen met dezelfde rol (combinatie moet uniek zijn).
 
-![](/img/applicatiebeheer/probleemoplossing/programmablokken/beheer_vervoerders_1.21.png){ class="media" loading="lazy" alt="" width="500" }
+![](../../img/applicatiebeheer/probleemoplossing/programmablokken/beheer_vervoerders_1.21.png){ class="media" loading="lazy" alt="" width="500" }

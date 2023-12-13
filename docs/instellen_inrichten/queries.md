@@ -87,7 +87,7 @@ select
 
 Het resultaat als tegelopschrift is bijvoorbeeld:
 
-![Tegel-query met kleur](/img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png){ class="media" loading="lazy" alt="" width="200" }
+![Tegel-query met kleur](../img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png){ class="media" loading="lazy" alt="" width="200" }
 
 Wanneer een query niet valide SQL-code gebruikt zal het programma - bij gebruik voor tegelopschrift - het resultaat vervangen door 'fout:xml': dat zal dan op de betreffende tegel verschijnen.
 

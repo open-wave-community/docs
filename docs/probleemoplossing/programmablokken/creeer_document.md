@@ -234,7 +234,7 @@ De KIX bevat het bestemmingsadres bestaande uit de postcode in combinatie met he
 
 De expressie in de query bij een brief is bij een Omgevingsvergunning:
 
-![kix-query](/img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg){ width=500px loading=lazy class="media" }
+![kix-query](../../img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg){ width=500px loading=lazy class="media" }
 
 ### Briefnummer en gecrypte waardes
 

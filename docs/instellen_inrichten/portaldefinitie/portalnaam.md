@@ -61,4 +61,4 @@ Een voorbeeld van zelf gedefinieerde kopteksten met
 
 geeft volgende resultaat:
 
-![](/img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }
+![](../../img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }

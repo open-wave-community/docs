@@ -61,7 +61,7 @@ ZIE voor een andere benadering documenten/verzendstroom het lemma
 
 ## Voorbeeld email
 
-![Emaildocumenten_download](/img/applicatiebeheer/probleemoplossing/programmablokken/emaildocumentendownlaod.png){ class="media" loading="lazy" alt="" width="600" }
+![Emaildocumenten_download](../../img/applicatiebeheer/probleemoplossing/programmablokken/emaildocumentendownlaod.png){ class="media" loading="lazy" alt="" width="600" }
 
 Het resultaat van bovenstaand voorbeeld in de body van een email:
 
