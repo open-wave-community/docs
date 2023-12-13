@@ -7,7 +7,7 @@ De lijst is zichtbaar indien de inlogger lid is van een rechtengroep die op over
 ## Definitie
 
 - Voor de definitie van de lijst en knoppen: zie beheertegel _Tabellen Standaardapi_ (tbsysstandardtable.dvcode = operations_vwfrmcbsexport)
-- De lijst-schermidentifier is: MDLC_getVwfrmCBSExportList.xml (zie beheertegel _Schermkolomdefinitie tabellen standaard-api_)
+- De lijst-schermidentifier is: MDLC*getVwfrmCBSExportList.xml (zie beheertegel \_Schermkolomdefinitie tabellen standaard-api*)
 - De onderliggende view is: vwfrmcbsexport
 
 ## Bijzondere kolommen
@@ -26,7 +26,7 @@ Het scherm geeft een foutmelding, indien:
 - er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger heeft geen recht om CBS te exporteren (tbrechten.dlcextcbs11disk).
 
-![](../../img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1000" }
+![](../../../img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1000" }
 
 ### Triggers
 
@@ -34,15 +34,15 @@ Dubbel klikken op een regel opent het detailscherm van de CBS-exportregel. Altij
 
 ### Vraagtekenknop: Is er een proces bezig?
 
-De knop ![](../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een CBS-exportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportCBS_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
+De knop ![](../../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een CBS-exportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportCBS_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
 
 ### Verversknop
 
-Zowel het samenstellen van de lijst als het opstellen van het exportbestand gebeurt door een zogenaamd runnable programma. Dat betekent dat de gebruiker nadat het proces is gestart door kan gaan met andere werkzaamheden. Onder water voert de runnable zijn taken uit. Dat betekent ook dat de wijzigingen in de lijst niet voortdurend door die runnable worden uitgeschreven. Met deze knop ![]../../img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/refresh_2.jpg){ class="media" loading="lazy" alt="" width="20" } kan de lijst ververst worden. De gebruiker kijkt naar de dan naar de actuele situatie mits de vraagtekenknop meldt dat er geen proces meer loopt.
+Zowel het samenstellen van de lijst als het opstellen van het exportbestand gebeurt door een zogenaamd runnable programma. Dat betekent dat de gebruiker nadat het proces is gestart door kan gaan met andere werkzaamheden. Onder water voert de runnable zijn taken uit. Dat betekent ook dat de wijzigingen in de lijst niet voortdurend door die runnable worden uitgeschreven. Met deze knop ![]../../../img/openwave/applicatiebeheer/instellen_inrichten/schermdefinitie/refresh_2.jpg){ class="media" loading="lazy" alt="" width="20" } kan de lijst ververst worden. De gebruiker kijkt naar de dan naar de actuele situatie mits de vraagtekenknop meldt dat er geen proces meer loopt.
 
 ### Wizard: Genereer nieuwe exportlijst
 
-Met de knop ![](../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond waarbij de gemeente gekozen moet worden waarvoor men de CBS-gegevens wilt exporteren. Er kan gekozen worden uit gemeentes waarvoor in beheer bij de _OIN-tabel_ de eigenschap **Opnemen in keuzelijst maken CBS-exportlijst** aangevinkt staat.
+Met de knop ![](../../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond waarbij de gemeente gekozen moet worden waarvoor men de CBS-gegevens wilt exporteren. Er kan gekozen worden uit gemeentes waarvoor in beheer bij de _OIN-tabel_ de eigenschap **Opnemen in keuzelijst maken CBS-exportlijst** aangevinkt staat.
 
 Het programma zal de CBS regels (tbcbs_gegevens_w011) doorlopen en toevoegen aan de lijst met te exporteren CBS-gegevens (tbcbsexport). Op de te doorlopen CBS regels zijn de volgende condities van toepassing:
 
@@ -55,11 +55,11 @@ Het programma zal de CBS regels (tbcbs_gegevens_w011) doorlopen en toevoegen aan
 
 ### Verwijderknop
 
-Met de knop ![](../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" "width="20" } kan de inlogger de actieve CBS-exportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende CBS-regel verwijderd wordt! Alleen de regel in tbcbsexport.
+Met de knop ![](../../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" "width="20" } kan de inlogger de actieve CBS-exportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende CBS-regel verwijderd wordt! Alleen de regel in tbcbsexport.
 
 ### Wizard: Exporteer items in deze lijst (exportbestand wordt gemaakt)
 
-Met de knop ![](../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren CBS-gegevens, een exportbestand opgesteld waarvoor geldt dat:
+Met de knop ![](../../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren CBS-gegevens, een exportbestand opgesteld waarvoor geldt dat:
 
 - het compartiment overeenkomt met dat van de inlogger
 - de kleurbol van de regel wit is (tenzij in de wizard gekozen voor ook meenemen van de niet Verleende vergunningen: dan worden de regels met oranje kleurbol ook meegenomen in de export).
@@ -68,4 +68,4 @@ Na het genereren van het exportbestand wordt de lijst met te exporteren CBS-rege
 
 ### Lijstknop: Exportbestanden (via deze lijst kan gewenste exportbestand gedownload worden)
 
-Met de knop ![](../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel. Men kan ook doorklikken naar het detailscherm van de logging en daar het bestand downloaden.
+Met de knop ![](../../../img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel. Men kan ook doorklikken naar het detailscherm van de logging en daar het bestand downloaden.
