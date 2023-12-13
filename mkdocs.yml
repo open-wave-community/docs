@@ -26,6 +26,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - nl2br
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -54,6 +55,7 @@ markdown_extensions:
 plugins:
   - search
   - abs-to-rel
+  - callouts
   - gen-files:
       scripts:
         - docs/gen_doc_stubs.py

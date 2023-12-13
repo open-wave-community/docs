@@ -55,8 +55,7 @@ In het portaal _Operations_ onder de kolom _Export_ is een tegel opgenomen **Rep
 
 Indien de status van deze regel in operationslog de waarde KLAAR heeft, dan is de runnable blijkbaar klaar met het werk. Dat betekent dat de zipfile is geplaatst op het externe endpoint OF - indien dat endpoint niet is opgegeven - dan is de zipfile als base64 geplaatst in de kaart van de betreffende operationslog-rij. Via de detailkaart van de operationslog-regel kan de zipfile gedownload worden naar de device van de gebruiker.
 
-> [!WARNING]
-> **Let op:** de zipfiles kunnen heel groot worden. De opslag van de zipfile in de operationslog is dus echt bedoeld voor kleinere TESTS!
+> [!WARNING] > **Let op:** de zipfiles kunnen heel groot worden. De opslag van de zipfile in de operationslog is dus echt bedoeld voor kleinere TESTS!
 
 ## Aanroep van de export via Taskscheduler
 
@@ -67,8 +66,8 @@ De aanroep (de taak) is dan exportReportContainer(paramcodering). _Paramcodering
 
 Wanneer er gebruik gemaakt wordt van ftps middels: FTPS-LFTP en er iets fout gaat dan kunnen in de Messagelog onder andere de volgende meldingen worden weergegeven:
 
-1. "[...] no progress timeout"
-2. "[...] Fatal error: max-retries exceeded (Connection refused)"
+1.  `[...] no progress timeout`
+2.  `[...] Fatal error: max-retries exceeded (Connection refused)`
     Deze meldingen kunnen meerdere oorzaken hebben maar hebben vrijwel altijd te maken met verkeerde instellingen:
 
           * De gebruikersnaam of het wachtwoord is verkeerd
@@ -78,13 +77,12 @@ Wanneer er gebruik gemaakt wordt van ftps middels: FTPS-LFTP en er iets fout gaa
           * Het ip adres van de OpenWave server staat bij het endpoint niet op een whitelist.
           * Er is een certificaat nodig voor het endpoint wat bevraagd wordt maar het certificaat is niet geïnstalleerd op de OpenWave server.
 
-3. "[...] Fatal error: Certificate verification: Not trusted"
+3.  "[...] Fatal error: Certificate verification: Not trusted"
     Het certificaat dat het endpoint aanbiedt wordt niet vertrouwd door OpenWave.
     Middels de instelling (Setting): _"verifycertificate:false"_ is deze melding veelal te omzeilen.
     Het is een foutmelding die door OpenWave zelf wordt veroorzaakt.
     Deze controleert of het endpoint wel bekend is in de server configuratie. Dit is eigenlijk altijd een false positive.
 
-> [!WARNING]
-> **Let op:** dat het endpoint dat is ingevoerd wel degelijk het juiste is.
+> [!WARNING] > **Let op:** dat het endpoint dat is ingevoerd wel degelijk het juiste is.
 > Let er ook op dat de instellingen als volgt zijn ingesteld bij "Settings":
 > _"forcesslencryption":true_ en _"sslprotectdata":true_.
