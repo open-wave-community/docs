@@ -20,10 +20,10 @@ Dit portaal is bedoeld voor alle onderdelen die betrekking hebben op het instell
 
 ## Index
 
-- [Tegels onder kolom Afhandeling](tegels_kolom_afhandeling.md)
-- [Tegels onder kolom Financiële Afhandeling](tegels_kolom_financiele_afhandeling.md)
-- [Tegels onder kolom Handhaving- en Toezicht](tegels_kolom_handhaving_toezicht.md)
-- [Tegels onder kolom Klachten](tegels_kolom_klachten.md)
-- [Tegels onder kolom Overig 1](tegels_kolom_overig_1.md)
-- [Tegels onder kolom Overig 2](tegels_kolom_overig_2.md)
-- [Tegels onder kolom Zaaktypes](tegels_kolom_zaaktypes.md)
+- [Tegels onder kolom Afhandeling](tegels_kolom_afhandeling/README.md)
+- [Tegels onder kolom Financiële Afhandeling](tegels_kolom_financiele_afhandeling/README.md)
+- [Tegels onder kolom Handhaving- en Toezicht](tegels_kolom_handhaving_toezicht/README.md)
+- [Tegels onder kolom Klachten](tegels_kolom_klachten/README.md)
+- [Tegels onder kolom Overig 1](tegels_kolom_overig_1/README.md)
+- [Tegels onder kolom Overig 2](tegels_kolom_overig_2/README.md)
+- [Tegels onder kolom Zaaktypes](tegels_kolom_zaaktypes/README.md)

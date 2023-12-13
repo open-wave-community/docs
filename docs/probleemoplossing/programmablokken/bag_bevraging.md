@@ -1,6 +1,6 @@
 # BAG bevraging via StUF BG vraagbericht
 
-Voor verwerken van XML-BAG-Extracten en BAG-mutaties: zie:[Inlezen BAG Extract en/of BAG-mutaties](inlezen_bag-extract_en_bag-mutaties.md).
+Voor verwerken van XML-BAG-Extracten en BAG-mutaties: zie:[Inlezen BAG Extract en/of BAG-mutaties](automatisch_inlezen_bag_-mutaties.md).
 
 ## Waar vandaan aangeroepen
 

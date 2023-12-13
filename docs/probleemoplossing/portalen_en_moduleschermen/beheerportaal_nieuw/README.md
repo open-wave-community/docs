@@ -8,7 +8,7 @@ Vanaf dit portaal kan men navigeren naar de overige beheerportalen:
 
 _[Servicecentrum](../servicecentrum/README.md)
 _[Operationsportaal](/probleemoplossing/portalen_en_moduleschermen/operationsportaal.md)
-_[Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
+_[Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/README.md)
 _[Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingenbeheer/README.md)
 
 ## Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet

@@ -2,7 +2,7 @@
 
 Een contactpersoon wordt via een adresrol aan een zaak gekoppeld. Eén contactpersoon kan onder verschillende rollen aan eenzelfde zaak zijn verbonden.
 
-![](../img/applicatiebeheer/instellen_inrichten/adresrollen.png){ class="media" loading="lazy" alt="" width="400" }
+![](../img/applicatiebeheer/instellen_inrichten/adresrollen.png){ class="media" loading="lazy" alt="adresrollen" width="400" }
 
 Bovenstaande tekening kan soortgelijk ingevuld worden met tbhandhavingen en tbhandhcontactennn, tbinfoaanvragen, tbhorecavergunningen, tbovvergunningen, tbmilinrichtingen EN tbbezwaarberoep.
 
@@ -65,4 +65,4 @@ Op de database is afgevangen:
 
 Niet op de database, maar wel in programmacode is afgevangen:
 
-  - Bij een [inrichting](/instellen_inrichten.md) kan in de tabel tbmilcontactennn maar één rij voorkomen met de adresrol MHC
+  - Bij een [inrichting](README.md) kan in de tabel tbmilcontactennn maar één rij voorkomen met de adresrol MHC

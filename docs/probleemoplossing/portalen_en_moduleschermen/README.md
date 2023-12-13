@@ -9,7 +9,7 @@
 - [Openingsportaal](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/README.md)
 - [Operationsportaal](/probleemoplossing/portalen_en_moduleschermen/operationsportaal.md)
 - [Servicecentrum](../servicecentrum/README.md)
-- [Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer.md)
+- [Zaakbeheer](/probleemoplossing/portalen_en_moduleschermen/zaakbeheer/README.md)
 - [Zaakportaal APV/Overig](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_apv_overig.md)
 - [Zaakportaal Bouw/Sloop](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_bouw_sloop.md)
 - [Zaakportaal Handhavingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen.md)

@@ -1,6 +1,6 @@
 # Automatisch inlezen BAG- mutaties
 
-Het inlezen van BAG-mutaties per gemeente kan handmatig (zie hiertoe de uitleg onder hoofdstuk Import BAG-Mutaties van [Inlezen BAG Extract en/of BAG-mutaties](inlezen_bag-extract_en_bag-mutaties.md)), maar kan ook automatisch gebeuren door de scheduler zodanig in te stellen.
+Het inlezen van BAG-mutaties per gemeente kan handmatig (zie hiertoe de uitleg onder hoofdstuk Import BAG-Mutaties van [Inlezen BAG Extract en/of BAG-mutaties](automatisch_inlezen_bag_-mutaties.md)), maar kan ook automatisch gebeuren door de scheduler zodanig in te stellen.
 
 Met het geautomatiseerd verwerken wordt aan het kadaster gevraagd welke (laatste) maandmutaties er zijn. Deze lijst wordt vervolgens gefilterd op de daartoe aangekruiste gemeentes in tb33gemeentes (beheerportaal-Nieuw, kolom Administratie, tegel _Gemeentes_) op de kolom dlmaandmutatiesbag (maandmutaties BAG ophalen).
 De zip-bestanden met de maandmutaties worden vervolgens gedownload en verwerkt door dezelfde API als bij de handmatige verwerking.

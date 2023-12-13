@@ -7,7 +7,7 @@
 - [CBS export](cbs_export/README.md)
 - [BRP (GBA) bevraging](bpr_bevraging.md)
 - [Import/Export rapport, sjabloon etc.](import_export_xlm.md)
-- [Inlezen BAG Extract en/of BAG-mutaties](inlezen_bag-extract_en_bag-mutaties.md)
+- [Inlezen BAG Extract en/of BAG-mutaties](automatisch_inlezen_bag_-mutaties.md)
 - [Inlezen EB Maatregelen (EBM)](inlezen_energiebesparende_maatregelen.md)
 - [Inlezen EML gegevens](inlezen_eml.md)
 - [Inlezen Streetspotter data](inlezen_streetspotter_data.md)

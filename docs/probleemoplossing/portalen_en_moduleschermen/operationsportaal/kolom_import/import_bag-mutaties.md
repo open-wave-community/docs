@@ -1,6 +1,6 @@
 # Import BAG-Mutaties
 
-Zie ook [Inlezen BAG Extract en/of BAG-mutaties](../programmablokken/inlezen_bag-extract_en_bag-mutaties.md).
+Zie ook [Inlezen BAG Extract en/of BAG-mutaties](../programmablokken/automatisch_inlezen_bag_-mutaties.md).
 
 ## Trigger
 
