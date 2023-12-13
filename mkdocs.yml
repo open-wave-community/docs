@@ -54,6 +54,13 @@ markdown_extensions:
 
 plugins:
   - search
+  - awesome-pages:
+      filename: .index
+      collapse_single_pages: true
+      strict: false
+      order: asc
+      sort_type: natural
+      order_by: title
   - abs-to-rel
   - callouts
   - gen-files:
@@ -63,20 +70,6 @@ plugins:
       implicit_index: true
       tab_length: 4
       nav_file: SUMMARY.md
-
-nav:
-  - Home: README.md
-  - Technische Informatie: techniek/
-  - Functionaliteiten: functionaliteiten/
-  - Instellen & Inrichten: instellen_inrichten/
-    - Configuratie: instellen_inrichten/configuratie/
-    - Inrichting Processen: instellen_inrichten/inrichting_processen/
-    - Portaldefinitie: instellen_inrichten/portaldefinitie/
-    - Schermdefinitie: instellen_inrichten/schermdefinitie/
-  - Probleemoplossing: probleemoplossing/README.md
-    - Module Overstijgende Schermen: probleemoplossing/module_overstijgende_schermen/
-    - Portalen en Moduleschermen: probleemoplossing/portalen_en_moduleschermen/
-    - Programmablokken: probleemoplossing/programmablokken/
 
 validation:
   omitted_files: warn
