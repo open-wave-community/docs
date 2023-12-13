@@ -60,7 +60,7 @@ plugins:
       scripts:
         - docs/gen_doc_stubs.py
   - literate-nav:
-      implicit_index: false
+      implicit_index: true
       tab_length: 4
       nav_file: SUMMARY.md
 
@@ -69,4 +69,15 @@ validation:
   absolute_links: warn
   unrecognized_links: warn
   nav:
-    absolute_links: ignore
+    - Home: README.md
+    - Technische Informatie: techniek/
+    - Functionaliteiten: functionaliteiten/
+    - Instellen & Inrichten: instellen_inrichten/
+      - Configuratie: instellen_inrichten/configuratie/
+      - Inrichting Processen: instellen_inrichten/inrichting_processen/
+      - Portaldefinitie: instellen_inrichten/portaldefinitie/
+      - Schermdefinitie: instellen_inrichten/schermdefinitie/
+    - Probleemoplossing: probleemoplossing/README.md
+      - Module Overstijgende Schermen: probleemoplossing/module_overstijgende_schermen/
+      - Portalen en Moduleschermen: probleemoplossing/portalen_en_moduleschermen/
+      - Programmablokken: probleemoplossing/programmablokken/

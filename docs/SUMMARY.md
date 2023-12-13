@@ -1,13 +1,11 @@
-- [Welkom](README.md)
-- [Technische Informatie](techniek/README.md)
-  - techniek/\*.md
+- [Home](README.md)
+- [Technische Informatie](techniek/)
 - [Functionaliteiten](functionaliteiten/)
-- Instellen & Inrichten
+- [Instellen & Inrichten](instellen_inrichten/)
   - [Configuratie](instellen_inrichten/configuratie/)
   - [Inrichting Processen](instellen_inrichten/inrichting_processen)
   - [Portaldefinitie](instellen_inrichten/portaldefinitie/)
   - [Schermdefinitie](instellen_inrichten/schermdefinitie/)
-  - instellen_inrichten/\*.md
 - [Probleemoplossing](probleemoplossing/README.md)
   - [Module Overstijgende Schermen](probleemoplossing/module_overstijgende_schermen/)
   - [Portalen en Moduleschermen](probleemoplossing/portalen_en_moduleschermen)
