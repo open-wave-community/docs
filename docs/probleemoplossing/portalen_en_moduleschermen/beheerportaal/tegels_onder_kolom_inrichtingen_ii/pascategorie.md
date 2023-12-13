@@ -1,4 +1,4 @@
-s# PAS coderingen
+# PAS coderingen
 
 ## Trigger
 

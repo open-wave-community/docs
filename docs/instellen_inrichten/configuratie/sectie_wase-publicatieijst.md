@@ -1,4 +1,4 @@
- Sectie Wase-publicatielijst
+# Sectie Wase-publicatielijst
 
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Wase-publicatielijst_ gerangschikt op item.
 

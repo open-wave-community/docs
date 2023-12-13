@@ -1,4 +1,4 @@
- Sectie Inloggegevens
+# Sectie Inloggegevens
 
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Inloggegevens_ gerangschikt op item. Het gaat hier om de instellingen m.b.t. wachtwoord/gebruikersnaam vergeten.
 

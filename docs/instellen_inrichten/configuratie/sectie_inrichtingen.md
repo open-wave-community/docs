@@ -1,4 +1,4 @@
- Sectie Inrichtingen
+# Sectie Inrichtingen
 
 Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Inrichtingen_ gerangschikt op item.
 

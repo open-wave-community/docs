@@ -21,7 +21,7 @@ Het dynamische opschrift op tegels is niet zichtbaar:
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: docs:[Beheerportaal - NIEUW](README.md)
-- Kolom: [Tegels onder kolom Overige beheerportalen](tegels_kolom_overige_portalen/README.md)
+- Kolom: [Tegels onder kolom Overige beheerportalen](README.md)
 - Kopregel: _Inrichtingenbeheer_
 - Dynamisch tegelopschrift:
 - Actie: _opentabpage(#inrichtingenbeheer)_

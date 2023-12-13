@@ -1,4 +1,4 @@
-s# Aanmaken inspectie/toezicht in bulk
+# Aanmaken inspectie/toezicht in bulk
 
 Zie ook [Bulk aanmaken van inspecties/toezichtzaken](../programmablokken/bulkinspzaken.md).
 

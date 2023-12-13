@@ -57,10 +57,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - literate-nav:
+      nav_file: SUMMARY.md
   - callouts
-  - gen-files:
-      scripts:
-        - docs/gen_doc_stubs.py
 
 validation:
   omitted_files: warn

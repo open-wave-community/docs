@@ -14,6 +14,6 @@ De tegel is een trigger voor een tabel waarin de de verzonden en ontvangen StUfZ
 De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: [Beheerportaal](../../portalen_en_moduleschermen/beheerportaal.md)
-- Kolom: [Tegels onder kolom Medewerkers](tegels_onder_kolom_medewerkers/README.md)
+- Kolom: [Tegels onder kolom Medewerkers](README.md)
 - Kopregel: _Messagelog_
 - Actie: _getFlexList(tbmessagelog)_

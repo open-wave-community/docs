@@ -1,4 +1,4 @@
-s# RAV/BWL-combinaties
+# RAV/BWL-combinaties
 
 ## Trigger
 
