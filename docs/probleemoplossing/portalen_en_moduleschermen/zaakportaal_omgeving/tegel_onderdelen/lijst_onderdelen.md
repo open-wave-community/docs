@@ -6,7 +6,7 @@ De schermidentifier is: MDLC_geefOmgActiviteitenOverzicht.xml. Dit scherm kan wo
 
 Het scherm geeft een foutmelding:
 
-  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
   * de inlogger moet kijkrechten hebben op de activiteiten/onderdelen bij de omgevingszaak.
 
 ## Triggers

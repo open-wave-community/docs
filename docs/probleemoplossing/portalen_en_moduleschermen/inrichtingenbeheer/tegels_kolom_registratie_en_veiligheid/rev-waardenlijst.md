@@ -13,7 +13,7 @@ Voor de definitie van de lijst zie beheertabel _tabellen standaardapi_ (tbsyssta
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Registratie en Veiligheid_

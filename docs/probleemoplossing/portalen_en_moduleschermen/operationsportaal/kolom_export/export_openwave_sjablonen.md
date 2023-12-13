@@ -1,6 +1,6 @@
 # Export OpenWave sjablonen
 
-Zie ook [Import/Export rapport, sjabloon etc.](/probleemoplossing/programmablokken/import_export_xlm.md).
+Zie ook [Import/Export rapport, sjabloon etc.](../programmablokken/import_export_xlm.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het exporteren van rapportages, sjabl
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   - Portaal: *Operations*
   - Kolom: *Export*

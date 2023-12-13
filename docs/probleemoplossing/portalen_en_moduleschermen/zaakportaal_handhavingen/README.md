@@ -10,7 +10,7 @@ Schermtype portal.
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbhandhavingen.dnkey
 - inlogger heeft geen kijkrechten voor Handhavingszaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _Handhavingen Zichtbaar_ niet is aangevinkt)
 - de variabele x uit de aanroep verwijst naar een zaak van een gemeente waarvoor de inlogger geen kijkrechten rechten (zie instelling medewerker: alleen gemeentes en/of medewerker is lid van compartiment en de locatie van de zaak valt niet onder de aan het compartiment toegekende gemeentes)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
   2)Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -38,7 +38,7 @@ Knop is zichtbaar en enabled indien:
 ### Docs
 
 - Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbhhrechten.dlchahcorregvsb)_ heeft.
-  - Anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlchahcorvsb)_ heeft.
+  - Anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](../programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlchahcorvsb)_ heeft.
 
 ### Kaart
 
@@ -61,45 +61,45 @@ Knop is altijd zichtbaar en enabled.
 Klikken op tegel opent een vervolgscherm.
 
 Indien niet klikbaar dan is de tegel ingesteld als disabled (zie
-[Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)).
+[Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md)).
 
 ## Gerelateerde Pagina's
 
-- [Detailscherm Handhavingszaak](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/detailscherm_handhavingen.md)
-- [Tegel Afgehandelde Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgehandelde_adviezen.md)
-- [Tegel Afgeronde Inspectietrajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgehandelde_inspectietrajecten.md)
-- [Tegel Afgehandelde Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgehandelde_processtappen.md)
-- [Tegel Afgeronde Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgeronde_issues.md)
-- [Tegel Afgeronde zaken bij dit project](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgeronde_zaken_bij_dit_project.md)
-- [Tegel Afgesloten Inspectiebezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgesloten_inspectiebezoeken.md)
-- [Tegel Afgeronde zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgesloten_zaken_op_dit_adres.md)
-- [Tegel Afgesloten Inspectiebezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgesloten_inspectiebezoeken.md)
-- [Tegel Afgesloten zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_afgesloten_zaken_op_dit_adres.md)
-- [Tegel Alert](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_alert.md)
-- [Tegel Alert bij Inrichting](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_alert_bij_inrichting.md)
-- [Tegel Alle Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_alle_processtappen.md)
-- [Tegel Bestuurlijke Maatregelen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_bestuurlijke_maatregelen.md)
-- [Tegel Collegiale Toetsen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_collegiale_toetsen.md)
-- [Tegel Dwangsom](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_dwangsom.md)
-- [Tegel Geregistreerde Documenten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_geregistreerde_documenten.md)
-- [Tegel Kadastrale Percelen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_kadastrale_percelen.md)
-- [Tegel Lopende Inspectietrajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_lopende_inspectietrajecten.md)
-- [Tegel Lopende zaken bij dit project](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_lopende_zaken_bij_dit_project.md)
-- [Tegel Lopende zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_lopende_zaken_op_dit_adres.md)
-- [Tegel Openstaande Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_openstaande_adviezen.md)
-- [Tegel Openstaande Inspectiebezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_openstaande_inspectiebezoeken.md)
-- [Tegel Openstaande Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_openstaande_issues.md)
-- [Tegel Openstaande processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_openstaande_processtappen.md)
-- [Tegel Proces Checklijsten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_proces_checklijsten.md)
-- [Tegel Product](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_product.md)
-- [Tegel Producten/Diensten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_producten_diensten.md)
-- [Tegel Status](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_status.md)
-- [Tegel Afgehandelde Invorderingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_afgehandelde_invorderingen.md)
-- [Tegel Afgerond Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_afgerond_bezwaar_beroep.md)
-- [Tegel Contactadressen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_contactadressen.md)
-- [Tegel Dossierbehandelaars](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_dossierbehandelaars.md)
-- [Tegel Gekoppeld aan Inrichting](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_gekoppeld_aan_inrichting.md)
-- [Tegel Lopend Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_lopend_bezwaar_beroep.md)
-- [Tegel Openstaande Invorderingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_openstaande_invorderingen.md)
-- [Tegel Verbonden aan Groep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_tegel_verbonden_aan_groep.md)
-- [Tegel Uren](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_handhavingen/tegel_uren.md)
+- [Detailscherm Handhavingszaak](detailscherm_handhavingen.md)
+- [Tegel Afgehandelde Adviezen](tegel_afgehandelde_adviezen.md)
+- [Tegel Afgeronde Inspectietrajecten](tegel_afgehandelde_inspectietrajecten.md)
+- [Tegel Afgehandelde Processtappen](tegel_afgehandelde_processtappen.md)
+- [Tegel Afgeronde Overtredingen](tegel_afgeronde_issues.md)
+- [Tegel Afgeronde zaken bij dit project](tegel_afgeronde_zaken_bij_dit_project.md)
+- [Tegel Afgesloten Inspectiebezoeken](tegel_afgesloten_inspectiebezoeken.md)
+- [Tegel Afgeronde zaken op dit adres](tegel_afgesloten_zaken_op_dit_adres.md)
+- [Tegel Afgesloten Inspectiebezoeken](tegel_afgesloten_inspectiebezoeken.md)
+- [Tegel Afgesloten zaken op dit adres](tegel_afgesloten_zaken_op_dit_adres.md)
+- [Tegel Alert](tegel_alert.md)
+- [Tegel Alert bij Inrichting](tegel_alert_bij_inrichting.md)
+- [Tegel Alle Processtappen](tegel_alle_processtappen.md)
+- [Tegel Bestuurlijke Maatregelen](tegel_bestuurlijke_maatregelen.md)
+- [Tegel Collegiale Toetsen](tegel_collegiale_toetsen.md)
+- [Tegel Dwangsom](tegel_dwangsom.md)
+- [Tegel Geregistreerde Documenten](tegel_geregistreerde_documenten.md)
+- [Tegel Kadastrale Percelen](tegel_kadastrale_percelen.md)
+- [Tegel Lopende Inspectietrajecten](tegel_lopende_inspectietrajecten.md)
+- [Tegel Lopende zaken bij dit project](tegel_lopende_zaken_bij_dit_project.md)
+- [Tegel Lopende zaken op dit adres](tegel_lopende_zaken_op_dit_adres.md)
+- [Tegel Openstaande Adviezen](tegel_openstaande_adviezen.md)
+- [Tegel Openstaande Inspectiebezoeken](tegel_openstaande_inspectiebezoeken.md)
+- [Tegel Openstaande Overtredingen](tegel_openstaande_issues.md)
+- [Tegel Openstaande processtappen](tegel_openstaande_processtappen.md)
+- [Tegel Proces Checklijsten](tegel_proces_checklijsten.md)
+- [Tegel Product](tegel_product.md)
+- [Tegel Producten/Diensten](tegel_producten_diensten.md)
+- [Tegel Status](tegel_status.md)
+- [Tegel Afgehandelde Invorderingen](tegel_tegel_afgehandelde_invorderingen.md)
+- [Tegel Afgerond Bezwaar/Beroep](tegel_tegel_afgerond_bezwaar_beroep.md)
+- [Tegel Contactadressen](tegel_tegel_contactadressen.md)
+- [Tegel Dossierbehandelaars](tegel_tegel_dossierbehandelaars.md)
+- [Tegel Gekoppeld aan Inrichting](tegel_tegel_gekoppeld_aan_inrichting.md)
+- [Tegel Lopend Bezwaar/Beroep](tegel_tegel_lopend_bezwaar_beroep.md)
+- [Tegel Openstaande Invorderingen](tegel_tegel_openstaande_invorderingen.md)
+- [Tegel Verbonden aan Groep](tegel_tegel_verbonden_aan_groep.md)
+- [Tegel Uren](tegel_uren.md)

@@ -11,9 +11,9 @@ De tegel is een trigger voor een lijst van reëel bestaande _Combinaties van pro
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ( [Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md) ):
+De tegel is standaard als volgt gedefinieerd ( [Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md) ):
 
-- Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
-- Kolom: [Tegels onder kolom Instellingen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
+- Portaal: [Beheerportaal](README.md)
+- Kolom: [Tegels onder kolom Instellingen II](tegels_onder_kolom_instellingen_ii/README.md)
 - Kopregel: _Combinatie producten;klanten en werkpakketten_
 - Actie: _getFlexList(SysStandardList,nil,nil,,beheer_tbprodwkpklant)_

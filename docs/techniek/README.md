@@ -2,7 +2,7 @@
 
 Hier komende de volgende onderwerpen aan de orde:
 
-- [Versiebeheer](/techniek/versiebeheer.md)
-- [Browsers](/techniek/browsers.md)
-- [Database Lees- en Schrijfrechten](/techniek/database_lees_schrijfrechten.md)
-- [Systeem benodigdheden](/techniek/systeem_benodigdheden.md)
+- [Versiebeheer](versiebeheer.md)
+- [Browsers](browsers.md)
+- [Database Lees- en Schrijfrechten](database_lees_schrijfrechten.md)
+- [Systeem benodigdheden](systeem_benodigdheden.md)

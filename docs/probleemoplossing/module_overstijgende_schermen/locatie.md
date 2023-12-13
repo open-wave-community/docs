@@ -10,7 +10,7 @@ Kan worden aangeroepen vanuit de tegel _Locaties_ op het openingsportaal en met 
 
 Het scherm geeft een foutmelding indien:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger behoort tot een rechtengroep die geen kijkrechten heeft op locaties (locatieadressen zichtbaar bij hoofdrechtengroep).
 
 ### Muteren
@@ -19,7 +19,7 @@ De kolommen van de view afkomstig van de tabel tbperceeladressen kunnen gemuteer
 
 - de inlogger behoort tot een rechtengroep die wijzigrechten heeft op locaties (locatieadressen zichtbaar bij hoofdrechtengroep)
 - en de editschuif aan staat
-- en - indien de inlogger lid is van een [compartiment](/instellen_inrichten/compartimenten.md) - dan moet de betreffende gemeente in dat compartiment vallen. Let op: een gemeente kan in meerdere compartimenten voorkomen.
+- en - indien de inlogger lid is van een [compartiment](../../instellen_inrichten/compartimenten.md) - dan moet de betreffende gemeente in dat compartiment vallen. Let op: een gemeente kan in meerdere compartimenten voorkomen.
 
 Uitzondering is de kolom **Verificatiedatum BAG** die automatisch gevuld/leeggemaakt wordt door de trigger _synchroniseer met BAG_ of vanuit de operations (portaal Operations) Import BAG-extract en Import BAG-mutaties.
 
@@ -30,7 +30,7 @@ De kolommen _straat, woonplaats en gemeente_ zijn afkomstig van andere tabellen 
 - Toon kaart:
   - is altijd zichtbaar
   - is disabled indien de puntcoördinaten op het locatiescherm leeg zijn.
-- Synchroniseer met BAG (zie [BAG bevraging](/probleemoplossing/programmablokken/bag_bevraging.md)):
+- Synchroniseer met BAG (zie [BAG bevraging](../programmablokken/bag_bevraging.md)):
   - is zichtbaar en enabled indien:
     - de instelling _Sectie: KoppelingBAG_ en _Item: Methode_ en _Tekst = StUF-310_ bestaat en is aangevinkt
     - en de inlogger behoort tot een rechtengroep die BAG-rechten heeft op locaties (locatieadressen BAG bij hoofdrechtengroep: tbrechten.dldpclbag)

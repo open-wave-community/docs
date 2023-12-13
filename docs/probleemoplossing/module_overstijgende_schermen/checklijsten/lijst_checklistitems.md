@@ -2,7 +2,7 @@
 
 Het scherm is gebaseerd op tabel met checklijstitems per vergunning naar termijnbewakingsproces of inspectietraject.
 
-Dit scherm kan worden aangeroepen - via doorkieslijst - zie pagina [Checklijsten](/probleemoplossing/module_overstijgende_schermen/checklijsten/README.md), maar ook:
+Dit scherm kan worden aangeroepen - via doorkieslijst - zie pagina [Checklijsten](checklijsten/README.md), maar ook:
 
 - vanuit detailscherm van een processtap, indien een checklijst aan een specifieke stap is gekoppeld (geen doorkieslijst)
 - vanuit de knop linksonder op het detailscherm van een inspectietraject indien de checklijst gekoppeld is aan een inspectietraject.
@@ -11,7 +11,7 @@ Dit scherm kan worden aangeroepen - via doorkieslijst - zie pagina [Checklijsten
 
 Het scherm geeft een een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
   - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak.
 
 ## Muteren (inclusief nieuw aanmaken en verwijderen) status

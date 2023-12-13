@@ -19,7 +19,7 @@ Om te wijzigen:
 
 Voor de kolommen **exportdatum** en **notanummer** gelden extra rechten. Normaliter worden deze kolommen automatisch gevuld bij het exporteren van legesregels naar journaalposten in een export/importbestand. Dit gebeurt door de operatie FIS export (zie portaal Operations). Indien deze kolommen gevuld zijn blokkeren ze daarmee ook het wijzigen van de andere kolommen van de kaart.
 
-Wanneer de kolom **automatisch berekenen** aangevinkt is (staat default aan) dan resulteert het wijzigen van een kolom in het opnieuw berekenen van de kolom legesbedrag op grond van de gekozen legessoort, ontvangstdatum en eventueel de activiteit. Zie [Legesberekening](/probleemoplossing/programmablokken/legesberekening.md).
+Wanneer de kolom **automatisch berekenen** aangevinkt is (staat default aan) dan resulteert het wijzigen van een kolom in het opnieuw berekenen van de kolom legesbedrag op grond van de gekozen legessoort, ontvangstdatum en eventueel de activiteit. Zie [Legesberekening](../programmablokken/legesberekening.md).
 
 De kolom **activiteit** kan alleen worden gekozen indien het gaat om een omgevingszaak.
 
@@ -59,7 +59,7 @@ Indien aldaar:
 
 ### Berekening legesbedrag
 
-Dit gebeurt op grond van de rekenregels die bij de gekozen legessoort zijn gedefinieerd (beheertegel _Legesdefinitie_). Zie [Legesberekening](/probleemoplossing/programmablokken/legesberekening.md).
+Dit gebeurt op grond van de rekenregels die bij de gekozen legessoort zijn gedefinieerd (beheertegel _Legesdefinitie_). Zie [Legesberekening](../programmablokken/legesberekening.md).
 
 ### Triggers in lijstscherm linksonder
 

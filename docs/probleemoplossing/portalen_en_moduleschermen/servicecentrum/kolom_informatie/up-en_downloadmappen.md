@@ -33,7 +33,7 @@ De inlogger met beheerrechten kan een document downloaden (waarbij de UUID-prefi
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Servicecentrum_
 - Kolom: _Informatie_

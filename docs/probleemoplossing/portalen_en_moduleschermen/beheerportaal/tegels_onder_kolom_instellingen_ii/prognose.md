@@ -11,9 +11,9 @@ De tegel is een trigger voor het doorkiesscherm naar de _Prognoses_ en hun soort
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
-- Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
-- Kolom: [Tegels onder kolom Instellingen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
+- Portaal: [Beheerportaal](README.md)
+- Kolom: [Tegels onder kolom Instellingen II](tegels_onder_kolom_instellingen_ii/README.md)
 - Kopregel: _Prognose_
 - Actie: _getFlexList(StandardList,nil,nil,vwfrmprognose;dnkey,nil,nil,nil,nil,insertStandardRow;deleteStandardRow)_

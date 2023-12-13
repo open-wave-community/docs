@@ -25,7 +25,7 @@ Ook in het geval dat de zaak waar de documenten naar toe worden geüpload valt o
     - indien de fileserver via satellite wordt benaderd, dan moet deze userpass overeenkomen met de tag api_pass uit de lokaal geïnstalleerde satellite.ini.
 - Indien de zaak waar de documenten naar toe worden geüpload WEL valt onder een compartiment en de kolom dlsatellite van dat compartiment is aangevinkt, dan zijn username en password bij het betreffende compartiment in het blok satellite opgeslagen (beheerportaal-Nieuw).
 
-Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
+Zie ook: [2-way encryptie van externe wachtwoorden](../../../../instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
 
 ## Tracering
 
@@ -53,7 +53,7 @@ Indien er verbinding vanuit de Cloud wordt gezocht met een fileserver dan is een
 - de zaak waar vanuit wordt geüpload NIET valt onder een compartiment en de kolom _Tekst_ van _Sectie: Documenten, Item: OphalenViaFileserver_ gevuld is met de waarde 'Satellite'
 - de zaak waar vanuit wordt geüpload WEL valt onder een compartiment en de kolom _fileserver via Satellite_ op de detailkaart van het betreffende compartiment (beheerportaal-Nieuw) aangevinkt is.
 
-Zie voor werking en overige instellingen: [Satellite t.b.v. benadering fileserver](/instellen_inrichten/satellite_filesysteem.md) en zie voor ketenvoorbeeld: [Ketenvoorbeeld Upload vanuit Cloud](/probleemoplossing/programmablokken/upload_document/ketenvoorbeeld_uplload_vanuit_cloud.md).
+Zie voor werking en overige instellingen: [Satellite t.b.v. benadering fileserver](../../../../instellen_inrichten/satellite_filesysteem.md) en zie voor ketenvoorbeeld: [Ketenvoorbeeld Upload vanuit Cloud](upload_document/ketenvoorbeeld_uplload_vanuit_cloud.md).
 
 ## Overschrijven of dupliceren onder nieuwe naam
 

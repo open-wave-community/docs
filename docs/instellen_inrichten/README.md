@@ -6,7 +6,7 @@ Hier en daar zal dit een overlap geven met hetgeen al eerder bij de triggers en 
 Dit hoofdstuk bestaat uit de volgende subhoofdstukken:
 
 - [configuratietabel](/instellen_inrichten/configuratie/README.md)
-- [Inrichten Processen](/instellen_inrichten/inrichting_processen.md)
+- [Inrichten Processen](inrichting_processen.md)
 - [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)
 - [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)
 

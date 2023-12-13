@@ -19,7 +19,7 @@ geforceerde download geregistreerd document_ voor de betreffende module (bijv.
 tbomgrechten.dlcomgcorregdwl).
 
 ZIE voor een andere benadering documenten/verzendstroom het lemma
-[Documenten/Verzendstroom](/probleemoplossing/programmablokken/documenten_verzendstroom).
+[Documenten/Verzendstroom](documenten_verzendstroom).
 
 ## Noodzakelijke instellingen
 
@@ -29,7 +29,7 @@ ZIE voor een andere benadering documenten/verzendstroom het lemma
 - EN de kolom **email van de inlogger** bij de medewerkerstabel moet gevuld zijn
   met een valide emailadres
 - EN de **webmailinstellingen** moeten kloppen: zie bij Instellen/Inrichten
-  [Email](/instellen_inrichten/email.md)
+  [Email](../../../instellen_inrichten/email.md)
 - EN de kolom _Tekst_ van instelling _Sectie: Documenten_ en _Item:
   StandaardEmailTekstAanhef_ moet gevuld zijn
 - EN de kolom _Info_ van instelling _Sectie: Documenten_ en _Item:
@@ -61,7 +61,7 @@ ZIE voor een andere benadering documenten/verzendstroom het lemma
 
 ## Voorbeeld email
 
-![Emaildocumenten_download](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/emaildocumentendownlaod.png){ class="media" loading="lazy" alt="" width="600" }
+![Emaildocumenten_download](/img/applicatiebeheer/probleemoplossing/programmablokken/emaildocumentendownlaod.png){ class="media" loading="lazy" alt="" width="600" }
 
 Het resultaat van bovenstaand voorbeeld in de body van een email:
 

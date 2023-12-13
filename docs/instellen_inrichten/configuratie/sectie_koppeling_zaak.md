@@ -1,6 +1,6 @@
 # Sectie Koppeling ZAAK
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: koppeling ZAAK_ gerangschikt op item. Indien de itemnaam uit twee regels bestaat dan is dat vanwege de leesbaarheid. In de werkelijkheid in de databasetabel staan de twee regels aan elkaar in de kolom dvitem van tbinitialisatie.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: koppeling ZAAK_ gerangschikt op item. Indien de itemnaam uit twee regels bestaat dan is dat vanwege de leesbaarheid. In de werkelijkheid in de databasetabel staan de twee regels aan elkaar in de kolom dvitem van tbinitialisatie.
 
 OpenWave zal voor het verzenden van Stuf Zaak/DMS berichten voor de nodige stuurgegevens en credentials eerst kijken in de beheertabel _Gemeentes_ bij de gemeente waar de zaak zich afspeelt. Als daar geen gegevens worden gevonden grijpt het programma terug op onderstaande algemene instellingen m.b.t. zaak/DMS. Wat betreft het aan/uitzetten van de methode: indien de zaak speelt in een compartiment dan wordt aldaar (beheerportaal-Nieuw) de methode ingesteld per compartiment.
 

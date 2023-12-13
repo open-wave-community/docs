@@ -1,6 +1,6 @@
 # Scherminformatie voor standaard insert- en kopieer
 
-Bij de definitie van een [standaardlijst](/instellen_inrichten/standardlist_standarddetail.md) (beheertegel _Tabellen Standaardapi_) kan bij de definitie van een insert-of kopieerknop een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de opmaak van een insertscherm voor de betreffende tabel.
+Bij de definitie van een [standaardlijst](../standardlist_standarddetail.md) (beheertegel _Tabellen Standaardapi_) kan bij de definitie van een insert-of kopieerknop een verwijzing staan naar een kaart in tbscreencolumns met daarin gedefinieerd de opmaak van een insertscherm voor de betreffende tabel.
 
 Die verwijzing staat bij de insertknopdefinitie als tweede parameter indien de action bij die insertknop is gedefinieerd als _startWizard_ en de eerste parameter de waarde _insertSysStandardRow_ heeft.
 

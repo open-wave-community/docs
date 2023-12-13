@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_getGewijzigdeZakenList.xml.
 
-Zie ook [Tegel Mijn Gewijzigde Zaken Afgelopen Week](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_gewijzigde_zaken_afgelopen_week.md)
+Zie ook [Tegel Mijn Gewijzigde Zaken Afgelopen Week](tegel_mijn_gewijzigde_zaken_afgelopen_week.md)
 
 ## Welke gegevens worden getoond
 

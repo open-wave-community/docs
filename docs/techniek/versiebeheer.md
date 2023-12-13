@@ -1,6 +1,6 @@
 # Versiebeheer
 
-[Technische](/techniek.md) vereisten middleware en REM producten
+[Technische](README.md) vereisten middleware en REM producten
 
 ### PHP/Javasscript
 

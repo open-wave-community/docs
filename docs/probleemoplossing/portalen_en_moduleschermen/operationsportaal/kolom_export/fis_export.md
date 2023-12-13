@@ -1,6 +1,6 @@
 # Fis Export
 
-Zie ook [Financiële export (Fis export)](/probleemoplossing/programmablokken/financiele_export.md).
+Zie ook [Financiële export (Fis export)](../programmablokken/financiele_export.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor het starten van lijstscherm met de *Te exporteren l
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   - Portaal: *Operations*
   - Kolom: *Export*

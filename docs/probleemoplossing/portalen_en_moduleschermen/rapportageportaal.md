@@ -11,7 +11,7 @@ De hieronder besproken voorbeelden van rapportagetegels kunnen ook op andere por
 
 ### Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](/instellen_inrichten/portaldefinitie/README.md))
+- er zijn geen tegels gedefinieerd onder portalname = _Rapportage_ (Zie [Portal Definitie](../../instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 
@@ -36,7 +36,7 @@ Er zijn drie types:
 - Tegel waarbij de gebruiker een rapportage kan kiezen uit één groep
 - Tegel waarbij de gebruiker eerst een groep kiest en vervolgens een rapportage uit die groep
 
-Zie voor indeling groepen en maken rapportages: [Rapportages](/instellen_inrichten/rapportages.md).
+Zie voor indeling groepen en maken rapportages: [Rapportages](../../instellen_inrichten/rapportages.md).
 
 ### Tegel waarbij direct een rapportage wordt gestart
 

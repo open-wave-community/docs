@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_getMijnSWFGewijzigdeZakenList.xml.
 
-Zie ook [Tegel Mijn Gewijzigde SWF Zaken](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_gewijzigde_swfzaken.md)
+Zie ook [Tegel Mijn Gewijzigde SWF Zaken](tegel_mijn_gewijzigde_swfzaken.md)
 
 ## Welke gegevens worden getoond
 

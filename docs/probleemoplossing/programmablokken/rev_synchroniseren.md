@@ -1,6 +1,6 @@
 # REV-synchroniseren
 
-Zie voor beheer en gebruik en export (OpenWave) Register Externe Veiligheid -gegevens: [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md)
+Zie voor beheer en gebruik en export (OpenWave) Register Externe Veiligheid -gegevens: [Register Externe Veiligheid](../../../instellen_inrichten/register_exrterne_veiligheid.md)
 
 Voor een functioneel beheerder is via het Operationsportaal onder kolom Import de tegel _REV Synchronisatie_ te benaderen. Deze tegel toont een lijst op basis van de tabel TbRevImportlocevactiv van actuele locatie-EVactiviteiten uit het REV, waarmee OpenWave data kunnen worden gesynchroniseerd.
 
@@ -62,7 +62,7 @@ Met de knop **synchroniseer aangevinkte items** worden de REV-data in OpenWave v
 - De inrichtingsdata m.b.t. REV van de betreffende tbmilinrichtingen-kaart worden overschreven met de gevonden waardes uit de Json resultset (dvlocatieevactiviteit, dvbedrijfsnaam, dvidentificatie, ddbegingeldigheid, dvgmlpolygoon, dvrevlocatieomschrijving, dvhandelsnaam, dvkvknr, dvrevbagnummerid).
 - De volgende kolommen van tbmilinrichtingen worden leeggemaakt: ddeindgeldigheid, ddrevpreviewok (datum laatste preview ok), ddmagexport (datum klaargezet voor export), dvcodemwmagexport (de medewerkerscode die ddmagexport heeft gevuld).
 - De volgende kolommen van tbmilinrichtingen worden gevuld met een timestamp: dddatumlaatstewijziging, ddexportnaarrev (dus de laatste exportdatum naar REV).
-- Bij de inrichting worden vervolgens de activiteiten en referentiecontouren en EV-contouren uit Json resultset toegevoegd met alle attributen. Voorwaarde is wel dat de featuretype-namen en attribuutnamen uit de Json resultset overeenkomen met de definities uit de OpenWave beheertabellen en dat voor de attributen geldt dat deze in OpenWave aangevinkt staan als Overnemen (zie [Register Externe Veiligheid](/instellen_inrichten/register_exrterne_veiligheid.md)). De dddatumlaatstewijziging en ddexportnaarrev wordt voor alle aangemaakte kaarten gevuld met timestamp.
+- Bij de inrichting worden vervolgens de activiteiten en referentiecontouren en EV-contouren uit Json resultset toegevoegd met alle attributen. Voorwaarde is wel dat de featuretype-namen en attribuutnamen uit de Json resultset overeenkomen met de definities uit de OpenWave beheertabellen en dat voor de attributen geldt dat deze in OpenWave aangevinkt staan als Overnemen (zie [Register Externe Veiligheid](../../../instellen_inrichten/register_exrterne_veiligheid.md)). De dddatumlaatstewijziging en ddexportnaarrev wordt voor alle aangemaakte kaarten gevuld met timestamp.
 
 De **noodzakelijke instellingen** zijn dezelfde als hierboven beschreven bij de knop _haal REV locatie-evactiviteiten identificatiecodes_. Om opslagkaarten te kunnen toevoegen (de referentiecontouren) zijn echter nog een aantal instellingen verplicht:
 

@@ -11,7 +11,7 @@ Boven op de where clausules van de view is de volgende extra restrictie van krac
 - de status van de ruimte is _GESLOTEN_
 - de ruimte is nog niet verwijderd in de samenwerkingsruimte van het DSO.
 
-Zie: [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md).
+Zie: [Samenwerkingsfunctionaliteit](../../../../instellen_inrichten/samenwerkingsfunctionaliteit.md).
 
 ## Rechten
 

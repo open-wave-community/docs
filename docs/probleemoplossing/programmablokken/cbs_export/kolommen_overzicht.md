@@ -1,6 +1,6 @@
 # Kolommenoverzicht CBS exportbestand
 
-Het CBS exportbestand wordt opgesteld volgens de handleiding van CBS (van januari 2023) en zal een ASCII bestand genereren .txt waarin zoveel regels staan als er voor de gekozen gemeente te exporteren CBS-gegevens zijn. Zie voor meer informatie pagina [CBS export](/probleemoplossing/programmablokken/cbs_export/README.md).
+Het CBS exportbestand wordt opgesteld volgens de handleiding van CBS (van januari 2023) en zal een ASCII bestand genereren .txt waarin zoveel regels staan als er voor de gekozen gemeente te exporteren CBS-gegevens zijn. Zie voor meer informatie pagina [CBS export](cbs_export/README.md).
 
 Per regel in het exportbestand liggen de kolommen met hun volgorde, lengte en positie vast. Dit kan niet gewijzigd worden.
 

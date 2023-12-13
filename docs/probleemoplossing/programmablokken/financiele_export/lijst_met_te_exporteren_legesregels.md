@@ -18,10 +18,10 @@ De lijst is zichtbaar indien de inlogger het recht _Mag legesregels exporteren (
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger heeft geen recht om leges te exporteren (tbmedewerkers.dlmaglegesexporteren).
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
+![](/img/applicatiebeheer/instellen_inrichten/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
 
 ## Triggers
 
@@ -31,15 +31,15 @@ Linksonder bevinden zich de knoppen: voor al deze knoppen geldt dat ze zichtbaar
 
 ### Vraagtekenknop: Is er een proces bezig?
 
-De knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een legesexportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportFis_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
+De knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/vraagteken.jpg){ class="media" loading="lazy" title="vraagteken.jpg" alt="vraagteken.jpg" width="20" } geeft antwoord op vraag of een andere medewerker op dat moment al bezig is een legesexportproces uit te voeren. Bij het samenstellen van de lijst en ook bij het opstellen van het exportbestand wordt in de configuratietabel _Getal1_ van de rij met _Sectie: Operations en Item: ExportFis_ op 1 gezet. Daarmee wordt voorkomen dat twee processen tegelijk kunnen starten. OpenWave zet deze waarde automatisch weer op 0 als een proces wordt beëindigd.
 
 ### Verversknop
 
-Zowel het samenstellen van de lijst als het opstellen van het exportbestand gebeurt door een zogenaamd runnable programma. Dat betekent dat de gebruiker nadat het proces is gestart door kan gaan met andere werkzaamheden. Onder water voert de runnable zijn taken uit. Dat betekent ook dat de wijzigingen in de lijst niet voortdurend door die runnable worden uitgeschreven. Met deze knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/refresh_2.jpg){ class="media" loading="lazy" alt="" width="20" } kan de lijst ververst worden. De gebruiker kijkt naar de dan naar de actuele situatie mits de vraagtekenknop meldt dat er geen proces meer loopt.
+Zowel het samenstellen van de lijst als het opstellen van het exportbestand gebeurt door een zogenaamd runnable programma. Dat betekent dat de gebruiker nadat het proces is gestart door kan gaan met andere werkzaamheden. Onder water voert de runnable zijn taken uit. Dat betekent ook dat de wijzigingen in de lijst niet voortdurend door die runnable worden uitgeschreven. Met deze knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/refresh_2.jpg){ class="media" loading="lazy" alt="" width="20" } kan de lijst ververst worden. De gebruiker kijkt naar de dan naar de actuele situatie mits de vraagtekenknop meldt dat er geen proces meer loopt.
 
 ### Wizard: Genereer nieuwe exportlijst
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond met de volgende doorkiesmogelijkheden (eventueel eerst voorafgegaan met de vraag: Kies gemeente):
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } _Genereer nieuwe exportlijst_ wordt een scherm getoond met de volgende doorkiesmogelijkheden (eventueel eerst voorafgegaan met de vraag: Kies gemeente):
 
 - Nieuwe lijst maken: Verzenddatum beschikking gevuld
 - Nieuwe lijst maken: Besluitdatum gevuld
@@ -68,15 +68,15 @@ Het programma zal indien deze optie gekozen is alle regels uit de legesexportlij
 
 ### Verwijderknop
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" width="20" } kan de inlogger de actieve legesexportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende legesregel verwijderd wordt! Alleen de regel in tblegesexport.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/delete.jpg){ class="media" loading="lazy" title="some colspan" alt="some colspan" width="20" } kan de inlogger de actieve legesexportregel uit de lijst verwijderen. Dit betekent niet dat de onderliggende legesregel verwijderd wordt! Alleen de regel in tblegesexport.
 
 ### Wizard: Kolommenoverzicht
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lesgeven.png){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de configuratie instellingen een kolommenoverzicht gegenereerd. Dit overzicht is belangrijk voor de test en voor het inrichten van de importroutine van het financieel systeem. Er dient een gevulde lijst met te exporteren legesregels te zijn die voldoen aan de compartimentsrechten om het kolommenoverzicht aan te maken. Zie [Kolommenoverzicht Fis](/probleemoplossing/programmablokken/financiele_export/kolommen_overzicht.md) voor uitgebreide uitleg.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lesgeven.png){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de configuratie instellingen een kolommenoverzicht gegenereerd. Dit overzicht is belangrijk voor de test en voor het inrichten van de importroutine van het financieel systeem. Er dient een gevulde lijst met te exporteren legesregels te zijn die voldoen aan de compartimentsrechten om het kolommenoverzicht aan te maken. Zie [Kolommenoverzicht Fis](financiele_export/kolommen_overzicht.md) voor uitgebreide uitleg.
 
 ### Wizard: Exporteer items in deze lijst (exportbestand wordt gemaakt)
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren legesregels, een exportbestand opgesteld waarvoor geldt dat:
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/factuur3.jpg){ class="media" loading="lazy" alt="" width="20" } wordt op basis van de lijst met te exporteren legesregels, een exportbestand opgesteld waarvoor geldt dat:
 
 - het compartiment overeenkomt met dat van de inlogger
 - de kleurbol van de regel wit of blauw is (er zijn geen ontbrekende gegevens die uitsluitend zijn voor financiële export).
@@ -85,13 +85,13 @@ Na het genereren van het exportbestand wordt de lijst met te exporteren legesreg
 
 ### Lijstknop: Exportbestanden (via deze lijst kan gewenste exportbestand gedownload worden)
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/lijst2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een lijstscherm geopend waarin de logging terug te vinden is van het genereren van de exportbestanden. Iedere keer als een exportbestand gegenereerd wordt, zal een nieuwe regel in het dit scherm verschijnen. Het exportbestand zelf ligt opgeslagen in de logging regel en is te downloaden in het lijstscherm via de downloadknop: download het exportbestand achter de actieve (geel gearceerde) regel.
 
 ### Wizard: maakCSVvanRapport - ALLEEN indien met eigen rapport en CSV export gewerkt wordt
 
 **Deze knop zit niet in de standaard uitlevering en dient eerst zelf aangemaakt te worden (zie verderop hoe deze knop aan te maken)**
 
-Met de knop ![](/docs/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een wizard gestart waarbij de gebruiker een rapport aanwijst dat vervolgens als .CSV aan de gebruiker wordt aangeboden als download.
+Met de knop ![](/img/applicatiebeheer/instellen_inrichten/instellen_inrichten/schermdefinitie/start_wizard2.jpg){ class="media" loading="lazy" alt="" width="20" } wordt een wizard gestart waarbij de gebruiker een rapport aanwijst dat vervolgens als .CSV aan de gebruiker wordt aangeboden als download.
 
 **Het is ook mogelijk om in de aanroep van de wizard al een rapport id mee te geven**. Indien dit het geval is, dan kan de gebruiker NIET zelf een rapport kiezen maar wordt er altijd hetzelfde rapport gestart. Zie bij kopje _Aanmaken van de knop_ hieronder waar het vaste rapport id opgegeven kan worden.
 

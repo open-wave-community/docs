@@ -1,6 +1,6 @@
 # Sectie Koppeling Converter
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: Koppeling Converter_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: Koppeling Converter_ gerangschikt op item.
 
 ## Items Configuratietabel
 

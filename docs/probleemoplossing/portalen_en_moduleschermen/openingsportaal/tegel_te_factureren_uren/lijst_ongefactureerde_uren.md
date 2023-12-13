@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_getOngefactureerdeUrenList.xml.
 
-Zie ook [Tegel Te factureren uren](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_te_factureren_uren.md)
+Zie ook [Tegel Te factureren uren](tegel_te_factureren_uren.md)
 
 ## Welke gegevens worden getoond
 

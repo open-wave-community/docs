@@ -1,6 +1,6 @@
 # Sectie Welstand
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de *Sectie: Welstand* gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de *Sectie: Welstand* gerangschikt op item.
 Instellingen die nodig zijn voor het kiezen van een conclusie op de speciale welstandspagina achter een welstandsadvies (bij de adviesinstantie in het beheerportaal is de kolom *welstandsadvies* aangevinkt).
 
 LET OP: de eerste vier items bestaan uit twee woorden gescheiden door een spatie.

@@ -9,7 +9,7 @@ Het scherm ziet er raar uit (al of niet met errormelding) of reageert niet:
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbhorecavergunningen.dnkey
 - inlogger heeft geen kijkrechten voor Horecazaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _Horecazaken Zichtbaar_ niet is aangevinkt)
 - de variabele x uit de aanroep verwijst naar een zaak van een gemeente waarvoor de inlogger geen kijkrechten (zie instelling medewerker: alleen gemeentes en/of medewerker is lid van compartiment en de locatie van de zaak valt niet onder de aan het compartiment toegekende gemeentes)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -31,7 +31,7 @@ Dit kan alleen indien aan medewerkers a andere tegels zijn toegekend dan aan med
 ### Docs
 
 - Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbhorrechten.dlchorcorregvsb)_ heeft.
-- Anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlchorcorvsb)_ heeft.
+- Anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](../programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlchorcorvsb)_ heeft.
 
 ### Kaart
 
@@ -53,38 +53,38 @@ Dit kan alleen indien aan medewerkers a andere tegels zijn toegekend dan aan med
 
 Klikken op tegel opent een vervolgscherm.
 
-Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)).
+Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md)).
 
 ## Gerelateerde Pagina's
 
-- [Detailscherm Horecazaak](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/detailscherm_horecazaak.md)
-- [Tegel Afgehandelde Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgehandelde_adviezen.md)
-- [Tegel Afgehandelde Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgehandelde_stappen.md)
-- [Tegel Afgerond Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgerond_bezwaar_beroep.md)
-- [Tegel Afgeronde Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgeronde_overtredingen.md)
-- [Tegel Afgeronde trajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgeronde_trajecten.md)
-- [Tegel Afgeronde zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgeronde_zaken_op_dit_adres.md)
-- [Tegel Afgesloten bezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_afgesloten_bezoeken.md)
-- [Tegel Alert](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_alert.md)
-- [Tegel Alle Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_alle_stappen.md)
-- [Tegel Collegiale Toetsen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_collegiale_toetsen.md)
-- [Tegel Contactadressen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_contactadressen.md)
-- [Tegel Dossierbehandelaars](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_dossierbehandelaars.md)[Tegel Exploitatievergunningen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_exploitatievergunning.md)
-- [Tegel Gekoppeld aan inrichting](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_gekoppeld_aan_inrichting.md)
-- [Tegel Geregistreerde Documenten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_geregistreerde_documenten.md)
-- [Tegel Leges](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_leges.md)
-- [Tegel Lopend Bezwaar/Beroep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_lopend_bezwaar_beroep.md)
-- [Tegel Lopende trajecten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_lopende_trajecten.md)
-- [Tegel Lopende zaken op dit adres](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_lopende_zaken_op_dit_adres.md)
-- [Tegel Openstaande Adviezen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_openstaande_adviezen.md)
-- [Tegel Openstaande Bezoeken](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_openstaande_bezoeken.md)
-- [Tegel Openstaande Overtredingen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_openstaande_overtredingen.md)
-- [Tegel Openstaande Processtappen](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_openstaande_stappen.md)
-- [Tegel Overzichtsscherm](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_overzichtsscherm.md)
-- [Tegel Proces Checklijsten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_proces_checklijsten.md)
-- [Tegel Product](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_product.md)
-- [Tegel Producten/Diensten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_producten_diensten.md)
-- [Tegel Speelautomaten](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_speelautomaten.md)
-- [Tegel Status](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_status.md)
-- [Tegel Terrasvergunning](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_terrasvergunning.md)
-- [Tegel Verbonden aan Groep](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_horeca/tegel_verbonden_aan_groep.md)
+- [Detailscherm Horecazaak](detailscherm_horecazaak.md)
+- [Tegel Afgehandelde Adviezen](tegel_afgehandelde_adviezen.md)
+- [Tegel Afgehandelde Processtappen](tegel_afgehandelde_stappen.md)
+- [Tegel Afgerond Bezwaar/Beroep](tegel_afgerond_bezwaar_beroep.md)
+- [Tegel Afgeronde Overtredingen](tegel_afgeronde_overtredingen.md)
+- [Tegel Afgeronde trajecten](tegel_afgeronde_trajecten.md)
+- [Tegel Afgeronde zaken op dit adres](tegel_afgeronde_zaken_op_dit_adres.md)
+- [Tegel Afgesloten bezoeken](tegel_afgesloten_bezoeken.md)
+- [Tegel Alert](tegel_alert.md)
+- [Tegel Alle Processtappen](tegel_alle_stappen.md)
+- [Tegel Collegiale Toetsen](tegel_collegiale_toetsen.md)
+- [Tegel Contactadressen](tegel_contactadressen.md)
+- [Tegel Dossierbehandelaars](tegel_dossierbehandelaars.md)[Tegel Exploitatievergunningen](tegel_exploitatievergunning.md)
+- [Tegel Gekoppeld aan inrichting](tegel_gekoppeld_aan_inrichting.md)
+- [Tegel Geregistreerde Documenten](tegel_geregistreerde_documenten.md)
+- [Tegel Leges](tegel_leges.md)
+- [Tegel Lopend Bezwaar/Beroep](tegel_lopend_bezwaar_beroep.md)
+- [Tegel Lopende trajecten](tegel_lopende_trajecten.md)
+- [Tegel Lopende zaken op dit adres](tegel_lopende_zaken_op_dit_adres.md)
+- [Tegel Openstaande Adviezen](tegel_openstaande_adviezen.md)
+- [Tegel Openstaande Bezoeken](tegel_openstaande_bezoeken.md)
+- [Tegel Openstaande Overtredingen](tegel_openstaande_overtredingen.md)
+- [Tegel Openstaande Processtappen](tegel_openstaande_stappen.md)
+- [Tegel Overzichtsscherm](tegel_overzichtsscherm.md)
+- [Tegel Proces Checklijsten](tegel_proces_checklijsten.md)
+- [Tegel Product](tegel_product.md)
+- [Tegel Producten/Diensten](tegel_producten_diensten.md)
+- [Tegel Speelautomaten](tegel_speelautomaten.md)
+- [Tegel Status](tegel_status.md)
+- [Tegel Terrasvergunning](tegel_terrasvergunning.md)
+- [Tegel Verbonden aan Groep](tegel_verbonden_aan_groep.md)

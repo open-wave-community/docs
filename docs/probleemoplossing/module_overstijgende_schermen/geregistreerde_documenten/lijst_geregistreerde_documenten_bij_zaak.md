@@ -1,7 +1,7 @@
 # Lijst Geregistreerde Documenten bij een zaak
 
 De schermidentifier is: MDLC_getGeregistreerdeDocumentenList.xml.
-Zie voor verzendstroom, collegiale toetsing, bijlages, ondertekening: [Documenten/Verzendstroom](/probleemoplossing/programmablokken/documenten_verzendstroom.md).
+Zie voor verzendstroom, collegiale toetsing, bijlages, ondertekening: [Documenten/Verzendstroom](../programmablokken/documenten_verzendstroom.md).
 
 ## Hoe zichtbaar te maken
 
@@ -24,7 +24,7 @@ De view is gebaseerd op de tabel tbcorrespondentie.
 
 De gebruiker (of OpenWave zelf) kan op de volgende manieren een bestaand document registreren: dat wil zeggen toevoegen aan de tabel tbcorrespondentie
 
-- Vanuit de bestaande documentenlijst die kijkt naar alle documenten op fileserver c.q. DMS (zie: [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download).md) met de knop _Registreer aangevinkte documenten_. Zichtbaar en enabled indien de gebruiker het _Wijzigen metadata van geregistreerde documenten_- recht heeft bij de betreffende module.
+- Vanuit de bestaande documentenlijst die kijkt naar alle documenten op fileserver c.q. DMS (zie: [Toon documenten en download](../programmablokken/toon_documenten_en_download).md) met de knop _Registreer aangevinkte documenten_. Zichtbaar en enabled indien de gebruiker het _Wijzigen metadata van geregistreerde documenten_- recht heeft bij de betreffende module.
 - Vanzelf vanuit het creëren van een document dat automatisch wordt opgeslagen op basis van een sjabloon mits _Getal1_ van _Sectie: Documenten en Item: Documentregistratie_ de waarde 1 heeft.
 - Vanzelf bij het uploaden van een document mits de instelling _Sectie: DocumentRegistreren en Item: AlleHandmatigeUploads_ is aangevinkt.
 - Vanzelf bij het automatisch plaatsen van een OLO/DSO document mits de instelling _Sectie: DocumentRegistreren en Item: AlleOLODSOUploads_ aangevinkt is.
@@ -64,7 +64,7 @@ Een kolom in de geregistreerde documenten lijst (of detail) kan worden gemuteerd
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie).md) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie).md) die niet valide is
 - de inlogger geen kijkrechten heeft op de documenten bij betreffende hoofdzaak.
 
 ### Betekenis kolom rood/groen balletje (kolom dvanbewerken)
@@ -98,7 +98,7 @@ Zie hieronder _triggers in lijstscherm_ voor het starten van de hyperlink vanuit
 
 In alle andere gevallen zal OpenWave door te klikken op een actieve regel volgens onderstaand schema te werk gaan:
 
-![Openen opgeslagen document](/docs/img/applicatiebeheer/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/openenopgeslagendocument.png){ class="media" loading="lazy" alt="" width="600" }
+![Openen opgeslagen document](/img/applicatiebeheer/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/openenopgeslagendocument.png){ class="media" loading="lazy" alt="" width="600" }
 
 **Ad 1. Check op bestaan en vertrouwelijkheid**
 
@@ -115,7 +115,7 @@ Indien vertrouwelijkheid OK en het aangewezen document van de fileserver komt, d
   - OF de kolom _Getal2_ van de instelling _Sectie: Documenten en Item: Documentregistratie_ heeft NIET de waarde 1
   - OF deze kolom heeft WEL waarde 1, maar het document kan WEL bewerkt worden (zie hierboven betekenis rood/groen bolletje)
 
-DAN wordt het document - zonder rendering en zonder verandering van de kolommen _Status_ en _Bij wie_ en _Gewijzigd_ - via een hyperlink geopend: dat wil zeggen via openTabPage(file:///' + map + documentnaam + extensie + ')' waarbij alle backslashes omgezet zijn in forwardslashes. Indien echter bovenstaande het geval is, maar de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+DAN wordt het document - zonder rendering en zonder verandering van de kolommen _Status_ en _Bij wie_ en _Gewijzigd_ - via een hyperlink geopend: dat wil zeggen via openTabPage(file:///' + map + documentnaam + extensie + ')' waarbij alle backslashes omgezet zijn in forwardslashes. Indien echter bovenstaande het geval is, maar de [satellite](../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
 In dit verband geldt nog wel het volgende:
 
@@ -137,7 +137,7 @@ Indien vertrouwelijkheid OK en het aangewezen document van de fileserver komt, d
 
 DAN wordt het document - zonder rendering en zonder verandering van de kolommen _Status_ en _Bij wie_ en _Gewijzigd_ - via Office URI-scheme geopend: bijvoorbeeld `ms-word:ofe| u |file:/zuurstof/user/pdeboer/Paultest.docx`.
 
-Indien echter bovenstaande het geval is, maar de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+Indien echter bovenstaande het geval is, maar de [satellite](../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
 In dit verband geldt nog wel het volgende:
 
@@ -278,7 +278,7 @@ Indien:
     - de inlogger het recht _creëren van documenten_ heeft bij betreffende hoofdzaak
     - de bovenliggende zaak niet is geblokkeerd
     - de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt.
-- **knop Zend email bericht naar bevoegd gezag** (downloadlink). Zie: [Email secretariaat bevoegd gezag vanuit geregistreerde documenten](/probleemoplossing/programmablokken/email_secretariaat_bg.md)
+- **knop Zend email bericht naar bevoegd gezag** (downloadlink). Zie: [Email secretariaat bevoegd gezag vanuit geregistreerde documenten](../programmablokken/email_secretariaat_bg.md)
   - zichtbaar en enabled indien:
     - kolom _Tekst_ van de instelling*Sectie: Documenten Item: Documentregistratie* gevuld met de string _bgdownloadlink_
     - en de inlogger heeft het recht _Registreren en wijzigen metadata van geregistreerde documenten_ voor de betreffende hoofdzaak bijv. tbomgrechten.dlcomgcoredt.
@@ -302,7 +302,7 @@ Indien:
     - de inlogger het recht _uploaden van documenten_ heeft bij betreffende hoofdzaak
     - de bovenliggende zaak niet is geblokkeerd.
     - de instelling _Sectie: Documenten en Item: Documentregistratie_ is aangevinkt.
-- **knop Synchroniseer met DMS** De synchronisatie vindt plaats op alle geregistreerde documenten van de zaak die voorzien zijn van een externe documentidentificatiecode op de kolommen titel (dvomschrijving in tbcorrespondentie), documenttype, verzenddatum, ontvangstdatum, creatiedatum. Het DMS is dus leidend. De metadata worden opgehaald met vraagbericht: geefLijstZaakdocumenten_ZakLv01 (zie opmerking dct.omschrijving (documenttype) bij [Toon documenten met StUF zaak/DMS](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_met_stuf_zaak_dms).md)
+- **knop Synchroniseer met DMS** De synchronisatie vindt plaats op alle geregistreerde documenten van de zaak die voorzien zijn van een externe documentidentificatiecode op de kolommen titel (dvomschrijving in tbcorrespondentie), documenttype, verzenddatum, ontvangstdatum, creatiedatum. Het DMS is dus leidend. De metadata worden opgehaald met vraagbericht: geefLijstZaakdocumenten_ZakLv01 (zie opmerking dct.omschrijving (documenttype) bij [Toon documenten met StUF zaak/DMS](../programmablokken/toon_documenten_en_download/ophalen_met_stuf_zaak_dms).md)
   - zichtbaar en enabled indien:
     - indien geen compartiment dan:
       *moet *Sectie: Documenten Item: OphalenviaDMS* aangevinkt staan

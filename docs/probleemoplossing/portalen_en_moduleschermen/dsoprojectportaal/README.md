@@ -27,7 +27,7 @@ Het scherm ziet er raar uit (al of niet met errormelding) of reageert niet:
 
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbdsoproject.dnkey
 - inlogger heeft geen kijkrechten voor Omgevingszaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _Omgevingszaken Zichtbaar_ niet is aangevinkt)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md))
 - indien er voor 1 van de zaakkolommen van dit portaal geen zichtbare tegel is, dan is de tegel zichtbaar die toont dat er voor die kolom geen zaken zijn
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
@@ -40,11 +40,11 @@ Het kan ook voorkomen dat medewerker a andere rechten heeft dan medewerker b: in
 
 Klikken op tegel opent een vervolgscherm.
 
-Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md)).
+Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](../../../instellen_inrichten/portaldefinitie/README.md)).
 
 ## Zie ook
 
-- [Tegels onder kolom Afgesloten DSO-Zaken](/probleemoplossing/portalen_en_moduleschermen/dsoprojectportaal/tegels_kolom_gesloten_dsozaken/README.md)
-- [Tegels onder kolom Lopende DSO-Zaken](/probleemoplossing/portalen_en_moduleschermen/dsoprojectportaal/tegels_kolom_lopende_dsozaken/README.md)
-- [Tegels onder kolom Overig](/probleemoplossing/portalen_en_moduleschermen/dsoprojectportaal/tegels_kolom_vervolgzaken/README.md)
-- [Tegels onder kolom Vervolgzaken](/probleemoplossing/portalen_en_moduleschermen/dsoprojectportaal/tegels_kolom_overig/README.md)
+- [Tegels onder kolom Afgesloten DSO-Zaken](README.md)
+- [Tegels onder kolom Lopende DSO-Zaken](README.md)
+- [Tegels onder kolom Overig](tegels_kolom_vervolgzaken/README.md)
+- [Tegels onder kolom Vervolgzaken](README.md)

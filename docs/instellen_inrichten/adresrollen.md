@@ -2,7 +2,7 @@
 
 Een contactpersoon wordt via een adresrol aan een zaak gekoppeld. Eén contactpersoon kan onder verschillende rollen aan eenzelfde zaak zijn verbonden.
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/adresrollen.png){ class="media" loading="lazy" alt="" width="400" }
+![](/img/applicatiebeheer/instellen_inrichten/adresrollen.png){ class="media" loading="lazy" alt="" width="400" }
 
 Bovenstaande tekening kan soortgelijk ingevuld worden met tbhandhavingen en tbhandhcontactennn, tbinfoaanvragen, tbhorecavergunningen, tbovvergunningen, tbmilinrichtingen EN tbbezwaarberoep.
 

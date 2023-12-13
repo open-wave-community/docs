@@ -11,7 +11,7 @@ De tegel is een trigger voor een lijst met mogelijke _Inspectie onderwerpen_ zoa
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Zaakbeheer_
 - Kolom: _Handhaving- en Toezicht_

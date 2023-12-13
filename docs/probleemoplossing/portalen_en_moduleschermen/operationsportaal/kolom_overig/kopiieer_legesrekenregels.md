@@ -4,7 +4,7 @@
 
 De tegel is een trigger voor het starten van een wizard waarmee Legesrekenregels (tblegesberekeingen) kunnen worden gekopieerd
 
-Zie: [Kopiëren Legesrekenregels](/probleemoplossing/programmablokken/kopieren_legesrekenregels.md).
+Zie: [Kopiëren Legesrekenregels](../programmablokken/kopieren_legesrekenregels.md).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -13,7 +13,7 @@ Zie: [Kopiëren Legesrekenregels](/probleemoplossing/programmablokken/kopieren_l
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Operations*
 - Kolom: *Overig*

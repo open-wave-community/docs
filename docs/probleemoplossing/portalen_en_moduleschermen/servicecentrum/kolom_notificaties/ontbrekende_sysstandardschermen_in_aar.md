@@ -16,7 +16,7 @@ In bovengenoemde controlelijst is dat zichtbaar indien de kolom _afwijkend scher
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Servicecentrum_
 - Kolom: _Notificaties_

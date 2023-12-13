@@ -1,6 +1,6 @@
 # Procesflow en bewaking
 
-Een [proces](/instellen_inrichten/inrichting_processen.md) is een verzameling regels die samen een bepaalde procesflow begeleiden bijvoorbeeld een ontvankelijkheidtoets. De procesregels hebben daarin de vorm van een termijnbewakingstap of van een afvinkstap.
+Een [proces](README.md) is een verzameling regels die samen een bepaalde procesflow begeleiden bijvoorbeeld een ontvankelijkheidtoets. De procesregels hebben daarin de vorm van een termijnbewakingstap of van een afvinkstap.
 
 Een termijnbewakingstap heeft een deadline. Die deadline wordt berekend aan de hand van termijnen gerekend vanaf een eerdere regel. De deadline van de allereerste regel is gerelateerd aan een startpunt: de ontvangstdatum van een zaak (datum constatering bij handhavingen). De gebruiker sluit een openstaande termijnstap door de afhandeldatum van die stap te vullen (kan ook met voor gedefinieerde acties als _creëer document_ of _kies vervolgzaak_).
 

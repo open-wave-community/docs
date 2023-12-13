@@ -1,6 +1,6 @@
 # Import Energie Besparende Maatregelen (EBM)
 
-Zie ook [Inlezen EB Maatregelen (EBM)](/probleemoplossing/programmablokken/inlezen_energiebesparende_maatregelen.md).
+Zie ook [Inlezen EB Maatregelen (EBM)](../programmablokken/inlezen_energiebesparende_maatregelen.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het inlezen van **Energie besparende 
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichtenn_inrichten/portaldefinitie/portal_tegel.md)):
 
   - Portaal: *Operations*
   - Kolom: *Import*

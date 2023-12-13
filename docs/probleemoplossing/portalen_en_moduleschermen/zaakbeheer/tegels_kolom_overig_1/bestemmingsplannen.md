@@ -11,7 +11,7 @@ De tegel is een trigger voor het lijstscherm *Bestemmingsplannen*.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Zaakbeheer*
 - Kolom: *Overig 1*

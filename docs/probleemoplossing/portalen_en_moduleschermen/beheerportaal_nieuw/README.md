@@ -13,7 +13,7 @@ _[Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingen
 
 ## Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-- er zijn geen tegels gedefinieerd onder portalname _beheerportaal-NIEUW_ (Zie [Portal Definitie](/instellen_inrichten/portaldefinitie/README.md))
+- er zijn geen tegels gedefinieerd onder portalname _beheerportaal-NIEUW_ (Zie [Portal Definitie](../../../instellen_inrichten/portaldefinitie/README.md))
 - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
 - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 
@@ -27,9 +27,9 @@ _[Inrichtingenbeheer](/probleemoplossing/portalen_en_moduleschermen/inrichtingen
 
 ## Gerelateerde pagina's
 
-- [Tegels onder kolom Administratie](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_administratie/README.md)
-- [Tegels onder kolom Dieper Beheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_dieperbeheer/README.md)
-- [Tegels onder kolom Gebruikers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_gebruikers/README.md)
-- [Tegels onder kolom Overige beheerportalen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_overige_portalen/README.md)
-- [Tegels onder kolom Scherm- en Tegelbeheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_schermbeheer/README.md)
-- [Tegels onder kolom Werkbeheer](/probleemoplossing/portalen_en_moduleschermen/beheerportaal_nieuw/tegels_kolom_werkbeheer/README.md)
+- [Tegels onder kolom Administratie](tegels_kolom_administratie/README.md)
+- [Tegels onder kolom Dieper Beheer](tegels_kolom_dieperbeheer/README.md)
+- [Tegels onder kolom Gebruikers](tegels_kolom_gebruikers/README.md)
+- [Tegels onder kolom Overige beheerportalen](tegels_kolom_overige_portalen/README.md)
+- [Tegels onder kolom Scherm- en Tegelbeheer](tegels_kolom_schermbeheer/README.md)
+- [Tegels onder kolom Werkbeheer](tegels_kolom_werkbeheer/README.md)

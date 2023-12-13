@@ -1,6 +1,6 @@
 # Import Streetspotter data
 
-Zie ook [Inlezen Streetspotter data](/probleemoplossing/programmablokken/inlezen_streetspotter_data.md).
+Zie ook [Inlezen Streetspotter data](../programmablokken/inlezen_streetspotter_data.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het inlezen van Streetspotter data re
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichtenn_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Operations*
 - Kolom: *Import*

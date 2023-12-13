@@ -31,11 +31,11 @@ Bovendien werkt dit alleen goed indien de opeenvolgende stappen ook qua streefda
 
 ## Termijnstappen
 
-Zie [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
+Zie [Termijnstappen](termijnstappen.md).
 
 ## Afvinkstappen
 
-Zie [Afvinkstappen](/instellen_inrichten/inrichting_processen/afvinkstappen.md).
+Zie [Afvinkstappen](afvinkstappen.md).
 
 ## Gekoppeld aan checklijsten
 

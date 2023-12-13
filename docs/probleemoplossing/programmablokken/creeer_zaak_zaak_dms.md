@@ -40,12 +40,12 @@ Een uitzondering hierop is de situatie dat een zaak speelt bij een gemeente die 
 - _Item: Zender_gebruiker_. De kolom *Tekst*met de gebruiker.
 - Als de instelling _Sectie: Koppeling ZAAK_ en _Item: HTTPAuthenticatieNaam_ bestaat en is aangevinkt dan wordt de verzending over HTTPS geautoriseerd met:
   - authenticatienaam is kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: HTTPAuthenticatieNaam_
-  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: HTTPAuthenticatiePass_, zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+  - authenticatiepass is kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: HTTPAuthenticatiePass_, zie ook: [2-way encryptie van externe wachtwoorden](../../../instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
   - In de kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: HTTPAuthenticatieType_ kan desgewenst het authenticatietype worden ingevuld: Basic (default) of NTLM (versie 1).
   - In de kolom _Tekst_ van de instelling _Sectie: Koppeling ZAAK_ en _Item: Domein_ kan desgewenst het domein worden ingevuld.
 - Indien er gebruik moet worden gemaakt van een **client-certificaat** (wordt geplaatst op de CONF-map van de WSAS server) dan:
   - moet de (file)-naam van dat certificaat worden opgeslagen in de kolom _Tekst_ van _Sectie: Koppeling ZAAK_ en Item: ClientCertificaatNaam\*
-  - het certificaat password in de kolom _Tekst_ van _Sectie: Koppeling ZAAK_ en Item: CertificaatPassword\*, zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
+  - het certificaat password in de kolom _Tekst_ van _Sectie: Koppeling ZAAK_ en Item: CertificaatPassword\*, zie ook: [2-way encryptie van externe wachtwoorden](../../../instellen_inrichten/2way_encryptie_externe_wachtwoorden.md)
   - het certificaattype in de kolom _Tekst_ van _Sectie: Koppeling ZAAK_ en _Item: CertificaatType_ (default PKCS12).
 
 #### Overige instellingen
@@ -56,7 +56,7 @@ In de kolom _Tekst_ van de instelling met _Sectie: KoppelingZAAK_ en _Item: Char
 
 ### Mapping Status Inbehandeling
 
-In de tabel [zaakstatussen (Zaakbeheer)](/instellen_inrichten/zaakstatussen.md) moet een rij aanwezig zijn met in de kolom _codering van status in OpenWave_ met de waarde _StatusInBehandeling_ en met een gevulde mapping voor het externe zaaksysteem.
+In de tabel [zaakstatussen (Zaakbeheer)](../../../instellen_inrichten/zaakstatussen.md) moet een rij aanwezig zijn met in de kolom _codering van status in OpenWave_ met de waarde _StatusInBehandeling_ en met een gevulde mapping voor het externe zaaksysteem.
 
 ### Automatische aanmaak bij nieuwe zaak
 
@@ -102,7 +102,7 @@ In de tabel [zaakstatussen (Zaakbeheer)](/instellen_inrichten/zaakstatussen.md) 
     - en bij de kolom _/zaaktype_DMS_Adviezen_ in de compartimentsdefinitie moet de externe zaaktypecode voor adviezen gevuld zijn
     - en de ID (dnkey) van het contactadres van de organisatie zelf (die als aanvrager gaat fungeren) staat in de kolom dnkeyorganisatie van het compartiment (beheerportaal-Nieuw).
 
-Zie ook [Verwerking van StUF OLO / AIM berichten](/probleemoplossing/programmablokken/olo_verwerking.md) indien OLO-bericht in omgevingstabel wordt opgenomen.
+Zie ook [Verwerking van StUF OLO / AIM berichten](olo_verwerking.md) indien OLO-bericht in omgevingstabel wordt opgenomen.
 
 ### Aanmaken zaak met schermknop vanuit Omgeving
 

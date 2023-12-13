@@ -36,4 +36,4 @@ Welke zijn van toepassing op deze lijst?
   - rood indien de geplande bezoekdatum < = vandaag
   - wit in alle andere gevallen.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](../../../../instellen_inrichten/configuratie/sectie_owb.md).

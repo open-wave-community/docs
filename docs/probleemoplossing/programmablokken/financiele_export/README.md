@@ -1,6 +1,6 @@
 # Financiële export (Fis export)
 
-Zie binnen dit onderwerp ook [Kolommenoverzicht Fis](/probleemoplossing/programmablokken/financiele_export/kolommen_overzicht) en [Lijst met te exporteren legesregels (vwfrmlegesexport)](/probleemoplossing/programmablokken/financiele_export/lijst_met_te_exporteren_legesregels.md)
+Zie binnen dit onderwerp ook [Kolommenoverzicht Fis](financiele_export/kolommen_overzicht) en [Lijst met te exporteren legesregels (vwfrmlegesexport)](financiele_export/lijst_met_te_exporteren_legesregels.md)
 
 ## Algemeen
 
@@ -14,24 +14,24 @@ Het exporteren van de legesgegevens kan voor alle gemeentes samen (default inste
 
 **Let op:** de eigenschap **Opnemen in keuzelijst maken legesexportlijst** dient aangevinkt te zijn voor de gewenste gemeente(s). Dit kan men in het beheerportaal-Nieuw via de tegel *OIN* beheren. Bij het opstellen van de legesexportlijst kan er alleen gekozen worden uit gemeentes waarvoor deze eigenschap van toepassing is.
 
-![](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/oin_detail.png){ class="media" loading="lazy" alt="" width="500" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/oin_detail.png){ class="media" loading="lazy" alt="" width="500" }
 
 ## Werking
 
 [<img src="/_media/docs/applicatiebeheer/probleemoplossing/programmablokken/portal_tegel.png?w=150&amp;tok=8f4c4d" class="mediaright" loading="lazy" alt="" width="150" />](/_detail/docs/applicatiebeheer/probleemoplossing/programmablokken/portal_tegel.png?id=docs%3Aapplicatiebeheer%3Aprobleemoplossing%3Aprogrammablokken%3Afinanciele_export.md)
 
-In portaal *Operations* is onder de tegel *Fis Export*, alle functionaliteit omtrent de financiële export terug te vinden. Benodigde instellingen voor de financiële export kunnen aangemaakt worden/zijn te beheren via de tegel *Configuratie* in het beheerportaal-Nieuw. Zie [Configuratie instellingen Fis](/instellen_inrichten/configuratie/sectie_fis4allleges.md) voor een overzicht van deze instellingen.
+In portaal *Operations* is onder de tegel *Fis Export*, alle functionaliteit omtrent de financiële export terug te vinden. Benodigde instellingen voor de financiële export kunnen aangemaakt worden/zijn te beheren via de tegel *Configuratie* in het beheerportaal-Nieuw. Zie [Configuratie instellingen Fis](../../../../instellen_inrichten/configuratie/sectie_fis4allleges.md) voor een overzicht van deze instellingen.
 De volgende stappen dienen te worden doorlopen voor het verzamelen van de te exporteren legesgegevens en daarmee tot stand brengen van het uiteindelijke exportbestand:
 
-  * **Samenstellen van de lijst met de te exporteren legesregels op basis van een gekozen conditie** [Lijst met te exporteren legesregels](/probleemoplossing/programmablokken/financiele_export/lijst_met_te_exporteren_legesregels.md)
-  * **Downloaden van het kolommenoverzicht** [Kolommenoverzicht Fis](/probleemoplossing/programmablokken/financiele_export/kolommen_overzicht.md)
+  * **Samenstellen van de lijst met de te exporteren legesregels op basis van een gekozen conditie** [Lijst met te exporteren legesregels](financiele_export/lijst_met_te_exporteren_legesregels.md)
+  * **Downloaden van het kolommenoverzicht** [Kolommenoverzicht Fis](financiele_export/kolommen_overzicht.md)
   * **Genereren van het exportbestand**
   * **Downloaden van het gegenereerde exportbestand**
 
 ### Samenstellen van de lijst met de te exporteren legesregels op basis van een gekozen conditie
 
-Allereerst dienen de te exporteren legesgegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren legesregels* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld en daarna op welke conditie (alleen indien instelling *Fis4AllLeges: ExportPerGemeente* aangevinkt staat! anders gelijk door naar Opties bij het maken van de legesexportlijst). Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren legesregels](/probleemoplossing/programmablokken/financiele_export/lijst_met_te_exporteren_legesregels.md)
-![](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
+Allereerst dienen de te exporteren legesgegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren legesregels* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld en daarna op welke conditie (alleen indien instelling *Fis4AllLeges: ExportPerGemeente* aangevinkt staat! anders gelijk door naar Opties bij het maken van de legesexportlijst). Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren legesregels](financiele_export/lijst_met_te_exporteren_legesregels.md)
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/fis_export_lege_lijstmetteexporterenregels.png){ class="media" loading="lazy" alt="" width="1000" }
 
 #### Operationslog Aanmaken lijst legesexportregels
 
@@ -47,11 +47,11 @@ In de kolom LOG (te openen via knop linksonder) worden de aantallen bijgehouden 
 
 De gebruiker kan een kolommenoverzicht oproepen met daarin de kolommen, lengtes en hun posities zoals deze in het exportbestand zullen verschijnen. Dit overzicht is belangrijk voor de test en voor het inrichten van de importroutine van het financieel systeem. In Open Wave kunnen voor sommige kolommen vaste waardes opgegeven worden die geldig zijn voor alle regels, zoals bedrijfscode, kredietbeheerder et cetera. Indien sprake is van export per gemeente, dan zijn deze instellingen ook per gemeente.
 
-Het is afhankelijk van een aantal instellingen welke kolommen zijn opgenomen in de uiteindelijke exportfile. Lengtes zijn in een aantal gevallen afhankelijk van instellingen en daarmee ook de kolomposities. Voor meer informatie zie [Kolommenoverzicht Fis](/probleemoplossing/programmablokken/financiele_export/kolommen_overzicht.md)
+Het is afhankelijk van een aantal instellingen welke kolommen zijn opgenomen in de uiteindelijke exportfile. Lengtes zijn in een aantal gevallen afhankelijk van instellingen en daarmee ook de kolomposities. Voor meer informatie zie [Kolommenoverzicht Fis](financiele_export/kolommen_overzicht.md)
 
 ### Genereren (en Downloaden) van Exportbestand
 
-Het genereren van het exportbestand gebeurt via een wizard die aan te roepen is vanaf lijstscherm *Lijst met te exporteren legesregels*. In deze lijst bevindt zich ook de knop naar het lijstscherm waarvandaan het gegenereerde exportbestand te downloaden is. Voor meer informatie zie rest van deze pagina en ook kopjes *Wizard: Exporteer items in deze lijst (exportbestand wordt gemaakt)* en *Lijstknop: Exportbestanden (via deze lijst kan gewenste exportbestand gedownload worden)* op pagina [Lijst met te exporteren legesregels](/probleemoplossing/programmablokken/financiele_export/lijst_met_te_exporteren_legesregels.md).
+Het genereren van het exportbestand gebeurt via een wizard die aan te roepen is vanaf lijstscherm *Lijst met te exporteren legesregels*. In deze lijst bevindt zich ook de knop naar het lijstscherm waarvandaan het gegenereerde exportbestand te downloaden is. Voor meer informatie zie rest van deze pagina en ook kopjes *Wizard: Exporteer items in deze lijst (exportbestand wordt gemaakt)* en *Lijstknop: Exportbestanden (via deze lijst kan gewenste exportbestand gedownload worden)* op pagina [Lijst met te exporteren legesregels](financiele_export/lijst_met_te_exporteren_legesregels.md).
 
 ## Opzet van het exportbestand
 

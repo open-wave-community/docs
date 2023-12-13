@@ -15,13 +15,13 @@ De tegel is een trigger voor het lijstscherm van de *Vervolgzaken van type Milie
 Het dynamische opschrift op tegels is niet zichtbaar:
 
   * indien foutieve queryverwijzing (codering: dso_vervolgzaak_milieugebruik)
-  * indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
+  * indien query zelf niet correct (zie [Queries](../../../../instellen_inrichten/queries.md))
   * indien inlogger geen recht heeft om query uit te voeren
   * indien de kolom *altijd verversen* (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   *  Portaal: *dsoprojectportaal*
   *  Kolom: *Vervolgzaken*

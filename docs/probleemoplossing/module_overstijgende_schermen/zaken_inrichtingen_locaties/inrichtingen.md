@@ -31,7 +31,7 @@ Er zijn drie algemene filtermogelijkheden in het scherm _Alle inrichtingen_:
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger geen kijkrechten heeft op inrichtingen.
 
 ### Triggers
@@ -64,11 +64,11 @@ Dubbel klikken op een regel opent het portaalscherm van de inrichting. Altijd en
 
 ### Aanmaken van nieuwe inrichting bij insert
 
-Er kan gekozen worden voor **Nieuwe inrichting op deze straat** of **Nieuwe inrichting**. Beide knoppen starten de wizard _maakNieuweInrichting_. Indien gekozen wordt voor inrichting aanmaken op deze straat, dan zal het programma het adres overnemen van de inrichting in het lijstscherm waarop men staat bij klikken op knop _Nieuwe inrichting op deze straat_. Indien gekozen voor knop _Nieuwe inrichting_ dan zal de gebruiker in de wizard _maakNieuweInrichting_ eerst de locatie moeten doorgeven voor de nieuw aan te maken inrichting. Voor voor meer informatie over aanmaken van inrichtingen: zie [Aanmaken van nieuwe inrichting](/probleemoplossing/programmablokken/maak_nieuwe_inrichting.md).
+Er kan gekozen worden voor **Nieuwe inrichting op deze straat** of **Nieuwe inrichting**. Beide knoppen starten de wizard _maakNieuweInrichting_. Indien gekozen wordt voor inrichting aanmaken op deze straat, dan zal het programma het adres overnemen van de inrichting in het lijstscherm waarop men staat bij klikken op knop _Nieuwe inrichting op deze straat_. Indien gekozen voor knop _Nieuwe inrichting_ dan zal de gebruiker in de wizard _maakNieuweInrichting_ eerst de locatie moeten doorgeven voor de nieuw aan te maken inrichting. Voor voor meer informatie over aanmaken van inrichtingen: zie [Aanmaken van nieuwe inrichting](../programmablokken/maak_nieuwe_inrichting.md).
 
 ### Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Openingsportaal_
 - Kolom: _Hoofdzaken_

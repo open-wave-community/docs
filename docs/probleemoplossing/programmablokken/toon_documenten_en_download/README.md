@@ -23,7 +23,7 @@ Het compartimentsrecht is OK indien:
 
 ## OLO-bijlagen verplaatsen van fileshare
 
-Het kan zijn dat OpenWave eerst moet zorgen dat - indien de documenten worden opgevraagd bij een omgevingszaak- OLO-bijlagen eerst op de juiste plek moeten worden gestald. Dit geldt alleen voor de situatie dat OpenWave via een digi-koppelaar rechtstreeks berichten ontvangt van het OLO waarbij de OLO-bijlagen door die digi-koppelaar op een vooraf afgesproken verplaatsmap op een fileshare worden geplaatst (de andere mogelijkheid is namelijk dat de digi-koppelaar de bijlagen aan de OpenWave uploadservice aanbiedt: zie [Upload document vanuit automatisch proces](/probleemoplossing/programmablokken/upload_vanuit_automatisch_proces).md).
+Het kan zijn dat OpenWave eerst moet zorgen dat - indien de documenten worden opgevraagd bij een omgevingszaak- OLO-bijlagen eerst op de juiste plek moeten worden gestald. Dit geldt alleen voor de situatie dat OpenWave via een digi-koppelaar rechtstreeks berichten ontvangt van het OLO waarbij de OLO-bijlagen door die digi-koppelaar op een vooraf afgesproken verplaatsmap op een fileshare worden geplaatst (de andere mogelijkheid is namelijk dat de digi-koppelaar de bijlagen aan de OpenWave uploadservice aanbiedt: zie [Upload document vanuit automatisch proces](upload_vanuit_automatisch_proces).md).
 
 OpenWave gaat onderzoeken of er OLO-bijlagen zijn indien de kolom _Tekst_ van de instelling _Sectie: KoppelingDOCNAARDMS en Item: InboxmapOLO_ een gevuld waarde heeft en aangevinkt is.
 
@@ -55,7 +55,7 @@ Het verplaatsen van de documenten op de fileshare naar de machine waar de WSAS o
 
 ### Waarvandaan
 
-Zie ook: [Schema welke documenten worden opgehaald?](/probleemoplossing/programmablokken/toon_documenten_en_download/schema_welke_documenten.md).
+Zie ook: [Schema welke documenten worden opgehaald?](toon_documenten_en_download/schema_welke_documenten.md).
 
 De documenten bij een zaak worden gehaald uit het DMS en/of de fileshare.
 
@@ -94,10 +94,10 @@ Voorbeeld:
 
 Heeft _Getal2_ geen waarde of 0 of het aantal is groter dan het aantal onderdelen in de mapnaam dan geldt dat de mapnaam ongewijzigd blijft.
 
-Indien fileshare zie verder bij [Ophalen van fileshare](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_van_fileshare.md).
-Indien StUF-ZAKEN 310 zie verder bij [Ophalen met stuf zaak dms](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_met_stuf_zaak_dms.md).
+Indien fileshare zie verder bij [Ophalen van fileshare](toon_documenten_en_download/ophalen_van_fileshare.md).
+Indien StUF-ZAKEN 310 zie verder bij [Ophalen met stuf zaak dms](toon_documenten_en_download/ophalen_met_stuf_zaak_dms.md).
 
-Indien CMIS 1.0 zie verder bij [Ophalen met CMIS](/probleemoplossing/programmablokken/toon_documenten_en_download/ophalen_met_cmis.md).
+Indien CMIS 1.0 zie verder bij [Ophalen met CMIS](toon_documenten_en_download/ophalen_met_cmis.md).
 
 ## Openen van document
 
@@ -120,7 +120,7 @@ Indien vertrouwelijkheid OK dan:
 - EN het IP-adres van de huidige sessie (tbsessions) van de gebruiker voldoet aan het masker gedefinieerd in de kolom IpRange van een van de regels van de tabel tbipranges, waarbij de kolom dlhyperlink aangevinkt is
 - EN kolom _Getal2_ van _Sectie: Documenten Item: OphalenViaFileserver_ heeft de waarde 1 (waarmee wordt aangegeven dat de mensen die binnen de genoemde IP-range vallen ook Firefox als standaardbrowser hebben waarin OpenWave als trusted (firefox-policy) is gedefinieerd)
 
-DAN wordt het document via een hyperlink geopend: dat wil zeggen via openTabPage(file:///' + map + documentnaam + extensie + ')' waarbij alle backslashes omgezet zijn in forwardslashes. Indien echter bovenstaande het geval is, maar de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+DAN wordt het document via een hyperlink geopend: dat wil zeggen via openTabPage(file:///' + map + documentnaam + extensie + ')' waarbij alle backslashes omgezet zijn in forwardslashes. Indien echter bovenstaande het geval is, maar de [satellite](../../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
 **Ad 3. Kan document geopend worden met lokale MS Word of MS-Excel via Office URI-scheme**
 
@@ -131,7 +131,7 @@ Indien vertrouwelijkheid OK dan:
 - EN kolom _Getal2_ van _Sectie: Documenten Item: OphalenViaFileserver_ heeft de waarde 2 (bij een compartiment dat gebruikt van een satellite op de lokale fileserver kijkt OpenWave naar de kolom tbcompartiment.dldocsfileshareofficeuri, die moet aangevinkt zijn)
 - EN de bovenliggende zaak is niet geblokkeerd
 
-DAN wordt het document via Office URI-scheme geopend: bijvoorbeeld `ms-word:ofe| u |file:/zuurstof/user/pdeboer/Paultest.docx`. Indien echter bovenstaande het geval is, maar de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+DAN wordt het document via Office URI-scheme geopend: bijvoorbeeld `ms-word:ofe| u |file:/zuurstof/user/pdeboer/Paultest.docx`. Indien echter bovenstaande het geval is, maar de [satellite](../../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
 In dit verband geldt nog wel het volgende:
 
@@ -249,7 +249,7 @@ Zichtbaar en enabled indien:
 - EN het compartimentsrecht is OK.
 - EN de bovenliggende zaak NIET is geblokkeerd
 
-Met deze knop worden de geselecteerde documenten geregistreerd, nadat zij voorzien zijn in een wizardscherm van de nodige metadata met betrekking tot vertrouwelijkheid, documenttype en richting. Welke metadata in de wizard van een waarde kunnen worden voorzien is afhankelijk van de van het aangevinkt zijn van instellingen bij [Sectie: DocumentRegistreren](/instellen_inrichten/configuratie/sectie_documentregistreren.md). Het gaat hier om de Items: ddontvangsdatum, dvdocrichting , dvdoctype, dvomschrijving, dvstatus en dvvertrouwelijkheid, dlnaarregdoc en dlnaarbevoegdgezag. De laatste twee hebben sinds versie 1.21 geen betekenis meer in de programmatuur. dlnaarbevoegdgezag zou nog gebruikt kunnen worden in de deprecated functie: _Email secretariaat bevoegd gezag/DIV vanuit geregistreerde documenten_ indien het detailscherm geregistreerde documenten wordt aangepast.
+Met deze knop worden de geselecteerde documenten geregistreerd, nadat zij voorzien zijn in een wizardscherm van de nodige metadata met betrekking tot vertrouwelijkheid, documenttype en richting. Welke metadata in de wizard van een waarde kunnen worden voorzien is afhankelijk van de van het aangevinkt zijn van instellingen bij [Sectie: DocumentRegistreren](../../../../instellen_inrichten/configuratie/sectie_documentregistreren.md). Het gaat hier om de Items: ddontvangsdatum, dvdocrichting , dvdoctype, dvomschrijving, dvstatus en dvvertrouwelijkheid, dlnaarregdoc en dlnaarbevoegdgezag. De laatste twee hebben sinds versie 1.21 geen betekenis meer in de programmatuur. dlnaarbevoegdgezag zou nog gebruikt kunnen worden in de deprecated functie: _Email secretariaat bevoegd gezag/DIV vanuit geregistreerde documenten_ indien het detailscherm geregistreerde documenten wordt aangepast.
 Bij het registreren (= een kaart aanmaken in tbcorrespondentie) wordt de inlogger als registreerder geboekt. Zie verder [Lijst geregistreerde documenten bij een zaak](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md).
 
 De gebruiker dient ook nog correspondentie wijzigrechten te hebben (bijv. tbomgrechten.dlcomgcoredt). LET OP: indien een lijst wordt getoond vanuit een inspectietraject kijkt het programma naar de correspondentie-wijzigrechten van de module. Het kan echter zijn dan een inspectietraject zowel gekoppeld is aan bijvoorbeeld een inrichting als aan een handhavingszaak (als vanuit het traject een handhaving is gemaakt met de daartoe bestemde functie). In dat laatste geval prevaleert het correspondentie-wijzigrecht van de handhavingszaak (tbhhrechten.dlchahcoredt), dus ook wanneer de documentlijst van het traject wordt bekeken vanuit een inrichting. Indien de rechten niet kloppen is de knop wel enabled, maar gebruik zal leiden tot een foutmelding.

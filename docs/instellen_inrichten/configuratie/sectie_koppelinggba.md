@@ -1,6 +1,6 @@
 # Sectie KoppelingGBA
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: koppelingGBA_ gerangschikt op item. Zie [BRP (GBA) bevraging](/probleemoplossing/programmablokken/bpr_bevraging?s[]=gba.md).
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: koppelingGBA_ gerangschikt op item. Zie [BRP (GBA) bevraging](/probleemoplossing/programmablokken/bpr_bevraging?s[]=gba.md).
 
 ## Items Configuratietabel
 

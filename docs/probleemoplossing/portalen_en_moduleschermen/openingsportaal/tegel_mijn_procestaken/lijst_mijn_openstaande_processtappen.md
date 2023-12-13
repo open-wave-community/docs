@@ -2,7 +2,7 @@
 
 Schermidentifier: MDLC_geefOpenstaandeStappenLijst.xml (indien Vaarwegzaken dan MDLC_geefOpenstaandeStappenVaarwegLijst.xml).
 
-Zie ook [Tegel Mijn Procestaken](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_mijn_procestaken.md)
+Zie ook [Tegel Mijn Procestaken](tegel_mijn_procestaken.md)
 
 ## Welke gegevens worden getoond
 
@@ -55,4 +55,4 @@ Welke zijn van toepassing op deze lijst?
   - oranje indien vandaag + 2 (overmorgen) < = streefdatum > = vandaag
   - wit in alle andere gevallen.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](../../../../instellen_inrichten/configuratie/sectie_owb.md).

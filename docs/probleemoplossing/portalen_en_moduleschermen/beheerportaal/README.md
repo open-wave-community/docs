@@ -13,7 +13,7 @@ Dit portaal is bedoeld voor alle beheerinstellingen, zoals de configuratietabel,
 
 ## Het scherm ziet er raar uit (al of niet met foutmelding) of reageert niet
 
-  - er zijn geen tegels gedefinieerd onder portalname *Beheer* (Zie [Portal Definitie](/instellen_inrichten/portaldefinitie/README.md))
+  - er zijn geen tegels gedefinieerd onder portalname *Beheer* (Zie [Portal Definitie](../../../instellen_inrichten/portaldefinitie/README.md))
   - alle tegels zijn disabled of onzichtbaar of onzichtbaar_op_conditie
   - geen enkele tegel uit dit portal is toegekend aan een inlogger.
 
@@ -27,13 +27,13 @@ Dit portaal is bedoeld voor alle beheerinstellingen, zoals de configuratietabel,
 
 ## Relevante pagina's
 
-[Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/README.md)
+[Beheerportaal](README.md)
 
-  - [Tegels onder kolom Brontabellen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen/README.md)
-  - [Tegels onder kolom Brontabellen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_brontabellen_ii/README.md)
-  - [Tegels onder kolom Inrichtingen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen/README.md)
-  - [Tegels onder kolom Inrichtingen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_inrichtingen_ii/README.md)
-  - [Tegels onder kolom Instellingen](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen/README.md)
-  - [Tegels onder kolom Instellingen II](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_instellingen_ii/README.md)
-  - [Tegels onder kolom Medewerkers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
+  - [Tegels onder kolom Brontabellen](tegels_onder_kolom_brontabellen/README.md)
+  - [Tegels onder kolom Brontabellen II](tegels_onder_kolom_brontabellen_ii/README.md)
+  - [Tegels onder kolom Inrichtingen](tegels_onder_kolom_inrichtingen/README.md)
+  - [Tegels onder kolom Inrichtingen II](tegels_onder_kolom_inrichtingen_ii/README.md)
+  - [Tegels onder kolom Instellingen](tegels_onder_kolom_instellingen/README.md)
+  - [Tegels onder kolom Instellingen II](tegels_onder_kolom_instellingen_ii/README.md)
+  - [Tegels onder kolom Medewerkers](tegels_onder_kolom_medewerkers/README.md)
 

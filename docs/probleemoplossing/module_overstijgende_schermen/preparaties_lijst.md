@@ -10,7 +10,7 @@ De bron van de lijst is de tabel tbomgpreparaties.
 
 ### Probleem
 
-Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
+Het scherm geeft een foutmelding indien er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is.
 
 ## Rechten
 

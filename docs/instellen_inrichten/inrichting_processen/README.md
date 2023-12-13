@@ -2,12 +2,12 @@
 
 ## Pagina's Inrichten Processen
 
-- [Afvinkstappen](/instellen_inrichten/inrichting_processen/afvinkstappen.md)
-- [Automatische koppeling van processen aan zaaktypes](/instellen_inrichten/inrichting_processen/automatische_koppeling.md)
-- [Detailscherm proces](/instellen_inrichten/inrichting_processen/detailscherm_proces.md)
-- [Grafische weergave](/instellen_inrichten/inrichting_processen/grafische_weergave.md)
-- [Procesflow en bewaking](/instellen_inrichten/inrichting_processen/procesflow_en_bewaking.md)
-- [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md)
+- [Afvinkstappen](afvinkstappen.md)
+- [Automatische koppeling van processen aan zaaktypes](automatische_koppeling.md)
+- [Detailscherm proces](detailscherm_proces.md)
+- [Grafische weergave](grafische_weergave.md)
+- [Procesflow en bewaking](procesflow_en_bewaking.md)
+- [Termijnstappen](termijnstappen.md)
 
 ## Module, compartiment, zaaktype
 
@@ -16,7 +16,7 @@ Een proces kan ook aan een **compartiment** worden toegevoegd. Dat betekent dat 
 
 Een proces kan automatisch worden gekoppeld aan een **zaaktype** zodat bij het opvoeren van een nieuwe zaak onder dat zaaktype (met de hand of vanuit OLO/DSO) de bijbehorende processtappen al worden klaargezet bij de nieuwe zaak. Dit gebeurt door de hier gedefinieerde processtappen op dat moment te kopiëren naar een tweede processtappen-tabel (tbtermijnbewstappen) die gekoppeld is aan een specifieke zaak. Zo ontstaan er procestaken bij een zaak, voor een persoon of voor een team, die binnen een bepaalde termijn afgehandeld moeten worden (tegel _Mijn openstaande processtappen_ op het openingsportaal).
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/procesdefinitie.w.800_tok.483342.png){ class="media" loading="lazy" alt="" width="800" }
+![](/img/applicatiebeheer/instellen_inrichten/procesdefinitie.w.800_tok.483342.png){ class="media" loading="lazy" alt="" width="800" }
 
 Bovenstaand diagram is getekend voor processtappen bij omgevingszaken, maar is soortgelijk voor overige modules als handhaving of infoaanvragen. Wanneer de procesdefinitie wordt aangepast, worden deze aanpassingen NIET met terugwerkende kracht geeffectueerd. De aanpassingen gelden alleen voor nieuwe zaken die na het moment van aanpassing worden gemaakt.
 
@@ -24,7 +24,7 @@ Bovenstaand diagram is getekend voor processtappen bij omgevingszaken, maar is s
 
 In deze Dokuwiki wordt ook gesproken over termijnbewakingsstappen en afvinkstappen. Afvinkstappen zijn processtappen waarin om een keuze gevraagd wordt. Die keuze bepaalt de voortgang van de procesflow in een bepaalde tak. In onderstaand schema is de ruit met de tekst _aanvulling nodig_ een afvinkstap.
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/voorbeeldgrafischprocesstap.w.400_tok.caf5e9.png){ class="media" loading="lazy" alt="" width="400" }
+![](/img/applicatiebeheer/instellen_inrichten/voorbeeldgrafischprocesstap.w.400_tok.caf5e9.png){ class="media" loading="lazy" alt="" width="400" }
 
 Wanneer de eindgebruiker de vraag met Ja beantwoordt (= afvinken) is de eerstvolgende vervolgstap: _verzoek om aanvulling_, en anders _besluit ontvankelijkheid_.
 
@@ -41,4 +41,4 @@ Er zijn ook stappen te definiëren waarbij de eindgebruiker de stap afhandelt do
 - een bepaalde waarde in te voeren of te kiezen uit een lijst
 - een bovenliggende zaak af te sluiten.
 
-Voorbeelden hiervan staan onder de kopjes _Action en Invoerkolommen_ bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
+Voorbeelden hiervan staan onder de kopjes _Action en Invoerkolommen_ bij [Termijnstappen](termijnstappen.md).

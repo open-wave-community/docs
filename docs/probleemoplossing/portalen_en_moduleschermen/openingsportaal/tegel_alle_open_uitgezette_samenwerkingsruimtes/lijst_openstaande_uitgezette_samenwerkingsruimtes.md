@@ -5,7 +5,7 @@ Schermidentifier: MDLC_getSWFRuimteOverzichtList.xml (sysstandard).
 ## Welke gegevens worden getoond
 
 De rijen uit de view vwfrmswfopenuitgezetteruimtes dat zijn de openstaande in SWF bestaande uitgezette SWF ruimtes (dluitgaand is T(rue)).
-Zie: [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md).
+Zie: [Samenwerkingsfunctionaliteit](../../../../instellen_inrichten/samenwerkingsfunctionaliteit.md).
 
 ## Rechten
 

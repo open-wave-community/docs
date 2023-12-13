@@ -1,6 +1,6 @@
  Sectie DROPPUBLICATIES
 
-Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: DROPPUBLICATIES_ gerangschikt op item. Zie: [Drop](/instellen_inrichten/drop.md)
+Hieronder de instellingen uit de configuratietabel (tbinitialisatie) van de _Sectie: DROPPUBLICATIES_ gerangschikt op item. Zie: [Drop](../drop.md)
 
 ## Items Configuratietabel
 

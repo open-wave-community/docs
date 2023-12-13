@@ -5,7 +5,7 @@ Vanuit het archiefportaal \*Zaken/**inrichtingen\*** en vanaf scherm _Alle inric
 ## Rechten
 
 **Recht op insert inrichting.**
-De inlogger moet lid zijn van een rechtengroep met insertrechten op inrichtingen (tbmilrechten.Dlbmilinrins). Indien de inlogger lid is van een [compartiment](/instellen_inrichten/compartimenten.md) moeten er bedrijfsoorten aan dat compartiment zijn toegekend (en een inrichting kan in dat geval alleen worden aangemaakt binnen een gemeente die toegekend is aan dat compartiment).
+De inlogger moet lid zijn van een rechtengroep met insertrechten op inrichtingen (tbmilrechten.Dlbmilinrins). Indien de inlogger lid is van een [compartiment](../../../instellen_inrichten/compartimenten.md) moeten er bedrijfsoorten aan dat compartiment zijn toegekend (en een inrichting kan in dat geval alleen worden aangemaakt binnen een gemeente die toegekend is aan dat compartiment).
 
 **Recht op aanmaak nieuw locatie:**
 Na keuze van de module waarvoor een nieuwe inrichting aangemaakt moet worden kan de inlogger de locatie aanwijzen binnen de gegeven straat.
@@ -19,7 +19,7 @@ Indien de inlogger lid is van een compartiment dan moet er een bedrijfsoort word
 ### Controle met BAG
 
 Deze kan automatisch worden uitgevoerd met een StUF-BG bevraging indien de instelling _Sectie: KoppelingBAG Item: Methode en Tekst: StUF-310_ aangevinkt is.
-De verplichte instellingen hierbij voor de opmaak en adressering van de stuf-berichten zijn (zie [BAG bevraging](/probleemoplossing/programmablokken/bag_bevraging.md)):
+De verplichte instellingen hierbij voor de opmaak en adressering van de stuf-berichten zijn (zie [BAG bevraging](bag_bevraging.md)):
 
 _Sectie: KoppelingBAG_
 
@@ -34,7 +34,7 @@ Indien het adres niet wordt aangetroffen in de BAG, dan wordt de identificatie v
 Wel gevonden: dan worden Datum BAG, identificatie en puntcoördinaten gevuld.
 
 _Opmerking:_ indien gewenst kunnen bepaalde huisnummers uitgesloten worden van controle/synchronisatie met BAG. Zie de instelling _NieuweZaakGeenBAGSync_ bij
-[Sectie Programma](/instellen_inrichten/configuratie/sectie_programma.md).
+[Sectie Programma](../../../instellen_inrichten/configuratie/sectie_programma.md).
 
 ### Automatisch aanmaken mappen of fileshare
 
@@ -51,8 +51,8 @@ OF indien:
   - en de kolom _Automatisch aanmaken mappen_ (dlautoaanmaakmappen) aangevinkt is bij het betreffende compartiment
 
 dan zullen bij het aanmaken van een nieuwe inrichting automatisch de mappen genoemd in de rijen van _Sectie: Aanmaakmappen_ worden aangemaakt waarvan item begint met 'Inrichting\_'. Hierbij uitgezonderd zijn de mappen waarin de variabele `%inspnr%` is opgenomen.
-Indien OpenWave in de cloud draait, dan moet wel de [satellite](/instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn.
+Indien OpenWave in de cloud draait, dan moet wel de [satellite](../../../instellen_inrichten/satellite_filesysteem.md) geïnstalleerd zijn.
 
 ### Automatisch vullen van kolom dvhyperlink
 
-Zie: [Hyperlink](/instellen_inrichten/hyperlink.md).
+Zie: [Hyperlink](../../../instellen_inrichten/hyperlink.md).

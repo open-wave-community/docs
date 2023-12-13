@@ -2,7 +2,7 @@
 
 De lijst met DSO gerelateerde zaken is zichtbaar via de tegel _DSO gerelateerde zaken_ op het omgevingsportaal. De tegel is alleen zichtbaar indien er gerelateerde zaken zijn bij de betreffende omgevingzaak. De lijst wordt getoond op basis van de tabel _tbgerelateerdezaken_. De lijst bestaat uit DSO-zaken die door een andere bevoegd gezag of behandeldienst worden behandeld, maar wel degelijk spelen op dezelfde locatie als de betreffende omgevingzaak. De tabel wordt periodiek aangevuld indien zo ingesteld via de **taskscheduler** (beheerportaal-nieuw: kolom: _Dieper beheer_) door de aanroep van de callable _importDSOGerelateerdeZaken_.
 
-Voor het ophalen van DSO gemiste verzoeken, waarbij het gaat om DSO STAM-berichten die - mogelijk ten onterechte - niet terug te vinden zijn in OpenWave: zie: [DSO Gemiste Verzoeken](/probleemoplossing/programmablokken/dso_gemiste_verzoeken.md)
+Voor het ophalen van DSO gemiste verzoeken, waarbij het gaat om DSO STAM-berichten die - mogelijk ten onterechte - niet terug te vinden zijn in OpenWave: zie: [DSO Gemiste Verzoeken](dso_gemiste_verzoeken.md)
 
 ## Ophalen en verwerken gerelateerde zaken
 

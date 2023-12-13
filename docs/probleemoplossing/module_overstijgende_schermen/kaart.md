@@ -8,12 +8,12 @@
 
 ### Algemene Kaart
 
-De algemene kaart is een interne kaart oproepbaar vanuit de tegel _Kaart_ op het openingsscherm ([Tegel Kaart](/probleemoplossing/portalen_en_moduleschermen/openingsportaal/tegel_kaart.md)).
+De algemene kaart is een interne kaart oproepbaar vanuit de tegel _Kaart_ op het openingsscherm ([Tegel Kaart](../portalen_en_moduleschermen/openingsportaal/tegel_kaart.md)).
 
 De kaart wordt gecentreerd rond de ingestelde Map_def_Lon en Map_def_lat (zie hierboven verplichte instellingen).
 
 Op deze kaart kunnen externe WMS/WFS lagen getoond worden, waaronder kaartlagen die met OpenWave Rapportages zijn gemaakt. Zie:
-[Geo-WMS/WFS lagen](/instellen_inrichten/geowms-lagen.md) en [Rapportage als WMS-laag](/instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
+[Geo-WMS/WFS lagen](../../instellen_inrichten/geowms-lagen.md) en [Rapportage als WMS-laag](../../instellen_inrichten/rapportage-publiceren_als_wms-laag.md).
 
 De punten op deze kaart kunnen worden geselecteerd (aangewezen met de muis) waarna in een box de informatie die bij het punt hoort zichtbaar wordt.
 
@@ -116,7 +116,7 @@ Polygonen worden op drie manieren ondersteund (LET OP: de kaart wordt altijd gec
 
 - Invoer als multi-point in paren van x-y coördinaten (rijksdriehoek), waarbij x en y worden gescheiden door een komma. Het scheidingsteken tussen twee paren is een spatie (bijvoorbeeld: 145601,424980 145594,424975 145601,424980). Begin- en eindpaar zijn gelijk.
 - Invoer als PosList van LineairRing x-y-z coördinaten (rijksdriehoek). Alle waarden gescheiden door spatie (bijv. 145601.935 424980.489 0.0 145594.922 424975.594 0.0 145601.935 424980.489 0.0). Begin- en eindpaar zijn gelijk.
-  Naast de Geo-gegevens uit OpenWave zelf kunnen ook lagen uit andere Geo-gegevensbronnen als lagen op de kaart worden geprojecteerd. Deze lagen moeten worden gedefinieerd in de beheertabel tbgeowms zie [Geowms-lagen](/instellen_inrichten/geowms-lagen.md).
+  Naast de Geo-gegevens uit OpenWave zelf kunnen ook lagen uit andere Geo-gegevensbronnen als lagen op de kaart worden geprojecteerd. Deze lagen moeten worden gedefinieerd in de beheertabel tbgeowms zie [Geowms-lagen](../../instellen_inrichten/geowms-lagen.md).
 
 #### Facultatieve instellingen bij standaardkaart
 

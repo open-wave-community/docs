@@ -63,7 +63,7 @@ De kijkrechten op de modules:
 
 ## Queries voor tegelopschrift
 
-De aanroep van het SQL-statement vindt plaats via de tegeldefinitie van de tegel waarop het dynamische opschrift moet verschijnen door het vullen van de kolom _Tegelopschrift dynamisch met API gettilecontent_ (zie [Portal tegel](/instellen_inrichten/portaldefinitie/portal_tegel)). Een voorbeeld van een dynamisch tegelopschrift is de waarde `_getTileContent(omgeving_status,{id}.md)`. De codering _omgeving_status_ verwijst naar een uniek codering in de tabel tbqueries. Het SQL-statement dat aldaar staat zal worden gebruikt om het dynamische deel van het tegelopschrift te genereren.
+De aanroep van het SQL-statement vindt plaats via de tegeldefinitie van de tegel waarop het dynamische opschrift moet verschijnen door het vullen van de kolom _Tegelopschrift dynamisch met API gettilecontent_ (zie [Portal tegel](/instellen_inrichten/portaldefinitie/portal_tegel.md)). Een voorbeeld van een dynamisch tegelopschrift is de waarde `_getTileContent(omgeving_status,{id}.md)`. De codering _omgeving_status_ verwijst naar een uniek codering in de tabel tbqueries. Het SQL-statement dat aldaar staat zal worden gebruikt om het dynamische deel van het tegelopschrift te genereren.
 
 Die parameter {id} kan gebruikt worden bij tegels op de zaakportals (dus niet bij opening of beheer). Deze wordt vervangen door de primary key van het betreffende zaakportaal (de identifier die opgenomen is in de URL van de portaalpagina).
 Indien de resultaat set uit meerdere regels bestaat, zal OpenWave deze aan elkaar plakken gescheiden door een puntkomma, zodat elke regel ook een regel op de tegel wordt.
@@ -87,7 +87,7 @@ select
 
 Het resultaat als tegelopschrift is bijvoorbeeld:
 
-![Tegel-query met kleur](/docs/img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png){ class="media" loading="lazy" alt="" width="200" }
+![Tegel-query met kleur](/img/applicatiebeheer/instellen_inrichten/tegel_query_metkleur.png){ class="media" loading="lazy" alt="" width="200" }
 
 Wanneer een query niet valide SQL-code gebruikt zal het programma - bij gebruik voor tegelopschrift - het resultaat vervangen door 'fout:xml': dat zal dan op de betreffende tegel verschijnen.
 

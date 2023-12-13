@@ -11,7 +11,7 @@ De tegel is een trigger voor een tabel met _Afronding statussen van een handhavi
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Zaakbeheer_
 - Kolom: _Afhandeling_

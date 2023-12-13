@@ -1,6 +1,6 @@
 # Import EML gegevens
 
-Zie ook [Inlezen EML gegevens](/probleemoplossing/programmablokken/inlezen_eml.md).
+Zie ook [Inlezen EML gegevens](../programmablokken/inlezen_eml.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor de wizard die het inlezen van EML overtredingen reg
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichtenn_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: *Operations*
 - Kolom: *Import*

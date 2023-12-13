@@ -78,7 +78,7 @@ Indien de instelling _Sectie: DocumentRegistreren_ en _Item: BijlagenAlleenDefin
 
 Deze bijlages komen in een nieuwe tabel tbcorrespbijlages die gekoppeld is aan het geregistreerde document (zie detailpagina van dat document).
 
-Voor het opnemen van een verwijzing naar de bijlages in het gecreëerde document zie kopje _Speciale childquery: Opsommen aangewezen bijlages_ van [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md).
+Voor het opnemen van een verwijzing naar de bijlages in het gecreëerde document zie kopje _Speciale childquery: Opsommen aangewezen bijlages_ van [Documentsjablonen en Sjabloongroepen](../../../instellen_inrichten/documentsjablonen.md).
 
 ### Bijlages bij te versturen document
 
@@ -249,7 +249,7 @@ Het programma controleert eerst of:
 - Compartiment OK is
 - en of de gebruiker het recht heeft: _Registreren en wijzigen metadata van geregistreerde documenten_ (bijv. dlcomgcoredt)
 - en of de kolom email van de inlogger bij de medewerkerstabel is gevuld zijn met een valide emailadres
-- en of de webmailinstellingen kloppen [E-mail SMTP instellingen](/instellen_inrichten/email.md)
+- en of de webmailinstellingen kloppen [E-mail SMTP instellingen](../../../instellen_inrichten/email.md)
 - en of de te maken bijlage(s) wel allemaal pdf zijn.
 
 In het onderwerp en de body kunnen variabelen zijn gedefinieerd die het programma on the fly substitueert:

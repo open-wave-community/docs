@@ -11,7 +11,7 @@ Schermtype portal.
 - de variabele x uit de aanroep verwijst niet naar een bestaande tbbouwvergunningen.dnkey
 - inlogger heeft geen kijkrechten voor Bouw/Sloop zaken (zie rechten: de inlogger behoort tot een rechtengroep waarbij _Bouw/Sloop zaken Zichtbaar_ niet is aangevinkt)
 - de variabele x uit de aanroep verwijst naar een zaak van een gemeente waarvoor de inlogger geen kijkrechten rechten (zie instelling medewerker: alleen gemeentes en/of medewerker is lid van compartiment en de locatie van de zaak valt niet onder de aan het compartiment toegekende gemeentes)
-- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
+- alle tegels zijn disabled of onzichtbaar op conditie (zie [Portaldefinitie](../../instellen_inrichten/portaldefinitie/README.md))
 - geen enkele tegel uit dit portal is toegekend aan inlogger.
 
 2. Medewerker a ziet meer of minder tegels dan medewerker b:
@@ -39,7 +39,7 @@ Knop is zichtbaar en enabled indien:
 ### Docs
 
 - Indien de instelling _Sectie: Documenten Item: Documentregistratie_ is aangevinkt, dan wordt direct de lijst met [geregistreerde documenten](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/README.md) geopend (op basis van tbcorrespondentie). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien geregistreerde documenten (tbrechten.dlcbwvcorregvsb)_ heeft
-  - anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlcbwvcorvsb)_ heeft.
+  - anders, (deze instelling staat uit) dan wordt de (live-)lijst van opgeslagen documenten bij de zaak geopend: zie [Toon documenten en download](../programmablokken/toon_documenten_en_download.md). De knop is in dit geval zichtbaar en enabled indien de gebruiker het recht _Inzien documenten buiten registratie om (dlcbwvcorvsb)_ heeft.
 
 ### Kaart
 
@@ -59,7 +59,7 @@ Knop is altijd zichtbaar en enabled.
 
 ### Overige triggers
 
-Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](/instellen_inrichten/portaldefinitie/README.md))
+Klikken op tegel opent een vervolgscherm. Indien niet klikbaar dan is de tegel ingesteld als disabled (zie [Portaldefinitie](../../instellen_inrichten/portaldefinitie/README.md))
 
 ## Gerelateerde pagina's
 

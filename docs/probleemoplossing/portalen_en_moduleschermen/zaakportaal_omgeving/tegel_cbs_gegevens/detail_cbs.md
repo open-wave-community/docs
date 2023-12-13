@@ -2,7 +2,7 @@
 
 De schermidentifier is: **MDDC_getCbsDetail.xml**.
 
-Dit scherm kan worden aangeroepen vanuit het omgevingsdetailscherm, knop linksonder _CBS_ en vanaf tegel [Tegel CBS-gegevens](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/tegel_cbs_gegevens.md) bij een omgevingszaak (tbcbs_gegevens_w011).
+Dit scherm kan worden aangeroepen vanuit het omgevingsdetailscherm, knop linksonder _CBS_ en vanaf tegel [Tegel CBS-gegevens](tegel_cbs_gegevens.md) bij een omgevingszaak (tbcbs_gegevens_w011).
 
 ## Error
 

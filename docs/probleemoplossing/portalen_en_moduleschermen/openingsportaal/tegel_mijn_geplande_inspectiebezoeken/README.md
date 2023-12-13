@@ -14,13 +14,13 @@ De tegel is een trigger voor de doorkieslijst *Mijn Geplande inspectiebezoeken*.
 Het dynamische opschrift op tegels is niet zichtbaar, maar wel gedefinieerd:
 
   - indien foutieve queryverwijzing
-  - indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
+  - indien query zelf niet correct (zie [Queries](../../../../instellen_inrichten/queries.md))
   - indien inlogger geen recht heeft om query uit te voeren
   - indien de kolom *altijd verversen* (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   - Portaal: *Opening*
   - Kolom: *Mijn Taken*

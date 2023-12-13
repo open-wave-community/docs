@@ -1,6 +1,6 @@
 # Sectie DSO-VerzoekAfhandelen
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: DSO-VerzoekAfhandelen_ gerangschikt op item. Het geautoriseerde OIN-nummer die in de https-header van berichten naar het algemeen endpoint wordt opgenomen, staat in de kolom _Tekst_ van instelling _Sectie: SWF en Item: OINvanZender_.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: DSO-VerzoekAfhandelen_ gerangschikt op item. Het geautoriseerde OIN-nummer die in de https-header van berichten naar het algemeen endpoint wordt opgenomen, staat in de kolom _Tekst_ van instelling _Sectie: SWF en Item: OINvanZender_.
 
 - Idem dito _Sectie: SWF en Item: Certificaatnaam_.
 - Idem dito _Sectie: SWF en Item: CertificaatPassword_.

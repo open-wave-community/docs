@@ -16,7 +16,7 @@ Indien men gewend is om het gemeentenummer aan CBS door te geven opgesteld als v
 
 ## Werking
 
-In portaal *Operations* is onder de tegel *CBS Export*, alle functionaliteit omtrent de CBS export terug te vinden. Benodigde instellingen voor de export kunnen aangemaakt worden/zijn te beheren via de tegel *Configuratie* in het beheerportaal-Nieuw. Zie [Configuratie instellingen CBS](/instellen_inrichten/configuratie/sectie_cbs) voor een overzicht van deze instellingen. Ook kan men in de configuratie instellingen ([Operations instellingen](/instellen_inrichten/configuratie/sectie_operations).md) terugvinden of er al een operatie draait voor de CBS export: zodra of de lijst gegenereerd wordt, ofwel het exportbestand gegenereerd wordt, wordt instelling *Sectie: Operations, Item: ExportCBS* aangemaakt/aangepast met vullen van datum, medewerker die de operatie gestart heeft en *Getal1* = 1 gezet. Is de operatie klaar dan wordt *Getal1* leeggehaald.
+In portaal *Operations* is onder de tegel *CBS Export*, alle functionaliteit omtrent de CBS export terug te vinden. Benodigde instellingen voor de export kunnen aangemaakt worden/zijn te beheren via de tegel *Configuratie* in het beheerportaal-Nieuw. Zie [Configuratie instellingen CBS](../../../../instellen_inrichten/configuratie/sectie_cbs) voor een overzicht van deze instellingen. Ook kan men in de configuratie instellingen ([Operations instellingen](../../../../instellen_inrichten/configuratie/sectie_operations).md) terugvinden of er al een operatie draait voor de CBS export: zodra of de lijst gegenereerd wordt, ofwel het exportbestand gegenereerd wordt, wordt instelling *Sectie: Operations, Item: ExportCBS* aangemaakt/aangepast met vullen van datum, medewerker die de operatie gestart heeft en *Getal1* = 1 gezet. Is de operatie klaar dan wordt *Getal1* leeggehaald.
 
 De volgende stappen dienen te worden doorlopen voor het verzamelen van de te exporteren CBS-gegevens en daarmee tot stand brengen van het uiteindelijke exportbestand:
 
@@ -26,9 +26,9 @@ De volgende stappen dienen te worden doorlopen voor het verzamelen van de te exp
 
 ### Samenstellen van de lijst met de te exporteren CBS-gegevens
 
-Allereerst dienen de te exporteren CBS-gegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren CBS-gegevens* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld. Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren CBS-gegevens](/probleemoplossing/programmablokken/cbs_export/lijst_met_te_exporteren_cbsgegevens.md)
+Allereerst dienen de te exporteren CBS-gegevens verzameld te worden die uiteindelijk geëxporteerd moeten worden. Het maken van de zo genoemde *Lijst met te exporteren CBS-gegevens* gebeurt via een wizard waarbij gevraagd wordt voor welke gemeente de lijst moet worden opgesteld. Uitgebreide uitleg over het aanmaken van de lijst is beschreven op pagina: [Lijst met te exporteren CBS-gegevens](cbs_export/lijst_met_te_exporteren_cbsgegevens.md)
 
-![](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1400" }
+![](/img/applicatiebeheer/probleemoplossing/programmablokken/cbslijstexportgegevens.png){ class="media" loading="lazy" alt="" width="1400" }
 
 #### Operationslog: Aanmaken lijst CBS exportregels
 
@@ -67,5 +67,5 @@ In het lijstscherm *Logboek Operations* dat te openen is vanuit *Lijst met te ex
 
 ### Kolommenoverzicht
 
-De kolommen van het exportbestand liggen vast en zijn altijd gelijk qua volgorde, hun lengte en positie. Deze worden door CBS bepaald en staan beschreven in de door CBS uitgegeven elektronische handleiding. Om het ook via de dokuwiki inzichtelijk te maken wat de gebruiker kan verwachten qua opmaak van het exportbestand, is het kolommenoverzicht zoals de programmatuur deze maakt inzichtelijk op pagina  [Kolommenoverzicht CBS](/probleemoplossing/programmablokken/cbs_export/kolommen_overzicht.md)
+De kolommen van het exportbestand liggen vast en zijn altijd gelijk qua volgorde, hun lengte en positie. Deze worden door CBS bepaald en staan beschreven in de door CBS uitgegeven elektronische handleiding. Om het ook via de dokuwiki inzichtelijk te maken wat de gebruiker kan verwachten qua opmaak van het exportbestand, is het kolommenoverzicht zoals de programmatuur deze maakt inzichtelijk op pagina  [Kolommenoverzicht CBS](cbs_export/kolommen_overzicht.md)
 

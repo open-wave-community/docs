@@ -178,18 +178,18 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
   - param3: Wordt gevuld met de dnkey van de rij waar je op staat. Indien de kopieerknop onderaan een lijst staat kan {id} worden gebruikt, en anders, op een detailscherm, %keypointer%
   - param4: de code uit tbsysstandardtable die verwijst naar de kaart waar de betreffende tabel in is gedefinieerd.
 - **startWizard(selecteerTaak,param2)** waarbij een wizard wordt gestart om een selectie te maken van openstaande taken op medewerker(s), modules en taaksoorten. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.
-- **startWizard(maakDocument,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een documentsjabloon aan te wijzen. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
+- **startWizard(maakDocument,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een documentsjabloon aan te wijzen. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md).
 - **startWizard(maakEmail,param2,param3,param4)** Idem als documentsjabloon, maar dan voor e-mails.
 - **startWizard(maaknieuweInrichting,param2)** waarbij een wizard wordt gestart teneinde een nieuwe inrichting te definiëren. Param2 kan leeg zijn. In dat geval wordt de wizard geopend, waarbij de gebruiker eerst gemeente, woonplaats en straat moet kiezen. Als parma2 gevuld is verwacht OpenWave dat dit een dnkey uit de tabel TbOpenBareRuimte is. De inlogger zal dan alleen het adres binnen die straat moeten kiezen.
-- **startWizard(maaknieuwproces,param2,param3)** waarbij een wizard wordt gestart teneinde een vervolgproces te kiezen vanuit de procesbewaking. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
-- **startWizard(maaknieuwezaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een nieuwe hoofdzaak te definiëren. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md) en bij lemma [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
+- **startWizard(maaknieuwproces,param2,param3)** waarbij een wizard wordt gestart teneinde een vervolgproces te kiezen vanuit de procesbewaking. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md).
+- **startWizard(maaknieuwezaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een nieuwe hoofdzaak te definiëren. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en bij lemma [Aanmaken van nieuwe zaak](/probleemoplossing/programmablokken/maak_nieuwe_zaak.md).
 - **startwizard(showTekst,param2,param3,param4)** waarbij een wizard wordt gestart van één scherm met alleen een sluitknop die de tekst uit param2 toont.
   - Voorbeeld: startWizard(showTekst, dit is een tekst,dit is de koptekst,400)
   - param1: showTekst
   - param2: de tekst die getoond wordt in het wizardscherm. Mag een lange tekst zijn
   - param3: de koptekst. Mag leeg zijn
   - param4: hoogte van tekstvak in pixles. Indien leeg dan is de default 120.
-- **startwizard(sluitZaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een hoofdzaak af te sluiten. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md) en het lemma [Sluiten van zaak](/probleemoplossing/programmablokken/sluiten_zaak.md).
+- **startwizard(sluitZaak,param2,param3,param4)** waarbij een wizard wordt gestart teneinde een hoofdzaak af te sluiten. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md) en het lemma [Sluiten van zaak](/probleemoplossing/programmablokken/sluiten_zaak.md).
 - **startwizard(startreport,param2,param3)** waarbij een bepaald rapport wordt gestart (tbrapporten.dnkey = param2 ). Param3 mag een lege waarde hebben, maar indien gevuld dan moet het rapport aangeroepen worden vanuit een zaakportaal, waarbij param3 de id is van die hoofdzaak (dus bijv. een dnkey uit tbomgvergunning). Zie voorbeeld voor het gebruik van deze param3 identifier van zaakportal (nportalid) in [Rapportages](/instellen_inrichten/rapportages.md).
 - **startWizard(zoekInrichtingopNaam,param2)** waarbij een wizard wordt gestart teneinde een inrichting te zoeken. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan. Bij 0 wordt de wizard gesloten.
 - **startWizard(ZoekZaakViaZaaknummer,param2)** waarbij een wizard wordt gestart teneinde een zaak te zoeken op zaakcodering. De waarde 1 bij param2 geeft aan dat de zoekwizard blijft staan.
@@ -201,7 +201,7 @@ select 'openTabPage(' | | dvhyperlink | | ')'from tbtermijnbewstappen where dnke
   - param1: StuurDSOOntvangstbevestiging
   - param2: Primary key van tabel genoemd bij parma3. Dnkey van tbomgvergunning of tbomgdsoaanvulintrek
   - param3: Naam van de tabel waarvoor na genereren de verstuurdatum gevuld moet worden. Moet gevuld zijn en of waarde _tbomgvergunning_ (voor DSO initieel) of _tbomgdsoaanvulintrek_ (voor DSO aanvulling) hebben
-  - param4: optioneel, indien gevuld dan dnkey van processtap (tbtermijnbewstappen) die moet worden afgesloten. Let op als param4 gevuld dan mag param3 alleen waarde _tbomgvergunning_ hebben: DSO ontvangstbevestiging Aanvulling versturen vanaf processtap kan niet. Er kunnen immers meer dan 1 aanvullingen zijn, dnkey is niet bekend bij termijnbewakingsstappen. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md).
+  - param4: optioneel, indien gevuld dan dnkey van processtap (tbtermijnbewstappen) die moet worden afgesloten. Let op als param4 gevuld dan mag param3 alleen waarde _tbomgvergunning_ hebben: DSO ontvangstbevestiging Aanvulling versturen vanaf processtap kan niet. Er kunnen immers meer dan 1 aanvullingen zijn, dnkey is niet bekend bij termijnbewakingsstappen. Zie uitgewerkte voorbeelden onder kopje action bij [Termijnstappen](inrichting_processen/termijnstappen.md).
 
 ### Action column:kolomnaam
 

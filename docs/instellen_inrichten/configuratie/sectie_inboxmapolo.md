@@ -1,6 +1,6 @@
 # Sectie InboxmapOLO
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: InboxmapOLO_ gerangschikt op item. Zie [MessageLog](/instellen_inrichten/messagelog.md).
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: InboxmapOLO_ gerangschikt op item. Zie [MessageLog](../messagelog.md).
 
 ## Items Configuratietabel
 

@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instellen/Inrichting: [Inloggen](/probleemoplossing/programmablokken/inloggen.md).
+De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instellen/Inrichting: [Inloggen](../programmablokken/inloggen.md).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -11,9 +11,9 @@ De tegel is een trigger voor een lijst van alle *Inlog sessies*, zie bij Instell
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: [Beheerportaal](/probleemoplossing/portalen_en_moduleschermen/beheerportaa.md)
-- Kolom: [Tegels onder kolom Medewerkers](/probleemoplossing/portalen_en_moduleschermen/beheerportaal/tegels_onder_kolom_medewerkers/README.md)
+- Kolom: [Tegels onder kolom Medewerkers](tegels_onder_kolom_medewerkers/README.md)
 - Kopregel: *Session*
 - Actie: *getFlexList(StandardList,nil,nil,vwfrmsession;dnkeysession)*

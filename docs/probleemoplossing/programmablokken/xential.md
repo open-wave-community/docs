@@ -10,7 +10,7 @@ Met de Xential opdracht _creeer document_ wordt het samengestelde document terug
 
 ### Endpoints en credentials
 
-Zie [Sectie Xential](/instellen_inrichten/configuratie/sectie_xential.md) voor de instellingen in de configuratietabel (tbinitialisatie) met betrekking tot endpoints en credentials.
+Zie [Sectie Xential](../../../instellen_inrichten/configuratie/sectie_xential.md) voor de instellingen in de configuratietabel (tbinitialisatie) met betrekking tot endpoints en credentials.
 
 ### Sjabloon verwijzing
 

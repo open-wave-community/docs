@@ -13,7 +13,7 @@ De onderliggende tabel is tbmilstatusopslag.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Kenmerken en Verplichtingen_

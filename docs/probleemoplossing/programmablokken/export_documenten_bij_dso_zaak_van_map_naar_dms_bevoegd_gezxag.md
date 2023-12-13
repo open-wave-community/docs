@@ -25,7 +25,7 @@ OpenWave gaat alle documenten die staan op de map ingesteld in de kolom _Toelich
 - `%zaakjaar%` door de jaarmaand (jjjjmm) van de startdatum
 - `%zaaknr%` met de wavezaakcode van de omgevingszaak.
 
-Het is raadzaam om deze map ook in de configuratie instellingen op te nemen (_Sectie: Aanmaakmappen en Item: Omgeving_export_). Dan kunnen documenten vanaf andere mappen met de flextree [Verplaatsen van bestanden in OpenWave (fileshare)](/probleemoplossing/programmablokken/verplaatsen_bestanden_fileshare.md) daar naar toe verplaatst worden.
+Het is raadzaam om deze map ook in de configuratie instellingen op te nemen (_Sectie: Aanmaakmappen en Item: Omgeving_export_). Dan kunnen documenten vanaf andere mappen met de flextree [Verplaatsen van bestanden in OpenWave (fileshare)](verplaatsen_bestanden_fileshare.md) daar naar toe verplaatst worden.
 
 Elk document wordt in het stuf zaak/DMS bericht voorzien van dezelfde attributen documenttype en vertrouwelijkheid.
 

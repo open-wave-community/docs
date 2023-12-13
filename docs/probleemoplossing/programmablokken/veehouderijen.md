@@ -11,4 +11,4 @@ De coderingen worden door VROM geleverd. De coderingen en hun betekenis kunnen w
 Er is een tabel die tussen de inrichting en de dier-stalcombinatie zit, TbMilStal. Hier kunnen de stalgegevens ingevuld worden. Per stal kunnen vervolgens een of meerdere staldelen worden aangemaakt. In ieder staldeel kunnen gegevens m.b.t. BWL codering(en), Nageschakelde technieken en PAS codering(en), aantal dieren en reductiepercentages voor stikstof, odeur en fijnstof worden opgegeven.
 De berekeningen worden automatisch uitgevoerd.
 
-Zie voor gedetailleerde beschrijving: [Vee / Stallen](/instellen_inrichten/vee_stallen.md).
+Zie voor gedetailleerde beschrijving: [Vee / Stallen](../../../instellen_inrichten/vee_stallen.md).

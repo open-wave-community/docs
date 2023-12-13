@@ -2,7 +2,7 @@
 
 De schermidentifier is: MDDC_getGeregistreerdeDocumentenDetail.xml.
 
-Zie voor verzendstroom, collegiale toetsing, bijlages, cc's, ondertekening: [Documenten/Verzendstroom](/probleemoplossing/programmablokken/documenten_verzendstroom.md).
+Zie voor verzendstroom, collegiale toetsing, bijlages, cc's, ondertekening: [Documenten/Verzendstroom](../programmablokken/documenten_verzendstroom.md).
 
 Dit scherm kan worden aangeroepen vanuit de lijst _Geregistreerde documenten_ bij een zaak.
 
@@ -20,7 +20,7 @@ In zijn algemeenheid geldt voor de blokken **adressering** en **status** dat de 
 - een beheerniveau > 98 heeft (tbmedewerkers.dnbeheerniveau) of
 - het recht _Mag digitaal ondertekenen_ heeft (tbmedewerkers.dlmagdigondertekenen)
 
-Zie verder bij [Documenten/Verzendstroom](/probleemoplossing/programmablokken/documenten_verzendstroom.md) en kopje _Aantekenen_ hieronder.
+Zie verder bij [Documenten/Verzendstroom](../programmablokken/documenten_verzendstroom.md) en kopje _Aantekenen_ hieronder.
 
 Bij het blok **meta** is de _Vereiste Vertrouwelijkheid_ enkel muteerbaar indien de inlogger hetzelfde of een hoger vertrouwelijkheidsniveau toegekend heeft gekregen in de medewerkerskaart. De _DSO Vertrouwelijkheid_ (DSO vert.) is net als het _Niveau_ niet muteerbaar.
 
@@ -44,7 +44,7 @@ Indien deze kolom is gevuld met een _D_ (DSO) dan wordt de bestandsnaam (dvdocfi
 
 ### Blok Adressering
 
-De hoofdgeadresseerde kan alleen worden gekozen tijdens het aanmaken van een document op basis van een sjabloon: in alle gevallen Ã©Ã©n van de contactpersonen bij de bovenliggende zaak. De achterliggende adresgegevens kunnen wel via het knopje contactadreskaart worden aangepast (zie bij [Contactadres](/probleemoplossing/module_overstijgende_schermen/contact_adres.md) in welk scherm op grond van recht). Uitzondering hierop (dus wel aan te wijzen) is wanneer
+De hoofdgeadresseerde kan alleen worden gekozen tijdens het aanmaken van een document op basis van een sjabloon: in alle gevallen Ã©Ã©n van de contactpersonen bij de bovenliggende zaak. De achterliggende adresgegevens kunnen wel via het knopje contactadreskaart worden aangepast (zie bij [Contactadres](contact_adres.md) in welk scherm op grond van recht). Uitzondering hierop (dus wel aan te wijzen) is wanneer
 
 - de instelling _Sectie: DocumentRegistreren en Item: ContactWijzigbaar_ aangevinkt is
 - en de brief nog niet verstuurd is
@@ -79,7 +79,7 @@ Bij de registratie worden de substrings %dmszaakcode% en %dmsdoccode% door OpenW
 > [!NOTE]
 > De ExterneDocLink `https://corsa-as1-a/Corsa/web/index.html#search/q=%dmsdoccode%` zal bij registratie van een document met documentidentifier Rommeldam20230918113151515 opgeslagen worden in de kolom dvurl als `https://corsa-as1-a/Corsa/web/index.html#search/q=Rommeldam20230918113151515>`
 
-Indien wenselijk kan de hyperlink ook via het lijstscherm van de geregistreerde documenten worden gestart. Zie daartoe kopje Triggers in lijstscherm: _schermknop hyperlink op grond van gevulde dvurl_ van [Lijst Geregistreerde Documenten bij een zaak](/probleemoplossing/module_overstijgende_schermen/geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)
+Indien wenselijk kan de hyperlink ook via het lijstscherm van de geregistreerde documenten worden gestart. Zie daartoe kopje Triggers in lijstscherm: _schermknop hyperlink op grond van gevulde dvurl_ van [Lijst Geregistreerde Documenten bij een zaak](geregistreerde_documenten/lijst_geregistreerde_documenten_bij_zaak.md)
 
 ### Blok Bodem
 
@@ -276,7 +276,7 @@ Let op: voor de emailknop onderaan het lijstje van het blok _cc's_ zie hierboven
   - en het document is nog niet verstuurd (tbcorrespondentie.ddbriefdatum is null)
   - en het document wordt niet lokaal bewerkt (tbcorrespondentie.dvdocplaats = 'S')
   - en â indien het document digitaal ondertekend moet zijn -, dan moet tbcorrespondentie.dlisdigondertekend de waarde T hebben
-  - en de kolom _Tekst_ van instelling _Sectie: DocumentRegistreren en Item: StandaardEmailTekstAanhef_ moet gevuld zijn (zie bij [Documenten/Verzendstroom](/probleemoplossing/programmablokken/documenten_verzendstroom.md) voor substitutie van variabelen)
+  - en de kolom _Tekst_ van instelling _Sectie: DocumentRegistreren en Item: StandaardEmailTekstAanhef_ moet gevuld zijn (zie bij [Documenten/Verzendstroom](../programmablokken/documenten_verzendstroom.md) voor substitutie van variabelen)
   - en de kolom _Tekst_ of kolom _Toelichting_ van instelling _Sectie: DocumentRegistreren en Item: StandaardEmailTekstBody_ moet gevuld zijn. Indien beide gevuld kijkt OpenWave naar de kolom _Toelichting_ (dvtoelichting), waarin 2000 karakters kunnen staan i.p.v. 255 van de kolom _Tekst_.
 
 Indien:

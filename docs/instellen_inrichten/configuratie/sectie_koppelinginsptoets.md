@@ -1,6 +1,6 @@
 # Sectie KoppelingInspToets
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/README.md) (tbinitialisatie) van de _Sectie: KoppelingInsptoets_ gerangschikt op item.
+Hieronder de instellingen uit de [configuratietabel](README.md) (tbinitialisatie) van de _Sectie: KoppelingInsptoets_ gerangschikt op item.
 
 ## Items Configuratietabel
 

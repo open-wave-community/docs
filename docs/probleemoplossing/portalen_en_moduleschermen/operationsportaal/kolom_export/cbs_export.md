@@ -1,6 +1,6 @@
 # CBS Export
 
-Zie ook [CBS export](/probleemoplossing/programmablokken/cbs_export/README.md).
+Zie ook [CBS export](../programmablokken/cbs_export/README.md).
 
 ## Trigger
 
@@ -13,7 +13,7 @@ De tegel is een trigger voor het starten van lijstscherm met de *Te exporteren C
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   -  Portaal: *Operations*
   -  Kolom: *Export*

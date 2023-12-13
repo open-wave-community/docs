@@ -6,7 +6,7 @@ Er kan alleen een email worden verstuurd als er tenminste één contactpersoon b
 
 > [!WARNING] **LET OP:**
 > Uiteraard moet er wel vanuit OpenWave gemaild kunnen worden. Hiervoor bestaan standaard mailinstellingen. Indien er al gemaild wordt naar de BAG en/of adviesinstanties, dan zijn deze instellingen al goed ingeregeld.
-> Zie ook [sectie webmail](/instellen_inrichten/configuratie/sectie_web.mail.md).
+> Zie ook [sectie webmail](../../../instellen_inrichten/configuratie/sectie_web.mail.md).
 
 ## Adviesinstantie als contactpersoon
 
@@ -39,7 +39,7 @@ Deze wordt als volgt samengesteld uit tbemailsjabloon (beheertegel _Emailsjablon
   - is leeg
   - OF de gemeente-id van de bovenliggende Locatie (dus waar de zaak speelt) + ';' komt voor in de inhoud van deze kolom.
 
-Indien de inlogger lid is van een [compartiment](/instellen_inrichten/compartimenten.md), dan geldt de restrictie dat alleen uit die mailsjablonen gekozen kan worden die gekoppeld zijn aan datzelfde compartiment.
+Indien de inlogger lid is van een [compartiment](../../../instellen_inrichten/compartimenten.md), dan geldt de restrictie dat alleen uit die mailsjablonen gekozen kan worden die gekoppeld zijn aan datzelfde compartiment.
 
 Omgekeerd geldt dat indien de inlogger GEEN lid is van een compartiment, dat alleen uit die mailsjablonen gekozen kan worden die NIET gekoppeld zijn aan een compartiment.
 
@@ -137,7 +137,7 @@ De controle op of een registratie al bestaat vindt plaats op de kolom dvdocfilen
 
 ### Briefnummer en gecrypte waardes
 
-Zie: [Emailsjablonen](/instellen_inrichten/emailsjablonen.md).
+Zie: [Emailsjablonen](../../../instellen_inrichten/emailsjablonen.md).
 
 #### Bijlagen
 

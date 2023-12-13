@@ -2,9 +2,9 @@
 
 Vanuit detailschermen van een omgevingszaak, handhavingszaak, APV/overige zaak, bouw/sloopzaak, inrichting, info of milieu/gebruik alsmede vanuit de detailschermen van een advies, inspectietraject en een inspectiebezoek, bezwaar/beroep en vanuit het overzichtslijstje van contacten bij een zaak/inrichting is de mogelijkheid om in het menu opties het item creëer document te kiezen. In de regel gebeurt dit met het menu-item _creëer document_ (menu opties rechtsboven in betreffende scherm). De gebruiker kies eerst een sjabloongroep en vervolgens een sjabloon, waarna een aantal aanvullende vragen kunnen volgen.
 
-Het is echter ook mogelijk om een specifiek documentsjabloon direct te starten vanuit een tegel of een (scherm)knop. De action die daarbij gedefinieerd moet worden heeft de volgende vorm: _startWizard(maakDocument,1234,tbdocumenten;;tbomgvergunning;{id},W)_ hetgeen betekent: start het sjabloon gedefinieerd in de tbdocumenten met dnkey (ID) = 1234 en de uitgangssituatie is de kaart in tbomgvergunning waar je op dat moment op staat (dat is die {ID}). Zie voorbeeld [Scherminformatie voor detailschermen](/instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md). Het mag duidelijk zijn dat in dit voorbeeld die schermknop geplaatst moet zijn op het detailscherm van een omgevingszaak.
+Het is echter ook mogelijk om een specifiek documentsjabloon direct te starten vanuit een tegel of een (scherm)knop. De action die daarbij gedefinieerd moet worden heeft de volgende vorm: _startWizard(maakDocument,1234,tbdocumenten;;tbomgvergunning;{id},W)_ hetgeen betekent: start het sjabloon gedefinieerd in de tbdocumenten met dnkey (ID) = 1234 en de uitgangssituatie is de kaart in tbomgvergunning waar je op dat moment op staat (dat is die {ID}). Zie voorbeeld [Scherminformatie voor detailschermen](../../../instellen_inrichten/schermdefinitie/scherminformatie_voor_detailschermen.md). Het mag duidelijk zijn dat in dit voorbeeld die schermknop geplaatst moet zijn op het detailscherm van een omgevingszaak.
 
-Een document kan ook gestart worden vanuit een processtap: zie hiertoe: [Termijnstappen](/instellen_inrichten/inrichting_processen/termijnstappen.md)
+Een document kan ook gestart worden vanuit een processtap: zie hiertoe: [Termijnstappen](../../../instellen_inrichten/inrichting_processen/termijnstappen.md)
 
 ## Rechten
 
@@ -35,7 +35,7 @@ Deze **lijst van sjablonen** wordt als volgt samengesteld uit tbdocumenten (behe
   - is leeg
   - OF de gemeente-id van de bovenliggende Locatie (dus waar de zaak speelt) + ';' komt voor in de inhoud van deze kolom.
 
-Indien de inlogger lid is van een [compartiment](/instellen_inrichten/compartimenten.md), dan geldt de restrictie dat alleen uit die documenten gekozen kan worden die gekoppeld zijn aan datzelfde compartiment.
+Indien de inlogger lid is van een [compartiment](../../../instellen_inrichten/compartimenten.md), dan geldt de restrictie dat alleen uit die documenten gekozen kan worden die gekoppeld zijn aan datzelfde compartiment.
 
 Omgekeerd geldt dat indien de inlogger GEEN lid is van een compartiment, dat alleen uit die documenten gekozen kan worden die NIET gekoppeld zijn aan een compartiment.
 
@@ -69,7 +69,7 @@ dan vindt een controle plaats in de geregistreerde documenten (tbcorrespondentie
 
 ### Aangewezen documentsjabloon en Xential
 
-Indien de kolom _Naam sjabloon in Xential_ (dvnaaminexternsjablprog) gevuld is in de sjabloondefinitie (beheertabel tbdocumenten), dan zal OpenWave Xential aanroepen om een document te genereren. Zie [Xential](/probleemoplossing/programmablokken/xential.md).
+Indien de kolom _Naam sjabloon in Xential_ (dvnaaminexternsjablprog) gevuld is in de sjabloondefinitie (beheertabel tbdocumenten), dan zal OpenWave Xential aanroepen om een document te genereren. Zie [Xential](xential.md).
 
 ### Automatische opslag in DMS/fileshare
 
@@ -155,11 +155,11 @@ Indien:
 
 DAN het word document dat gecreëerd is via een hyperlink geopend: dat wil zeggen dat de wizard afgesloten wordt met een vervolgaction: `'openTabPage(file:/' +  map + documentnaam + extensie + ')`' waarbij alle backslashes omgezet zijn in forwardslashes.
 
-Indien echter bovenstaande het geval is, maar de de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+Indien echter bovenstaande het geval is, maar de de [satellite](../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
-Voor overige instellingen voor het uploaden van een document zie [Upload documenten](/probleemoplossing/programmablokken/upload_document.md)
+Voor overige instellingen voor het uploaden van een document zie [Upload documenten](upload_document.md)
 
-en voor de definitie van de sjablonen zelf zie: [Documentsjablonen](/instellen_inrichten/documentsjablonen.md).
+en voor de definitie van de sjablonen zelf zie: [Documentsjablonen](../../../instellen_inrichten/documentsjablonen.md).
 
 ### Automatisch openen met MS-Word via Office URI-scheme na creëren bij opslag fileserver
 
@@ -172,11 +172,11 @@ Indien:
 
 DAN wordt het document in een vervolgaction van de wizard geopend via Office URI-scheme, bijvoorbeeld: `ms-Word:ofe| u |file:/zuurstof/user/pdeboer/Paultest.docx`.
 
-Indien echter bovenstaande het geval is, maar de de [satellite](/instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
+Indien echter bovenstaande het geval is, maar de de [satellite](../../../instellen_inrichten/satellite_filesysteem.md) staat aan, dan werkt dit alleen indien de kolom _Tekst_ van de instelling _Sectie: Documenten en Item: Documentroot_ gelijk is aan dezelfde instelling van de configuratiefile van de geïnstalleerde satellite.
 
-Voor overige instellingen voor het uploaden van een document zie [Upload documenten](/probleemoplossing/programmablokken/upload_document.md).
+Voor overige instellingen voor het uploaden van een document zie [Upload documenten](upload_document.md).
 
-en voor de definitie van de sjablonen zelf zie: [Documentsjablonen](/instellen_inrichten/documentsjablonen.md)
+en voor de definitie van de sjablonen zelf zie: [Documentsjablonen](../../../instellen_inrichten/documentsjablonen.md)
 DAN wordt het document via Office URI-scheme geopend: bijvoorbeeld bijv. `ms-word:ofe| u |file:/zuurstof/user/pdeboer/Paultest.docx`.
 
 ### Automatisch openen met OnlyOffice na creëren
@@ -234,8 +234,8 @@ De KIX bevat het bestemmingsadres bestaande uit de postcode in combinatie met he
 
 De expressie in de query bij een brief is bij een Omgevingsvergunning:
 
-![kix-query](/docs/img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg){ width=500px loading=lazy class="media" }
+![kix-query](/img/applicatiebeheer/probleemoplossing/programmablokken/kix.w.500_tok.579bb3.jpeg){ width=500px loading=lazy class="media" }
 
 ### Briefnummer en gecrypte waardes
 
-Zie: [Documentsjablonen en Sjabloongroepen](/instellen_inrichten/documentsjablonen.md).
+Zie: [Documentsjablonen en Sjabloongroepen](../../../instellen_inrichten/documentsjablonen.md).

@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor een tabel waarin alle uitgaande en binnenkomende berichten worden gelogd zoals StUfZaken en StUfOLO en DSO-berichten, zie bij Instellen/Inrichten: [MessageLog](/instellen_inrichten/messagelog.md).
+De tegel is een trigger voor een tabel waarin alle uitgaande en binnenkomende berichten worden gelogd zoals StUfZaken en StUfOLO en DSO-berichten, zie bij Instellen/Inrichten: [MessageLog](../../../../instellen_inrichten/messagelog.md).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger voor een tabel waarin alle uitgaande en binnenkomende be
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Servicecentrum_
 - Kolom: _Logs_

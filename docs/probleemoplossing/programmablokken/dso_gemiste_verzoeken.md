@@ -4,7 +4,7 @@ De lijst met DSO gemiste verzoeken is zichtbaar via de tegel _DSO gemiste verzoe
 
 De tabel wordt periodiek aangevuld indien zo ingesteld via de taskscheduler (beheerportaal-nieuw: kolom: _Dieper beheer_) door de aanroep van de callable _importDSOGemisteVerzoeken_.
 
-Voor het ophalen van gerelateerde verzoeken bij een omgevingzaak (verzoeken die door een ander bevoegd gezag of behandeldienst worden behandeld, maar wel spelen op dezelfde locatie): Zie: [DSO Gerelateerde Zaken](/probleemoplossing/programmablokken/dso_gerelateerde_zaken.md)
+Voor het ophalen van gerelateerde verzoeken bij een omgevingzaak (verzoeken die door een ander bevoegd gezag of behandeldienst worden behandeld, maar wel spelen op dezelfde locatie): Zie: [DSO Gerelateerde Zaken](dso_gerelateerde_zaken.md)
 
 ## Ophalen en verwerken gemiste verzoeken
 
@@ -71,4 +71,4 @@ Op het algemene endpoint wordt de API _verzoeken/’ + Verzoeknummer + ’/samen
 Indien zowel de instelling _Sectie: OWB, Item: MessageLog_ als de instelling _Sectie: DSO-Verzoekafhandelen en Item: MessageLog_ aangevinkt is, dan wordt deze vraag en antwoord gelogd.
 
 Bij succes wordt de betreffende regel in tbgemisteverzoeken weggehaald en wordt het STAM-bericht in de eigen OpenWave API
-_VerwerkDSOstambericht_ geschoten. Daar vindt de verwerking plaats conform de beschrijving [Verwerking DSO STAM berichten](/probleemoplossing/programmablokken/verwerking_dso_stam_berichten.md).
+_VerwerkDSOstambericht_ geschoten. Daar vindt de verwerking plaats conform de beschrijving [Verwerking DSO STAM berichten](verwerking_dso_stam_berichten.md).

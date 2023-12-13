@@ -3,7 +3,7 @@
 In het informatiemodel Zaken (RGBZ) heeft het zaaktype een centrale plaats. Zo ook in OpenWave. Op grond van het type van een zaak wordt de behandeling daarvan in OpenWave gereguleerd met het al dan niet zichtbaar zijn van bepaalde gegevens, met de beschikbaarheid van processen, resultaten, producten/diensten en documenten.
 Onderstaande tekening is gebaseerd op de zaaktypes voor de module omgeving in de tabel tbsoortomgverg.
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/zaaktypes.png){ class="media" loading="lazy" alt="" width="1200" }
+![](/img/applicatiebeheer/instellen_inrichten/zaaktypes.png){ class="media" loading="lazy" alt="" width="1200" }
 
 Grosso modo geldt dezelfde tekening voor de zaaktypes in de ander modules:
 

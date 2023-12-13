@@ -25,7 +25,7 @@ Er kan automatisch een email verzonden worden naar de BAG-beheerder van de gemee
 
 - In de de kolom Email BAGbeheerder (dvemailbagheheerder) van de tabel tb33 gemeente (beheertegel _Gemeentes_) moet voor de betrokken gemeentes het emailadres ingevoerd worden van de BAG-beheerder.
 - De inlogger die de knop indrukt moet ook een valide mailadres hebben (beheertegel _Medewerkers_).
-- De webmailinstellingen moeten kloppen, zie: [E-mail](/instellen_inrichten/email.md).
+- De webmailinstellingen moeten kloppen, zie: [E-mail](../../../instellen_inrichten/email.md).
 
 ## Opbouw emailbericht
 

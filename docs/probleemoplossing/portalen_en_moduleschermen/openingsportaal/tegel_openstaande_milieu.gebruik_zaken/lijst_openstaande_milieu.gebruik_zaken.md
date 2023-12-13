@@ -57,4 +57,4 @@ Welke zijn van toepassing op deze lijst?
   - groen indien er geen openstaande OLO-berichten zijn
   - rood indien er tenminste één openstaand OLO-bericht is.
 
-Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](/instellen_inrichten/configuratie/sectie_owb.md).
+Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hiervoor [Sectie OWB](../../../../instellen_inrichten/configuratie/sectie_owb.md).

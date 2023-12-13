@@ -28,7 +28,7 @@ De **synchroniseer-met-BAG knop voor openbare ruimte identificatie** links onder
 - en de instelling _Sectie: KoppelingBAG_ en _Item: HTTPSoapAction_oprLv01_ bestaat en kolom _Tekst_ is gevuld met `[http://www.egem.nl/StUF/sector/bg/0310/oprLv01](http://www.egem.nl/StUF/sector/bg/0310/oprLv01.md)`
 - en de stuurgegevens (kolom _Tekst_) bij _Sectie: KoppelingBAG_ op _items: ontvanger_applicatie en ontvanger_organisatie en zender_applicatie en zender_organisatie_ zijn gevuld.
 
-Zie verder oprLv01-bericht bij [BAG bevraging](/probleemoplossing/programmablokken/bag_bevraging.md).
+Zie verder oprLv01-bericht bij [BAG bevraging](../programmablokken/bag_bevraging.md).
 
 ## Lijst Locatie-adressen
 
@@ -42,7 +42,7 @@ De locaties uit de tabel vwfrmlokaties waarvan dnkeyopenbruimte gelijk is aan de
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet lid zijn van rechtengroep die kijkrechten heeft op de locatie-adressen (tbrechten.dlaspvvsb).
 
 ## Triggers
@@ -63,4 +63,4 @@ In de wizard die gestart wordt met insert-knop is de mogelijkheid om een lijst v
 - en de instelling _Sectie: KoppelingBAG_ en _Item: HTTPSoapAction_tgoLv01_ bestaat en kolom _Tekst_ is gevuld met `[http://www.egem.nl/StUF/sector/bg/0310/tgoLv01](http://www.egem.nl/StUF/sector/bg/0310/tgoLv01.md)`
 - en de stuurgegevens (kolom _Tekst_) bij _Sectie: KoppelingBAG_ op _items: ontvanger_applicatie en ontvanger_organisatie en zender_applicatie en zender_organisatie_ zijn gevuld.
 
-Zie verder tgoLv01-bericht bij [BAG bevraging](/probleemoplossing/programmablokken/bag_bevraging.md).
+Zie verder tgoLv01-bericht bij [BAG bevraging](../programmablokken/bag_bevraging.md).

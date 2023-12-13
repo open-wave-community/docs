@@ -6,7 +6,7 @@ Schermidentifier: MDLC_getBinnengekomenSWFActieverzoekenList.xml (sysstandard).
 
 De rijen uit de view vwfrmswfopeninkomendeacties bestaan uit alle openstaande binnengekomen actieverzoeken (dluitgaand is F(alse)).
 
-Zie: [Samenwerkingsfunctionaliteit](/instellen_inrichten/samenwerkingsfunctionaliteit.md).
+Zie: [Samenwerkingsfunctionaliteit](../../../../instellen_inrichten/samenwerkingsfunctionaliteit.md).
 
 ## Rechten
 

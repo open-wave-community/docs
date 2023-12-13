@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het tonen van de lijst- en detailsschermen voor het definieren van thema's en subthema's voor het project Data op kaart (zie [Data Op Kaart / Export Inrichtingen als WFS](/instellen_inrichten/data_op_kaart.md)
+De tegel is een trigger voor het tonen van de lijst- en detailsschermen voor het definieren van thema's en subthema's voor het project Data op kaart (zie [Data Op Kaart / Export Inrichtingen als WFS](../../../../instellen_inrichten/data_op_kaart.md)
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -11,7 +11,7 @@ De tegel is een trigger voor het tonen van de lijst- en detailsschermen voor het
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Overig_

@@ -26,7 +26,7 @@ en de zaakportalen:
 - milieugebruikdetail
 - horecadetail
 
-Het weghalen van een dergelijk verplicht [portal](/instellen_inrichten/portaldefinitie/README.md) kan leiden tot ernstige verstoringen. Niet doen dus. Het wijzigen van een dergelijk verplichte portalnaam kan leiden tot ernstige verstoringen. Niet doen (uitzondering dus het beginportaal).
+Het weghalen van een dergelijk verplicht [portal](./README.md) kan leiden tot ernstige verstoringen. Niet doen dus. Het wijzigen van een dergelijk verplichte portalnaam kan leiden tot ernstige verstoringen. Niet doen (uitzondering dus het beginportaal).
 
 U kunt dus wel een eigen nieuwe (unieke) portaalnaam maken ten behoeve van bijvoorbeeld tegels met links naar andere pakketten.
 Stel u noemt dit portaal _Doorkiesportaal_ dan kunt u in het beginportaal ergens een tegel definiëren met een doorverwijzing naar dit doorkiesportaal. Dat wil zeggen met de action: _openTabPage(#Doorkiesportaal)_ en deze tegel toekennen aan de medewerkers die dit nieuwe portaal mogen benaderen.
@@ -61,4 +61,4 @@ Een voorbeeld van zelf gedefinieerde kopteksten met
 
 geeft volgende resultaat:
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }
+![](/img/applicatiebeheer/instellen_inrichten/portaldefinitie/2020-11-05_10_42_46-demo2_v.1.19.0.w.600_tok.99c2ee.png){ class="media" loading="lazy" alt="" width="600" }

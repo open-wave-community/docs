@@ -103,7 +103,7 @@ De oude benamingen dekken dus niet altijd de nieuwe lading. De module omgevingsz
 
 De zaken die in de hoofdtabellen van de genoemde modules geregistreerd zijn noemen we de hoofdzaken.
 
-![hoofdzaken](/docs/img/hoofdzaken.png){ width=800 class="media" loading="lazy" }
+![hoofdzaken](/img/hoofdzaken.png){ width=800 class="media" loading="lazy" }
 
 - De module omgevingszaken heeft als hoofdtabel tbomgvergunning. Deze tabel was gericht op zaken die via de OLO binnenkomen (WABO), maar is geëvolueerd naar een tabel waarin ook onder meer toezichtzaken en klachten en APV zaken kunnen worden geregistreerd.
 - De module handhavingszaken heeft als hoofdtabel tbhandhavingen. Deze tabel is gericht op zaken die te maken hebben met bestuursdwang.
@@ -122,7 +122,7 @@ Bij elke hoofdzaak worden gegevens genoteerd in een 1 op n situatie. Bijvoorbeel
 
 Een aantal van deze tabellen wordt gedeeld door meerdere hoofdzaken. Zij delen in dat geval dezelfde schermen: de module-overstijgende schermen. Een greep uit de mogelijkheden:
 
-![deelzaken](/docs/img/deelzaken.png){ width=800 class="media" loading="lazy" }
+![deelzaken](/img/deelzaken.png){ width=800 class="media" loading="lazy" }
 
 ### Deelzaken
 

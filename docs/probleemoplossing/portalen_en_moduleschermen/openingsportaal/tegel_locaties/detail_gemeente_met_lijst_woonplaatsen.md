@@ -10,7 +10,7 @@ Schermidentifier: MDDC_getGemeenteDetail.xml.
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) is die niet valide is.
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) is die niet valide is.
 - de inlogger moet lid zijn van rechtengroep die kijkrechten heeft op de locatie-adressen (tbrechten.dlaspvvsb).
 
 ### Muteren
@@ -29,7 +29,7 @@ De woonplaatsen uit de view vwfrmwoonplaatsen waarvan dvgemeenteid gelijk is aan
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet lid zijn van rechtengroep die kijkrechten heeft op de locatie-adressen (tbrechten.dlaspvvsb).
 
 #### Triggers

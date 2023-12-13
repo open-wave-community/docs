@@ -12,7 +12,7 @@ De (distinct) gemeente-kolommen uit de view vwfrmwoonplaatsen, dat zijn de niet 
 
 Het scherm geeft een foutmelding:
 
-  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+  * er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../../instellen_inrichtenn_inrichten/schermdefinitie/README.md)) die niet valide is
   * de inlogger moet lid zijn van rechtengroep die kijkrechten heeft op de locatie-adressen (tbrechten.dlaspvvsb).
 
 ## Triggers

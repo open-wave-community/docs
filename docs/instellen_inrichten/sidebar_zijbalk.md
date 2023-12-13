@@ -6,21 +6,21 @@ Indien de instelling *Sectie: OWB* en *Item: SidebarGebruiken* aangevinkt is, da
 
 Default is de zijbalk voorzien van een 'zweef-effect' (hover-effect). Dit betekent dat hij openvouwt als je er overheen veegt met de muis indien hij ingeklapt is.
 
-![zijbalk_geopend](/docs/img/applicatiebeheer/instellen_inrichten/zijbalk_geopend.png){ class="media" loading="lazy" alt="" width="400" }
+![zijbalk_geopend](/img/applicatiebeheer/instellen_inrichten/zijbalk_geopend.png){ class="media" loading="lazy" alt="" width="400" }
 
 Omgekeerd klapt de zijbalk in, wanneer de muis over een opengevouwen zijbalk bewogen wordt.
 
-![zijbalk_ingeklapt_na_hoover](/docs/img/applicatiebeheer/instellen_inrichten/zijbalk_ingeklapt_na_hoover.png){ class="media" loading="lazy" alt="" width="400" }
+![zijbalk_ingeklapt_na_hoover](/img/applicatiebeheer/instellen_inrichten/zijbalk_ingeklapt_na_hoover.png){ class="media" loading="lazy" alt="" width="400" }
 
 Door op het tabje met het pijltje te klikken, kun je de zijbalk volledig verbergen.
 
-![zijbalk_lipje_pijltje](/docs/img/applicatiebeheer/instellen_inrichten/zijbalk_lipje_pijltje.png){ class="media" loading="lazy" alt="" width="200" }
+![zijbalk_lipje_pijltje](/img/applicatiebeheer/instellen_inrichten/zijbalk_lipje_pijltje.png){ class="media" loading="lazy" alt="" width="200" }
 
-![zijbalk_helemaal_ingeklapt_met_pijltje](/docs/img/applicatiebeheer/instellen_inrichten/zijbalk_helemaal_ingeklapt_met_pijltje.png){ class="media" loading="lazy" alt="" width="400" }
+![zijbalk_helemaal_ingeklapt_met_pijltje](/img/applicatiebeheer/instellen_inrichten/zijbalk_helemaal_ingeklapt_met_pijltje.png){ class="media" loading="lazy" alt="" width="400" }
 
 Het hover-effect kan uitgezet worden door één maal in het blauw van de opengeklapte zijbalk te klikken. Daarmee wordt de zijbalk vastgezet.
 
-![zijbalk_vastmaken_met_klik](/docs/img/applicatiebeheer/instellen_inrichten/zijbalk_vastmaken_met_klik.png){ class="media" loading="lazy" alt="" width="400" }
+![zijbalk_vastmaken_met_klik](/img/applicatiebeheer/instellen_inrichten/zijbalk_vastmaken_met_klik.png){ class="media" loading="lazy" alt="" width="400" }
 
 De zijbalk klapt dan niet meer dicht als de muis er overheen bewogen wordt, maar reageert alleen nog op het klikken op het tabje met het pijltje. De zijbalk kan weer 'losgemaakt' worden, door nogmaals op de opengevouwen zijbalk te klikken (op dezelfde manier dus als waarop je hem vastzet).
 
@@ -36,7 +36,7 @@ Na een tweede klik zal het slotje wederom een pijltje worden en zal de zijbalk w
 
 De opschriften en de hint op de zijbalk zijn als volgt te beïnvloeden via het detailscherm van de [portalnames](/instellen_inrichten/portaldefinitie/portalnaam.md):
 
-![sidebar](/docs/img/applicatiebeheer/instellen_inrichten/sidebar.png)class="media" loading="lazy" alt="" width="200"
+![sidebar](/img/applicatiebeheer/instellen_inrichten/sidebar.png)class="media" loading="lazy" alt="" width="200"
 
   - **ad 1: home** Per definitie het openingsportaal. Geen hint. Opschriften zijn niet aanpasbaar.
   - **ad 2: portal groepsnaam** Deze naam kan opgegeven worden in de kolom *sidebar:groepsnaam (tbportalnames.dvtablabelgroup).* Hier kan de naam van portalgroep ingegeven worden bijvoorbeeld Omgevingzaken of Handhaving of Beheer. Een aantal portalgroepen heeft geen subportals zoals beheer: zij hebben maar één element. De zaakportalen en de inrichtingen hebben wel subportals: elke geopende zaak of inrichting heeft een eigen element onder de groep. Indien de groepsnaam leeg is wordt de naam van het portal zelf gebruikt.

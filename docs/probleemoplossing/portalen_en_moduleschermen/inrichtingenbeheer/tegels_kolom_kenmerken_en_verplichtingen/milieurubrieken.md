@@ -4,7 +4,7 @@
 
 De tegel is een trigger voor tonen van het overzicht van _Milieurubrieken_ als geluid bodem, veiligheid, water.
 
-De onderliggende tabel is tbmilrubriek. De tabel wordt onder meer gebruikt voor het indelen in groepen en tegels van opslagkaarten (tbmilopslag) zie hieronder en bij [Opslagtabel bij inrichtingen](/instellen_inrichten/opslag_bij_inrichtingen.md).
+De onderliggende tabel is tbmilrubriek. De tabel wordt onder meer gebruikt voor het indelen in groepen en tegels van opslagkaarten (tbmilopslag) zie hieronder en bij [Opslagtabel bij inrichtingen](../../../../instellen_inrichten/opslag_bij_inrichtingen.md).
 
 - De tegel is alleen zichtbaar voor inlogger wanneer:
   - deze aan hem/haar is toegekend
@@ -13,7 +13,7 @@ De onderliggende tabel is tbmilrubriek. De tabel wordt onder meer gebruikt voor 
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Inrichtingenbeheer_
 - Kolom: _Kenmerken en Verplichtingen_

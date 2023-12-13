@@ -10,12 +10,12 @@ Het overzicht van de checklijsten wordt in twee schermen verdeeld:
 ## Doorkiezen checklijsten
 
 Via de overzichtsschermen van de checklijsten kan men de lijst met checklistitems openen. Vandaar de titel _Doorkiezen checklijsten_.
-Het overzichtsscherm van **[checklijsten bij processtappen](/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)** vindt men:
+Het overzichtsscherm van **[checklijsten bij processtappen](checklijsten/lijst_checklistitems.md)** vindt men:
 
 - in zaakportaal Omgeving, Handhavingen, Bouw/sloop, Horeca, Info-aanvragen en APV/Overig (tegel _Proces checklijst(en)_)
 - of vanuit lijstscherm _Processtappen_ (knop linksonder)
 
-Het overzichtsscherm van **[checklijsten bij inspectietrajecten](/probleemoplossing/module_overstijgende_schermen/checklijsten/detail_checklistitem.md)** vindt men:
+Het overzichtsscherm van **[checklijsten bij inspectietrajecten](checklijsten/detail_checklistitem.md)** vindt men:
 
 - vanuit de knop linksonder op het detailscherm van een inspectietraject.
 
@@ -27,7 +27,7 @@ Men kan voor zowel checklijsten bij inspectietrajecten als bij processtappen dez
 
 Het scherm geeft een een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
   - de inlogger moet kijkrechten hebben op de processtappen bij betreffende hoofdzaak.
 
 ### Triggers Linksonder
@@ -38,7 +38,7 @@ Het scherm geeft een een foutmelding:
 
 ### Bijzonderheden
 
-Klikken op een regel uit de doorkieslijst opent altijd [Lijst checklijstitems](/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md). De aanroep bepaalt welke gegevens vervolgens in die lijst getoond worden:
+Klikken op een regel uit de doorkieslijst opent altijd [Lijst checklijstitems](checklijsten/lijst_checklistitems.md). De aanroep bepaalt welke gegevens vervolgens in die lijst getoond worden:
 
 **\*Checklijst overzicht bij processtappen via tegel Proces checklijst(en)**:
 - indien aanroep: *getFlexList(tbchkitwerk,tbomgvergunning,%keyparent%,A,W)* dan de checklijstitems voor alle checklijsten bij alle processtappen van de zaak
@@ -50,4 +50,4 @@ _ indien aanroep: _getFlexList(tbchkitwerk,tbinspecties,381225,A,W,,,,{id})_ dan
 
 **N.B.**Voor bovenstaande aanroepen is als voorbeeld gebruikt de mogelijke aanroepen bij module **Omgeving (W)** en met status **Alles (A)**. De aanroepen voor dubbelklik acties op de _Doorkieslijsten_ zijn terug te vinden in het beheerportaal-Nieuw bij de _Tabellen standaardapi_. Voor iedere module is er voor zowel processen als inspecties een standaardtabel record waarbij men in blok **Action bij dubbel klik op lijstregel** de aanroep kan vinden/wijzigen indien gewenst.
 
-Zie ook [Detailscherm Checklijstitem](/probleemoplossing/module_overstijgende_schermen/checklijsten/detail_checklistitem.md) en [Lijst checklijstitems](/probleemoplossing/module_overstijgende_schermen/checklijsten/lijst_checklistitems.md)
+Zie ook [Detailscherm Checklijstitem](checklijsten/detail_checklistitem.md) en [Lijst checklijstitems](checklijsten/lijst_checklistitems.md)

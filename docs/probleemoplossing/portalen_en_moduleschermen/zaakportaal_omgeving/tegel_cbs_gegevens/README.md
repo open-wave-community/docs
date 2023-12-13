@@ -2,7 +2,7 @@
 
 ## Trigger
 
-De tegel is een trigger voor het starten van de CBS wizard. Indien er nog geen kaart bestaat in de CBS tabel van OpenWave dan zal bij klikken op de tegel een CBS-kaart worden aangemaakt en vervolgens het [detailscherm CBS](/probleemoplossing/portalen_en_moduleschermen/zaakportaal_omgeving/tegel_cbs_gegevens/detail_cbs.md) worden geopend.
+De tegel is een trigger voor het starten van de CBS wizard. Indien er nog geen kaart bestaat in de CBS tabel van OpenWave dan zal bij klikken op de tegel een CBS-kaart worden aangemaakt en vervolgens het [detailscherm CBS](tegel_cbs_gegevens/detail_cbs.md) worden geopend.
 
 Indien de de CBS-kaart wordt aangemaakt dan worden de volgende velden automatisch (en als volgt) gevuld:
 
@@ -35,13 +35,13 @@ Bestaat er al wel een kaart in de tabel bij klikken op de tegel dan opent het de
 Het dynamische opschrift op tegels is niet zichtbaar:
 
 - indien foutieve queryverwijzing
-- indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
+- indien query zelf niet correct (zie [Queries](../../../../instellen_inrichten/queries.md))
 - indien inlogger geen recht heeft om query uit te voeren
 - indien de kolom _altijd verversen_ (tbportaltiles.dlaltijdrefreshen) op de tegeldefinitie uitgevinkt is.
 
 ### Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _omgevingdetail_
 - Kolom: _Overig_

@@ -14,7 +14,7 @@ OpenWave kan zo ingesteld staan (zie detailscherm adviezen) dat alleen de kolom 
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger geen kijkrechten heeft op de adviezen bij betreffende hoofdzaak.
 
 ## Muteerrechten
@@ -94,7 +94,7 @@ Het is mogelijk om de kleurenballetjes te veranderen in gekleurde iconen, zie hi
 - Deleteknop:
   - Zichtbaar indien inlogger verwijderrechten heeft op de adviezen bij betreffende hoofdzaak en compartimentrecht OK.
   - Enabled indien de bovenliggende zaak niet is geblokkeerd.
-- knop **Meerdere adviezen uitzetten** (zie ook [Email vanuit adviesaanvraag](/probleemoplossing/programmablokken/e-mail_adviesinstantie.md)):
+- knop **Meerdere adviezen uitzetten** (zie ook [Email vanuit adviesaanvraag](../programmablokken/e-mail_adviesinstantie.md)):
   - Zichtbaar indien:
     - de instelling _Sectie: Adviezen_ en _Item: AdviesIsZaak_ NIET is aangevinkt of niet bestaat
     - en inlogger insert-rechten heeft op de adviezen bij betreffende hoofdzaak

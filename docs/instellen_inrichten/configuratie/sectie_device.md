@@ -1,6 +1,6 @@
 # Sectie Device
 
-Hieronder de instellingen uit de [configuratietabel](/instellen_inrichten/configuratie/sectie_aanmaakmappen.md) (tbinitialisatie) van de *Sectie: Device* gerangschikt op item. Zie [Inloggen](/probleemoplossing/programmablokken/inloggen.md).
+Hieronder de instellingen uit de [configuratietabel](sectie_aanmaakmappen.md) (tbinitialisatie) van de *Sectie: Device* gerangschikt op item. Zie [Inloggen](/probleemoplossing/programmablokken/inloggen.md).
 
 ## Items Configuratietabel
 

@@ -10,7 +10,7 @@ De lijst kan ook worden aangeroepen vanuit een specifiek inspectietraject. In da
 
 Het scherm geeft een foutmelding:
 
-- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er is mogelijk een zelf gedefinieerde schermindeling gebruikt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger moet kijkrechten hebben op de inspecties bij de betreffende hoofdzaak of inrichting.
 
 ## Muteerrechten

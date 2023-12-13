@@ -25,7 +25,7 @@ Er zijn twee algemene filtermogelijkheden in het scherm _Alle locaties_:
 
 Het scherm geeft een foutmelding, indien:
 
-- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](/instellen_inrichten/schermdefinitie/README.md)) die niet valide is
+- er mogelijk een zelf gedefinieerde schermindeling gebruikt wordt (zie [Scherm(kolom)definitie](../../../instellen_inrichten/schermdefinitie/README.md)) die niet valide is
 - de inlogger geen kijkrechten heeft op Locatie-adressen.
 
 ### Triggers
@@ -50,7 +50,7 @@ Er kan gekozen worden voor **Nieuw(e) locatie-adres(sen) op deze straat** of **N
 
 ### Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
 - Portaal: _Openingsportaal_
 - Kolom: _Hoofdzaken_

@@ -78,7 +78,7 @@ Wanneer de actie start wordt _Getal1_ van de instelling _Sectie: Operations en I
 
 ## Stroomschema runScheduledTasks
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/runscheduledtasks.w.700_tok.d26a53.png){ class="media" loading="lazy" alt="" width="700" }
+![](/img/applicatiebeheer/instellen_inrichten/runscheduledtasks.w.700_tok.d26a53.png){ class="media" loading="lazy" alt="" width="700" }
 
 ad 1. De waarde van _Getal1_ van instelling _sectie Taskscheduler item: AantalBenBezigHersteluren_ .
 
@@ -86,4 +86,4 @@ Indien niet aanwezig dan wordt 12 als defaultwaarde genomen. Indien 0 dan wordt 
 
 ## Stroomschema geldig voor alle Callables
 
-![](/docs/img/applicatiebeheer/instellen_inrichten/callable.w.700_tok.3aec52.png){ class="media" loading="lazy" alt="" width="700" }
+![](/img/applicatiebeheer/instellen_inrichten/callable.w.700_tok.3aec52.png){ class="media" loading="lazy" alt="" width="700" }

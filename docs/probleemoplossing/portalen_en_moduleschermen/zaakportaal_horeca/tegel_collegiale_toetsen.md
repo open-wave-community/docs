@@ -16,12 +16,12 @@ Doorklikken opent het geregistreerde document waar de toets bij hoort.
 Het dynamische opschrift op tegels is niet zichtbaar:
 
   * indien foutieve queryverwijzing (codering *horeca_collegtoets*)
-  * indien query zelf niet correct (zie [Queries](/instellen_inrichten/queries.md))
+  * indien query zelf niet correct (zie [Queries](../../../instellen_inrichten/queries.md))
   * indien inlogger geen recht heeft om query uit te voeren.
 
 ## Tegeldefinitie
 
-De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](/instellen_inrichten/portaldefinitie/portal_tegel.md)):
+De tegel is standaard als volgt gedefinieerd ([Portal Tegeldefinitie](../../../instellen_inrichten/portaldefinitie/portal_tegel.md)):
 
   * Portaal: *horecadetail*
   * Kolom: *BehandelingProces*

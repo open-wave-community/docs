@@ -1,6 +1,6 @@
 # Ophalen van fileshare
 
-Voor het openen van een document dat op de fileserver staat via hyperlink of OnlyOffice: zie de betreffende kopjes bij [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md).
+Voor het openen van een document dat op de fileserver staat via hyperlink of OnlyOffice: zie de betreffende kopjes bij [Toon documenten en download](toon_documenten_en_download.md).
 
 ## Instellingen
 
@@ -21,7 +21,7 @@ Ook in het geval dat de zaak waar de documenten naar toe worden geüpload valt o
     - indien de fileserver via satellite wordt benaderd, dan moet deze userpass overeenkomen met de tag api_pass uit de lokaal geïnstalleerde satellite.ini.
 - Indien de zaak waarvandaan de documenten worden opgehaald WEL valt onder een compartiment en de kolom dlsatellite van dat compartiment is aangevinkt, dan zijn username en password bij het betreffende compartiment in het blok satellite opgeslagen (beheerportaal-Nieuw).
 
-Zie ook: [2-way encryptie van externe wachtwoorden](/instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
+Zie ook: [2-way encryptie van externe wachtwoorden](../../../../instellen_inrichten/2way_encryptie_externe_wachtwoorden.md).
 
 ## Protocol
 
@@ -48,7 +48,7 @@ Indien er verbinding vanuit de Cloud wordt gezocht met een fileserver dan is een
 - de zaak waar vanuit wordt geüpload NIET valt onder een compartiment en de kolom _Tekst_ van _Sectie: Documenten, Item: OphalenViaFileserver_ gevuld is met de waarde 'Satellite'.
 - de zaak waar vanuit wordt geüpload WEL valt onder een compartiment en de kolom de kolom _fileserver via Satellite_ op de detailkaart van het betreffende compartiment (beheerportaal-Nieuw) aangevinkt is.
 
-Zie voor werking en overige instellingen: [Satellite t.b.v. benadering fileserver](/instellen_inrichten/satellite_filesysteem.md).
+Zie voor werking en overige instellingen: [Satellite t.b.v. benadering fileserver](../../../../instellen_inrichten/satellite_filesysteem.md).
 
 ## Welke mappen?
 
@@ -177,6 +177,6 @@ Uiteindelijk leveren deze instellingen dus een aantal mappen op waar het program
 - [\\WORK\OpenWave\Documents\Omgeving\2012\2013RP0044\Inspecties](file://///WORK/OpenWave/Documents/Omgeving/2012/2013RP0044/Inspecties.md)
 - [\\WORK\OpenWave\Documents\Omgeving\2012\2013RP0044\OLO](file://///WORK/OpenWave/Documents/Omgeving/2012/2013RP0044/OLO.md)
 
-Afhankelijk van of de instelling _Sectie: documenten, Item: OphalenNaMapkeuze_ is aangevinkt (zie vorige pagina [Toon documenten en download](/probleemoplossing/programmablokken/toon_documenten_en_download.md)) zal de gebruiker eerst uit deze mogelijke mappen een keuze kunnen maken.
+Afhankelijk van of de instelling _Sectie: documenten, Item: OphalenNaMapkeuze_ is aangevinkt (zie vorige pagina [Toon documenten en download](toon_documenten_en_download.md)) zal de gebruiker eerst uit deze mogelijke mappen een keuze kunnen maken.
 Van de overgebleven mappen worden vervolgens alle documenten op de toon-documentenlijst geplaatst en kunnen eventueel gedownload worden.
 Verborgen bestanden en het bestand thumbs.db worden hierbij overgeslagen.
